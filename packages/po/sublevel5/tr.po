@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-02-19 17:31+0300\n"
+"PO-Revision-Date: 2024-08-03 13:09+0000\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Gtranslator 3.38.0\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: boolean
 #. Description
@@ -42,6 +42,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Donanım yazılımı, bazı donanım bileşenlerine (Wi-Fi kartları veya ses "
+"yongaları gibi) düşük seviyeli kontrol sağlayan bir tür yazılımdır ve bunlar "
+"olmadan bu bileşenler tam olarak veya hiç çalışmayabilir."
 
 #. Type: boolean
 #. Description
@@ -53,6 +56,11 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Debian'ın bir parçası olmamakla birlikte, bazı ücretsiz olmayan donanım "
+"yazılımları Debian ile çalışacak şekilde düzenlenmiştir. Bu donanım "
+"yazılımlarının kullanım, değiştirme veya paylaşma özgürlüğünüzü kısıtlayan "
+"çeşitli lisansları vardır ve genellikle üzerinde çalışabileceğiniz kaynak "
+"kodlarına sahip değillerdir."
 
 #. Type: text
 #. Description

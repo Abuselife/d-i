@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2024-01-10 13:06+0000\n"
+"PO-Revision-Date: 2024-08-03 13:09+0000\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -3810,10 +3810,8 @@ msgstr "/home - kullanıcı ev dizinleri"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - geçici dosyalar"
+msgstr "/tmp - geçici dosyalar (varsayılan: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -5357,19 +5355,14 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Aklınızda bulunsun, bu kullanıcı hesabını (ve diğer ek kullanıcı "
-"hesaplarını) daha sonra 'adduser <kullanıcı_adı>' komutunu root olarak "
-"yazarak yaratabilirsiniz. <kullanıcı_adı>, 'imurdock' ya da 'rms' gibi bir "
+"Aklınızda bulunsun, bu kullanıcı hesabını (ve diğer ek kullanıcı hesaplarını)"
+" daha sonra 'adduser <kullanıcı_adı>' komutunu root olarak yazarak "
+"oluşturabilirsiniz. <kullanıcı_adı>, 'imurdock' ya da 'rms' gibi bir "
 "kullanıcı adıdır."
 
 #. Type: error

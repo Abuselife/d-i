@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-01-10 13:06+0000\n"
+"POT-Creation-Date: 2024-07-14 12:20+0100\n"
+"PO-Revision-Date: 2024-08-03 13:09+0000\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
 "Language: tr\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: boolean
 #. Description
@@ -450,13 +450,6 @@ msgstr "Uçbirimde kullanılacak yazıtipi:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -467,7 +460,8 @@ msgstr ""
 "\"VGA\" geleneksel görünümlüdür ve uluslar arası kullanım için vasattır. "
 "\"Fixed\" basit görünümlüdür ve harf kapsamı en geniş olan yazıtipidir. "
 "\"Terminus\" göz yorgunluğunu azaltmayı amaçlar, ama bazı sembollerin "
-"birbirine benzemesi programcılar için sorun olabilir."
+"birbirine benzemesi programcılar için sorun olabilir. \"DejaVu\" HiDPI("
+"yüksek çözünürlüklü) ekranlara uygundur."
 
 #. Type: select
 #. Description
@@ -3259,6 +3253,8 @@ msgstr "Aygıt-eşleyici (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Donanım yazılımı destekli kendinden şifreleyen disk (satıcı tarafından "
+"uygulanmış OPAL ile LUKS2)"
 
 #. Type: text
 #. Description
@@ -3415,7 +3411,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "OPAL kendinden şifreleme, dm-crypt ile iç içe geçmiş olarak:"
 
 #. Type: select
 #. Description
@@ -3426,6 +3422,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Bazı diskler kendinden şifreleme destekler. Bu, bu seçenek aracılığıyla "
+"etkinleştirildiğinde, dm-crypt ile birlikte kullanılan bir donanım "
+"özelliğidir ve çift katmanlı şifreleme sağlar."
 
 #. Type: text
 #. Description
@@ -3448,7 +3447,7 @@ msgstr "Bu bölümdeki verileri sil"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Tüm diski fabrika ayarlarına sıfırlayın (TÜM veriler kaybolacaktır)"
 
 #. Type: boolean
 #. Description
@@ -3944,7 +3943,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "OPAL admin parolası:"
 
 #. Type: password
 #. Description
@@ -3954,6 +3953,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"${DEVICE} için yeni bir OPAL yönetici parolası seçmeniz veya mevcut olanı "
+"sağlamanız gerekiyor."
 
 #. Type: password
 #. Description
@@ -3965,36 +3966,33 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Bu parola, cihazın tamamını yönetmek için kullanılacaktır - yeni OPAL "
+"bölümleri eklemek, mevcut olanları kaldırmak veya silmek için. Eğer bu "
+"parola kaybolursa, cihazın kurtarılması için fabrika ayarlarına sıfırlanması "
+"gerekecek ve tüm bölümler üzerindeki veriler kaybolacaktır."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Doğrulamak için parolayı tekrar girin:"
+msgstr "Doğrulamak için OPAL yönetici parolasını tekrar girin:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
-msgstr ""
-"Lütfen hatasız yazdığınızı doğrulamak için aynı root parolasını tekrar girin."
+msgstr "Lütfen hatasız yazdığınızı doğrulamak için aynı parolayı tekrar girin."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -4004,68 +4002,54 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"${DEVICE} için OPAL PSID sağlamanız gerekiyor. Bu genellikle sürücünün "
+"etiketinde bulunur."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Doğrulamak için parolayı tekrar girin:"
+msgstr "Doğrulamak için OPAL PSID'yi tekrar girin:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
-msgstr ""
-"Lütfen doğru yazıldığına emin olmak için aynı geçiş parolasını tekrar girin."
+msgstr "Lütfen doğru yazdığınızdan emin olmak için aynı PSID'yi tekrar girin."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Parola giriş hatası"
+msgstr "OPAL PSID giriş hatası"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Girdiğiniz iki parola aynı değil. Lütfen tekrar deneyiniz."
+msgstr "Girdiğiniz iki OPAL PSID aynı değil. Lütfen tekrar deneyin."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Boş OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Boş bir parola girdiniz. Buna izin verilmiyor. Lütfen boş olmayan bir parola "
-"girin."
+"Boş bir PSID girdiniz, bu geçerli değil. Lütfen boş olmayan bir PSID girin."
 
 #. Type: entropy
 #. Description
@@ -4092,31 +4076,24 @@ msgstr "Anahtar dosyası oluşturulurken bir hatayla karşılaşıldı."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
 msgstr ""
-"btrfs kök dosya sistemi ancak ayrı bir /boot bölümüne sahip olmanız şartıyla "
-"kullanılabilir"
+"Şifrelemeyi ayrı bir /boot bölümü olmadan mı yapılandırmak istiyorsunuz?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Kök dosya sisteminin şifrelenmiş bir bölümde tutulmasını seçtiniz. Bu "
-"özellik, çekirdek ve \"initrd\"nin üzerine kaydedileceği ayrı bir /boot "
-"bölümünün varlığını gerektiriyor."
+"Kök dosya sisteminin şifrelenmiş bir bölümde tutulmasını seçtiniz. GRUB "
+"kullanırken genellikle bu özellik, çekirdek ve initrd'nin depolanabileceği "
+"ayrı bir /boot bölümü gerektirir. Ancak, systemd-boot/UKIs kullanırken bu "
+"gereklilik bulunmaz çünkü ESP kullanılmaktadır."
 
 #. Type: error
 #. Description
@@ -5796,10 +5773,8 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Install the GRUB boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "GRUB önyükleyiciyi kur"
+msgstr "systemd-boot önyükleyicisini kur"
 
 #. Type: select
 #. Description
@@ -5807,17 +5782,7 @@ msgstr "GRUB önyükleyiciyi kur"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
-
-#. Type: select
-#. Description
-#. :sl3:
-#: ../systemd-boot-installer.templates:3001
-msgid ""
-"Configures the automatic boot assessment logic, which automatically falls "
-"back to a previous boot entry if a new one fails more than the configured "
-"number of retries when first added. For more details, see: https://systemd."
-"io/AUTOMATIC_BOOT_ASSESSMENT/"
-msgstr ""
+"Önyükleme girişi başına yeniden deneme sayısı (devre dışı bırakmak için 0):"
 
 #. Type: select
 #. Description
