@@ -26,8 +26,8 @@ msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-29 20:02+0000\n"
-"PO-Revision-Date: 2024-05-01 02:07+0000\n"
-"Last-Translator: Der Marschall <meinkontobasic@outlook.com>\n"
+"PO-Revision-Date: 2024-07-27 09:09+0000\n"
+"Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
 "Language-Team: \n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: select
 #. Description
@@ -211,7 +211,8 @@ msgstr "الخدمات المطلوب استعمالها:"
 msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
-msgstr "يحتوي دبيان خدمتين توفران التحديثات للإصدارات: خدمة الأمن وvolatile."
+msgstr ""
+"يحتوي دبيان على خدمتين توفران التحديثات للإصدارات: تحديثات الأمن والإصدارات."
 
 #. Type: multiselect
 #. Description
@@ -221,7 +222,7 @@ msgid ""
 "Security updates help to keep your system secured against attacks. Enabling "
 "this service is strongly recommended."
 msgstr ""
-"تعينك التحديثات الأمنية على إبقاء نظامك أمناً ضد الهجمات. يستحسن تمكين هذه "
+"تساعدك التحديثات الأمنية على إبقاء نظامك أمناً ضد الهجمات. يستحسن تمكين هذه "
 "الخدمة."
 
 #. Type: multiselect
@@ -260,7 +261,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the installation media..."
-msgstr "فحص وسيطة التثبيت..."
+msgstr "فحص وسائط التثبيت..."
 
 #. Type: error
 #. Description
