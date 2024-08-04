@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 12:20+0100\n"
+"POT-Creation-Date: 2024-07-26 20:02+0000\n"
 "PO-Revision-Date: 2024-07-27 09:09+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -5773,6 +5773,17 @@ msgstr "Zainstaluj program rozruchowy systemd-boot"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr "Liczba ponownych prób na wpis rozruchowy (0, aby wyłączyć):"
+
+#. Type: select
+#. Description
+#. :sl3:
+#: ../systemd-boot-installer.templates:3001
+msgid ""
+"Configures the automatic boot assessment logic, which automatically falls "
+"back to a previous boot entry if a new one fails more than the configured "
+"number of retries when first added. For more details, see: https://systemd."
+"io/AUTOMATIC_BOOT_ASSESSMENT/"
+msgstr ""
 
 #. Type: select
 #. Description

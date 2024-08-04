@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 12:20+0100\n"
+"POT-Creation-Date: 2024-07-26 20:02+0000\n"
 "PO-Revision-Date: 2024-08-03 13:09+0000\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Turkish <debian-l10n-turkish@lists.debian.org>\n"
@@ -460,8 +460,8 @@ msgstr ""
 "\"VGA\" geleneksel görünümlüdür ve uluslar arası kullanım için vasattır. "
 "\"Fixed\" basit görünümlüdür ve harf kapsamı en geniş olan yazıtipidir. "
 "\"Terminus\" göz yorgunluğunu azaltmayı amaçlar, ama bazı sembollerin "
-"birbirine benzemesi programcılar için sorun olabilir. \"DejaVu\" HiDPI("
-"yüksek çözünürlüklü) ekranlara uygundur."
+"birbirine benzemesi programcılar için sorun olabilir. \"DejaVu\" "
+"HiDPI(yüksek çözünürlüklü) ekranlara uygundur."
 
 #. Type: select
 #. Description
@@ -5783,6 +5783,17 @@ msgstr "systemd-boot önyükleyicisini kur"
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
 "Önyükleme girişi başına yeniden deneme sayısı (devre dışı bırakmak için 0):"
+
+#. Type: select
+#. Description
+#. :sl3:
+#: ../systemd-boot-installer.templates:3001
+msgid ""
+"Configures the automatic boot assessment logic, which automatically falls "
+"back to a previous boot entry if a new one fails more than the configured "
+"number of retries when first added. For more details, see: https://systemd."
+"io/AUTOMATIC_BOOT_ASSESSMENT/"
+msgstr ""
 
 #. Type: select
 #. Description

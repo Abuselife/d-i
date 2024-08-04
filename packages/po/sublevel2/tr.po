@@ -5360,9 +5360,9 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Aklınızda bulunsun, bu kullanıcı hesabını (ve diğer ek kullanıcı hesaplarını)"
-" daha sonra 'adduser <kullanıcı_adı>' komutunu root olarak yazarak "
-"oluşturabilirsiniz. <kullanıcı_adı>, 'imurdock' ya da 'rms' gibi bir "
+"Aklınızda bulunsun, bu kullanıcı hesabını (ve diğer ek kullanıcı "
+"hesaplarını) daha sonra 'adduser <kullanıcı_adı>' komutunu root olarak "
+"yazarak oluşturabilirsiniz. <kullanıcı_adı>, 'imurdock' ya da 'rms' gibi bir "
 "kullanıcı adıdır."
 
 #. Type: error
