@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-06-10 22:09+0000\n"
+"PO-Revision-Date: 2024-08-08 11:09+0000\n"
 "Last-Translator: d <dmanye@gmail.com>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: boolean
 #. Description
@@ -4116,11 +4116,6 @@ msgstr "Voleu configurar el xifratge sense un /boot separat?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
@@ -4128,8 +4123,9 @@ msgid ""
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
 "Heu seleccionat emmagatzemar el sistema de fitxers arrel en una partició "
-"xifrada. Aquesta funcionalitat requereix una partició /boot separada on es "
-"puguen emmagatzemar el nucli i l'initrd."
+"xifrada. Quan s'usa GRUB, aquesta funcionalitat requereix una partició /boot "
+"separada on es puguen emmagatzemar el nucli i l'initrd. Això no fa falta "
+"quan s'usa systemd-boot/UKIs, atès que en aquest cas s'usa l'ESP."
 
 #. Type: error
 #. Description
@@ -5824,10 +5820,8 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "S'està instal·lant el carregador aboot"
+msgstr "Instal·lar el carregador d'engegada systemd-boot"
 
 #. Type: select
 #. Description
@@ -5835,6 +5829,7 @@ msgstr "S'està instal·lant el carregador aboot"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
+"Nombre d'intents per cada entrada de l'engegada (0 si no es vol limitar):"
 
 #. Type: select
 #. Description
@@ -5846,6 +5841,11 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Configura la lògica d'avaluació de l'arrencada automàtica, que retorna "
+"automàticament a una entrada d'arrencada anterior si una de nova, quan "
+"s'afegeix per primera vegada, falla més vegades que el nombre configurat "
+"d'intents . Per a més detalls, vegeu: https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
