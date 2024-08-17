@@ -15,15 +15,15 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel3_hi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-02-29 13:01+0000\n"
-"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"PO-Revision-Date: 2024-08-11 17:09+0000\n"
+"Last-Translator: AYUSHMAN TIWARI <ayushmanranbaxy@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: boolean
 #. Description
@@ -441,13 +441,6 @@ msgstr "कंसोल के लिए फ़ॉन्ट:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -455,10 +448,9 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"वीजीए\" की पारंपरिक उपस्थिति है और इसमें अंतर्राष्ट्रीय लिपियों का मध्यम कवरेज है। "
-"\"फिक्स्ड\" में एक सरलीकृत उपस्थिति है और अंतर्राष्ट्रीय लिपियों का बेहतर कवरेज है। \"टर्मिनस"
-"\" आंखों की थकान को कम करने में मदद कर सकता है, हालांकि कुछ प्रतीकों में एक समान पहलू है "
-"जो प्रोग्रामर के लिए एक समस्या हो सकती है।"
+"\"वीजीए\" की पारंपरिक उपस्थिति है और इसमें अंतर्राष्ट्रीय लिपियों का मध्यम कवरेज है। \"फिक्स्ड\" में एक सरलीकृ"
+"त उपस्थिति है और अंतर्राष्ट्रीय लिपियों का बेहतर कवरेज है। \"टर्मिनस\" आंखों की थकान को कम करने में मदद "
+"कर सकता है, हालांकि कुछ प्रतीकों में एक समान पहलू है जो प्रोग्रामर के लिए एक समस्या हो सकती है।"
 
 #. Type: select
 #. Description

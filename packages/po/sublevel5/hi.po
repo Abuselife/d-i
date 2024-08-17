@@ -15,15 +15,15 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel5_hi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2024-02-29 13:02+0000\n"
-"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"PO-Revision-Date: 2024-08-11 17:09+0000\n"
+"Last-Translator: AYUSHMAN TIWARI <ayushmanranbaxy@gmail.com>\n"
 "Language-Team: \n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #. Type: boolean
 #. Description
@@ -41,17 +41,23 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"फर्मवेयर एक प्रकार का सॉफ्टवेयर है जो कुछ हार्डवेयर घटकों (जैसे वाई-फाई कार्ड या ऑडियो चिपसेट) को निम्न-स्तरी"
+"य नियंत्रण प्रदान करता है, जो इसके बिना पूरी तरह से या बिल्कुल भी काम नहीं कर सकते हैं।"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
+#, fuzzy
 msgid ""
 "Although not at all part of Debian, some non-free firmware has been made to "
 "work with Debian. This firmware has varying licenses which restrict your "
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"डेबियन के सभी भाग नहीं, लेकिन डेबियन के साथ काम करने के लिए कुछ सशुल्क फ़र्मवेयर बनाए गए हैं। इस फ़र्मवे"
+"यर में अलग-अलग लाइसेंस हैं जो सॉफ़्टवेयर का उपयोग करने, संशोधित करने या साझा करने की आपकी स्वतंत्रता को "
+"प्रतिबंधित करते हैं, और आम तौर पर ऐसा कोई स्रोत नहीं होता है जिसका आप अध्ययन कर सकें।"
 
 #. Type: text
 #. Description
