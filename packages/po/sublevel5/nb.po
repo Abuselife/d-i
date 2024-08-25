@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-05-06 12:58+0000\n"
+"PO-Revision-Date: 2024-08-23 16:09+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.7.1-dev\n"
 
 #. Type: boolean
 #. Description
@@ -40,6 +40,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Fastvare er en type programvare som tilbyr lavnivå kontroll over bestemte "
+"maskinvarekomponenter (som trådløsnettkort eller lyd-kretstyper), som "
+"kanskje ikke fungerer helt eller over hodet uten den."
 
 #. Type: boolean
 #. Description
@@ -51,6 +54,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Selv om det over hodet ikke er en del av Debian, så fungerer noen ufrie "
+"fastvareprogrammer med Debian. De ulike bruksvilkårene til fastvaren "
+"begrenser din frihet til å bruke, endre eller dele programvaren, og generelt "
+"sett har en ikke noe kildekode som kan leses."
 
 #. Type: text
 #. Description
