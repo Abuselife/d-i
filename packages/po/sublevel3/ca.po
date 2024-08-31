@@ -4054,7 +4054,8 @@ msgstr "Hi ha hagut un error en la introducció del PSID OPAL"
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Els dos PSID d'OPAL que heu introduït no eren iguals. Proveu-ho de nou."
+msgstr ""
+"Els dos PSID d'OPAL que heu introduït no eren iguals. Proveu-ho de nou."
 
 #. Type: error
 #. Description

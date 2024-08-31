@@ -5921,8 +5921,8 @@ msgstr ""
 "Konfiguriert die Logik für die automatische Bewertung von Boot-Vorgängen, "
 "die selbsttätig zu einem früheren Boot-Eintrag zurückkehrt, wenn ein neuer "
 "mehrfach (öfter als beim Hinzufügen des Eintrags festgelegt) fehlschlägt. "
-"Weitere Details finden Sie unter "
-"https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/."
+"Weitere Details finden Sie unter https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/."
 
 #. Type: select
 #. Description
