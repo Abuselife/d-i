@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2023-04-09 20:53+0000\n"
+"PO-Revision-Date: 2024-09-02 04:09+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -33,7 +33,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "ჩასატვირთი ინსტალატორის კომპონენტებია:"
+msgstr "დაყენების პროგრამის კომპონენტები ჩასატვირთად:"
 
 #. Type: multiselect
 #. Description
@@ -85,7 +85,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "ინსტალაციის კომპონენტის გამოძახება ვერ მოხერხდა"
+msgstr "დაყენების პროგრამის კომპონენტის ჩატვირთვა ჩავარდა"
 
 #. Type: error
 #. Description
@@ -93,7 +93,7 @@ msgstr "ინსტალაციის კომპონენტის გ�
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
 msgstr ""
-"${PACKAGE} პაკეტის გამოძახება გაურკვეველი მიზეზების გამო შეფერხდა. პროცესი "
+"${PACKAGE} პაკეტის ჩატვირთვა გაურკვეველი მიზეზების გამო შეფერხდა. პროცესი "
 "შეწყდა."
 
 #. Type: boolean
@@ -101,7 +101,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "გსურთ ინსტალაციის გაგრძელება კკერნელის მოდულების გამოძახების გარეშე?"
+msgstr "გსურთ დაყენების გაგრძელება ბირთვის მოდულების ჩატვირთვის გარეშე?"
 
 #. Type: boolean
 #. Description
@@ -147,7 +147,7 @@ msgstr "ლოკალური საცავების სკანირ�
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "დაცვის განახლებების საცავის სკანირება..."
+msgstr "დაცვის განახლებების რეპოზიტორიის სკანირება..."
 
 #. Type: text
 #. Description
@@ -187,7 +187,7 @@ msgstr "თავიდან ცდა"
 #. an infinitive form
 #: ../apt-setup-udeb.templates:8001 ../apt-mirror-setup.templates:5001
 msgid "Ignore"
-msgstr "იგნორირება"
+msgstr "გამოტოვება"
 
 #. Type: select
 #. Description
@@ -205,7 +205,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "საცავთან დაკავშირება ვერ ხერხდება"
+msgstr "რეპოზიტორიასთან წვდომა არ არსებობს"
 
 #. Type: error
 #. Description
@@ -232,7 +232,7 @@ msgstr "/etc/apt/sources.list ფაილში დაემატა ${HOST}-�
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt-ს კონფიგურაციის პრობლემა"
+msgstr "apt-ის კონფიგურაციის პრობლემა"
 
 #. #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
 #. Type: select
@@ -276,14 +276,14 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "Continue without a network mirror?"
-msgstr "გსურთ ქსელის მირორის გარეშე გაგრძელება?"
+msgstr "გსურთ ქსელის სარკის გარეშე გაგრძელება?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "No network mirror was selected."
-msgstr "ქსელური მირორი არ ამოგირჩევიათ."
+msgstr "ქსელური სარკე არ ამოგირჩევიათ."
 
 #. Type: boolean
 #. Description
@@ -291,7 +291,7 @@ msgstr "ქსელური მირორი არ ამოგირჩე
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "გამოვიყენოთ შეზღუდული (restricted) პროგრამები?"
+msgstr "გამოვიყენო შეზღუდული (restricted) პროგრამები?"
 
 #. Type: boolean
 #. Description
@@ -315,7 +315,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "გამოვიყენოთ პროგრამები \"universe\" დანაყოფიდან?"
+msgstr "გამოვიყენოთ პროგრამები \"universe\" კომპონენტიდან?"
 
 #. Type: boolean
 #. Description
@@ -361,7 +361,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "გამოვიყენოთ პროგრამები „partner“ საცავიდან?"
+msgstr "გამოვიყენოთ პროგრამები „partner“ რეპოზიტორიიდან?"
 
 #. Type: boolean
 #. Description
@@ -384,7 +384,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "გამოვიყენოთ გადმოტანილი პროგრამები?"
+msgstr "გამოვიყენო გადმოტანილი პროგრამები?"
 
 #. Type: boolean
 #. Description
@@ -427,7 +427,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "/target-ზე არ არის დამონტაჟებული ფაილური სისტემა"
+msgstr "/target-ზე არ არის მიმაგრებული ფაილური სისტემა"
 
 #. Type: error
 #. Description
@@ -466,7 +466,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "ძირითადი სისტემის ინსტალაცია ვერ ხერხდება"
+msgstr "ძირითადი სისტემის დაყენება შეუძლებელია"
 
 #. Type: error
 #. Description
@@ -530,14 +530,14 @@ msgstr "გამოშვების კოდური სახელის 
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "Failed to install the base system"
-msgstr "ძირითადი სისტემის ინსტალაცია ვერ განხორციელდა"
+msgstr "საბაზისო სისტემის დაყენება ჩავარდა"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "ძირითადი სისტემის ინსტალაცია /target/-ზე ვერ განხორციელდა."
+msgstr "საბაზისო სისტემის ინსტალაცია /target/-ზე ჩავარდა."
 
 #. #-#-#-#-#  templates.pot (base-installer)  #-#-#-#-#
 #. Type: error
@@ -653,7 +653,7 @@ msgstr "დაწვრილებით იხილეთ /var/log/syslog ა
 #. :sl2:
 #: ../bootstrap-base.templates:5001 ../bootstrap-base.templates:6001
 msgid "Base system installation error"
-msgstr "ძირითადი სისტემის ინსტალაციის შეცდომა"
+msgstr "საბაზისო სისტემის დაყენების შეცდომა"
 
 #. Type: error
 #. Description
@@ -684,7 +684,7 @@ msgstr "დაშვებულია შეცდომა:"
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "არჩეული ბირთვის ინსტალაცია შეუძლებელია"
+msgstr "არჩეული ბირთვის დაყენება შეუძლებელია"
 
 #. Type: error
 #. Description
@@ -734,7 +734,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "გავაგრძელოთ ბირთვის ინსტალაციის გარეშე?"
+msgstr "გავაგრძელოთ ბირთვის დაყენების გარეშე?"
 
 #. Type: boolean
 #. Description
@@ -763,7 +763,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "ბირთვის ინსტალაცია ვერ ხერხდება"
+msgstr "ბირთვის დაყენება ვერ ხერხდება"
 
 #. Type: error
 #. Description
@@ -783,7 +783,7 @@ msgstr "ინსტალერმა ვერ იპოვა შესაბ
 #. :sl4:
 #: ../bootstrap-base.templates:16001 ../templates:8001
 msgid "Unable to install ${PACKAGE}"
-msgstr "${PACKAGE}-ის ინსტალაცია ვერ ხერხდება"
+msgstr "${PACKAGE}-ის დაყენება ვერ ხერხდება"
 
 #. #-#-#-#-#  templates.pot (base-installer)  #-#-#-#-#
 #. Type: error
@@ -806,7 +806,7 @@ msgstr "შეცდომა ${PACKAGE} პაკეტის ინსტა�
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "Release-ფაილის ${SUBST0} მიღება ვერ მოხერხდა."
+msgstr "ფაილის Release ${SUBST0} მიღება ვერ მოხერხდა."
 
 #. Type: error
 #. Description
@@ -837,7 +837,7 @@ msgstr "არასწორი Release-ფაილი: დაუშვებ�
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "არასწორი Release-ფაილი: არ არის ${SUBST0}-ს აღწერა."
+msgstr "არასწორი Release-ფაილი: ${SUBST0}-სთვის ჩანაწერი არაა."
 
 #. Type: error
 #. Description
@@ -922,7 +922,7 @@ msgstr "დაბალი"
 #. :sl2:
 #: ../cdebconf-udeb.templates:2002
 msgid "Ignore questions with a priority less than:"
-msgstr "იგნორირება კითხვებისა, რომელთაც აქვთ ნაკლები პრიორიტეტი ვიდრე:"
+msgstr "დაიგნორება კითხვებისა, რომელთაც აქვთ ნაკლები პრიორიტეტი ვიდრე:"
 
 #. Type: select
 #. Description
@@ -975,7 +975,7 @@ msgstr ""
 #. :sl2:
 #: ../cdebconf-priority.templates:1001
 msgid "Change debconf priority"
-msgstr "debconf პრიორიტეტის შეცვლა"
+msgstr "debconf-ის პრიორიტეტის შეცვლა"
 
 #. Type: select
 #. Description
@@ -1011,7 +1011,7 @@ msgstr "ნაჩვენებია მხოლოდ ამორჩეუ�
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "გსირთ დაბრუნება და სხვა სარკის (სერვერის) ცდა?"
+msgstr "გსურთ დაბრუნება და სხვა სარკის ცდა?"
 
 #. Type: boolean
 #. Description
@@ -1083,7 +1083,7 @@ msgstr "შეამოწმეთ მითითებული სარკ�
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:10001
 msgid "oldstable"
-msgstr "oldstable"
+msgstr "ძველისტაბლური"
 
 #. Type: text
 #. Description
@@ -1112,7 +1112,7 @@ msgstr "არასტაბილური"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Debian-ს არქივის სარკის კატალოგი:"
+msgstr "Debian-ს არქივის სარკის საქაღალდე:"
 
 #. Type: string
 #. Description
@@ -1129,7 +1129,7 @@ msgstr "გთხოვთ მიუთითოთ კატალოგი, �
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "FTP-პროქსის მონაცემები (ან დატოვეთ ცარიელი):"
+msgstr "FTP პროქსის მონაცემები (ან დატოვეთ ცარიელი):"
 
 #. Type: string
 #. Description
@@ -1515,7 +1515,7 @@ msgstr "დაყენების გასაგრძელებლად �
 #. :sl2:
 #: ../cdrom-detect.templates:15001
 msgid "Error reading Release file"
-msgstr "შეცდომა ფაილ Release-ის კითხვისას"
+msgstr "შეცდომა ფაილის 'Release' წაკითხვისას"
 
 #. Type: error
 #. Description
@@ -1646,7 +1646,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "ინტერაქტიული გარსი, შელი"
+msgstr "ინტერაქტიული გარსი"
 
 #. Type: note
 #. Description
@@ -1686,14 +1686,14 @@ msgstr "გამოიყენეთ „exit„ ბრძანება ი�
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "installer-იდან გამოსვლა"
+msgstr "გასვლა დაყენების პროგრამიდან"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../di-utils-reboot.templates:1001
 msgid "Are you sure you want to exit now?"
-msgstr "ნამდვილად გნებავთ გამოსვლა?"
+msgstr "ნამდვილად გნებავთ გასვლა?"
 
 #. Type: boolean
 #. Description
@@ -1711,7 +1711,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "ტერმინალის დანამატი მიუწვდომელია"
+msgstr "ტერმინალის დამატება ხელმიუწვდომელია"
 
 #. Type: error
 #. Description
@@ -1764,7 +1764,7 @@ msgstr "GRUB-ის მორგების შეცდომა"
 #. :sl2:
 #: ../grub-installer.templates:5001 ../grub-installer.templates:6002
 msgid "Device for boot loader installation:"
-msgstr "მოწყობილობა სისტემური ჩამტვირთველის დასაყენებლად:"
+msgstr "მოწყობილობა სისტემის ჩამტვირთველის დასაყენებლად:"
 
 #. Type: string
 #. Description
@@ -1892,7 +1892,7 @@ msgstr "ორივე პაროლი ერთნაირი უნდა
 #. :sl2:
 #: ../grub-installer.templates:11001
 msgid "GRUB installation failed"
-msgstr "GRUB-ის ინსტალაცია ჩაიშალა"
+msgstr "GRUB-ის დაყენება ჩავარდა"
 
 #. Type: error
 #. Description
@@ -1910,7 +1910,7 @@ msgstr ""
 #. :sl2:
 #: ../grub-installer.templates:12001
 msgid "Unable to install GRUB in ${BOOTDEV}"
-msgstr "ვერ ხერხდება GRUB-ის ინსტალირება ${BOOTDEV}-ში"
+msgstr "ვერ ხერხდება GRUB-ის დაყენება ${BOOTDEV}-ზე"
 
 #. Type: error
 #. Description
@@ -1927,7 +1927,7 @@ msgstr "'grub-install ${BOOTDEV}'-ის შესრულების შე�
 #. :sl2:
 #: ../grub-installer.templates:12001 ../grub-installer.templates:13001
 msgid "This is a fatal error."
-msgstr "ეს გამოუსწორობელი შეცდომაა."
+msgstr "ეს გამოუსწორებელი შეცდომაა."
 
 #. Type: error
 #. Description
@@ -1942,7 +1942,7 @@ msgstr "ვერ შესრულდა 'update-grub'."
 #. :sl2:
 #: ../grub-installer.templates:27001
 msgid "Reinstall GRUB boot loader"
-msgstr "GRUB სისტემური ჩამტვირთველის გადაყენება"
+msgstr "GRUB სისტემური ჩამტვირთველის თავიდან დაყენება"
 
 #. Type: text
 #. Description
@@ -1957,7 +1957,7 @@ msgstr ""
 #. :sl2:
 #: ../ethdetect.templates:1001
 msgid "no ethernet card"
-msgstr "არავითარი ქსელის კარტა"
+msgstr "ethernet ბარათის გარეშე"
 
 #. Type: select
 #. Choices
@@ -1990,7 +1990,7 @@ msgstr ""
 #. :sl2:
 #: ../ethdetect.templates:3001
 msgid "Ethernet card not found"
-msgstr "შეუძლებელია ქსელის ბარათის პოვნა"
+msgstr "Ethernet ბარათი აღმოჩენილი არაა"
 
 #. Type: error
 #. Description
@@ -2029,7 +2029,7 @@ msgstr ""
 #. :sl2:
 #: ../disk-detect.templates:4001
 msgid "No partitionable media"
-msgstr "არავითარი დასაყოფი მოწყობილობა"
+msgstr "დაყოფადი მედიის გარეშე"
 
 #. Type: error
 #. Description
@@ -2072,7 +2072,7 @@ msgstr ""
 #. :sl2:
 #: ../hw-detect.templates:6001
 msgid "Start PC card services?"
-msgstr "გსურთ PC card სერვისების დაწყება?"
+msgstr "გსურთ PC card სერვისების გაშვება?"
 
 #. Type: boolean
 #. Description
@@ -2131,7 +2131,7 @@ msgstr "შეცდომა „${CMD_LINE_PARAM}”-ის გაშვებ�
 #. :sl2:
 #: ../hw-detect.templates:10001
 msgid "Load missing drivers from removable media?"
-msgstr "გსურთ ნაკლული დრაივერების შეცვლადი მედიიდან ჩატვირთვა?"
+msgstr "გსურთ ნაკლული დრაივერების მოხსნადი მედიიდან ჩატვირთვა?"
 
 #. Type: boolean
 #. Description
@@ -2159,7 +2159,7 @@ msgstr "თუ თქვენ ასეთი მედია გაგაჩ�
 #. :sl2:
 #: ../hw-detect.templates:11001
 msgid "Load missing firmware from removable media?"
-msgstr "გსურთ ნაკლული firmware-ის შეცვლადი მედიიდან ჩატვირთვა?"
+msgstr "გსურთ ნაკლული მიკროკოდის მოხსნადი მედიიდან ჩატვირთვა?"
 
 #. Type: boolean
 #. Description
@@ -2178,7 +2178,7 @@ msgstr ""
 #. :sl2:
 #: ../hw-detect.templates:11001
 msgid "The missing firmware files are: ${FILES}"
-msgstr "მაკლული firmware-ის ფაილებია: ${FILES}"
+msgstr "ნაკლული მიკროკოდის ფაილებია: ${FILES}"
 
 #. Type: select
 #. Choices
@@ -2194,7 +2194,7 @@ msgstr "ქსელში გადაცემა"
 #. :sl2:
 #: ../save-logs.templates:2001
 msgid "mounted file system"
-msgstr "დამონტაჟებული ფაილური სისტემა"
+msgstr "მიმაგრებული ფაილური სისტემა"
 
 #. Type: select
 #. Choices
@@ -2202,7 +2202,7 @@ msgstr "დამონტაჟებული ფაილური სის�
 #. :sl2:
 #: ../save-logs.templates:2001
 msgid "floppy"
-msgstr "ფლოპი"
+msgstr "დისკეტა"
 
 #. Type: select
 #. Description
@@ -2230,7 +2230,7 @@ msgstr ""
 #. :sl2:
 #: ../save-logs.templates:3001
 msgid "Directory in which to save debug logs:"
-msgstr "დახვეწის ჟურნალის შესანახი დასტა:"
+msgstr "გამართვის ჟურნალის შესანახი საქაღალდე:"
 
 #. Type: string
 #. Description
@@ -2255,14 +2255,14 @@ msgstr "ჟურნალის შენახვის შეცდომა"
 #. :sl2:
 #: ../save-logs.templates:4001
 msgid "The directory \"${DIR}\" does not exist."
-msgstr "დირექტორია \"${DIR}\" არ არსებობს."
+msgstr "საქაღალდე \"${DIR}\" არ არსებობს."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../save-logs.templates:7001
 msgid "Insert formatted floppy in drive"
-msgstr "ჩადეთ დაფორმატებული ფლოპი"
+msgstr "ჩადეთ დაფორმატებული დისკეტა"
 
 #. Type: note
 #. Description
@@ -2287,7 +2287,7 @@ msgstr "ინფორმაცია შეინახება ასევ�
 #. :sl2:
 #: ../load-iso.templates:1001
 msgid "Load installer components from an installer ISO"
-msgstr "საინსტალაციო ISO-დან იტვირთება კომპონენტები"
+msgstr "დაყენების პროგრამის კომპონენტების ჩატვირთვა დაყენების ISO-დან"
 
 #. Type: select
 #. Description
@@ -2357,7 +2357,7 @@ msgstr ""
 #. :sl2:
 #: ../main-menu.templates:3001
 msgid "Installation step failed"
-msgstr "ინსტალაციის ეტაპი ვერ შესრულდა"
+msgstr "დაყენების ნაბიჯი ჩავარდა"
 
 #. Type: error
 #. Description
@@ -2376,7 +2376,7 @@ msgstr ""
 #. :sl2:
 #: ../main-menu.templates:4001
 msgid "Choose an installation step:"
-msgstr "ინსტალაციის ეტაპის ამორჩევა:"
+msgstr "აირჩიეთ დაყენების ნაბიჯი:"
 
 #. Type: select
 #. Description
@@ -2394,7 +2394,7 @@ msgstr ""
 #. :sl2:
 #: ../media-retriever.templates:1001
 msgid "Scanning removable media"
-msgstr "შეცვლადი მედიის სკანირება"
+msgstr "მოხსნადი მედიის სკანირება"
 
 #. Type: text
 #. Description
@@ -2421,7 +2421,7 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:1001
 msgid "Load drivers from removable media now?"
-msgstr "გსურთ დრაივერების შეცვლადი მედიიდან ჩატვირთვა?"
+msgstr "გსურთ დრაივერების მოხსნადი მედიიდან ჩატვირთვა?"
 
 #. Type: boolean
 #. Description
@@ -2454,14 +2454,14 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:2001
 msgid "Load drivers from removable media"
-msgstr "დრაივერების შეცვლადი მედიუმიდან ჩატვირთვა"
+msgstr "დრაივერების ჩატვირთვა მოხსნადი მედიიდან"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../load-media.templates:3001
 msgid "Unknown removable media. Try to load anyway?"
-msgstr "უცნობი შეცვლადი მედიუმი. მაინც ვცადო ჩატვირთვა?"
+msgstr "უცნობი მოხსნადი მედია. მაინც ვცადო ჩატვირთვა?"
 
 #. Type: boolean
 #. Description
@@ -2481,7 +2481,7 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:4001
 msgid "Please insert ${DISK_LABEL} ('${DISK_NAME}') first."
-msgstr "გთხოვთ ჯერ ${DISK_LABEL} ('${DISK_NAME}') ჩადოთ."
+msgstr "გთხოვთ, ჯერ ${DISK_LABEL} ('${DISK_NAME}') ჩადოთ."
 
 #. Type: text
 #. Description
@@ -2499,7 +2499,7 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:5001
 msgid "Load drivers from another removable media?"
-msgstr "გსურთ დრაივერების სხვა შეცვლადი დისკიდან ჩატვირთვა?"
+msgstr "გსურთ დრაივერების სხვა მოხსნადი მედიიდან ჩატვირთვა?"
 
 #. Type: boolean
 #. Description
@@ -2561,7 +2561,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:9001
 msgid "WEP key for wireless device ${iface}:"
-msgstr "უკაბელო მოწყობილობა ${iface}-ის WEP-გასაღები:"
+msgstr "უსადენო მოწყობილობა ${iface}-ის WEP-გასაღები:"
 
 #. Type: string
 #. Description
@@ -2709,14 +2709,14 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "Invalid hostname"
-msgstr "მცდარი ჰოსტის სახელი"
+msgstr "არასწორი ჰოსტის სახელი"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "სახელი \"${hostname}\" მიუღებელია."
+msgstr "სახელი \"${hostname}\" არასწორია."
 
 #. Type: error
 #. Description
@@ -2756,7 +2756,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:22001
 msgid "No network interfaces detected"
-msgstr "ქსელური ინტერფეისი ვერ მოიძებნა"
+msgstr "ქსელის ინტერფეისები აღმოჩენილი არაა"
 
 #. Type: error
 #. Description
@@ -2787,7 +2787,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:23001
 msgid "Kill switch enabled on ${iface}"
-msgstr "${iface} ბარათზე აქტივირებულია „Kill switch” (გამომრთველი)"
+msgstr "${iface} ბარათზე ჩართულია „Kill switch” (გამომრთველი)"
 
 #. Type: note
 #. Description
@@ -2813,7 +2813,7 @@ msgstr ""
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Infrastructure (Managed) network"
-msgstr "ინფრასტრუქტურული ქსელი"
+msgstr "ინფრასტრუქტურული [მართული] ქსელი"
 
 #. Type: select
 #. Choices
@@ -2825,7 +2825,7 @@ msgstr "ინფრასტრუქტურული ქსელი"
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Ad-hoc network (Peer to peer)"
-msgstr "Ad-hoc ქსელი (Peer to peer)"
+msgstr "Ad-hoc ქსელი (გამჭოლი)"
 
 #. Type: select
 #. Description
@@ -2853,42 +2853,42 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:25001
 msgid "Wireless network configuration"
-msgstr "უკაბელო ქსელის კონფიგურაცია"
+msgstr "უსადენო ქსელის მორგება"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:26001
 msgid "Searching for wireless access points..."
-msgstr "მიმდინარეობს უკაბელო ქსელის წვდომის წერტილების ძიება..."
+msgstr "მიმდინარეობს უსადენო ქსელის წვდომის წერტილების ძებნა..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:29001
 msgid "Detecting link on ${interface}; please wait..."
-msgstr "მიმდინარეობს ${interface}-ზე ბმულის ამოცნობა; გთხოვთ, დაელოდოთ..."
+msgstr "მიმდინარეობს ${interface}-ზე კავშირის დადგენა; მოითმინეთ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:30001
 msgid "<none>"
-msgstr "<არაა>"
+msgstr "<არაფერი>"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:31001
 msgid "Wireless ethernet (802.11x)"
-msgstr "უკაბელო ethernet-ქსელი (802.11x)"
+msgstr "უსადენო ethernet-ქსელი (802.11x)"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:32001
 msgid "wireless"
-msgstr "უკაბელო"
+msgstr "უსადენო"
 
 #. Type: text
 #. Description
@@ -2923,7 +2923,7 @@ msgstr "Serial-line IP"
 #. :sl2:
 #: ../netcfg-common.templates:38001
 msgid "Parallel-port IP"
-msgstr "პარალელური პორტ IP"
+msgstr "პარალელური პორტი IP"
 
 #. Type: text
 #. Description
@@ -3083,7 +3083,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:3001
 msgid "Point-to-point address:"
-msgstr "PPP (Point-to-point) მისამართი:"
+msgstr "PPP მისამართი:"
 
 #. Type: string
 #. Description
@@ -3105,14 +3105,14 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "Unreachable gateway"
-msgstr "კარიბჭე მიუწვდომელია"
+msgstr "მიუწვდომელი ნაგულიხმევი რაუტერი"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "The gateway address you entered is unreachable."
-msgstr "ნაგულისხმები რაუტერის შეყვანილი მისამართი მიუწვდომელია."
+msgstr "ნაგულისხმევი რაუტერის შეყვანილი მისამართი მიუწვდომელია."
 
 #. Type: error
 #. Description
@@ -3130,7 +3130,7 @@ msgstr ""
 #. :sl2:
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "ინსტალერის კომპონენტების ჩამოტვირთვა"
+msgstr "დაყენების პროგრამის კომპონენტების გადმოწერა"
 
 #. Type: select
 #. Description
@@ -3233,7 +3233,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-auto.templates:11001
 msgid "Unusable free space"
-msgstr "გამოუყენებელი თავისუფალი ადგილი"
+msgstr "არაგამოყენებადი თავისუფალი ადგილი"
 
 #. Type: error
 #. Description
@@ -3288,7 +3288,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-base.templates:5001
 msgid "Device in use"
-msgstr "მოწყობილობა დაკავებულია"
+msgstr "მოწყობილობა გამოიყენება"
 
 #. Type: error
 #. Description
@@ -3304,7 +3304,7 @@ msgstr "შეუძლებელია ${DEVICE} მოწყობილო�
 #. :sl2:
 #: ../partman-base.templates:6001
 msgid "Partition in use"
-msgstr "დანაყოფი დაკავებულია"
+msgstr "დანაყოფი გამოიყენება"
 
 #. Type: error
 #. Description
@@ -3325,7 +3325,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-base.templates:10001
 msgid "Continue with the installation?"
-msgstr "გავაგრძელოთ ინსტალაცია?"
+msgstr "გავაგრძელოთ დაყენება?"
 
 #. Type: boolean
 #. Description
@@ -3384,14 +3384,14 @@ msgstr "შეიცვალა შემდეგი მოწყობილ�
 #. :sl2:
 #: ../partman-base.templates:17001
 msgid "What to do with this device:"
-msgstr "რა ვუყოთ არჩეულ მოწყობილობას:"
+msgstr "რა ვუყოთ ამ მოწყობილობას:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-base.templates:18001
 msgid "How to use this free space:"
-msgstr "როგორ გამოვიყენოთ თავისუფალი ადგილი:"
+msgstr "როგორ გამოვიყენოთ ეს თავისუფალი ადგილი:"
 
 #. Type: select
 #. Description
@@ -3416,7 +3416,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-base.templates:20001
 msgid "This partition is formatted with the ${FILESYSTEM}."
-msgstr "დანაყოფი დაფორმატდა ${FILESYSTEM} სისტემით."
+msgstr "დანაყოფი დაფორმატდა ${FILESYSTEM} ფაილური სისტემით."
 
 #. Type: text
 #. Description
@@ -3461,7 +3461,7 @@ msgstr "დისკის გეომეტრია (ცილინდრი
 #. :sl2:
 #: ../partman-base.templates:30001
 msgid "Done setting up the partition"
-msgstr "დანაყოფის გამართვა დასრულებულია"
+msgstr "დანაყოფის მორგება დასრულებულია"
 
 #. Type: text
 #. Description
@@ -3525,7 +3525,7 @@ msgstr "დიახ, დააფორმატე"
 #. :sl2:
 #: ../partman-basicmethods.templates:5001
 msgid "no, keep existing data"
-msgstr "არა, შეინახე უკვე არსებული მონაცემები"
+msgstr "არა, შეინახე არსებული მონაცემები"
 
 #. Type: text
 #. Description
@@ -3706,7 +3706,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "დაუშვებელი ფაილური სისტემა ამ მონტაჟის პუნქტისათვის"
+msgstr "დაუშვებელი ფაილური სისტემა ამ მიმაგრების წერტილისთვის"
 
 #. Type: error
 #. Description
@@ -3749,7 +3749,7 @@ msgstr "/boot - სისტემური ჩამტვირთველი
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/home - user home directories"
-msgstr "/home - მომხმარებელთა სათაო კატალოგები"
+msgstr "/home - მომხმარებელთა საწყისი საქაღალდეები"
 
 #. Type: select
 #. Choices
@@ -3839,7 +3839,7 @@ msgstr "ხელით შეყვანა"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "არ დავამონტაჟოთ დანაყოფი"
+msgstr "არ მიამაგრო"
 
 #. Type: select
 #. Description
@@ -3852,7 +3852,7 @@ msgstr "არ დავამონტაჟოთ დანაყოფი"
 #: ../partman-basicfilesystems.templates:14002
 #: ../partman-basicfilesystems.templates:15001
 msgid "Mount point for this partition:"
-msgstr "ამ დანაყოფის მონტაჟის პუნქტი:"
+msgstr "მიმაგრების წერტილი ამ დანაყოფისთვის:"
 
 #. Type: select
 #. Choices
@@ -3873,14 +3873,14 @@ msgstr "/windows"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "არასწორი მონტაჟის პუნქტი"
+msgstr "არასწორი მიმაგრების წერტილი"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "მითითებული მონტაჟის პუნქტის დასახელება არასწორია."
+msgstr "შეყვანილი მიმაგრების წერტილი არასწორია."
 
 #. Type: error
 #. Description
@@ -3956,7 +3956,7 @@ msgstr "არაფერი"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:23001
 msgid "Reserved blocks:"
-msgstr "დარეზერვებული ბლოკები:"
+msgstr "დაცული ბლოკები:"
 
 #. Type: string
 #. Description
@@ -4026,7 +4026,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:28001
 msgid "Mount point:"
-msgstr "მონტაჟის პუნქტი:"
+msgstr "მიმაგრების წერტილი:"
 
 #. Type: text
 #. Description
@@ -4137,7 +4137,7 @@ msgstr "nodev - სიმბოლური და ბლოკური მო�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid - SUID და SGID ბიტების იგნორირება"
+msgstr "nosuid - SUID და SGID ბიტების გამოტოვება"
 
 #. Type: text
 #. Description
@@ -4155,7 +4155,7 @@ msgstr "noexec - პროგრამების გაშვების ა�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - ფაილური სისტემის მონტაჟი \"მხოლოდ კითხვის\" რეჟიმში"
+msgstr "ro - ფაილური სისტემის მიმაგრება \"მხოლოდ კითხვის\" რეჟიმში"
 
 #. Type: text
 #. Description
@@ -4175,7 +4175,7 @@ msgstr ""
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota - მომხმარებელთა დისკური ქვოთების მეთვალყურეობა"
+msgstr "usrquota - მომხმარებლის დისკური კვოტები ჩართულია"
 
 #. Type: text
 #. Description
@@ -4184,7 +4184,7 @@ msgstr "usrquota - მომხმარებელთა დისკური
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota - ჯგუფთა დისკური ქვოთების მეთვალყურეობა"
+msgstr "grpquota - ჯგუფთა დისკური კვოტები ჩართულია"
 
 #. Type: text
 #. Description
@@ -4193,7 +4193,7 @@ msgstr "grpquota - ჯგუფთა დისკური ქვოთებ�
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:54001
 msgid "user_xattr - support user extended attributes"
-msgstr "user_xattr - დამატებითი სამომხმარებლო ატრიბუტების მხარდაჭერა"
+msgstr "user_xattr - დამატებითი მომხმარებლის ატრიბუტების მხარდაჭერა"
 
 #. Type: text
 #. Description
@@ -4282,7 +4282,7 @@ msgstr ""
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr "btrfs ჟურნალური ფაილური სისტემა"
+msgstr "btrfs ჟურნალიანი ფაილური სისტემა"
 
 #. Type: error
 #. Description
@@ -4410,7 +4410,7 @@ msgstr ""
 #. File system name
 #: ../partman-ext3.templates:2001
 msgid "Ext3 journaling file system"
-msgstr "Ext3 ჟურნალებში აღწერადი ფაილური სისტემა"
+msgstr "Ext3 ჟურნალიანი ფაილური სისტემა"
 
 #. Type: text
 #. Description
@@ -4418,7 +4418,7 @@ msgstr "Ext3 ჟურნალებში აღწერადი ფაი�
 #. File system name
 #: ../partman-ext3.templates:5001
 msgid "Ext4 journaling file system"
-msgstr "Ext4 journaling ფაილური სისტემა"
+msgstr "Ext4 ჟურნალიანი ფაილური სისტემა"
 
 #. Type: boolean
 #. Description
@@ -4535,7 +4535,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr "JFS ჟურნალებში აღწერადი ფაილური სისტემა"
+msgstr "JFS ჟურნალიანი ფაილური სისტემა"
 
 #. #-#-#-#-#  templates.pot (partman-md)  #-#-#-#-#
 #. Type: error
@@ -4561,7 +4561,7 @@ msgstr "მიმდინარეობს დანაყოფის ზო�
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "ზომების შეცვლა შეუძლებელია"
+msgstr "ზომის შეცვლა შეუძლებელია"
 
 #. Type: error
 #. Description
@@ -4575,7 +4575,7 @@ msgstr "დანაყოფის ზომის შეცვლა უცნ
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "ჩავწეროთ ცვლილებები დისკზე და გავაგრძელოთ?"
+msgstr "ჩავწეროთ ცვლილებები დისკზე და გავაგრძელო?"
 
 #. Type: boolean
 #. Description
@@ -4613,7 +4613,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "დანაყოფის ახალი ზომა:"
+msgstr "ახალი დანაყოფის ზომა:"
 
 #. Type: string
 #. Description
@@ -4631,7 +4631,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "მითითებული ზომა არასწორია"
+msgstr "შეყვანილი ზომა არასწორია"
 
 #. Type: error
 #. Description
@@ -4669,7 +4669,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "თქვენს მიერ შეყვანილი ზომა ძალიან პატარაა"
+msgstr "შეყვანილი ზომა ძალიან მცირეა"
 
 #. Type: error
 #. Description
@@ -4687,14 +4687,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "ზომის შეცვლისას დაიშვა შეცდომა"
+msgstr "ზომის შეცვლის ოპერაცია ჩავარდა"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "დანაყოფების ზომის შეცვლის ოპერაცია შეწყდა."
+msgstr "ზომის შეცვლის ოპერაცია შეწყდა."
 
 #. Type: string
 #. Description
@@ -4708,7 +4708,7 @@ msgstr "ამ პარტიციის მაქსიმალური ზ
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "დაუშვებელი ზომა"
+msgstr "არასწორი ზომა"
 
 #. Type: multiselect
 #. Description
@@ -4733,7 +4733,7 @@ msgstr "დანაყოფის სახელი:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "განვაგრძოთ დაყოფა?"
+msgstr "გავაგრძელოთ დაყოფა?"
 
 #. Type: boolean
 #. Description
@@ -4788,7 +4788,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "დანაყოფთა ცხრილის ტიპი:"
+msgstr "დანაყოფების ცხრილის ტიპი:"
 
 #. Type: select
 #. Description
@@ -4831,7 +4831,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "ჩავწერო ახალი ცარიელი დაყოფის ცხრილი?"
+msgstr "ჩავწერო ახალი ცარიელი დაყოფების ცხრილი?"
 
 #. Type: boolean
 #. Description
@@ -4943,7 +4943,7 @@ msgstr "გამორთ."
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "დანაყოფის ზომის შეცვლა (მიმდინარე ზომა ${SIZE})"
+msgstr "დანაყოფის ზომის შეცვლა (მიმდინარე ${SIZE})"
 
 #. Type: text
 #. Description
@@ -4971,7 +4971,7 @@ msgstr "ამ მოწყობილობაზე დანაყოფთ�
 #. :sl2:
 #: ../partman-target.templates:4001
 msgid "Identical labels for two file systems"
-msgstr "ორი ფაილური სისტემისათვის მითითებულია ერთნაირი წარწერა"
+msgstr "ერთნაირი ჭდე ორი ფაილური სისტემისათვის"
 
 #. Type: error
 #. Description
@@ -4991,14 +4991,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-target.templates:4001
 msgid "Please correct this by changing labels."
-msgstr "გთხოვთ შეასწოროთ ეს წარწერების შეცვლით."
+msgstr "გთხოვთ შეასწოროთ ეს ჭდეების შეცვლით."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-target.templates:5001
 msgid "Identical mount points for two file systems"
-msgstr "ორი ფაილური სისტემისათვის მითითებულია ერთიდაიგივე მიმაგრების წერტილი"
+msgstr "ორი ფაილური სისტემისათვის მითითებულია ერთი და იგივე მიმაგრების წერტილი"
 
 #. Type: error
 #. Description
@@ -5016,7 +5016,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-target.templates:5001
 msgid "Please correct this by changing mount points."
-msgstr "შეასწორეთ მონტაჟის პუნქტები."
+msgstr "შეასწორეთ ეს, მიმაგრების წერტილების შეცვლით."
 
 #. Type: error
 #. Description
@@ -5098,7 +5098,7 @@ msgstr "დანაყოფის გამოყენება:"
 #. :sl2:
 #: ../partman-target.templates:10001
 msgid "Use as:"
-msgstr "გამოიყენე როგორც:"
+msgstr "გამოყენება, როგორც:"
 
 #. Type: text
 #. Description
@@ -5106,7 +5106,7 @@ msgstr "გამოიყენე როგორც:"
 #. File system name
 #: ../partman-xfs.templates:2001
 msgid "XFS journaling file system"
-msgstr "XFS ჟურნალებში აღწერადი ფაილური სისტემა"
+msgstr "XFS ჟურნალიანი ფაილური სისტემა"
 
 #. Type: select
 #. Choices
@@ -5127,7 +5127,7 @@ msgstr "უსაფრთხოების განახლებები�
 #. :sl2:
 #: ../pkgsel.templates:10002
 msgid "Updates management on this system:"
-msgstr "ამ სისტემის განახლებების მართვა:"
+msgstr "განაახლებს მართვას ამ სისტემაზე:"
 
 #. Type: select
 #. Description
@@ -5187,7 +5187,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:2001
 msgid "Failed to retrieve the preconfiguration file"
-msgstr "წინა კონფიგურაციის ფაილის მიღება ვერ განხორციელდა"
+msgstr "წინასწარი კონფიგურაციის ფაილის მიღება ვერ განხორციელდა"
 
 #. Type: error
 #. Description
@@ -5205,7 +5205,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:3001
 msgid "Failed to process the preconfiguration file"
-msgstr "შეცდომა წინასწარი კონფიგურირების ფაილის დამუშავებისას"
+msgstr "შეცდომა წინასწარი კონფიგურაციის ფაილის დამუშავებისას"
 
 #. Type: error
 #. Description
@@ -5248,7 +5248,7 @@ msgstr "აღდგენის რეჟიმი"
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
 msgid "Create a normal user account now?"
-msgstr "შევქმნათ ჩვეულებრივი მომხმარებლის ანგარიში?"
+msgstr "შევქმნა ჩვეულებრივი მომხმარებლის ანგარიში?"
 
 #. Type: boolean
 #. Description
@@ -5286,7 +5286,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "მომხმარებლის სახელი არასწორია"
+msgstr "არასწორი მომხმარებლის სახელი"
 
 #. Type: error
 #. Description
@@ -5306,7 +5306,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:12001
 msgid "Reserved username"
-msgstr "რეზერვირებული სახელი"
+msgstr "დაცული მომხმარებლის სახელი"
 
 #. Type: error
 #. Description
