@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-28 20:02+0000\n"
-"PO-Revision-Date: 2024-01-07 16:08+0000\n"
+"PO-Revision-Date: 2024-09-02 04:09+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Bahasa Indonesia <debian-l10n-id@gurame.fisika.ui.ac.id>\n"
 "Language: id\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Poedit-Country: INDONESIA\n"
 
 #. Type: multiselect
@@ -3807,10 +3807,8 @@ msgstr "/home - direktori home pengguna"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - berkas-berkas sementara"
+msgstr "/tmp - berkas-berkas sementara (baku: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -5351,19 +5349,14 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
 "Perhatikan bahwa Anda dapat membuatnya nanti (juga akun tambahan lain) "
-"dengan mengetikkan 'adduser <namapengguna>' sebagai root, dengan "
-"<namapengguna> merupakan nama pengguna, seperti 'jojond' atau 'kusno', dll."
+"dengan mengetikkan 'adduser <namapengguna>' sebagai root, dimana "
+"<namapengguna> merupakan nama pengguna, seperti 'masbudi' atau 'jfk', dll."
 
 #. Type: error
 #. Description

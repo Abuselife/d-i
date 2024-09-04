@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-01-07 16:08+0000\n"
+"PO-Revision-Date: 2024-09-02 04:09+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 "X-Poedit-Country: INDONESIA\n"
 
 #. Type: boolean
@@ -453,13 +453,6 @@ msgstr "Font untuk konsol:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -467,11 +460,11 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"VGA\" memiliki tampilan tradisional dan mencakup sejumlah huruf "
-"internasional. \"Fixed\" memiliki tampilan sederhana dan mencakup lebih "
-"banyak huruf internasional. \"Terminus\" dapat membantu mengurangi kelelahan "
-"mata, namun beberapa simbol jadi tampak mirip, yang bisa menyulitkan para "
-"programer."
+"\"VGA\" memiliki penampilan tradisional dan cakupan sedang atas huruf "
+"internasional. \"Fixed\" memiliki penampilan sederhana dan cakupan yang "
+"lebih baik atas huruf internasional. \"Terminus\" dapat membantu mengurangi "
+"kelelahan mata, namun beberapa simbol jadi tampak mirip, yang bisa "
+"menyulitkan para programer. \"DejaVu\" cocok untuk layar dengan HiDPI."
 
 #. Type: select
 #. Description
@@ -3252,6 +3245,8 @@ msgstr "Pemeta-piranti (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Disk terenkripsi mandiri yang didukung firmware (OPAL yang diimplementasi "
+"vendor dengan LUKS2)"
 
 #. Type: text
 #. Description
@@ -3407,7 +3402,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "Enkripsi mandiri OPAL ditumpuk dengan dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3418,6 +3413,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Beberapa disk mendukung enkripsi mandiri. Ini adalah fitur perangkat keras "
+"yang, jika diaktifkan melalui opsi ini, akan digunakan bersama dengan dm-"
+"crypt untuk menyediakan lapisan ganda enkripsi."
 
 #. Type: text
 #. Description
@@ -3440,7 +3438,7 @@ msgstr "Hapus data pada partisi ini"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Reset pabrik seluruh disk ini (SEMUA data akan hilang)"
 
 #. Type: boolean
 #. Description
@@ -3931,7 +3929,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "Kata sandi admin OPAL:"
 
 #. Type: password
 #. Description
@@ -3941,6 +3939,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Anda perlu memilih suatu kata sandi admin OPAL baru, atau memberikan yang "
+"telah ada untuk ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -3952,29 +3952,27 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Kata sandi ini akan dipakai untuk mengelola seluruh perangkat - menambah "
+"partisi baru OPAL, membuang mereka, menghapus mereka. Bila kata sandi ini "
+"hilang, perangkat ini akan perlu di-reset pabrik agar dapat dipulihkan, "
+"kehilangan seluruh data dari semua partisi."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Masukkan lagi kata sandi untuk verifikasi:"
+msgstr "Masukkan lagi kata sandi admin OPAL untuk verifikasi:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Silakan masukkan kata sandi root yang sama lagi untuk memastikan bahwa Anda "
+"Silakan masukkan kata sandi yang sama lagi untuk memastikan bahwa Anda "
 "mengetiknya dengan benar."
 
 #. Type: password
@@ -3982,7 +3980,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "PSID OPAL:"
 
 #. Type: password
 #. Description
