@@ -14,15 +14,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2024-07-07 10:09+0000\n"
-"Last-Translator: Zi Jiaxu <3119932298@qq.com>\n"
+"PO-Revision-Date: 2024-09-09 09:09+0000\n"
+"Last-Translator: NtskwK <natsukawa247@outlook.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: boolean
 #. Description
@@ -35,13 +35,11 @@ msgstr "使用 non-free 固件吗？"
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
 msgid ""
 "Firmware is a kind of software providing low-level control of certain "
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
-msgstr ""
-"Firmware 是一种为某些硬件组件（例如Wi-Fi卡或音频芯片组）提供低级控制的软件，"
+msgstr "Firmware 是一种为某些硬件组件（例如Wi-Fi卡或音频芯片组）提供低级控制的软件，"
 "如果没有它，这些硬件组件可能无法完全或根本无法运行。"
 
 #. Type: boolean
