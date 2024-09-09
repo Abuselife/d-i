@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2024-03-22 22:13+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
@@ -3713,6 +3713,14 @@ msgstr "Aparta diskparto por '/home'"
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Apartaj diskpartoj '/home', '/var' kaj '/tmp'"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
+#: ../partman-auto.templates:24001
+msgid "Separate /var and /srv, swap < 1GB (for servers)"
+msgstr ""
 
 #. Type: text
 #. Description

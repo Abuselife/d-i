@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2017-10-13 09:42+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
@@ -3813,6 +3813,14 @@ msgstr "Ločen razdelek /home"
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Ločeni razdelki /home, /var in /tmp"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
+#: ../partman-auto.templates:24001
+msgid "Separate /var and /srv, swap < 1GB (for servers)"
+msgstr ""
 
 #. Type: text
 #. Description

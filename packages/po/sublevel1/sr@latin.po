@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2012-10-15 05:21+0100\n"
 "Last-Translator: Milan Kostic <kosticmilan77@open.telekom.rs>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
@@ -3794,6 +3794,14 @@ msgstr "Zasebna /home particija"
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Zasebne /home, /var i /tmp particije"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
+#: ../partman-auto.templates:24001
+msgid "Separate /var and /srv, swap < 1GB (for servers)"
+msgstr ""
 
 #. Type: text
 #. Description

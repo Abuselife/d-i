@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2972,7 +2972,7 @@ msgstr ""
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
-msgid "Small-disk (< 1GB) partitioning scheme"
+msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr ""
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#

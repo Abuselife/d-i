@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2005-06-13 14:08+0200\n"
 "Last-Translator: Canonical Ltd <translations@canonical.com>\n"
 "Language-Team: Xhosa \n"
@@ -3163,7 +3163,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
 #, fuzzy
-msgid "Small-disk (< 1GB) partitioning scheme"
+msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "Igama lesahlukaniso:"
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#

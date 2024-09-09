@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2019-09-10 18:06+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
@@ -3828,6 +3828,14 @@ msgstr "Ҷудо кардани қисми диски /home"
 #: ../partman-auto.templates:22001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Ҷудо кардани қисмҳои диски /home, /var ва /tmp"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
+#: ../partman-auto.templates:24001
+msgid "Separate /var and /srv, swap < 1GB (for servers)"
+msgstr ""
 
 #. Type: text
 #. Description

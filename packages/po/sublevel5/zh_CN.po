@@ -39,7 +39,8 @@ msgid ""
 "Firmware is a kind of software providing low-level control of certain "
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
-msgstr "Firmware 是一种为某些硬件组件（例如Wi-Fi卡或音频芯片组）提供低级控制的软件，"
+msgstr ""
+"Firmware 是一种为某些硬件组件（例如Wi-Fi卡或音频芯片组）提供低级控制的软件，"
 "如果没有它，这些硬件组件可能无法完全或根本无法运行。"
 
 #. Type: boolean

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2019-08-28 18:09+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
@@ -3748,6 +3748,14 @@ msgstr "/home ལ་ཁག་ལོག་ཏུ་བཟོ་བ"
 #| msgid "Separate /home, /usr, /var, and /tmp partitions"
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "/home དང་/usr、/var  /tmp ལ་ཁག་ལོག་ཏུ་བཟོ་བ"
+
+#. Type: text
+#. Description
+#. :sl1:
+#. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
+#: ../partman-auto.templates:24001
+msgid "Separate /var and /srv, swap < 1GB (for servers)"
+msgstr ""
 
 #. Type: text
 #. Description

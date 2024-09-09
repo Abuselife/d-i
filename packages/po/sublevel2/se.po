@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: se\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-28 20:02+0000\n"
+"POT-Creation-Date: 2024-09-09 20:01+0000\n"
 "PO-Revision-Date: 2021-05-21 05:32+0000\n"
 "Last-Translator: Jacque Fresco <aidter@use.startmail.com>\n"
 "Language-Team: Northern Saami <i18n-sme@lister.ping.uio.no>\n"
@@ -3100,7 +3100,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
 #, fuzzy
-msgid "Small-disk (< 1GB) partitioning scheme"
+msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "Partišunerenplána:"
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#
