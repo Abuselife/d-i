@@ -3318,10 +3318,8 @@ msgstr ""
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
-#, fuzzy
-#| msgid "Small-disk (< 1GB) partitioning scheme"
 msgid "Small-disk (< 10GB) partitioning scheme"
-msgstr "Cakera kecik (< 1GB) skima pembahagian"
+msgstr "Cakera kecik (< 10GB) skima pembahagian"
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#
 #. Type: string

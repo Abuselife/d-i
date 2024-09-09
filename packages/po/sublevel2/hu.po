@@ -4305,10 +4305,8 @@ msgstr ""
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
-#, fuzzy
-#| msgid "Small-disk (< 1GB) partitioning scheme"
 msgid "Small-disk (< 10GB) partitioning scheme"
-msgstr "Kis lemezre (<1GB) való particionálás"
+msgstr "Kis lemezre (<10GB) való particionálás"
 
 # Type: string
 # Description
