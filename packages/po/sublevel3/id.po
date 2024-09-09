@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-09-02 04:09+0000\n"
+"PO-Revision-Date: 2024-09-08 06:09+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -3990,69 +3990,57 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Anda perlu memberikan PSID OPAL bagi ${DEVICE}. Ini biasanya ditemukan pada "
+"label drive."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Masukkan lagi kata sandi untuk verifikasi:"
+msgstr "Masukkan lagi PSID OPAL untuk verifikasi:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Silakan masukkan kunci frase yang sama sekali lagi untuk memastikan Anda "
-"mengetiknya dengan benar."
+"Silakan masukkan PSID yang sama lagi untuk memastikan Anda mengetiknya "
+"dengan benar."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Salah memasukkan kata sandi"
+msgstr "Galat masukan PSID OPAL"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Kedua kata sandi yang Anda masukkan tidak sama. Silakan coba lagi."
+msgstr "Kedua PSID OPAL yang Anda masukkan tidak sama. Silakan coba lagi."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "PSID OPAL kosong"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Anda memasukkan kata sandi kosong, yang tidak diperbolehkan. Silakan "
-"masukkan kata sandi yang tidak kosong."
+"Anda memasukkan PSID kosong, yang tidak diperbolehkan. Silakan masukkan PSID "
+"yang tidak kosong."
 
 #. Type: entropy
 #. Description
@@ -4079,30 +4067,23 @@ msgstr "Terjadi kesalahan saat membuat berkas-kunci."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr ""
-"Sistem berkas root dengan btrfs tidak didukung tanpa partisi /boot terpisah"
+msgstr "Konfigurasikan enkripsi tanpa /boot terpisah?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Anda telah memilih sistem berkas root untuk disimpan pada partisi "
-"terenkripsi. Fitur ini membutuhkan partisi /boot yang terpisah, tempat "
-"kernel dan initrd diletakkan."
+"Anda telah memilih sistem berkas root untuk disimpan di partisi terenkripsi. "
+"Ketika menggunakan GRUB, biasanya fitur ini membutuhkan partisi /boot "
+"terpisah di mana kernel dan initrd dapat disimpan. Ini tidak diperlukan "
+"ketika menggunakan sistemd-boot/UKI, karena ESP digunakan sebagai gantinya."
 
 #. Type: error
 #. Description
@@ -5774,17 +5755,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Memasang boot loader aboot"
+msgstr "Memasang boot loader systemd-boot"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Cacah coba ulang per entri boot (0 untuk menonaktifkan):"
 
 #. Type: select
 #. Description
@@ -5796,6 +5775,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Mengonfigurasi logika asesmen boot otomatis, yang secara otomatis jatuh "
+"kembali ke entri boot sebelumnya jika yang baru gagal lebih dari jumlah coba "
+"ulang yang dikonfigurasi saat pertama ditambahkan. Untuk rincian lebih "
+"lanjut, lihat: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
