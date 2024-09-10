@@ -32,8 +32,8 @@ msgid ""
 "function fully or at all without it."
 msgstr ""
 "Firmware je druh softwaru poskytující nízkoúrovňové řízení hardwarových "
-"komponent (např. Wi-Fi karet nebo audio čipů), které bez něj mohou "
-"fungovat omezeně, nebo vůbec."
+"komponent (např. Wi-Fi karet nebo audio čipů), které bez něj mohou fungovat "
+"omezeně, nebo vůbec."
 
 #. Type: boolean
 #. Description
@@ -45,9 +45,9 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
-"Přestože není součástí Debianu, byl některý nesvobodný firmware upraven, "
-"aby s Debianem pracoval. Tento firmware má různé licence, které omezují "
-"vaši svobodu používat, upravovat nebo sdílet software a obvykle neposkytuje "
+"Přestože není součástí Debianu, byl některý nesvobodný firmware upraven, aby "
+"s Debianem pracoval. Tento firmware má různé licence, které omezují vaši "
+"svobodu používat, upravovat nebo sdílet software a obvykle neposkytuje "
 "zdrojovou podobu, kterou byste mohli studovat."
 
 #. Type: text

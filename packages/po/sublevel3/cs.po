@@ -3373,8 +3373,8 @@ msgid ""
 "double layer of encryption."
 msgstr ""
 "Některé disky podporují šifrování samy o sobě. Jedná se o hardwarovou "
-"vlastnost, která se, když ji zde povolíte, použije společně s dm-crypt "
-"pro druhou vrstvu šifrování."
+"vlastnost, která se, když ji zde povolíte, použije společně s dm-crypt pro "
+"druhou vrstvu šifrování."
 
 #. Type: text
 #. Description
@@ -3908,10 +3908,10 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
-"Toto heslo se použije pro správu celého zařízení - přidávání nových "
-"OPAL oblastí, jejich odstraňování a mazání. Pokud toto heslo ztratíte, "
-"bude nutno resetovat zařízení do továrního nastavení, přičemž přijdete "
-"o všechna data ze všech oblastí."
+"Toto heslo se použije pro správu celého zařízení - přidávání nových OPAL "
+"oblastí, jejich odstraňování a mazání. Pokud toto heslo ztratíte, bude nutno "
+"resetovat zařízení do továrního nastavení, přičemž přijdete o všechna data "
+"ze všech oblastí."
 
 #. Type: password
 #. Description
@@ -3962,8 +3962,7 @@ msgstr "Znovu zadejte OPAL PSID pro ověření:"
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Zadejte znovu stejné PSID, abyste se přesvědčili, že jste jej zadali "
-"správně."
+"Zadejte znovu stejné PSID, abyste se přesvědčili, že jste jej zadali správně."
 
 #. Type: error
 #. Description
@@ -3994,8 +3993,7 @@ msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Zadali jste prázdné PSID, což není dovoleno. Zvolte si prosím neprázdné "
-"PSID."
+"Zadali jste prázdné PSID, což není dovoleno. Zvolte si prosím neprázdné PSID."
 
 #. Type: entropy
 #. Description
@@ -4036,9 +4034,9 @@ msgid ""
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
 "Zvolili jste uložení kořenového souborového systému na šifrované oblasti. "
-"Při použití zavaděče GRUB to obvykle vyžaduje samostatnou oblast /boot, "
-"na kterou se uloží jádro a initrd. Toto není nutné, pokud používáte "
-"systemd-boot/UKI, protože se místo toho použije oblast ESP."
+"Při použití zavaděče GRUB to obvykle vyžaduje samostatnou oblast /boot, na "
+"kterou se uloží jádro a initrd. Toto není nutné, pokud používáte systemd-"
+"boot/UKI, protože se místo toho použije oblast ESP."
 
 #. Type: error
 #. Description
@@ -4716,10 +4714,10 @@ msgid ""
 "(Mebibytes), 10GB (Gigabytes), 10GiB (Gibibytes), 10TB (Terabytes), 10TiB "
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
-"Zadejte velikost nového logického svazku. Můžete použít následující "
-"formáty: 10KB (kilobajty), 10KiB (kibibajty), 10MB (megabajty), "
-"10MiB (mebibajty), 10GB (gigabajty), 10GiB (gibibajty), 10TB (terabajty), "
-"10TiB (tebibajty). Výchozí jednotky jsou megabajty."
+"Zadejte velikost nového logického svazku. Můžete použít následující formáty: "
+"10KB (kilobajty), 10KiB (kibibajty), 10MB (megabajty), 10MiB (mebibajty), "
+"10GB (gigabajty), 10GiB (gibibajty), 10TB (terabajty), 10TiB (tebibajty). "
+"Výchozí jednotky jsou megabajty."
 
 #. Type: error
 #. Description
@@ -5721,8 +5719,8 @@ msgid ""
 msgstr ""
 "Nakonfiguruje automatickou logiku zavádění, která se automaticky vrátí k "
 "předchozímu zaváděcímu záznamu v případě, že ten nový po prvním přidání "
-"selže vícekrát, než je nastavený počet opakování."
-"Více informací naleznete v https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
+"selže vícekrát, než je nastavený počet opakování.Více informací naleznete v "
+"https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description

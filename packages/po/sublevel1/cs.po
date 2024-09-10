@@ -4448,8 +4448,8 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
-"Některý účet musí mít správcovská oprávnění. Heslo k tomuto účtu by "
-"mělo být něco, co se nedá uhodnout."
+"Některý účet musí mít správcovská oprávnění. Heslo k tomuto účtu by mělo být "
+"něco, co se nedá uhodnout."
 
 #. Type: password
 #. Description
@@ -4472,10 +4472,10 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
-"Alternativně můžete heslo účtu root zamknout tím, že ho zde necháte "
-"prázdné a místo toho budete používat pro získání správcovských "
-"oprávnění výchozí uživatelský účet (který nastavíte v příštím kroku). "
-"Prakticky to znamená, že bude tento uživatel přidán do skupiny „sudo“."
+"Alternativně můžete heslo účtu root zamknout tím, že ho zde necháte prázdné "
+"a místo toho budete používat pro získání správcovských oprávnění výchozí "
+"uživatelský účet (který nastavíte v příštím kroku). Prakticky to znamená, že "
+"bude tento uživatel přidán do skupiny „sudo“."
 
 #. Type: password
 #. Description
