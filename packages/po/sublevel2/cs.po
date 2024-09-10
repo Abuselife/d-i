@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2022-12-09 18:21+0100\n"
+"PO-Revision-Date: 2024-09-10 17:17+0200\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -3276,11 +3276,7 @@ msgstr "Rozdělení vhodné pro malý disk (< 10GB)"
 #. :sl2:
 #: ../partman-auto-lvm.templates:11001 ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
-#, fuzzy, no-c-format
-#| msgid ""
-#| "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
-#| "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
-#| "size."
+#, no-c-format
 msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
@@ -3289,7 +3285,8 @@ msgid ""
 msgstr ""
 "Tip: jako zkratku pro maximální velikost můžete zadat „max“, případně lze "
 "použít procenta (např. „20%“), což znamená, že se použije zadané procento z "
-"maximální velikosti."
+"maximální velikosti. Velikost oblasti můžete zadat jak v desítkových "
+"jednotkách (třeba MB nebo GB), tak v binárních (např. GiB nebo TiB)."
 
 #. Type: error
 #. Description
@@ -3763,10 +3760,8 @@ msgstr "/home - domovské adresáře uživatelů"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - dočasné soubory"
+msgstr "/tmp - dočasné soubory (výchozí: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -5302,11 +5297,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "

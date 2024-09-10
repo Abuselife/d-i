@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2020-09-24 17:12+0200\n"
+"PO-Revision-Date: 2024-09-10 19:49+0200\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: cs\n"
@@ -437,13 +437,6 @@ msgstr "Font pro konzoli:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -451,10 +444,11 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"„VGA“ má tradiční vzhled a střední pokrytí mezinárodních znaků;\n"
-"„Fixed“ má jednoduchý vzhled a lepší pokrytí mezinárodních znaků;\n"
+"„VGA“ má tradiční vzhled a střední pokrytí mezinárodních znaků.\n"
+"„Fixed“ má jednoduchý vzhled a lepší pokrytí mezinárodních znaků.\n"
 "„Terminus“ může snížit námahu očí, avšak některé znaky mají podobný vzhled, "
-"což může být problém třeba pro programátory."
+"což může být problém třeba pro programátory.\n"
+"„DejaVu“ je vhodný pro obrazovky s vysokým DPI."
 
 #. Type: select
 #. Description
@@ -3211,7 +3205,7 @@ msgstr "Device-mapper (dm-crypt)"
 #: ../partman-crypto.templates:4001
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
-msgstr ""
+msgstr "Samošifrující disk podporovaný firmwarem (OPAL od výrobce s LUKS2)"
 
 #. Type: text
 #. Description
@@ -3367,7 +3361,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "Samošifrující OPAL s dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3378,6 +3372,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Některé disky podporují šifrování samy o sobě. Jedná se o hardwarovou "
+"vlastnost, která se, když ji zde povolíte, použije společně s dm-crypt "
+"pro druhou vrstvu šifrování."
 
 #. Type: text
 #. Description
@@ -3400,7 +3397,7 @@ msgstr "Smazat data na této oblasti"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Resetovat disk do továrního nastavení (VŠECHNA data budou ztracena)"
 
 #. Type: boolean
 #. Description
@@ -3888,7 +3885,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "Správcovské OPAL heslo:"
 
 #. Type: password
 #. Description
@@ -3898,6 +3895,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Pro ${DEVICE} musíte zvolit nové správcovské OPAL heslo, nebo zadat "
+"existující."
 
 #. Type: password
 #. Description
@@ -3909,29 +3908,27 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Toto heslo se použije pro správu celého zařízení - přidávání nových "
+"OPAL oblastí, jejich odstraňování a mazání. Pokud toto heslo ztratíte, "
+"bude nutno resetovat zařízení do továrního nastavení, přičemž přijdete "
+"o všechna data ze všech oblastí."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Znovu zadejte heslo pro ověření:"
+msgstr "Znovu zadejte správcovské OPAL heslo pro ověření:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Zadejte znovu rootovo heslo, abyste se přesvědčili, že jste jej zadali "
+"Zadejte znovu stejné heslo, abyste se přesvědčili, že jste jej zadali "
 "správně."
 
 #. Type: password
@@ -3939,7 +3936,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -3949,69 +3946,56 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Musíte zadat OPAL PSID pro ${DEVICE}. Obvykle ho naleznete na štítku disku."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Znovu zadejte heslo pro ověření:"
+msgstr "Znovu zadejte OPAL PSID pro ověření:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Znovu zadejte přístupovou frázi, abyste se přesvědčili, že jste ji zadali "
+"Zadejte znovu stejné PSID, abyste se přesvědčili, že jste jej zadali "
 "správně."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Chyba při zadávání hesla"
+msgstr "Chyba při zadávání OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Zadaná hesla nejsou stejná. Zkuste to znovu."
+msgstr "Zadaná OPAL PSID nejsou stejná. Zkuste to prosím znovu."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Prázdné OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Zadali jste prázdné heslo, což není dovoleno. Zvolte si prosím neprázdné "
-"heslo."
+"Zadali jste prázdné PSID, což není dovoleno. Zvolte si prosím neprázdné "
+"PSID."
 
 #. Type: entropy
 #. Description
@@ -4038,22 +4022,13 @@ msgstr "Během vytváření souboru s klíčem nastala chyba."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr ""
-"btrfs jako kořenový souborový systém je podporován pouze se samostatnou "
-"oblastí pro /boot/"
+msgstr "Nastavit šifrování bez samostatné oblasti pro /boot?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
@@ -4061,8 +4036,9 @@ msgid ""
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
 "Zvolili jste uložení kořenového souborového systému na šifrované oblasti. "
-"Takové použití vyžaduje samostatnou oblast /boot, na kterou se uloží jádro a "
-"initrd."
+"Při použití zavaděče GRUB to obvykle vyžaduje samostatnou oblast /boot, "
+"na kterou se uloží jádro a initrd. Toto není nutné, pokud používáte "
+"systemd-boot/UKI, protože se místo toho použije oblast ESP."
 
 #. Type: error
 #. Description
@@ -4734,20 +4710,16 @@ msgstr "Nebylo zadáno jméno logického svazku. Zadejte prosím nějaké jméno
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:52001
-#, fuzzy
-#| msgid ""
-#| "Please enter the size of the new logical volume. The size may be entered "
-#| "in the following formats: 10K (Kilobytes), 10M (Megabytes), 10G "
-#| "(Gigabytes), 10T (Terabytes). The default unit is Megabytes."
 msgid ""
 "Please enter the size of the new logical volume. You can use the following "
 "formats: 10KB (Kilobytes), 10KiB (Kibibytes), 10MB (Megabytes), 10MiB "
 "(Mebibytes), 10GB (Gigabytes), 10GiB (Gibibytes), 10TB (Terabytes), 10TiB "
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
-"Zadejte velikost nového logického svazku. Velikost můžete zadat v "
-"následujících formátech: 10K (kilobajty), 10M (megabajty), 10G (gigabajty), "
-"10T (terabajty). Standardní jednotky jsou megabajty."
+"Zadejte velikost nového logického svazku. Můžete použít následující "
+"formáty: 10KB (kilobajty), 10KiB (kibibajty), 10MB (megabajty), "
+"10MiB (mebibajty), 10GB (gigabajty), 10GiB (gibibajty), 10TB (terabajty), "
+"10TiB (tebibajty). Výchozí jednotky jsou megabajty."
 
 #. Type: error
 #. Description
@@ -5727,17 +5699,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Instaluje se zavaděč aboot"
+msgstr "Instalovat zavaděč systemd-boot"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Počet pokusů na zaváděcí záznam (0 pro vypnutí):"
 
 #. Type: select
 #. Description
@@ -5749,6 +5719,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Nakonfiguruje automatickou logiku zavádění, která se automaticky vrátí k "
+"předchozímu zaváděcímu záznamu v případě, že ten nový po prvním přidání "
+"selže vícekrát, než je nastavený počet opakování."
+"Více informací naleznete v https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description

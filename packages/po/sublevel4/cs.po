@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-14 20:02+0000\n"
-"PO-Revision-Date: 2023-06-27 21:49+0200\n"
+"PO-Revision-Date: 2024-09-10 17:20+0200\n"
 "Last-Translator:  Miroslav Kure <kurem@debian.cz>\n"
 "Language-Team:  Czech <provoz@debian.cz>\n"
 "Language: ca\n"
@@ -404,19 +404,15 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
-#| msgid "Failed to mount CD-ROM"
 msgid "Failed to mount ${PATH}"
-msgstr "Selhalo připojení CD-ROM"
+msgstr "Selhalo připojení ${PATH}"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
-#| msgid "Mounting the proc file system on /target/proc failed."
 msgid "Mounting the ${FSTYPE} file system on ${PATH} failed."
-msgstr "Připojení souborového systému proc pod /target/proc selhalo."
+msgstr "Připojení souborového systému ${FSTYPE} pod ${PATH} selhalo."
 
 #. Type: error
 #. Description
