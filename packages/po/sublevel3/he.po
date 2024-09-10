@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-07-02 22:09+0000\n"
+"PO-Revision-Date: 2024-09-10 17:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: boolean
 #. Description
@@ -5615,7 +5615,7 @@ msgstr "התקנת מנהל האתחול systemd-boot"
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "מספר הניסיונות המרבי לרשומת טעינה (0 להשבתה):"
 
 #. Type: select
 #. Description
@@ -5627,6 +5627,9 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"הגדרת לוגיקת הערכת הטעינה האוטומטית, שנסוגה אוטומטית לרשומת הטעינה הקודמת אם "
+"רשומה חדשה כושלת יותר ממספר הניסיונות החוזרים המוגדר לאחר הוספתה לראשונה. "
+"לפרטים נוספים, ניתן לגשת אל: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description

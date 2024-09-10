@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-01-26 07:52+0000\n"
+"PO-Revision-Date: 2024-09-10 17:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #  Type: boolean
 #  Description
@@ -43,6 +43,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"קושחה היא סוג של תוכנה שמספקת שליטה ברמת היסוד על רכיבי חומרה מסוימים (כגון "
+"כרטיסי רשת אלחוטית או ערכות שבבי שמע), שלא יתפקדו במלואם או שלא יתפקדו כלל "
+"בלעדיה."
 
 #. Type: boolean
 #. Description
@@ -54,6 +57,9 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"למרות שזה כלל לא חלק מדביאן, נוצרה קושחה בלתי חופשית שמטרתה לעבוד מול דביאן. "
+"לקושחה יש מגוון של רישיונות שמגבילים את מסגרות החופש שלך להשתמש, לשנות או "
+"לשתף את התוכנה ובאופן כללי חסר להם קוד המקור בצורה שמאפשרת לך ללמוד ממנו."
 
 #. Type: text
 #. Description

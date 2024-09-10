@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel2_he\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-06-09 10:22+0000\n"
+"PO-Revision-Date: 2024-09-10 17:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <debian-hebrew-common@lists.alioth.debian.org>\n"
 "Language: he\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -726,8 +726,8 @@ msgid ""
 "The list shows the available kernels. Please choose one of them in order to "
 "make the system bootable from the hard drive."
 msgstr ""
-"הרשימה מראה את הקרנלים הזמינים. בחר אחד מהם כדי להפוך את המערכת שלך לברת "
-"אתחול מהדיסק הקשיח."
+"הרשימה מראה את הליבות הזמינות. נא לבחור אחת מהן כדי להפוך את המערכת שלך לברת "
+"אתחול מהכונן הקשיח."
 
 #. Type: boolean
 #. Description
@@ -1363,9 +1363,9 @@ msgid ""
 "media, and continue. Otherwise, you will be given the option to manually "
 "select some modules."
 msgstr ""
-"יתכן שיהיה עליך לטעון מנהלי התקנים נוספים מאמצעי נתיק, כגון כונן דיסקטים או "
-"כונן USB. אם יש לך כאלה כרגע, נא להכניס את האמצעי ולהמשיך. אחרת, יתאפשר לך "
-"לבחור מודולים ידנית."
+"יתכן שצריך לטעון מנהלי התקנים נוספים מאמצעי נתיק, כגון כונן תקליטונים או "
+"כונן USB. אם יש לך כאלה כרגע, נא להכניס את האמצעי ולהמשיך. אחרת, תינתן "
+"אפשרות לבחור מודולים ידנית."
 
 #. Type: boolean
 #. Description
@@ -1793,7 +1793,7 @@ msgstr ""
 "   UEFI/רשומת אתחול - MBR);\n"
 " - „‎/dev/sdb” יתקין את GRUB על כונן משני (יכול להיות כונן אחסון\n"
 "   נתיק למשל);\n"
-" - „‎/dev/fd0” יתקין את GRUB על דיסקט."
+" - „‎/dev/fd0” יתקין את GRUB על תקליטון."
 
 #. Type: password
 #. Description
@@ -2119,8 +2119,8 @@ msgid ""
 "A driver for your hardware is not available. You may need to load drivers "
 "from removable media, such as a USB stick, or driver floppy."
 msgstr ""
-"אין מנהל התקן זמין לחומרה שלך. אולי יהיה עליך לטעון מנהלי התקנים ממדיה נתיקה "
-"כגון התקן USB או דיסקט מנהלי התקנים."
+"אין מנהל התקן זמין לחומרה שלך. אולי צריך לטעון מנהלי התקנים מאמצעי אחסון "
+"נתיק כגון התקן USB או תקליטון מנהלי התקנים."
 
 #. Type: boolean
 #. Description
@@ -2148,7 +2148,7 @@ msgid ""
 "can be loaded from removable media, such as a USB stick or floppy."
 msgstr ""
 "חלק מהתקני החומרה שלך צריכים קובצי קושחה שאינם חופשיים כדי לפעול. ניתן לטעון "
-"את הקושחה ממדיה נתיקה כגון התקן USB או דיסקט."
+"את הקושחה ממדיה נתיקה כגון התקן USB או תקליטון."
 
 #. Type: boolean
 #. Description
@@ -2179,7 +2179,7 @@ msgstr "מערכת קבצים מעוגנת"
 #. :sl2:
 #: ../save-logs.templates:2001
 msgid "floppy"
-msgstr "דיסקט"
+msgstr "תקליטון"
 
 #. Type: select
 #. Description
@@ -2200,7 +2200,7 @@ msgid ""
 msgstr ""
 "קובצי ניפוי השגיאות לתכנית ההתקנה זמינים תחת /var/log/. אפשר להגיש אותם דרך "
 "הרשת (או שרת קטן שמופעל במכונה הזאת כדי לספק את הצורך הזה), הם יישמרו למערכת "
-"קבצים מעוגנת כלשהי (כמו כזאת שעל כונן USB נשלף) או לכונן דיסקטים."
+"קבצים מעוגנת כלשהי (כמו כזאת שעל כונן USB נשלף) או לכונן תקליטונים."
 
 #. Type: string
 #. Description
@@ -2239,14 +2239,14 @@ msgstr "התיקייה „${DIR}” אינה קיימת."
 #. :sl2:
 #: ../save-logs.templates:7001
 msgid "Insert formatted floppy in drive"
-msgstr "נא להכניס דיסקט מאותחל לכונן"
+msgstr "נא להכניס תקליטון מאותחל לכונן"
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../save-logs.templates:7001
 msgid "Log files and debug info will be copied into this floppy."
-msgstr "קובצי יומנים ופרטי ניפוי שגיאות יועתקו לדיסקט זה."
+msgstr "קובצי יומנים ופרטי ניפוי שגיאות יועתקו לתקליטון זה."
 
 #. Type: note
 #. Description
@@ -2404,8 +2404,8 @@ msgid ""
 "with the installation. If you know that the install will work without extra "
 "drivers, you can skip this step."
 msgstr ""
-"כנראה שצריך לטעון מנהלי התקנים מדיסקט או מהתקן USB לפני שממשיכים עם ההתקנה. "
-"אם ידוע לך שההתקנה תעבוד ללא מנהלי התקנים נוספים ניתן לדלג על שלב זה."
+"כנראה שצריך לטעון מנהלי התקנים מתקליטון או מהתקן USB לפני שממשיכים עם "
+"ההתקנה. אם ידוע לך שההתקנה תעבוד ללא מנהלי התקנים נוספים ניתן לדלג על שלב זה."
 
 #. Type: boolean
 #. Description
@@ -2415,8 +2415,8 @@ msgid ""
 "If you do need to load drivers, insert the appropriate removable media, such "
 "as a driver floppy or USB stick before continuing."
 msgstr ""
-"אם יש לטעון מנהלי התקנים, נא להכניס דיסקט או התקן USB שמכיל את מנהלי ההתקנים "
-"המתאימים לכונן לפני המשך התהליך."
+"אם יש לטעון מנהלי התקנים, נא להכניס תקליטון או התקן USB שמכיל את מנהלי "
+"ההתקנים המתאימים לכונן לפני המשך התהליך."
 
 #. Type: text
 #. Description
@@ -2443,9 +2443,9 @@ msgid ""
 "that the correct media is inserted. You can still continue if you have an "
 "unofficial removable media you want to use."
 msgstr ""
-"הדיסקט או התקן ה־USB אינם מכילים מנהל התקן מוכר. נא לוודא כי השתמשת בדיסקט "
-"או בהתקן ה־USB הנכון. ניתן עדיין להמשיך אם יש לך דיסקט או התקן USB לא רשמי "
-"שברצונך להשתמש בו."
+"התקליטון או התקן ה־USB אינם מכילים מנהל התקן מוכר. נא לוודא כי השתמשת "
+"בתקליטון או בהתקן ה־USB הנכון. ניתן עדיין להמשיך אם יש לך תקליטון או התקן "
+"USB לא רשמי שברצונך להשתמש בו."
 
 #. Type: text
 #. Description
@@ -3219,10 +3219,8 @@ msgstr ""
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:23001
-#, fuzzy
-#| msgid "Small-disk (< 1GB) partitioning scheme"
 msgid "Small-disk (< 10GB) partitioning scheme"
-msgstr "חלוקה למחיצות של דיסק קטן (< 1 ג״ב)"
+msgstr "חלוקה למחיצות של כונן קטן (< 10 ג״ב)"
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#
 #. Type: string

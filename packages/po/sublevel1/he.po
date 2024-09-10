@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-05-05 09:12+0000\n"
+"PO-Revision-Date: 2024-09-10 17:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: select
 #. Description
@@ -3741,7 +3741,7 @@ msgstr "מחיצות נפרדות ל־‎/home‎, ל־‎/var ול־‎/tmp"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "‎/var ו־‎/srv‏ נפרדים, swap (החלפה) < 1 ג״ב (לשרתים)"
 
 #. Type: text
 #. Description
