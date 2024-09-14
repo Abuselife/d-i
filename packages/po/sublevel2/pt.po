@@ -3822,7 +3822,6 @@ msgstr "/home - directórios do utilizador"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - ficheiros temporários (predefinido: tmpfs)"
 

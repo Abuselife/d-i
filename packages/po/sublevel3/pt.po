@@ -5812,7 +5812,6 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
 msgstr "Instalar o gestor de arranque systemd-boot"
 
@@ -5835,8 +5834,8 @@ msgid ""
 msgstr ""
 "Configura a lógica de avaliação do arranque automático, que automaticamente "
 "reverte para uma entrada de arranque anterior se a nova falhar mais do que o "
-"número de tentativas configurado quando foi acrescentada. Para mais detelhes, "
-"veja: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
+"número de tentativas configurado quando foi acrescentada. Para mais "
+"detelhes, veja: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
