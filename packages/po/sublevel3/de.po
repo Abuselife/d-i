@@ -1662,8 +1662,8 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group was "
 "aborted."
 msgstr ""
-"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer "
-"neuen Volume-Gruppe wurde abgebrochen."
+"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer neuen "
+"Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
 #. Description
@@ -1874,8 +1874,8 @@ msgstr ""
 msgid ""
 "No physical volumes were selected. Extension of the volume group was aborted."
 msgstr ""
-"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der "
-"Volume-Gruppe wurde abgebrochen."
+"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der Volume-"
+"Gruppe wurde abgebrochen."
 
 #. Type: error
 #. Description
@@ -1957,8 +1957,8 @@ msgid ""
 "physical volume attached. Please delete the volume group instead."
 msgstr ""
 "Die ausgewählte Volume-Gruppe (${VG}) konnte nicht verkleinert werden. Ihr "
-"ist nur ein physisches Laufwerk zugewiesen. Bitte löschen Sie "
-"stattdessen die Volume-Gruppe."
+"ist nur ein physisches Laufwerk zugewiesen. Bitte löschen Sie stattdessen "
+"die Volume-Gruppe."
 
 #. Type: error
 #. Description
@@ -1980,8 +1980,8 @@ msgid ""
 "create more physical volumes and volume groups."
 msgstr ""
 "Es wurden keine Volume-Gruppen gefunden, auf der ein neues logisches Volume "
-"erstellt werden kann. Bitte erstellen Sie mehr physische Volumes und "
-"Volume-Gruppen."
+"erstellt werden kann. Bitte erstellen Sie mehr physische Volumes und Volume-"
+"Gruppen."
 
 #. Type: error
 #. Description
@@ -1993,9 +1993,9 @@ msgid ""
 "group."
 msgstr ""
 "Es wurden keine freien Volume-Gruppen gefunden, auf denen ein neues "
-"logisches Volume erstellt werden kann. Bitte erstellen Sie mehr "
-"physische Volumes und Volume-Gruppen oder verkleinern Sie eine "
-"existierende Volume-Gruppe."
+"logisches Volume erstellt werden kann. Bitte erstellen Sie mehr physische "
+"Volumes und Volume-Gruppen oder verkleinern Sie eine existierende Volume-"
+"Gruppe."
 
 #. Type: string
 #. Description
@@ -2188,9 +2188,9 @@ msgid ""
 "required kernel modules or re-partition the hard drives."
 msgstr ""
 "Auf Ihrem System wurden keine physischen Volumes (Partitionen) gefunden. "
-"Möglicherweise sind bereits alle physischen Volumes in Gebrauch. Es "
-"könnte außerdem notwendig sein, zunächst einige Kernel-Module zu laden oder "
-"die Festplatten neu zu partitionieren."
+"Möglicherweise sind bereits alle physischen Volumes in Gebrauch. Es könnte "
+"außerdem notwendig sein, zunächst einige Kernel-Module zu laden oder die "
+"Festplatten neu zu partitionieren."
 
 #. Type: error
 #. Description
@@ -3705,8 +3705,7 @@ msgstr "fehlt"
 #: ../partman-crypto.templates:40001
 msgid "In use as physical volume for encrypted volume ${DEV}"
 msgstr ""
-"Wird als physisches Volume für verschlüsselten Datenträger ${DEV} "
-"verwendet"
+"Wird als physisches Volume für verschlüsselten Datenträger ${DEV} verwendet"
 
 #. Type: error
 #. Description
@@ -4681,8 +4680,8 @@ msgid ""
 msgstr ""
 "Nachdem der Logical Volume Manager konfiguriert ist, sind während der "
 "Installation keine weiteren Änderungen an der Partitionierung der "
-"Festplatten, die physische Volumes enthalten, erlaubt. Bitte überzeugen "
-"Sie sich, dass die Einteilung der Partitionen auf diesen Festplatten richtig "
+"Festplatten, die physische Volumes enthalten, erlaubt. Bitte überzeugen Sie "
+"sich, dass die Einteilung der Partitionen auf diesen Festplatten richtig "
 "ist, bevor Sie fortfahren."
 
 #. Type: boolean
@@ -4782,8 +4781,8 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group has "
 "been aborted."
 msgstr ""
-"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer "
-"neuen Volume-Gruppe wurde abgebrochen."
+"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer neuen "
+"Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
 #. Description
@@ -4838,8 +4837,8 @@ msgid ""
 "No physical volumes were selected. Extension of the volume group has been "
 "aborted."
 msgstr ""
-"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der "
-"Volume-Gruppe wurde abgebrochen."
+"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der Volume-"
+"Gruppe wurde abgebrochen."
 
 #. Type: multiselect
 #. Description
@@ -4863,8 +4862,8 @@ msgstr ""
 msgid ""
 "No physical volumes were selected. Reduction of the volume group was aborted."
 msgstr ""
-"Es wurden keine physischen Volumes ausgewählt. Die Reduzierung der "
-"Volume-Gruppe wurde abgebrochen."
+"Es wurden keine physischen Volumes ausgewählt. Die Reduzierung der Volume-"
+"Gruppe wurde abgebrochen."
 
 #. Type: error
 #. Description
@@ -5071,14 +5070,13 @@ msgid ""
 "volume group at any time, and logical volumes can be resized up to the "
 "amount of unallocated space in the volume group."
 msgstr ""
-"LVM erlaubt es, Festplatten oder Partitionen (»physische Volumes« "
-"genannt) zu einer virtuellen Platte (»Volume-Group«) zu kombinieren, die "
-"dann in virtuelle Partitionen (»logische Volumes«) unterteilt werden können. "
-"Volume-Groups und logische Volumes können sich über mehrere physische "
-"Festplatten erstrecken. Es können jederzeit neue physische Volumes zu "
-"einer Volume-Group hinzugefügt werden, und logische Volumes können in Ihrer "
-"Größe verändert werden (maximal um den verfügbaren freien Speicherplatz in "
-"der Volume-Group)."
+"LVM erlaubt es, Festplatten oder Partitionen (»physische Volumes« genannt) "
+"zu einer virtuellen Platte (»Volume-Group«) zu kombinieren, die dann in "
+"virtuelle Partitionen (»logische Volumes«) unterteilt werden können. Volume-"
+"Groups und logische Volumes können sich über mehrere physische Festplatten "
+"erstrecken. Es können jederzeit neue physische Volumes zu einer Volume-Group "
+"hinzugefügt werden, und logische Volumes können in Ihrer Größe verändert "
+"werden (maximal um den verfügbaren freien Speicherplatz in der Volume-Group)."
 
 #. Type: note
 #. Description
@@ -5845,8 +5843,7 @@ msgid ""
 msgstr ""
 "Wählen Sie die Partitionen, die zu einem RAID-Array assembliert "
 "(zusammengefügt) werden sollen. Wenn Sie »Automatisch« wählen, werden alle "
-"Geräte, die physische Volumes für RAID enthalten, durchsucht und "
-"assembliert."
+"Geräte, die physische Volumes für RAID enthalten, durchsucht und assembliert."
 
 #. Type: multiselect
 #. Description
@@ -5859,8 +5856,8 @@ msgid ""
 msgstr ""
 "Beachten Sie, dass eine RAID-Partition, die am Ende einer Platte liegt, "
 "manchmal dazu führen kann, dass auf dieser Platte fälschlicherweise ein "
-"physisches RAID-Volume detektiert wird. In einem solchen Fall sollten "
-"Sie die betreffenden Partitionen einzeln manuell auswählen."
+"physisches RAID-Volume detektiert wird. In einem solchen Fall sollten Sie "
+"die betreffenden Partitionen einzeln manuell auswählen."
 
 #. Type: boolean
 #. Description
