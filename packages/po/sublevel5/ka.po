@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-11-09 07:36+0000\n"
+"PO-Revision-Date: 2024-09-17 23:09+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #. Type: boolean
 #. Description
@@ -41,6 +41,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"მიკროკოდი პროგრამის ტიპია ზოგიერთი აპარატურული კომპონენტის (მაგ: Wi-Fi "
+"ბარათები ან აუდიო ჩიპები) ქვედა დონის მართვისთვის, რომლებიც ისე არ "
+"იმუშავებდნენ."
 
 #. Type: boolean
 #. Description
@@ -52,6 +55,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"მიუხედავად მისა, რომ ის Debian-ის ნაწილი არაა, ზოგიერთი არათავისუფალი "
+"მიკროკოდი Debian-ზე მაინც აამუშავებს. ამ მიკროკოდების ლიცენზია იცვლება და "
+"ზღუდავს თქვენს თავისუფლებას, გამოიყენოთ, შეცვალოთ ან გააზიაროთ ეს პროგრამა "
+"და, როგორც წესი, არ აქვს პროგრამული კოდი, რომელიც შეგიძლიათ, შეისწავლოთ."
 
 #. Type: text
 #. Description
@@ -99,9 +106,9 @@ msgid ""
 "This is needed by your machine in order to boot.  Please go back and use "
 "your first partition as a boot partition."
 msgstr ""
-"თქვენი ჩასატვირთი პარტიცია არ არის პირველადი თქვენ მყარ დისკზე. თქვენ "
-"სისტემას სჭირდება ჩასატვირთად რომ იყოს ასეთნაირად. გთხოვთ დაბრუნდით უკან და "
-"აირჩიეთ პირველი პარტიცია როგორც ჩასატვირთი პარტიცია."
+"თქვენი ჩატვირთვადი დანაყოფი თქვენი მყარი დისკის პირველ დანაყოფზე არაა. ეს "
+"საჭიროა, რომ თქვენი მანქანა ჩაიტვირთოს.     დაბრუნდით და გამოიყენეთ პირველი "
+"დანაყოფი, როგორც ჩასატვირთი."
 
 #. Type: text
 #. Description
@@ -177,8 +184,8 @@ msgid ""
 "for installing the Debian system (via NFS or HTTP). Only the listed devices "
 "are supported."
 msgstr ""
-"გთხოვთ მიუთითოთ თქვენი ძირითადი ქსელის ტიპი, ორმელიც გამოიყენება Debian-ის "
-"სისტემის ინსტალაციისათვის (NFS ან HTTP-ის გამოყენებით). მხარდაჭერილია მხოლოდ "
+"გთხოვთ მიუთითოთ თქვენი ძირითადი ქსელის ტიპი, რომელიც გამოიყენება Debian-ის "
+"სისტემის დაყენებისთვის (NFS ან HTTP-ის გამოყენებით). მხარდაჭერილია მხოლოდ "
 "ნაჩვენები მოწყობილობები."
 
 #. Type: select
@@ -197,7 +204,7 @@ msgstr "CTC წაკითხვის მოწყობილობა:"
 #: ../s390-netdevice.templates:2001 ../s390-netdevice.templates:3001
 msgid "The following device numbers might belong to CTC or ESCON connections."
 msgstr ""
-"შემდეგი მოწყობილობის ნომრები შესაძლოა CTC ან ESCON კავშირებს ეკუთვნოდეს."
+"შემდეგი მოწყობილობის ნომრები, შესაძლოა, CTC ან ESCON კავშირებს ეკუთვნოდეს."
 
 #. Type: select
 #. Description
@@ -301,7 +308,7 @@ msgid ""
 "VM please make sure that your card is attached to this guest."
 msgstr ""
 "ვერ მოიძებნა OSA-Express QDIO cards / HiperSockets. თუ თქვენ VM-ს იყენებთ, "
-"დარწმუნდით, რომ თქვენი ბარათი ამ guest-ზე მიერთებულია."
+"დარწმუნდით, რომ თქვენი ბარათი ამ სტუმარზე მიერთებულია."
 
 #. Type: string
 #. Description
@@ -333,9 +340,9 @@ msgid ""
 "removed from incoming IPv4 packets. Using the card in layer2 mode will make "
 "it keep the MAC addresses of IPv4 packets."
 msgstr ""
-"სტანდარტულად OSA-Express ბარათები layer3 რეჟიმს იყენებს. ამ რეჟიმში LLC-"
-"ჰედერები შემომავალ IPv4 პაკეტებს შორდება. ბარათის layer2 რეჟიმში გამოყენება "
-"შეუნარჩუნებს მას IPv4 პაკეტების MAC-მისამართებს."
+"სტანდარტულად OSA-Express ბარათები layer3 რეჟიმს იყენებს. ამ რეჟიმში LLC "
+"თავსართები შემომავალ IPv4 პაკეტებს შორდება. ბარათის layer2 რეჟიმში "
+"გამოყენება შეუნარჩუნებს მას IPv4 პაკეტების MAC-მისამართებს."
 
 #. Type: boolean
 #. Description
@@ -360,7 +367,7 @@ msgstr "VM პარტნიორი:"
 #. :sl5:
 #: ../s390-netdevice.templates:13001
 msgid "Please enter the name of the VM peer you want to connect to."
-msgstr "შეიყვანეთ პარტნიორი VM, რომელსაც გნებავთ, მიუერთდეთ."
+msgstr "შეიყვანეთ პარტნიორი VM-ის სახელი, რომელსაც გნებავთ, მიუერთდეთ."
 
 #. Type: string
 #. Description
@@ -370,8 +377,8 @@ msgid ""
 "If you want to connect to multiple peers, separate the names by colons, e."
 "g.  tcpip:linux1."
 msgstr ""
-"თუ მრავალ peer-თან გსურთ მიერთები, გამოყავით სახელები ორწერტილით, მაგ. tcpip:"
-"linux1."
+"თუ მრავალ პარტნიორთან გსურთ მიერთები, გამოყავით სახელები ორწერტილით, მაგ. "
+"tcpip:linux1."
 
 #. Type: string
 #. Description
@@ -382,9 +389,9 @@ msgid ""
 "IUCV must be enabled in the VM user directory for this driver to work and it "
 "must be set up on both ends of the communication."
 msgstr ""
-"სტანდარტული TCP/IP სერვერის სახელი VM-ზე არის TCPIP; VIF-ზე კი $TCPIP. "
-"შენიშვნა: ამ დრაივერი სფუნქციონირებისათვის IUCV გააქტიურებული უნდა იყოს VM "
-"user directory-ში, ასევე იგი კომუნიკაციის ორივე ბოლოში უნდა იყოს დაყენებული."
+"სტანდარტული TCP/IP სერვერის სახელი ვმ-ზე არის TCPIP; VIF-ზე კი $TCPIP. "
+"შენიშვნა: ამ დრაივერის სამუშაოდ IUCV გააქტიურებული უნდა იყოს VM user "
+"directory-ში, ასევე იგი კომუნიკაციის ორივე ბოლოში უნდა იყოს დაყენებული."
 
 #. Type: text
 #. Description
@@ -411,14 +418,14 @@ msgid ""
 "select each device you want to use one at a time."
 msgstr ""
 "ხელმისაწვდომია შემდეგი „direct access storage devices“ (DASD) მოწყობილობები. "
-"გთხოვთ სათითაოდ ამოირჩიოთ ყოველი გამოასყენებელი მოწყობილობა."
+"გთხოვთ სათითაოდ ამოირჩიოთ ყოველი გამოსაყენებელი მოწყობილობა."
 
 #. Type: select
 #. Description
 #. :sl5:
 #: ../s390-dasd.templates:1002
 msgid "Select \"Finish\" at the bottom of the list when you are done."
-msgstr "როცა დაასრულებთ, ქვემოთ, ღილაკს\"დასრულება\" დააწექით."
+msgstr "როცა დაასრულებთ, ქვემოთ, ღილაკს \"დასრულება\" დააწექით."
 
 #. Type: string
 #. Description
@@ -435,8 +442,8 @@ msgid ""
 "Please choose a device. You have to specify the complete device number, "
 "including leading zeros."
 msgstr ""
-"გთხოვთ ამოირჩიოთ მოწყობილობა. თქვენ უნდა მიოუთითოთ მოწყობილობის სრული "
-"ნომერი, საწყისი ნულების ჩათვლით."
+"აირჩიეთ მოწყობილობა. უნდა მიუთითოთ მოწყობილობის სრული ნომერი, საწყისი "
+"ნულების ჩათვლით."
 
 #. Type: error
 #. Description
@@ -507,7 +514,7 @@ msgid ""
 "For example, the DASD could be a member of a mapped device in an LVM volume "
 "group."
 msgstr ""
-"DASD მოწყობილობის %{device} დაბალი დონის ფორმატირება შეუძლებალია, რადგან "
+"DASD მოწყობილობის %{device} დაბალი დონის ფორმატირება შეუძლებელია, რადგან "
 "DASD უკვე გამოიყენება.  შეიძლება DASD-ი მიმაგრებული მოწყობილობის ან LVM "
 "ტომების ჯგუფის ნაწილია."
 
