@@ -1652,7 +1652,7 @@ msgstr "Bitte geben Sie einen Namen für die neue Volume-Gruppe ein."
 #: ../partman-lvm.templates:28001 ../partman-lvm.templates:40001
 #: ../partman-lvm.templates:45001
 msgid "No physical volumes selected"
-msgstr "Keine physikalischen Volumes ausgewählt"
+msgstr "Keine physischen Volumes ausgewählt"
 
 #. Type: error
 #. Description
@@ -1662,7 +1662,7 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group was "
 "aborted."
 msgstr ""
-"Es wurden keine physikalischen Volumes ausgewählt. Die Erstellung einer "
+"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer "
 "neuen Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
@@ -1874,7 +1874,7 @@ msgstr ""
 msgid ""
 "No physical volumes were selected. Extension of the volume group was aborted."
 msgstr ""
-"Es wurden keine physikalischen Volumes ausgewählt. Die Erweiterung der "
+"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der "
 "Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
@@ -1892,7 +1892,7 @@ msgid ""
 "The physical volume ${PARTITION} could not be added to the selected volume "
 "group."
 msgstr ""
-"Das physikalische Volume ${PARTITION} konnte der ausgewählten Volume-Gruppe "
+"Das physische Volume ${PARTITION} konnte der ausgewählten Volume-Gruppe "
 "nicht hinzugefügt werden."
 
 #. Type: error
@@ -1957,7 +1957,7 @@ msgid ""
 "physical volume attached. Please delete the volume group instead."
 msgstr ""
 "Die ausgewählte Volume-Gruppe (${VG}) konnte nicht verkleinert werden. Ihr "
-"ist nur ein physikalisches Laufwerk zugewiesen. Bitte löschen Sie "
+"ist nur ein physisches Laufwerk zugewiesen. Bitte löschen Sie "
 "stattdessen die Volume-Gruppe."
 
 #. Type: error
@@ -1968,7 +1968,7 @@ msgid ""
 "The physical volume ${PARTITION} could not be removed from the selected "
 "volume group."
 msgstr ""
-"Das physikalische Volume ${PARTITION} konnte der ausgewählten Volume-Gruppe "
+"Das physische Volume ${PARTITION} konnte der ausgewählten Volume-Gruppe "
 "nicht hinzugefügt werden."
 
 #. Type: error
@@ -1980,7 +1980,7 @@ msgid ""
 "create more physical volumes and volume groups."
 msgstr ""
 "Es wurden keine Volume-Gruppen gefunden, auf der ein neues logisches Volume "
-"erstellt werden kann. Bitte erstellen Sie mehr physikalische Volumes und "
+"erstellt werden kann. Bitte erstellen Sie mehr physische Volumes und "
 "Volume-Gruppen."
 
 #. Type: error
@@ -1994,7 +1994,7 @@ msgid ""
 msgstr ""
 "Es wurden keine freien Volume-Gruppen gefunden, auf denen ein neues "
 "logisches Volume erstellt werden kann. Bitte erstellen Sie mehr "
-"physikalische Volumes und Volume-Gruppen oder verkleinern Sie eine "
+"physische Volumes und Volume-Gruppen oder verkleinern Sie eine "
 "existierende Volume-Gruppe."
 
 #. Type: string
@@ -2176,7 +2176,7 @@ msgstr "Das logische Volume ${LV} auf ${VG} konnte nicht gelöscht werden."
 #. :sl3:
 #: ../lvmcfg-utils.templates:38001 ../partman-lvm.templates:58001
 msgid "No usable physical volumes found"
-msgstr "Es wurden keine nutzbaren physikalischen Volumes gefunden"
+msgstr "Es wurden keine nutzbaren physischen Volumes gefunden"
 
 #. Type: error
 #. Description
@@ -2187,8 +2187,8 @@ msgid ""
 "physical volumes may already be in use. You may also need to load some "
 "required kernel modules or re-partition the hard drives."
 msgstr ""
-"Auf Ihrem System wurden keine physikalischen Volumes (Partitionen) gefunden. "
-"Möglicherweise sind bereits alle physikalischen Volumes in Gebrauch. Es "
+"Auf Ihrem System wurden keine physischen Volumes (Partitionen) gefunden. "
+"Möglicherweise sind bereits alle physischen Volumes in Gebrauch. Es "
 "könnte außerdem notwendig sein, zunächst einige Kernel-Module zu laden oder "
 "die Festplatten neu zu partitionieren."
 
@@ -3029,7 +3029,7 @@ msgstr "Mehrere Platten (%s)"
 #. :sl3:
 #: ../partman-auto-lvm.templates:9001
 msgid "Non-existing physical volume"
-msgstr "Nicht-existierendes physikalisches Volume"
+msgstr "Nicht-existierendes physisches Volume"
 
 #. Type: error
 #. Description
@@ -3040,7 +3040,7 @@ msgid ""
 "volume."
 msgstr ""
 "Eine Volume-Gruppen-Definition enthält eine Referenz auf ein nicht-"
-"existierendes physikalisches Volume."
+"existierendes physisches Volume."
 
 #. Type: error
 #. Description
@@ -3058,7 +3058,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-auto-lvm.templates:10001
 msgid "No physical volume defined in volume group"
-msgstr "Kein physikalisches Volume in der Volume-Gruppe definiert"
+msgstr "Kein physisches Volume in der Volume-Gruppe definiert"
 
 #. Type: error
 #. Description
@@ -3069,7 +3069,7 @@ msgid ""
 "that does not contain any physical volume."
 msgstr ""
 "Das automatische Partitionierungsrezept enthält die Definition einer Volume-"
-"Gruppe, die kein einziges physikalisches Volume enthält."
+"Gruppe, die kein einziges physisches Volume enthält."
 
 #. Type: error
 #. Description
@@ -3287,7 +3287,7 @@ msgstr "Loopback (loop%s)"
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr "physikalisches Volume für Verschlüsselung"
+msgstr "physisches Volume für Verschlüsselung"
 
 #. Type: text
 #. Description
@@ -3705,7 +3705,7 @@ msgstr "fehlt"
 #: ../partman-crypto.templates:40001
 msgid "In use as physical volume for encrypted volume ${DEV}"
 msgstr ""
-"Wird als physikalisches Volume für verschlüsselten Datenträger ${DEV} "
+"Wird als physisches Volume für verschlüsselten Datenträger ${DEV} "
 "verwendet"
 
 #. Type: error
@@ -4525,7 +4525,7 @@ msgstr "Anmelden am iSCSI-Target ${TARGET} auf ${PORTAL} fehlgeschlagen"
 #. :sl3:
 #: ../partman-lvm.templates:1001
 msgid "Unallocated physical volumes:"
-msgstr "Nichtzugewiesene physikalische Volumes:"
+msgstr "Nichtzugewiesene physische Volumes:"
 
 #. Type: text
 #. Description
@@ -4539,7 +4539,7 @@ msgstr "Volume-Gruppen:"
 #. :sl3:
 #: ../partman-lvm.templates:3001
 msgid "Uses physical volume:"
-msgstr "Verwendet physikalisches Volume:"
+msgstr "Verwendet physisches Volume:"
 
 #. Type: text
 #. Description
@@ -4681,7 +4681,7 @@ msgid ""
 msgstr ""
 "Nachdem der Logical Volume Manager konfiguriert ist, sind während der "
 "Installation keine weiteren Änderungen an der Partitionierung der "
-"Festplatten, die physikalische Volumes enthalten, erlaubt. Bitte überzeugen "
+"Festplatten, die physische Volumes enthalten, erlaubt. Bitte überzeugen "
 "Sie sich, dass die Einteilung der Partitionen auf diesen Festplatten richtig "
 "ist, bevor Sie fortfahren."
 
@@ -4703,7 +4703,7 @@ msgid ""
 "disks before continuing."
 msgstr ""
 "Ist der Logical Volume Manager konfiguriert, sind keine weiteren Änderungen "
-"an den Partitionen, die sich auf derselben Festplatte wie die physikalischen "
+"an den Partitionen, die sich auf derselben Festplatte wie die physischen "
 "Volumes befinden, erlaubt. Bitte überzeugen Sie sich, ob die Einteilung der "
 "Partitionen auf diesen Festplatten richtig ist."
 
@@ -4735,7 +4735,7 @@ msgstr "Die Konfiguration des Logical Volume Managers wurde abgebrochen."
 #. :sl3:
 #: ../partman-lvm.templates:21001
 msgid "physical volume for LVM"
-msgstr "physikalisches Volume für LVM"
+msgstr "physisches Volume für LVM"
 
 #. Type: text
 #. Description
@@ -4762,10 +4762,10 @@ msgid ""
 " Volume Groups:          ${VGS}\n"
 " Logical Volumes:        ${LVS}"
 msgstr ""
-" Freie physikalische Volumes:      ${FREE_PVS}\n"
-" Verwendete physikalische Volumes: ${USED_PVS}\n"
-" Volume-Gruppen:                   ${VGS}\n"
-" Logische Volumes:                 ${LVS}"
+" Freie physische Volumes:      ${FREE_PVS}\n"
+" Verwendete physische Volumes: ${USED_PVS}\n"
+" Volume-Gruppen:               ${VGS}\n"
+" Logische Volumes:             ${LVS}"
 
 #. Type: note
 #. Description
@@ -4782,7 +4782,7 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group has "
 "been aborted."
 msgstr ""
-"Es wurden keine physikalischen Volumes ausgewählt. Die Erstellung einer "
+"Es wurden keine physischen Volumes ausgewählt. Die Erstellung einer "
 "neuen Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
@@ -4838,7 +4838,7 @@ msgid ""
 "No physical volumes were selected. Extension of the volume group has been "
 "aborted."
 msgstr ""
-"Es wurden keine physikalischen Volumes ausgewählt. Die Erweiterung der "
+"Es wurden keine physischen Volumes ausgewählt. Die Erweiterung der "
 "Volume-Gruppe wurde abgebrochen."
 
 #. Type: multiselect
@@ -4863,7 +4863,7 @@ msgstr ""
 msgid ""
 "No physical volumes were selected. Reduction of the volume group was aborted."
 msgstr ""
-"Es wurden keine physikalischen Volumes ausgewählt. Die Reduzierung der "
+"Es wurden keine physischen Volumes ausgewählt. Die Reduzierung der "
 "Volume-Gruppe wurde abgebrochen."
 
 #. Type: error
@@ -4925,14 +4925,14 @@ msgstr "Das logische Volume ${LV} auf ${VG} konnte nicht gelöscht werden."
 #. :sl3:
 #: ../partman-lvm.templates:60001
 msgid "Error while initializing physical volume"
-msgstr "Fehler bei Initialisierung eines physikalischen Volumes"
+msgstr "Fehler bei Initialisierung eines physischen Volumes"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:60001
 msgid "The physical volume ${PV} could not be initialized."
-msgstr "Das physikalische Volume ${PV} konnte nicht initialisiert werden."
+msgstr "Das physische Volume ${PV} konnte nicht initialisiert werden."
 
 #. Type: error
 #. Description
@@ -4981,7 +4981,7 @@ msgid ""
 "volume groups and physical volumes which are about to be removed:"
 msgstr ""
 "Das gewählte Gerät enthält bereits die folgenden logischen LVM-Volumes, "
-"Volume-Gruppen und physikalischen Volumes, die entfernt werden sollen:"
+"Volume-Gruppen und physischen Volumes, die entfernt werden sollen:"
 
 #. Type: boolean
 #. Description
@@ -5002,7 +5002,7 @@ msgstr "Zu entfernende Volume-Gruppe(n): ${VGTARGETS}"
 #. :sl3:
 #: ../partman-lvm.templates:62001
 msgid "Physical volume(s) to be removed: ${PVTARGETS}"
-msgstr "Zu entfernende physikalische Volume-Gruppe(n): ${PVTARGETS}"
+msgstr "Zu entfernende physische Volume-Gruppe(n): ${PVTARGETS}"
 
 #. Type: boolean
 #. Description
@@ -5032,7 +5032,7 @@ msgid ""
 "automatically. If you wish to use this device for partitioning, please "
 "remove its LVM data first."
 msgstr ""
-"Weil die Volume-Gruppe(n) auf dem gewählten Gerät auch aus physikalischen "
+"Weil die Volume-Gruppe(n) auf dem gewählten Gerät auch aus physischen "
 "Volumes auf anderen Geräten besteht, wird es nicht als sicher angesehen, "
 "dessen LVM-Daten automatisch zu entfernen. Falls Sie dieses Gerät zum "
 "Partitionieren verwenden möchten, entfernen Sie zuerst dessen LVM-Daten."
@@ -5071,11 +5071,11 @@ msgid ""
 "volume group at any time, and logical volumes can be resized up to the "
 "amount of unallocated space in the volume group."
 msgstr ""
-"LVM erlaubt es, Festplatten oder Partitionen (»physikalische Volumes« "
+"LVM erlaubt es, Festplatten oder Partitionen (»physische Volumes« "
 "genannt) zu einer virtuellen Platte (»Volume-Group«) zu kombinieren, die "
 "dann in virtuelle Partitionen (»logische Volumes«) unterteilt werden können. "
-"Volume-Groups und logische Volumes können sich über mehrere physikalische "
-"Festplatten erstrecken. Es können jederzeit neue physikalische Volumes zu "
+"Volume-Groups und logische Volumes können sich über mehrere physische "
+"Festplatten erstrecken. Es können jederzeit neue physische Volumes zu "
 "einer Volume-Group hinzugefügt werden, und logische Volumes können in Ihrer "
 "Größe verändert werden (maximal um den verfügbaren freien Speicherplatz in "
 "der Volume-Group)."
@@ -5358,7 +5358,7 @@ msgid ""
 "that you are satisfied with the current partitioning scheme in these disks."
 msgstr ""
 "Wenn RAID konfiguriert ist, sind keine zusätzlichen Änderungen an den "
-"Partitionen mehr erlaubt, die physikalische Volumes enthalten. Bitte "
+"Partitionen mehr erlaubt, die physische Volumes enthalten. Bitte "
 "vergewissern Sie sich, ob die gegenwärtigen Partitionseinstellungen auf "
 "diesen Festplatten korrekt sind."
 
@@ -5389,7 +5389,7 @@ msgstr "Die RAID-Konfiguration wurde abgebrochen."
 #. :sl3:
 #: ../partman-md.templates:22001
 msgid "physical volume for RAID"
-msgstr "physikalisches Volume für RAID"
+msgstr "physisches Volume für RAID"
 
 #. Type: text
 #. Description
@@ -5845,7 +5845,7 @@ msgid ""
 msgstr ""
 "Wählen Sie die Partitionen, die zu einem RAID-Array assembliert "
 "(zusammengefügt) werden sollen. Wenn Sie »Automatisch« wählen, werden alle "
-"Geräte, die physikalische Volumes für RAID enthalten, durchsucht und "
+"Geräte, die physische Volumes für RAID enthalten, durchsucht und "
 "assembliert."
 
 #. Type: multiselect
@@ -5859,7 +5859,7 @@ msgid ""
 msgstr ""
 "Beachten Sie, dass eine RAID-Partition, die am Ende einer Platte liegt, "
 "manchmal dazu führen kann, dass auf dieser Platte fälschlicherweise ein "
-"physikalisches RAID-Volume detektiert wird. In einem solchen Fall sollten "
+"physisches RAID-Volume detektiert wird. In einem solchen Fall sollten "
 "Sie die betreffenden Partitionen einzeln manuell auswählen."
 
 #. Type: boolean

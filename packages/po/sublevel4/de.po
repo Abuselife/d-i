@@ -601,7 +601,7 @@ msgstr ""
 "Es wurde keine ChromeOS-Kernel-Partition gefunden. Mindestens eine solche "
 "Partition ist erforderlich, damit Ihr Rechner mittels der von ChromeOS "
 "verifizierten Boot-Methoden (über Strg+D oder Strg+U) starten kann. Diese "
-"Partitionen müssen auf der gleichen physikalischen Festplatte liegen wie "
+"Partitionen müssen auf der gleichen physischen Festplatte liegen wie "
 "entweder die root- oder die boot-Partition. Zwei 512MB große Partitionen "
 "sollten für die meisten Installationen ausreichend sein."
 

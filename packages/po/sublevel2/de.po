@@ -2918,9 +2918,9 @@ msgid ""
 "\". If you intend to use this interface, please switch it on before "
 "continuing."
 msgstr ""
-"${iface} scheint abgeschaltet worden zu sein. Beabsichtigen Sie diese "
-"Schnittstelle zu verwenden, dann schalten Sie sie bitte ein, bevor sie "
-"fortfahren."
+"${iface} scheint über einen physischen Schalter (\"Kill switch\") "
+"abgeschaltet worden zu sein. Beabsichtigen Sie diese Schnittstelle zu "
+"verwenden, dann schalten Sie sie bitte ein, bevor sie fortfahren."
 
 #. Type: select
 #. Choices
@@ -3759,8 +3759,8 @@ msgstr ""
 "Sie haben keine Partition zur Verwendung als Swap-Speicher ausgewählt. Dies "
 "wird aber empfohlen, damit der Computer den vorhandenen Arbeitsspeicher "
 "effektiver nutzen kann, besonders wenn er knapp ist. Sie könnten Probleme "
-"bei der Installation bekommen, wenn Sie nicht genügend physikalischen "
-"Speicher haben."
+"bei der Installation bekommen, wenn Sie nicht genügend physischen Speicher "
+"haben."
 
 #. Type: boolean
 #. Description
