@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-06-05 22:09+0000\n"
+"PO-Revision-Date: 2024-09-20 06:40+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 # Type: multiselect
 # Description
@@ -35,7 +35,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Betöltendő telepítő részek:"
+msgstr "Betöltendő telepítő összetevők:"
 
 # Type: multiselect
 # Description
@@ -50,10 +50,10 @@ msgid ""
 "installer components are shown below. They are probably not necessary, but "
 "may be interesting to some users."
 msgstr ""
-"A telepítéshez szükséges valamennyi összetevő automatikusan betöltésre "
-"kerül, és nincs itt felsorolva. Alább látható a telepítő pár egyéb "
-"(opcionális) része. Ezek valószínűleg nem szükségesek, de egyes "
-"felhasználóknak hasznosak lehetnek."
+"A telepítéshez szükséges valamennyi összetevő nincs itt felsorolva, de "
+"automatikusan betöltésre kerül. Alább látható a telepítő néhány (választható)"
+" része. Ezek valószínűleg nem szükségesek, de egyes felhasználóknak "
+"hasznosak lehetnek."
 
 # Type: multiselect
 # Description
@@ -72,8 +72,8 @@ msgid ""
 "Note that if you select a component that requires others, those components "
 "will also be loaded."
 msgstr ""
-"Jó tudni, hogy ha egy kiválasztott összetevő másokat igényel, azok szintén "
-"betöltődnek."
+"Jó tudni, hogy ha egy kiválasztott összetevő más összetevőket is igényel, "
+"azok szintén betöltődnek."
 
 # Type: multiselect
 # Description
@@ -89,10 +89,11 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Memória kímélés céljából csak a biztosan szükséges összetevők kerülnek "
-"alapból kiválasztásra. Más telepítő összetevők nem feltétlenül szükségesek, "
-"de igény lehet némelyikre, különösen egyes rendszermag modulokra. Nézze "
-"végig a listát alaposan, és válassza ki az Önnek szükséges összetevőket."
+"Memóriatakarékosság miatt csak a szükséges összetevők kerülnek alapból "
+"kiválasztásra. Más telepítő összetevők nem feltétlenül szükségesek az alap "
+"telepítéshez, de neked esetleg szükséged lehet némelyikre, különösen a "
+"rendszermag egyes moduljaira. Nézd végig a listát alaposan, és válaszd ki a "
+"szükséges összetevőket."
 
 # Type: error
 # Description
@@ -102,7 +103,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Failed to load installer component"
-msgstr "Egy telepítő rész betöltése meghiúsult"
+msgstr "Nem sikerült betölteni a telepítő összetevőt"
 
 # Type: error
 # Description
@@ -112,7 +113,7 @@ msgstr "Egy telepítő rész betöltése meghiúsult"
 #. :sl2:
 #: ../anna.templates:7001
 msgid "Loading ${PACKAGE} failed for unknown reasons. Aborting."
-msgstr "${PACKAGE} betöltése ismeretlen okokból meghiúsult. Kilépek."
+msgstr "${PACKAGE} betöltése ismeretlen okokból meghiúsult. Megszakítás."
 
 # Type: boolean
 # Description
@@ -122,7 +123,7 @@ msgstr "${PACKAGE} betöltése ismeretlen okokból meghiúsult. Kilépek."
 #. :sl2:
 #: ../anna.templates:8001
 msgid "Continue the install without loading kernel modules?"
-msgstr "Folytatja a telepítést rendszermag modulok betöltése nélkül?"
+msgstr "Folytatod a telepítést a rendszermag moduljainak betöltése nélkül?"
 
 # Type: boolean
 # Description
@@ -136,8 +137,9 @@ msgid ""
 "kernel used by this version of the installer and the kernel version "
 "available in the archive."
 msgstr ""
-"A rendszermag modulok hiányoznak. Ezt valószínűleg a telepítő e változatában "
-"és az archívumban elérhető rendszermag eltérése okozza."
+"Nem találhatók rendszermagmodulok. Ennek oka valószínűleg a telepítő ezen "
+"verziója által használt rendszermag és az archívumban elérhető rendszermag "
+"verziója közötti eltérés."
 
 #. Type: boolean
 #. Description
@@ -147,8 +149,8 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Bizonyosodj meg róla, hogy a lemezkép fájl friss, vagy - abban az esetben - "
-"próbálj meg egy másik tükröt, például deb.debian.org."
+"Győződj meg arról, hogy a telepítő képed friss, vagy - ha ez a helyzet - "
+"próbálj meg egy másik tükörszervert, lehetőleg a deb.debian.org oldalt."
 
 #. Type: boolean
 #. Description
@@ -158,8 +160,8 @@ msgid ""
 "The installation will probably fail to work if you continue without kernel "
 "modules."
 msgstr ""
-"A telepítés valószínűleg sikertelen lesz, ha rendszermag modulok nélkül "
-"folytatja."
+"A telepítés valószínűleg sikertelen lesz, ha a rendszermagmodulok betöltése "
+"nélkül folytatod."
 
 # Type: text
 # Description
@@ -169,7 +171,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Helyi tárak átnézése..."
+msgstr "Helyi tárolók áttekintése..."
 
 # Type: text
 # Description
@@ -179,7 +181,7 @@ msgstr "Helyi tárak átnézése..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "A biztonsági frissítőtár áttekintése..."
+msgstr "A biztonsági frissítések tárolójának áttekintése..."
 
 # Type: text
 # Description
@@ -189,7 +191,7 @@ msgstr "A biztonsági frissítőtár áttekintése..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
+msgstr "A kiadási frissítések tárolójának áttekintése..."
 
 # Type: text
 # Description
@@ -199,7 +201,7 @@ msgstr "A \"kiadások\" (release) csomagtár áttekintése..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Backport tárolók átnézése..."
+msgstr "Backport tároló áttekintése..."
 
 #. #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
 #. Type: select
@@ -266,8 +268,8 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"A ${HOST} kiszolgálón lévő tárolót nem értem el, így e frissítések most nem "
-"történnek meg. Ez később megoldható."
+"${HOST} kiszolgálón lévő tároló nem érhető el, így annak frissítései "
+"jelenleg nem lesznek elérhetők a számodra. Ez később megoldható."
 
 # Type: error
 # Description
@@ -280,8 +282,7 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"A ${HOST} megjegyzésbe tett bejegyzései a /etc/apt/sources.list fájlba "
-"kerültek."
+"${HOST} megjegyzései hozzáadásra kerültek az /etc/apt/sources.list fájlban."
 
 # Type: error
 # Description
@@ -291,7 +292,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "apt beállítási gond"
+msgstr "apt beállítási probléma"
 
 #. #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
 #. Type: select
@@ -307,14 +308,14 @@ msgstr "apt beállítási gond"
 #. :sl2:
 #: ../apt-mirror-setup.templates:5001 ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Tükör cseréje"
+msgstr "Tükörszerver cseréje"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:5002 ../net-retriever.templates:1002
 msgid "Downloading a file failed:"
-msgstr "Fájlletöltés meghiúsult:"
+msgstr "A fájl letöltése nem sikerült:"
 
 #. Type: select
 #. Description
@@ -326,9 +327,10 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"A telepítő nem érte el a tükröt. Ez lehet a hálózat vagy a tükör hibája. "
-"Újrapróbálható, választható más tükör vagy átugorható és folytatható e tükör "
-"összes csomagja nélkül."
+"A telepítő nem érte el a tükörszervert. Ez lehet a hálózat, vagy a "
+"tükörszerver hibája is. Megpróbálhatod újra letölteni, választhatsz másik "
+"tükörszervert, vagy figyelmen kívül hagyhatod a problémát és folytatod a "
+"tükörszerver összes csomagja nélkül."
 
 # Type: boolean
 # Description
@@ -338,7 +340,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "Continue without a network mirror?"
-msgstr "Hálózati tükör nélkül folytatja?"
+msgstr "Hálózati tükörszerver nélkül folytatod?"
 
 # Type: boolean
 # Description
@@ -348,7 +350,7 @@ msgstr "Hálózati tükör nélkül folytatja?"
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "No network mirror was selected."
-msgstr "Nincs kiválasztva hálózati tükröt."
+msgstr "Nincs kiválasztva hálózati tükörszerver."
 
 # Type: boolean
 # Description
@@ -360,7 +362,7 @@ msgstr "Nincs kiválasztva hálózati tükröt."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Használ korlátozott szoftvert?"
+msgstr "Akarsz korlátozás alá eső szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -377,11 +379,10 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Pár nem-szabad szoftver elérhető csomagolva. Noha ezek a szoftverek nem "
-"részei a fő terjesztésnek, a szabványos csomagkezelő eszközökkel "
-"telepíthetők. Ezen szoftverek olyan különböző licenceket tartalmaznak, "
-"melyek megtiltják a felhasználás egyes módjait, és a módosítást vagy a "
-"megosztást."
+"Néhány nem szabad szoftver is elérhető csomagként. Noha ezek a szoftverek "
+"nem részei a fő terjesztésnek, a szabványos csomagkezelő eszközökkel "
+"telepíthetők. Ezek a szoftverek különböző licencekkel rendelkeznek, melyek "
+"megtiltják a felhasználás egyes módjait, és a módosítást vagy a megosztást."
 
 # Type: boolean
 # Description
@@ -393,7 +394,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Használ szoftvert a \"universe\" komponensből?"
+msgstr "Akarsz az „universe” komponensből szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -409,8 +410,8 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"További szoftverek is elérhetők csomagban. Ezek a szoftverek szabad "
-"szoftverek, s bár nem részei a fő terjesztésnek, a szabványos csomagkezelő "
+"Néhány kiegészítő szoftver is elérhető csomagként. Ezek a szoftverek szabad "
+"szoftverek, és bár nem részei a fő terjesztésnek, a szabványos csomagkezelő "
 "eszközökkel telepíthetők."
 
 # Type: boolean
@@ -423,7 +424,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Használ szoftvert a \"multiverse\" komponensből?"
+msgstr "Akarsz a „multiverse” komponensből szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -441,11 +442,11 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Pár nem-szabad szoftver elérhető csomagolva. Noha ezek a szoftverek nem "
+"Néhány nem szabad szoftver elérhető csomagként. Noha ezek a szoftverek nem "
 "részei a fő terjesztésnek, a szabványos csomagkezelő eszközökkel "
-"telepíthetők. E szoftverek olyan különböző licenceket és (néha) szabadalmi "
-"(tilalmi) korlátokat tartalmaznak, melyek megtiltják a felhasználás egyes "
-"módjait, és a módosítást vagy a megosztást."
+"telepíthetők. Ezek a szoftverek olyan különböző licencekkel és (néhány "
+"esetben) szabadalmi korlátozásokkal rendelkeznek, melyek megtiltják a "
+"felhasználás egyes módjait, és a módosítást vagy a megosztást."
 
 # Type: boolean
 # Description
@@ -457,7 +458,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Használ szoftvert a \"partner\" tárolóból?"
+msgstr "Akarsz a „partner” tárolóból szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -473,9 +474,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Pár további szoftver a Canonical \"partner\" tárolójából érhető el. Nem az "
-"Ubuntu részei, a Canonical és más gyártók az Ubuntu felhasználók számára "
-"nyújtják, mint szolgáltatás."
+"Néhány további szoftver elérhető a Canonical „partner” tárolójából. Ezek a "
+"szoftverek nem részei az Ubuntunak, hanem a Canonical és az adott szállítók "
+"szolgáltatásként kínálják őket az Ubuntu felhasználóinak."
 
 # Type: boolean
 # Description
@@ -487,7 +488,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Használ backport-olt szoftvereket?"
+msgstr "Akarsz backportolt szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -504,10 +505,10 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Néhány szoftver backport-ra került a fejlesztői ágból, hogy együttműködjön e "
-"kiadással. Bár e szoftverek nem olyan teszteltek mint amelyek e kiadásban "
-"vannak, egyes alkalmazások újabb változatait tartalmazzák, melyek fontos, új "
-"képességekkel bírhatnak."
+"Néhány szoftver backportolásra került a fejlesztői ágból, hogy "
+"együttműködjön ezzel a kiadással. Bár ezek a szoftverek nem mentek át olyan "
+"teljes körű tesztelésen, mint a kiadáshoz tartozók, de az alkalmazások újabb "
+"változatait tartalmazzák, és hasznos, új képességeket biztosíthatnak."
 
 # Type: boolean
 # Description
@@ -517,7 +518,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "Biztosan kitisztítatlan helyre folytatja a telepítést?"
+msgstr "Nem tiszta (letörletlen) helyre folytatod a telepítést?"
 
 # Type: boolean
 # Description
@@ -531,8 +532,8 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"A cél fájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
-"gondokat okozhatnak a telepítő folyamatban, és amennyiben folytatja, néhány "
+"A célfájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
+"gondot okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi "
 "fájl felülíródhat."
 
 # Type: error
@@ -543,7 +544,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs a /target-be csatolt fájlrendszer"
+msgstr "Nincs fájlrendszer csatolva a /cél fájlrendszerhez"
 
 # Type: error
 # Description
@@ -556,9 +557,9 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"A telepítés folytatása előtt a /target-be egy gyökér fájlrendszert kell "
-"csatolni. Ezt a particionáló és formázó részeknek már meg kellett volna "
-"tenniük, valamiért azonban nem történt meg."
+"A telepítés folytatása előtt a /cél fájlrendszerhez egy gyökér fájlrendszert "
+"kell csatolni. A particionálónak és a formázónak ezt már el kellett volna "
+"végeznie, valamiért azonban nem történt meg."
 
 # Type: error
 # Description
