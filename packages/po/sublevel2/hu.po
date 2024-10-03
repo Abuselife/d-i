@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-09-20 06:40+0000\n"
+"PO-Revision-Date: 2024-10-03 09:38+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,9 +51,9 @@ msgid ""
 "may be interesting to some users."
 msgstr ""
 "A telepítéshez szükséges valamennyi összetevő nincs itt felsorolva, de "
-"automatikusan betöltésre kerül. Alább látható a telepítő néhány "
-"(választható) része. Ezek valószínűleg nem szükségesek, de egyes "
-"felhasználóknak hasznosak lehetnek."
+"automatikusan betöltésre kerül. Alább látható a telepítő néhány (választható)"
+" összetevője. Ezek valószínűleg nem szükségesek, de egyes felhasználóknak "
+"hasznosak lehetnek."
 
 # Type: multiselect
 # Description
@@ -149,7 +149,7 @@ msgid ""
 "You should make sure that your installation image is up-to-date, or - if "
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
-"Győződj meg arról, hogy a telepítő képed friss, vagy - ha ez a helyzet - "
+"Győződj meg arról, hogy a telepítőképed friss, vagy - ha ez a helyzet - "
 "próbálj meg egy másik tükörszervert, lehetőleg a deb.debian.org oldalt."
 
 #. Type: boolean
@@ -340,7 +340,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "Continue without a network mirror?"
-msgstr "Hálózati tükörszerver nélkül folytatod?"
+msgstr "Tükörszerver nélkül folytatod?"
 
 # Type: boolean
 # Description
@@ -544,7 +544,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs fájlrendszer csatolva a /cél fájlrendszerhez"
+msgstr "Nincs fájlrendszer csatolva a /célrendszerhez"
 
 # Type: error
 # Description
@@ -557,8 +557,8 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"A telepítés folytatása előtt a /cél fájlrendszerhez egy gyökér fájlrendszert "
-"kell csatolni. A particionálónak és a formázónak ezt már el kellett volna "
+"A telepítés folytatása előtt a /célrendszerhez egy gyökér fájlrendszert kell "
+"csatolni. A particionálónak és a formázónak ezt már el kellett volna "
 "végeznie, valamiért azonban nem történt meg."
 
 # Type: error
@@ -569,7 +569,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Kitisztítatlan célhelyre nem telepítek"
+msgstr "Kitisztítatlan célfájlrendszerre nem telepítek"
 
 # Type: error
 # Description
@@ -583,8 +583,8 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"A célfájlrendszer telepítése megszakadt. Lépjen vissza és törölje vagy "
-"formázza a célfájlrendszert mielőtt folytatja telepítést."
+"A célfájlrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy "
+"formázd a célfájlrendszert, mielőtt folytatod a telepítést."
 
 # Type: error
 # Description
@@ -598,7 +598,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "Az alaprendszer telepítése meghiúsult"
+msgstr "Nem telepíthető az alaprendszer"
 
 # Type: error
 # Description
@@ -615,7 +615,7 @@ msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"A telepítő nem tudta telepíteni az alaprendszert. Nem található telepíthető "
+"A telepítő nem tudja telepíteni az alaprendszert. Nem található telepíthető "
 "lemezkép, se beállított, érvényes tükör."
 
 # Type: error
@@ -713,7 +713,7 @@ msgstr "Az alaprendszer telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "Az alaprendszer /target/-be telepítése meghiúsult."
+msgstr "Az alaprendszer telepítése a célfájlrendszerbe (/target/) meghiúsult."
 
 #. #-#-#-#-#  templates.pot (base-installer)  #-#-#-#-#
 #. Type: error
@@ -820,7 +820,7 @@ msgstr "Az alaprendszer /target/-be telepítése meghiúsult."
 #: ../partman-lvm.templates:60001 ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Részletek a /var/log/syslog-ban vagy a 4. virtuális konzolon találhatók."
+"Részletek a /var/log/syslog fájlban vagy a 4. virtuális konzolon találhatók."
 
 # Type: error
 # Description
@@ -877,7 +877,7 @@ msgstr "Az alábbi hiba történt:"
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "A kijelölt rendszermag telepítése elakadt"
+msgstr "Nem sikerült telepíteni a kiválasztott rendszermagot"
 
 # Type: error
 # Description
@@ -889,7 +889,7 @@ msgstr "A kijelölt rendszermag telepítése elakadt"
 msgid ""
 "An error was returned while trying to install the kernel into the target "
 "system."
-msgstr "A rendszermag célrendszerbe telepítése során hiba jelentkezett."
+msgstr "A rendszermag célrendszerbe telepítése során hiba történt."
 
 # Type: error
 # Description
@@ -899,7 +899,7 @@ msgstr "A rendszermag célrendszerbe telepítése során hiba jelentkezett."
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "Rendszermag-csomag: '${KERNEL}'."
+msgstr "Rendszermagcsomag: '${KERNEL}'."
 
 # Type: select
 # Choices
@@ -935,8 +935,8 @@ msgid ""
 "The list shows the available kernels. Please choose one of them in order to "
 "make the system bootable from the hard drive."
 msgstr ""
-"E lista az elérhető rendszermagokat mutatja. Válasszon egyet, hogy a "
-"rendszer a merevlemezről indítható legyen."
+"A lista az elérhető rendszermagokat mutatja. Válassz egyet, hogy a rendszer "
+"a merevlemezről indítható legyen."
 
 # Type: boolean
 # Description
@@ -946,7 +946,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "Rendszermag telepítés nélkül folytatja?"
+msgstr "Rendszermag telepítése nélkül folytatod?"
 
 # Type: boolean
 # Description
@@ -956,7 +956,7 @@ msgstr "Rendszermag telepítés nélkül folytatja?"
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "No installable kernel was found in the defined APT sources."
-msgstr "A megadott APT-forrásokban nincs fellelhető telepíthető rendszermag."
+msgstr "Nem található telepíthető rendszermag a megadott APT-forrásokban."
 
 # Type: boolean
 # Description
@@ -970,9 +970,9 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"Megpróbálhatja rendszermag nélküli folytatni és a saját rendszermagját "
-"később kézzel telepíteni. Ez csak szakértőknek ajánlott, különben "
-"valószínűleg nem induló gépet fog eredményezni."
+"Megpróbálhatod rendszermag nélküli folytatni és később kézzel telepíteni a "
+"saját rendszermagodat. Ez csak szakértőknek ajánlott, különben valószínűleg "
+"egy olyan gépet fogsz kapni, amit nem lehet elindítani."
 
 # Type: error
 # Description
@@ -982,7 +982,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "A rendszermag telepítése meghiúsult"
+msgstr "Nem lehet telepíteni a rendszermagot"
 
 # Type: error
 # Description
@@ -992,7 +992,7 @@ msgstr "A rendszermag telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "The installer cannot find a suitable kernel package to install."
-msgstr "A telepítő nem lel telepíthető rendszermag csomagot."
+msgstr "A telepítő nem talál telepíthető rendszermagcsomagot."
 
 # Type: error
 # Description
@@ -1008,7 +1008,7 @@ msgstr "A telepítő nem lel telepíthető rendszermag csomagot."
 #. :sl4:
 #: ../bootstrap-base.templates:16001 ../templates:8001
 msgid "Unable to install ${PACKAGE}"
-msgstr "Sikertelen telepítés: ${PACKAGE}"
+msgstr "Nem lehet telepíteni: ${PACKAGE}"
 
 # Type: error
 # Description
@@ -1026,7 +1026,7 @@ msgstr "Sikertelen telepítés: ${PACKAGE}"
 msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
-msgstr "A(z) ${PACKAGE} csomag telepítése közben hiba történt."
+msgstr "A következő csomag telepítése közben hiba történt: ${PACKAGE}."
 
 # Type: error
 # Description
@@ -1038,7 +1038,7 @@ msgstr "A(z) ${PACKAGE} csomag telepítése közben hiba történt."
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "${SUBST0} Release fájl letöltése sikertelen."
+msgstr "Nem sikerült lekérni a kiadási fájlt: ${SUBST0}."
 
 # Type: error
 # Description
@@ -1050,7 +1050,7 @@ msgstr "${SUBST0} Release fájl letöltése sikertelen."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "${SUBST0} Release aláírás fájl letöltése sikertelen."
+msgstr "Nem sikerült lekérni a kiadási aláírásfájlt: ${SUBST0}."
 
 # Type: error
 # Description
@@ -1063,7 +1063,7 @@ msgstr "${SUBST0} Release aláírás fájl letöltése sikertelen."
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
 msgstr ""
-"A Release fájl ismeretlen kulccsal lett aláírva (kulcs azonosító: ${SUBST0})"
+"A kiadási fájl ismeretlen kulccsal lett aláírva (kulcs azonosító: ${SUBST0})"
 
 # Type: error
 # Description
@@ -1073,7 +1073,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Érvénytelen Release fájl: nincs érvényes összetevő."
+msgstr "Érvénytelen kiadási fájl: nincs érvényes összetevő."
 
 # Type: error
 # Description
@@ -1085,7 +1085,7 @@ msgstr "Érvénytelen Release fájl: nincs érvényes összetevő."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Érvénytelen Release fájl, nincs ${SUBST0} bejegyzése."
+msgstr "Érvénytelen kiadási fájl, nincs bejegyzés a következőhöz: ${SUBST0}."
 
 # Type: error
 # Description
@@ -1103,7 +1103,7 @@ msgid ""
 "media, depending on your installation method."
 msgstr ""
 "${SUBST0} elérése sikertelen volt. Ez lehet hálózati hiba vagy adathordozó "
-"hiba, a telepítés módjától függően."
+"hiba, a telepítési módtól függően."
 
 # Type: error
 # Description
@@ -1119,7 +1119,7 @@ msgstr ""
 msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
-msgstr "Ha CD-R-ről vagy CR-RW-ről telepít, a lassabb írás segíthet."
+msgstr "Ha CD-R-ről vagy CR-RW-ről telepítsz, a lassabb írás segíthet."
 
 # Type: error
 # Description
@@ -1155,7 +1155,7 @@ msgstr "Figyelem: ${INFO}"
 #. :sl2:
 #: ../bootstrap-base.templates:58001
 msgid "Retrying failed download of ${SUBST0}"
-msgstr "Az alábbi hibás letöltés újrapróbálása: ${SUBST0}"
+msgstr "A következő hibás letöltés újrapróbálása: ${SUBST0}"
 
 # Type: select
 # Choices
@@ -1206,7 +1206,8 @@ msgstr "alacsony"
 #: ../cdebconf-udeb.templates:2002
 msgid "Ignore questions with a priority less than:"
 msgstr ""
-"Figyelmen kívül hagyni azokat a kérdéseket, amelyek kevésbé fontosak, mint:"
+"Azoknak a kérdéseknek a figyelmen kívül hagyása, amelyek kevésbé fontosak, "
+"mint a megadott szint:"
 
 # Type: select
 # Description
@@ -1220,8 +1221,9 @@ msgid ""
 "might ask you. Only questions with a certain priority or higher are actually "
 "shown to you; all less important questions are skipped."
 msgstr ""
-"A debconf-os csomagok kérdéseiket osztályozzák. Csak az egy adottnál "
-"magasabb fontossági szintű kérdéseket teszik fel; a kevésbé fontosakat "
+"Azok a csomagok, amelyek a debconf-ot használják a konfigurációhoz, "
+"rangsorolják a kérdéseket amelyeket feltehetnek. Csak a megadott vagy annál "
+"magasabb fontossági szintű kérdéseket teszik fel, a kevésbé fontosakat "
 "kihagyják."
 
 # Type: select
@@ -1240,12 +1242,14 @@ msgid ""
 " - 'low' is for trivial items that have defaults that will work in\n"
 "   the vast majority of cases."
 msgstr ""
-"Kiválasztható, mi legyen a legkisebb fontosságú kérdés, ami megjelenjen:\n"
-" - a 'kritikus'-ak felhasználói beavatkozást igényelnek.\n"
-" - a 'magas'-aknak nincs jó általános alapértéke\n"
-" - a 'közepes'-ekre van jó alapérték.\n"
-" - az 'alacsony'-ak triviálisak, melyek alapértékei szinte mindig "
-"tökéletesek."
+"Kiválaszthatod a megjelenítendő legkisebb fontossági szintű kérdést:\n"
+" - a 'kritikus' szintű kérdések felhasználói beavatkozást igényelnek,\n"
+"   különben tönkreteszik a rendszert.\n"
+" - a 'magas' szintű kérdéseknek nincsenek ésszerű alapértelmezett értékei.\n"
+" - a 'közepes' szint a normál kérdésekhez tartozik, amelyeknek ésszerű\n"
+"   alapértelmezett értékei vannak.\n"
+" - az 'alacsony' szint a triviális kérdésekhez tartozik, amelyeknek az\n"
+"   alapértelmezett értékei az esetek túlnyomó többségében működnek."
 
 # Type: select
 # Description
@@ -1258,8 +1262,8 @@ msgid ""
 "For example, this question is of medium priority, and if your priority were "
 "already 'high' or 'critical', you wouldn't see this question."
 msgstr ""
-"E kérdés például közepes fontosságú, ha a fontossági szint most 'magas' vagy "
-"'kritikus' lenne, nem látszódna."
+"Például ez a kérdés közepes fontossági szintű, és ha a szint most 'magas' "
+"vagy 'kritikus' lenne, akkor nem látnád ezt a kérdést."
 
 # Type: text
 # Description
@@ -1269,7 +1273,7 @@ msgstr ""
 #. :sl2:
 #: ../cdebconf-priority.templates:1001
 msgid "Change debconf priority"
-msgstr "Debconf-kérdések fontosságának megváltoztatása"
+msgstr "A debconf kérdések fontossági szintjének megváltoztatása"
 
 # Type: select
 # Description
@@ -1294,10 +1298,10 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"A Debian többféle változatban létezik. A stabil nagyon szigorúan kipróbált "
-"(tesztelt) és ritkán változik. Az instabil még csak alap próbákon esett át "
-"és gyakran változik. A próba (testing) változat egy középút, mely az "
-"instabilból számos új szoftver-változatot átvesz, ha azok nem túl hibásak."
+"A Debian többféle változatban létezik. A stabil nagyon szigorúan tesztelt "
+"(kipróbált) és ritkán változik. Az instabil még csak alap próbákon esett át "
+"és gyakran változik. A teszt (próba) változat egy középút, mely az "
+"instabilból számos új szoftverváltozatot átvesz, ha azok nem túl hibásak."
 
 # Type: select
 # Description
@@ -1307,7 +1311,9 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Csak a választott tükrön lévő altípusokat listázzuk."
+msgstr ""
+"Csak a kiválasztott tükörszerveren elérhető változatok szerepelnek a "
+"listában."
 
 # Type: boolean
 # Description
@@ -1317,7 +1323,7 @@ msgstr "Csak a választott tükrön lévő altípusokat listázzuk."
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Visszalép és másik tükörrel próbálkozik?"
+msgstr "Visszalépsz, és megpróbálod egy másik tükörszerverrel?"
 
 # Type: boolean
 # Description
@@ -1332,10 +1338,10 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"A megadott (alapértelmezett) Debian verzió (${RELEASE}) nincs a kiválasztott "
-"tükrön. Lehetősége van folytatni a telepítést egy másik verzió "
-"kiválasztásával, de a javasolt út az, hogy visszamegy és választ egy másik "
-"tükröt, ami támogatja a kért verziót."
+"A megadott (alapértelmezett) Debian verzió (${RELEASE}) nem érhető el a "
+"kiválasztott tükörszerverről. Lehetőséged van folytatni a telepítést egy "
+"másik verzió kiválasztásával, de a javasolt út az, hogy visszalépsz és egy "
+"másik tükörszerverrel folytatod, amely támogatja a kért verziót."
 
 # Type: error
 # Description
@@ -1345,7 +1351,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Hibás archívum tükör"
+msgstr "Hibás archívum-tükörszerver"
 
 # Type: error
 # Description
@@ -1357,7 +1363,7 @@ msgstr "Hibás archívum tükör"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr "Hiba történt a megadott Debian archívum tükör használatakor."
+msgstr "Hiba történt a megadott Debian archívum-tükörszerver használata közben."
 
 # Type: error
 # Description
@@ -1372,9 +1378,9 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"A hiba lehetséges okai: a megadott tükör érvénytelen; a tükör nem elérhető "
-"(talán megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
-"érvénytelen Release fájl); a tükör nem támogatja a kívánt Debian verziót."
+"A hiba lehetséges okai: helytelenül megadott tükör; a tükör nem elérhető ("
+"talán a megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
+"érvénytelen a Release fájl); a tükör nem támogatja a kívánt Debian verziót."
 
 # Type: error
 # Description
@@ -1387,8 +1393,8 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Tovább részletek a /var/log/syslog fájlban vagy a 4. virtuális konzolon "
-"találhatóak."
+"Tovább részleteket találsz a /var/log/syslog fájlban vagy a 4. virtuális "
+"konzolon."
 
 # Type: error
 # Description
@@ -1398,7 +1404,7 @@ msgstr ""
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Kérem, ellenőrizze a megadott tükröt vagy válasszon másikat."
+msgstr "Kérlek, ellenőrizd a megadott tükröt, vagy válassz egy másikat."
 
 # Type: text
 # Description
@@ -1428,7 +1434,7 @@ msgstr "stabil"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:12001
 msgid "testing"
-msgstr "próba"
+msgstr "teszt (próba)"
 
 # Type: text
 # Description
@@ -1449,7 +1455,7 @@ msgstr "instabil"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Debian archívum tükör könyvtára:"
+msgstr "A debian archívumtükör könyvtára:"
 
 # Type: string
 # Description
