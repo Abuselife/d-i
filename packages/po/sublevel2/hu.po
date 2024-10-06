@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-10-03 09:38+0000\n"
+"PO-Revision-Date: 2024-10-05 07:15+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,9 +51,9 @@ msgid ""
 "may be interesting to some users."
 msgstr ""
 "A telepítéshez szükséges valamennyi összetevő nincs itt felsorolva, de "
-"automatikusan betöltésre kerül. Alább látható a telepítő néhány "
-"(választható) összetevője. Ezek valószínűleg nem szükségesek, de egyes "
-"felhasználóknak hasznosak lehetnek."
+"automatikusan betöltésre kerül. Alább látható a telepítő néhány (választható)"
+" összetevője. Ezek valószínűleg nem szükségesek, de egyes felhasználóknak "
+"hasznosak lehetnek."
 
 # Type: multiselect
 # Description
@@ -1119,7 +1119,8 @@ msgstr ""
 msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
-msgstr "Ha CD-R-ről vagy CR-RW-ről telepítsz, a lassabb írás segíthet."
+msgstr ""
+"Ha CD-R-ről vagy CR-RW-ről szeretnél telepíteni, a lassabb CD írás segíthet."
 
 # Type: error
 # Description
@@ -1363,8 +1364,7 @@ msgstr "Hibás archívum-tükörszerver"
 msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
-msgstr ""
-"Hiba történt a megadott Debian archívum-tükörszerver használata közben."
+msgstr "Hiba történt a megadott Debian archívum-tükörszerver használata közben."
 
 # Type: error
 # Description
@@ -1379,8 +1379,8 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"A hiba lehetséges okai: helytelenül megadott tükör; a tükör nem elérhető "
-"(talán a megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
+"A hiba lehetséges okai: helytelenül megadott tükör; a tükör nem elérhető ("
+"talán a megbízhatatlan hálózati kapcsolat miatt); a tükör hibás (például "
 "érvénytelen a Release fájl); a tükör nem támogatja a kívánt Debian verziót."
 
 # Type: error
@@ -1469,7 +1469,7 @@ msgstr "A debian archívumtükör könyvtára:"
 msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
-msgstr "Kérem, adja meg a Debian archívum tükröt tartalmazó könyvtárat."
+msgstr "Kérlek, add meg a Debian archívumtükröt tartalmazó könyvtárat."
 
 # Type: string
 # Description
@@ -1479,7 +1479,7 @@ msgstr "Kérem, adja meg a Debian archívum tükröt tartalmazó könyvtárat."
 #. :sl2:
 #: ../choose-mirror-bin.templates.ftp.base-in:4001
 msgid "FTP proxy information (blank for none):"
-msgstr "FTP-proxy adatok (hagyja üresen, ha nincs):"
+msgstr "FTP-proxy adatok (ha nincs, hagyd üresen):"
 
 # Type: string
 # Description
@@ -1544,8 +1544,9 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Kérem, válassza ki a fájlletöltéshez használt protokollt. Kétség esetén a "
-"\"http\" protokollt érdemes; ez kevésbé ütközik tűzfal gondokba."
+"Kérlek, válaszd ki a fájlletöltéshez használni kívánt protokollt. Kétség "
+"esetén a „http” protokollt érdemes kiválasztani; ez kevésbé hajlamos a "
+"tűzfalakkal kapcsolatos problémákra."
 
 # Type: select
 # Description
@@ -1555,7 +1556,7 @@ msgstr ""
 #. :sl2:
 #: ../keyboard-configuration.templates:4001
 msgid "Keyboard model:"
-msgstr "Billentyűzet modell:"
+msgstr "A billentyűzet típusa:"
 
 # Type: select
 # Description
@@ -1565,7 +1566,7 @@ msgstr "Billentyűzet modell:"
 #. :sl2:
 #: ../keyboard-configuration.templates:4001
 msgid "Please select the model of the keyboard of this machine."
-msgstr "Kérem, válassza ki e gép billentyűzet modelljét."
+msgstr "Kérlek, válaszd ki a gép billentyűzetének típusát."
 
 # Type: select
 # Choices
