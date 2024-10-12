@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-06-22 14:24-0300\n"
+"PO-Revision-Date: 2024-10-12 08:55-0300\n"
 "Last-Translator: Adriano Rafael Gomes <adrianorg@debian.org>\n"
 "Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
 "org>\n"
@@ -5845,17 +5845,16 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
 #| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Instalando o carregador de inicialização aboot"
+msgstr "Instalar o carregador de inicialização systemd-boot"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Número de tentativas por entrada de inicialização (0 para desabilitar):"
 
 #. Type: select
 #. Description
@@ -5867,6 +5866,11 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Configura a lógica de verificação de inicialização automática, que "
+"reverte automaticamente para uma entrada de inicialização anterior caso uma "
+"nova entrada falhe mais vezes do que o número de tentativas configurado "
+"quando adicionada pela primeira vez. Para mais detalhes, veja: https://"
+"systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
