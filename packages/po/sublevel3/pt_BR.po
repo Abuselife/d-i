@@ -5845,7 +5845,6 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
 msgstr "Instalar o carregador de inicialização systemd-boot"
 
@@ -5854,7 +5853,8 @@ msgstr "Instalar o carregador de inicialização systemd-boot"
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr "Número de tentativas por entrada de inicialização (0 para desabilitar):"
+msgstr ""
+"Número de tentativas por entrada de inicialização (0 para desabilitar):"
 
 #. Type: select
 #. Description
@@ -5866,11 +5866,11 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
-"Configura a lógica de verificação de inicialização automática, que "
-"reverte automaticamente para uma entrada de inicialização anterior caso uma "
-"nova entrada falhe mais vezes do que o número de tentativas configurado "
-"quando adicionada pela primeira vez. Para mais detalhes, veja: https://"
-"systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
+"Configura a lógica de verificação de inicialização automática, que reverte "
+"automaticamente para uma entrada de inicialização anterior caso uma nova "
+"entrada falhe mais vezes do que o número de tentativas configurado quando "
+"adicionada pela primeira vez. Para mais detalhes, veja: https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
