@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-10-05 07:15+0000\n"
+"PO-Revision-Date: 2024-10-13 13:16+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1244,12 +1244,12 @@ msgid ""
 "   the vast majority of cases."
 msgstr ""
 "Kiválaszthatod a megjelenítendő legkisebb fontossági szintű kérdést:\n"
-" - a 'kritikus' szintű kérdések felhasználói beavatkozást igényelnek,\n"
+" - A „kritikus” szintű kérdések felhasználói beavatkozást igényelnek,\n"
 "   különben tönkreteszik a rendszert.\n"
-" - a 'magas' szintű kérdéseknek nincsenek ésszerű alapértelmezett értékei.\n"
-" - a 'közepes' szint a normál kérdésekhez tartozik, amelyeknek ésszerű\n"
+" - A „magas” szintű kérdéseknek nincsenek ésszerű alapértelmezett értékei.\n"
+" - A „közepes” szint a normál kérdésekhez tartozik, amelyeknek ésszerű\n"
 "   alapértelmezett értékei vannak.\n"
-" - az 'alacsony' szint a triviális kérdésekhez tartozik, amelyeknek az\n"
+" - Az „alacsony” szint a triviális kérdésekhez tartozik, amelyeknek az\n"
 "   alapértelmezett értékei az esetek túlnyomó többségében működnek."
 
 # Type: select
@@ -1263,8 +1263,8 @@ msgid ""
 "For example, this question is of medium priority, and if your priority were "
 "already 'high' or 'critical', you wouldn't see this question."
 msgstr ""
-"Például ez a kérdés közepes fontossági szintű, és ha a szint most 'magas' "
-"vagy 'kritikus' lenne, akkor nem látnád ezt a kérdést."
+"Például ez a kérdés közepes fontossági szintű, és ha a szint most magas vagy "
+"kritikus lenne, akkor nem látnád ezt a kérdést."
 
 # Type: text
 # Description
@@ -1494,7 +1494,7 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Ha a külvilág eléréséhez FTP proxy szükséges, a proxy adatait itt kell "
-"megadni. Amúgy üresen kell hagyni."
+"megadni. Különben üresen kell hagyni."
 
 #. Type: select
 #. Default
@@ -1577,7 +1577,7 @@ msgstr "Kérlek, válaszd ki a gép billentyűzetének típusát."
 #. :sl2:
 #: ../keyboard-configuration.templates:12001
 msgid "No temporary switch"
-msgstr "Nincs átmeneti váltás"
+msgstr "Nincs ideiglenes váltás"
 
 # Type: select
 # Choices
@@ -1604,7 +1604,7 @@ msgstr "Mindkét logó billentyű"
 #. :sl2:
 #: ../keyboard-configuration.templates:12002
 msgid "Method for temporarily toggling between national and Latin input:"
-msgstr "A nemzeti és a latin bevitel közötti átmeneti váltás módja:"
+msgstr "A nemzeti és a latin beviteli mód közötti ideiglenes váltás módja:"
 
 # Type: select
 # Description
@@ -1620,10 +1620,11 @@ msgid ""
 "That key may also be used to input national letters when the keyboard is in "
 "Latin mode."
 msgstr ""
-"Amikor a billentyűzet nemzeti módban van és valaki csak egy pár latin betűt "
-"akar begépelni, jó megoldás csak átmenetileg latin módba váltani. A "
-"billentyűzet a választott billentyű lenyomása alatt van e módban. Tartós "
-"latin módban ugyanezt a billentyűt használhatja nemzeti betűk begépelésére."
+"Amikor a billentyűzet nemzeti módban van és csak néhány latin betűt "
+"szeretnél begépelni, célszerű csak ideiglenesen latin módba váltani. A "
+"billentyűzet a kiválasztott billentyű lenyomva tartása alatt ebben az "
+"ideiglenesen átváltott módban működik. Amikor a billentyűzet latin módban "
+"van, ugyanezt a billentyűt használhatod néhány nemzeti betű begépeléséhez."
 
 # Type: select
 # Description
@@ -1633,7 +1634,8 @@ msgstr ""
 #. :sl2:
 #: ../keyboard-configuration.templates:12002
 msgid "You can disable this feature by choosing \"No temporary switch\"."
-msgstr "Kikapcsolhatja e képességet a \"Nincs átmeneti váltás\" lehetőséggel."
+msgstr ""
+"Kikapcsolhatod ezt a képességet a „Nincs ideiglenes váltás” kiválasztásával."
 
 # Type: select
 # Choices
