@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-09-02 04:09+0000\n"
+"PO-Revision-Date: 2024-10-13 13:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -58,8 +58,8 @@ msgid ""
 "continue without all the packages from this repository."
 msgstr ""
 "Tampaknya ada masalah dengan jaringan Anda, atau pada server yang menyimpan "
-"kunci ini. Anda dapat mengunduh kembali atau mengabaikan masalah ini dan "
-"melanjutkan instalasi semua paket dari repositori ini."
+"kunci ini. Anda dapat mencoba mengunduh kembali, atau mengabaikan masalah "
+"ini dan melanjutkan instalasi semua paket dari repositori ini."
 
 #. Type: select
 #. Description
@@ -77,7 +77,7 @@ msgstr "Asia"
 
 #: ../../mktemplates.continents:18
 msgid "Atlantic Ocean"
-msgstr "Samudera Atlantik"
+msgstr "Samudra Atlantik"
 
 #: ../../mktemplates.continents:19
 msgid "Caribbean"
@@ -93,7 +93,7 @@ msgstr "Eropa"
 
 #: ../../mktemplates.continents:22
 msgid "Indian Ocean"
-msgstr "Samudera Indonesia"
+msgstr "Samudra Hindia"
 
 #: ../../mktemplates.continents:23
 msgid "North America"
@@ -132,7 +132,7 @@ msgstr "Mengunduh ${PACKAGE}"
 #. :sl1:
 #: ../anna.templates:5001
 msgid "Configuring ${PACKAGE}"
-msgstr "Mengkonfigurasi ${PACKAGE}"
+msgstr "Mengonfigurasi ${PACKAGE}"
 
 #. Type: text
 #. Description
@@ -181,7 +181,7 @@ msgstr "Menjalankan ${SCRIPT}..."
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr "perbarui keamanan (dari ${SEC_HOST})"
+msgstr "pembaruan keamanan (dari ${SEC_HOST})"
 
 #. Type: multiselect
 #. Choices
@@ -242,7 +242,7 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"Pembaruan Rilis menyediakan piranti lunak terbaru yang cukup sering berubah "
+"Pembaruan rilis menyediakan piranti lunak terbaru yang cukup sering berubah "
 "yang tanpa penggunaannnya dapat mengurangi kehandalan dari piranti lunak "
 "tersebut.Layanan ini hanya tersedia untuk rilis stabil dan stabil-lama."
 
@@ -271,7 +271,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the installation media..."
-msgstr "Memindai media instalasi ..."
+msgstr "Memindai media instalasi..."
 
 #. Type: error
 #. Description
@@ -284,7 +284,7 @@ msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
 msgstr ""
-"Percobaan mengonfigurasi apt untuk menambah paket-paket dari media telah "
+"Percobaan mengonfigurasi apt untuk memasang paket-paket tambahan dari media "
 "gagal."
 
 #. Type: boolean
@@ -386,7 +386,7 @@ msgstr "Silakan masukkan media berlabel '${LABEL}' dan tekan enter."
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Menonaktifkan CD netinst dalam sources.list...."
+msgstr "Menonaktifkan CD netinst dalam sources.list..."
 
 #. Type: text
 #. Description
@@ -399,9 +399,8 @@ msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"Jika Anda menginstal dari image CD netinst dan memilih untuk tidak "
-"menggunakan mirror, Anda akan berakhir hanya dengan sistem basis yang sangat "
-"minim."
+"Jika Anda memasang dari image CD netinst dan memilih untuk tidak menggunakan "
+"mirror, Anda akan berakhir hanya dengan sistem basis yang sangat minim."
 
 #. Type: text
 #. Description
@@ -412,9 +411,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Anda menginstal dari image CD netinst, yang bila sendirian hanya "
-"memungkinkan instalasi sistem basis yang sangat minim. Gunakan mirror untuk "
-"menginstal sistem yang lebih lengkap."
+"Anda memasang dari image CD netinst, yang bila sendirian hanya memungkinkan "
+"instalasi sistem basis yang sangat minim. Gunakan mirror untuk memasang "
+"sistem yang lebih lengkap."
 
 #. Type: text
 #. Description
@@ -423,7 +422,7 @@ msgstr ""
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
-msgstr "Anda menginstal dari image yang berisi pilihan paket terbatas."
+msgstr "Anda memasang dari image yang berisi pilihan paket terbatas."
 
 #. Type: text
 #. Description
@@ -437,7 +436,7 @@ msgid ""
 "languages other than English)."
 msgstr ""
 "Anda telah memindai %i image. Meskipun ini berisi pilihan paket yang adil, "
-"beberapa mungkin hilang (terutama beberapa paket yang diperlukan untuk "
+"beberapa mungkin kurang (terutama beberapa paket yang diperlukan untuk "
 "mendukung bahasa selain bahasa Inggris)."
 
 #. Type: text
@@ -451,7 +450,7 @@ msgid ""
 "packages, some may be missing."
 msgstr ""
 "Anda telah memindai %i image. Meskipun ini berisi banyak pilihan paket, "
-"beberapa mungkin hilang."
+"beberapa mungkin kurang."
 
 #. Type: text
 #. Description
@@ -461,8 +460,8 @@ msgid ""
 "Note that using a mirror can result in a large amount of data being "
 "downloaded during the next step of the installation."
 msgstr ""
-"Perlu dicatat bahwa menggunakan jaringan cermin dapat menghasilkan data yang "
-"besar yang akan diunduh selama proses instalasi."
+"Perlu dicatat bahwa menggunakan jaringan cermin dapat menyebabkan diunduhnya "
+"data yang besar selama tahap instalasi berikutnya."
 
 #. Type: text
 #. Description
@@ -472,8 +471,8 @@ msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Anda menginstal dari image DVD. Meskipun berisi banyak pilihan paket, "
-"beberapa mungkin hilang."
+"Anda memasang dari image DVD. Meskipun berisi banyak pilihan paket, beberapa "
+"mungkin kurang."
 
 #. Type: text
 #. Description
@@ -634,21 +633,21 @@ msgstr "Memasang sistem dasar"
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Mengonfigurasi sistem dasar..."
+msgstr "Menyiapkan sistem dasar..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "Mengatur sumber-sumber APT...."
+msgstr "Mengonfigurasi sumber-sumber APT..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "Memperbaharui daftar paket-paket yang tersedia..."
+msgstr "Memperbarui daftar paket yang tersedia..."
 
 #. Type: text
 #. Description
@@ -672,7 +671,7 @@ msgstr "Memasang paket-paket ekstra - mengambil dan memasang ${SUBST0}..."
 #. :sl1:
 #: ../bootstrap-base.templates:1001
 msgid "Install the base system"
-msgstr "Memasang sistem dasar"
+msgstr "Pasang sistem dasar"
 
 #. Type: text
 #. Description
@@ -680,7 +679,7 @@ msgstr "Memasang sistem dasar"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Mengunduh berkas Release"
+msgstr "Mengambil berkas Release"
 
 #. Type: text
 #. Description
@@ -688,7 +687,7 @@ msgstr "Mengunduh berkas Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Mengunduh tanda tangan berkas Release"
+msgstr "Mengambil tanda tangan berkas Release"
 
 #. Type: text
 #. Description
@@ -704,7 +703,7 @@ msgstr "Mencari ukuran paket"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Mengunduh berkas Packages"
+msgstr "Mengambil berkas-berkas Packages"
 
 #. Type: text
 #. Description
@@ -712,7 +711,7 @@ msgstr "Mengunduh berkas Packages"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "Mengunduh berkas Packages"
+msgstr "Mengambil berkas Packages"
 
 #. Type: text
 #. Description
@@ -720,7 +719,7 @@ msgstr "Mengunduh berkas Packages"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:28001
 msgid "Retrieving packages"
-msgstr "Mengunduh paket-paket"
+msgstr "Mengambil paket-paket"
 
 #. Type: text
 #. Description
@@ -728,7 +727,7 @@ msgstr "Mengunduh paket-paket"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "Membuka paket-paket"
+msgstr "Mengekstrak paket-paket"
 
 #. Type: text
 #. Description
@@ -790,7 +789,7 @@ msgstr "${SECTION}: ${INFO}...."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "Memeriksa keabsahan ${SUBST0}..."
+msgstr "Memvalidasi ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -798,7 +797,7 @@ msgstr "Memeriksa keabsahan ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "Mengunduh ${SUBST0}..."
+msgstr "Mengambil ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -806,7 +805,7 @@ msgstr "Mengunduh ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "Membuka ${SUBST0}..."
+msgstr "Mengekstrak ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -822,7 +821,7 @@ msgstr "Membuka ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "Mempersiapkan ${SUBST0}..."
+msgstr "Mengonfigurasi ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -919,7 +918,7 @@ msgstr "Membuka paket-paket yang diwajibkan..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "Mengonfigurasi paket-paket wajib...."
+msgstr "Mengonfigurasi paket-paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -940,7 +939,7 @@ msgstr "Membuka dan memasang sistem dasar..."
 #. :sl1:
 #: ../bootstrap-base.templates:55001
 msgid "Configuring the base system..."
-msgstr "Mengatur sistem dasar..."
+msgstr "Mengonfigurasi sistem dasar..."
 
 #. Type: text
 #. Description
@@ -961,7 +960,7 @@ msgstr "Memilih kernel untuk dipasang..."
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "Memasang kernel...."
+msgstr "Memasang kernel..."
 
 #. Type: text
 #. Description
@@ -1068,7 +1067,7 @@ msgstr "Tampilkan Kata Sandi Polos"
 #. :sl1:
 #: ../cdebconf-gtk-udeb.templates:5001
 msgid "Help"
-msgstr "Petunjuk"
+msgstr "Bantuan"
 
 #. Type: text
 #. Description
@@ -1328,7 +1327,7 @@ msgstr ""
 #. :sl1:
 #: ../keyboard-configuration.templates:6001
 msgid "Keyboard layout:"
-msgstr "Pola keyboard:"
+msgstr "Tata letak papan ketik:"
 
 #. Type: select
 #. Description
@@ -1365,7 +1364,7 @@ msgstr "Caps Lock"
 #: ../keyboard-configuration.templates:13001
 #: ../keyboard-configuration.templates:14001
 msgid "Right Alt (AltGr)"
-msgstr "Alt (AltGr) kanan"
+msgstr "Alt Kanan (AltGr)"
 
 #. Type: select
 #. Choices
@@ -1594,7 +1593,7 @@ msgstr "Asturia"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Bangladesh"
-msgstr "Banglades"
+msgstr "Bangladesh"
 
 #. Type: select
 #. Choices
@@ -1650,14 +1649,14 @@ msgstr "Inggris Britania"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Bulgarian (BDS layout)"
-msgstr "Bulgaria (Layout BSD)"
+msgstr "Bulgaria (tata letak BSD)"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Bulgarian (phonetic layout)"
-msgstr "Bulgaria (phonetic)"
+msgstr "Bulgaria (tata letak fonetik)"
 
 #. Type: select
 #. Choices
@@ -1671,7 +1670,7 @@ msgstr "Burma"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Canadian French"
-msgstr "Perancis Kanada"
+msgstr "Prancis Kanada"
 
 #. Type: select
 #. Choices
@@ -1685,7 +1684,7 @@ msgstr "Kanada Multibahasa"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Catalan"
-msgstr "Catalan"
+msgstr "Katalan"
 
 #. Type: select
 #. Choices
@@ -1769,7 +1768,7 @@ msgstr "Finlandia"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "French"
-msgstr "Perancis"
+msgstr "Prancis"
 
 #. Type: select
 #. Choices
@@ -1797,7 +1796,7 @@ msgstr "Yunani"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Gujarati"
-msgstr "Gujarati"
+msgstr "Gujarat"
 
 #. Type: select
 #. Choices
@@ -1825,7 +1824,7 @@ msgstr "Hindi"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Hungarian"
-msgstr "Hongaria"
+msgstr "Hungaria"
 
 #. Type: select
 #. Choices
@@ -1895,14 +1894,14 @@ msgstr "Korea"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Kurdish (F layout)"
-msgstr "Kurdish (Pola F)"
+msgstr "Kurdi (tata letak F)"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Kurdish (Q layout)"
-msgstr "Kurdish (Pola Q)"
+msgstr "Kurdi (tata letak Q)"
 
 #. Type: select
 #. Choices
@@ -1937,7 +1936,7 @@ msgstr "Lithuania"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Macedonian"
-msgstr "Macedonia"
+msgstr "Makedonia"
 
 #. Type: select
 #. Choices
@@ -2000,7 +1999,7 @@ msgstr "Portugis"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Punjabi"
-msgstr "Punjabi"
+msgstr "Punjab"
 
 #. Type: select
 #. Choices
@@ -2119,14 +2118,14 @@ msgstr "Tibet"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Turkish (F layout)"
-msgstr "Turki (Pola F)"
+msgstr "Turki (tata letak F)"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Turkish (Q layout)"
-msgstr "Turki (Pola Q)"
+msgstr "Turki (tata letak Q)"
 
 #. Type: select
 #. Choices
@@ -2140,7 +2139,7 @@ msgstr "Taiwan"
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
 msgid "Ukrainian"
-msgstr "Ukrania"
+msgstr "Ukraina"
 
 #. Type: select
 #. Choices
@@ -2183,7 +2182,7 @@ msgstr "Memindai ${DIR}..."
 #. :sl1:
 #: ../cdrom-detect.templates:19001
 msgid "Unmounting/ejecting installation media..."
-msgstr "Melepas kait/mengeluarkan media instalasi ..."
+msgstr "Melepas kait/mengeluarkan media instalasi..."
 
 #. Type: text
 #. Description
@@ -2201,14 +2200,14 @@ msgstr "Memuat komponen pemasang dari media instalasi"
 #. :sl1:
 #: ../clock-setup.templates:1001
 msgid "Configure the clock"
-msgstr "Mengatur waktu"
+msgstr "Mengonfigurasi jam"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../clock-setup.templates:2001
 msgid "Is the system clock set to UTC?"
-msgstr "Apakah waktu sistem memakai UTC?"
+msgstr "Apakah jam sistem diatur ke UTC?"
 
 #. Type: boolean
 #. Description
@@ -2221,9 +2220,9 @@ msgid ""
 "expects the clock to be set to local time."
 msgstr ""
 "Jam sistem biasanya diatur pada Waktu Universal Terkoordinasi (UTC). Sistem "
-"operasi kemudian akan menggunakan zona waktu anda untuk mengubahnya ke waktu "
-"lokal. Disarankan menggunakan UTC, kecuali bila anda juga menggunakan "
-"sisttem operasi lain yang mengharapkan jam sistem diatur pada waktu lokal."
+"operasi kemudian akan menggunakan zona waktu Anda untuk mengubahnya ke waktu "
+"lokal. Disarankan menggunakan UTC, kecuali bila Anda juga menggunakan sistem "
+"operasi lain yang mengharapkan jam sistem diatur pada waktu lokal."
 
 #. Type: text
 #. Description
@@ -2231,14 +2230,14 @@ msgstr ""
 #. :sl1:
 #: ../clock-setup.templates:3001
 msgid "Configuring clock settings..."
-msgstr "Mengatur setelan waktu ...."
+msgstr "Mengonfigurasi pengaturan jam..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../clock-setup.templates:4001
 msgid "Setting up the clock"
-msgstr "Mengatur jam"
+msgstr "Menyiapkan jam"
 
 #. Type: text
 #. Description
@@ -2246,7 +2245,7 @@ msgstr "Mengatur jam"
 #. :sl1:
 #: ../clock-setup.templates:7001
 msgid "Getting the time from a network time server..."
-msgstr "Meminta info waktu dari server NTP ...."
+msgstr "Mendapatkan waktu dari server waktu jaringan..."
 
 #. Type: text
 #. Description
@@ -2254,7 +2253,7 @@ msgstr "Meminta info waktu dari server NTP ...."
 #. :sl1:
 #: ../clock-setup.templates:8001
 msgid "Setting the hardware clock..."
-msgstr "Mengatur waktu perangkat keras ...."
+msgstr "Mengatur jam perangkat keras..."
 
 #. Type: text
 #. Description
@@ -2274,7 +2273,7 @@ msgstr "Menjalankan shell"
 #. :sl1:
 #: ../di-utils-reboot.templates:2001
 msgid "Abort the installation"
-msgstr "Batalkan instalasi"
+msgstr "Gugurkan instalasi"
 
 #. Type: text
 #. Description
@@ -2282,7 +2281,7 @@ msgstr "Batalkan instalasi"
 #. :sl1:
 #: ../di-utils.templates:1001
 msgid "Registering modules..."
-msgstr "Mendaftarkan modul-modul ..."
+msgstr "Mendaftarkan modul..."
 
 #. Type: text
 #. Description
@@ -2291,42 +2290,42 @@ msgstr "Mendaftarkan modul-modul ..."
 #. :sl1:
 #: ../finish-install.templates:1001
 msgid "Finish the installation"
-msgstr "Menyelesaikan instalasi"
+msgstr "Selesaikan instalasi"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../finish-install.templates:2001
 msgid "Finishing the installation"
-msgstr "Sedang menyelesaikan instalasi"
+msgstr "Menyelesaikan instalasi"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../finish-install.templates:4001
 msgid "Configuring network..."
-msgstr "Sedang mengatur jaringan..."
+msgstr "Mengonfigurasi jaringan..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../finish-install.templates:5001
 msgid "Setting up frame buffer..."
-msgstr "Sedang mengatur frame buffer..."
+msgstr "Menyiapkan frame buffer..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../finish-install.templates:6001
 msgid "Unmounting file systems..."
-msgstr "Sedang melepas sistem-sistem berkas...."
+msgstr "Melepas kait sistem berkas..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../finish-install.templates:7001
 msgid "Rebooting into your new system..."
-msgstr "Bersiap menjalankan sistem Anda yang baru..."
+msgstr "Boot ulang ke dalam sistem baru Anda..."
 
 #. Type: note
 #. Description
@@ -2366,7 +2365,7 @@ msgstr "Silakan pilih <Lanjutkan> untuk boot ulang."
 #. :sl1:
 #: ../grub-installer.templates:1001 ../grub-installer.templates:2001
 msgid "Install the GRUB boot loader to your primary drive?"
-msgstr "Pasang boot loader GRUB pada hard disk utama anda?"
+msgstr "Pasang boot loader GRUB pada drive utama Anda?"
 
 #. Type: boolean
 #. Description
@@ -2379,7 +2378,7 @@ msgstr "Pasang boot loader GRUB pada hard disk utama anda?"
 msgid ""
 "The following other operating systems have been detected on this computer: "
 "${OS_LIST}"
-msgstr "Sistem-sistem operasi berikut ditemukan pada komputer ini: ${OS_LIST}"
+msgstr "Sistem operasi berikut ditemukan pada komputer ini: ${OS_LIST}"
 
 #. Type: boolean
 #. Description
@@ -2418,10 +2417,10 @@ msgid ""
 "failed to detect, this will make that operating system temporarily "
 "unbootable, though GRUB can be manually configured later to boot it."
 msgstr ""
-"Perhatian: Jika komputer Anda punya sistem operasi lain yang installer gagal "
+"Peringatan: Jika komputer Anda punya sistem operasi lain yang pemasang gagal "
 "mendeteksinya, ini akan membuat sistem operasi tersebut untuk sementara "
-"tidak dapat diboot, walaupun nantinya GRUB dapat dikonfigurasi secara manual "
-"untuk dapat memboot sistem operasi itu."
+"tidak dapat di-boot, walaupun nanti GRUB dapat dikonfigurasi secara manual "
+"untuk mem-boot itu."
 
 #. #-#-#-#-#  templates.pot (grub-installer)  #-#-#-#-#
 #. Type: password
@@ -2504,7 +2503,7 @@ msgstr "Memeriksa apakah akan memaksa penggunaan path media lepas-pasang"
 #. :sl1:
 #: ../grub-installer.templates:24001
 msgid "Mounting filesystems"
-msgstr "Sedang mengait sistem-sistem berkas"
+msgstr "Mengait sistem berkas"
 
 #. Type: text
 #. Description
@@ -2512,7 +2511,7 @@ msgstr "Sedang mengait sistem-sistem berkas"
 #: ../grub-installer.templates:25001
 msgid "Configuring grub-efi for future usage of the removable media path"
 msgstr ""
-"Mengkonfigurasi grub-efi untuk penggunaan path media lepas-pasang di masa "
+"Mengonfigurasi grub-efi untuk penggunaan path media lepas-pasang di masa "
 "mendatang"
 
 #. Type: text
@@ -2674,7 +2673,7 @@ msgstr ""
 #. :sl1:
 #: ../ethdetect.templates:4001
 msgid "Detecting network hardware"
-msgstr "Sedang mencari perangkat keras jaringan"
+msgstr "Mendeteksi perangkat keras jaringan"
 
 #. Type: text
 #. Description
@@ -2683,7 +2682,7 @@ msgstr "Sedang mencari perangkat keras jaringan"
 #. :sl1:
 #: ../ethdetect.templates:6001
 msgid "Detect network hardware"
-msgstr "Mencari perangkat keras jaringan"
+msgstr "Deteksi perangkat keras jaringan"
 
 #. Type: text
 #. Description
@@ -2692,21 +2691,21 @@ msgstr "Mencari perangkat keras jaringan"
 #. :sl1:
 #: ../disk-detect.templates:1001
 msgid "Detect disks"
-msgstr "Mencari disk"
+msgstr "Mendeteksi disk"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../disk-detect.templates:2001
 msgid "Detecting disks and all other hardware"
-msgstr "Sedang mencari hard disk dan perangkat keras lainnya"
+msgstr "Mendeteksi disk dan semua perangkat keras lainnya"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../hw-detect.templates:1001
 msgid "Detecting hardware, please wait..."
-msgstr "Mencari perangkat keras, silahkan tunggu..."
+msgstr "Mendeteksi perangkat keras, harap tunggu..."
 
 #. Type: text
 #. Description
@@ -2720,21 +2719,21 @@ msgstr "Memuat modul '${MODULE}' untuk '${CARDNAME}'..."
 #. :sl1:
 #: ../hw-detect.templates:3001
 msgid "Starting PC card services..."
-msgstr "Menjalankan layanan PC-Card..."
+msgstr "Menjalankan layanan PC card..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../hw-detect.templates:4001
 msgid "Waiting for hardware initialization..."
-msgstr "Sedang menunggu inisialisasi piranti keras ..."
+msgstr "Menunggu inisialisasi perangkat keras..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../hw-detect.templates:12001
 msgid "Checking for firmware..."
-msgstr "Memeriksa firmware ..."
+msgstr "Memeriksa firmware..."
 
 #. Type: text
 #. Description
@@ -2743,7 +2742,7 @@ msgstr "Memeriksa firmware ..."
 #. :sl1:
 #: ../save-logs.templates:1001
 msgid "Save debug logs"
-msgstr "Menyimpan catatan debug"
+msgstr "Simpan catatan debug"
 
 #. Type: text
 #. Description
@@ -2751,7 +2750,7 @@ msgstr "Menyimpan catatan debug"
 #. finish-install progress bar item
 #: ../save-logs.templates:9001
 msgid "Gathering information for installation report..."
-msgstr "Mengumpulkan informasi untuk laporan instalasi ..."
+msgstr "Mengumpulkan informasi untuk laporan instalasi..."
 
 #. Type: text
 #. Description
@@ -2760,7 +2759,7 @@ msgstr "Mengumpulkan informasi untuk laporan instalasi ..."
 #. :sl1:
 #: ../iso-scan.templates:1001
 msgid "Scan hard drives for an installer ISO image"
-msgstr "Pindai penggerak harddisk untuk mencari citra ISO program instalasi"
+msgstr "Pindai hard disk untuk mencari citra ISO pemasang"
 
 #. Type: text
 #. Description
@@ -2787,7 +2786,7 @@ msgstr "Menyimpan bahasa..."
 #. :sl1:
 #: ../localechooser.templates-in:7001
 msgid "Select a language"
-msgstr "Pilih bahasa"
+msgstr "Pilih suatu bahasa"
 
 #. Type: title
 #. Description
@@ -2803,14 +2802,14 @@ msgstr "Pilih lokasi Anda"
 #. :sl1:
 #: ../localechooser.templates-in:9001
 msgid "Configure locales"
-msgstr "Mengatur sistem lokal"
+msgstr "Mengonfigurasi locale"
 
 #. Type: note
 #. Description
 #. :sl1:
 #: ../localechooser.templates-in:12001
 msgid "Language selection no longer possible"
-msgstr "Pemilihan bahasa tidak dimungkinkan"
+msgstr "Pemilihan bahasa tidak dimungkinkan lagi"
 
 #. Type: note
 #. Description
@@ -2964,7 +2963,7 @@ msgstr "lainnya"
 #. :sl1:
 #: ../localechooser.templates-in:23001
 msgid "Country, territory or area:"
-msgstr "Negara, kawasan atau daerah:"
+msgstr "Negara, kawasan, atau area:"
 
 #. Type: text
 #. Description
@@ -2983,8 +2982,8 @@ msgid ""
 "country where you live."
 msgstr ""
 "Lokasi yang dipilih akan digunakan untuk menata zona waktu Anda dan juga "
-"misalnya untuk membantu memilih sistem lokal. Biasanya adalah negara tempat "
-"Anda tinggal."
+"misalnya untuk membantu memilih locale sistem. Biasanya ini adalah negara "
+"tempat Anda tinggal."
 
 #. Type: text
 #. Description
@@ -2995,7 +2994,7 @@ msgid ""
 "\"other\" if your location is not listed."
 msgstr ""
 "Berikut adalah daftar singkat lokasi berdasarkan bahasa yang Anda pilih. "
-"Pilih \"Lainnya\" jika lokasi Anda tidak ada."
+"Pilih \"lainnya\" jika lokasi Anda tidak ada."
 
 #. Type: text
 #. Description
@@ -3022,7 +3021,7 @@ msgstr ""
 #. :sl1:
 #: ../localechooser.templates-in:29001
 msgid "Country to base default locale settings on:"
-msgstr "Negara sebagai dasar penataan sistem lokal:"
+msgstr "Negara sebagai dasar penataan locale:"
 
 #. Type: text
 #. Description
@@ -3034,9 +3033,10 @@ msgid ""
 "for the selected language. The locale that will be used is listed in the "
 "second column."
 msgstr ""
-"Tidak ada sistem lokal yang didefisikan untuk kombinasi bahasa dan negara "
-"yang Anda pilih. Anda dapat memilih penataan sistem lokal dari bahasa yang "
-"dipilih. Sistem lokal yang tersedia ada di kolom kedua."
+"Tidak ada locale yang didefisikan untuk kombinasi bahasa dan negara yang "
+"Anda pilih. Anda sekarang dapat memilih preferensi dari locale yang tersedia "
+"bagi bahasa yang dipilih. Locale yang akan dipakai dicantumkan pada kolom "
+"kedua."
 
 #. Type: text
 #. Description
@@ -3492,7 +3492,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:5001
 msgid "Gateway:"
-msgstr "Gerbang:"
+msgstr "Gateway:"
 
 #. Type: string
 #. Description
@@ -3585,7 +3585,7 @@ msgstr "Silakan tunggu..."
 #. :sl1:
 #: ../partman-auto.templates:2001
 msgid "Computing the new partitions..."
-msgstr "Menghitung kapasitas partisi-partisi baru..."
+msgstr "Menghitung partisi-partisi baru..."
 
 #. Type: select
 #. Description
@@ -3632,7 +3632,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-auto.templates:10001
 msgid "Partitioning scheme:"
-msgstr "Pola partisi:"
+msgstr "Skema partisi:"
 
 #. Type: select
 #. Description
@@ -3645,7 +3645,7 @@ msgstr "Pola partisi:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:10001
 msgid "Selected for partitioning:"
-msgstr "Telah dipilih untuk dipartisi:"
+msgstr "Dipilih untuk dipartisi:"
 
 #. Type: select
 #. Description
@@ -3655,8 +3655,8 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"Hard disk dapat dipartisi dengan satu dari beberapa pola yang berbeda. Jika "
-"Anda tidak yakin, pilih yang pertama."
+"Disk dapat dipartisi memakai salah satu dari beberapa skema yang berbeda. "
+"Jika Anda tidak yakin, pilih yang pertama."
 
 #. Type: text
 #. Description
@@ -3680,14 +3680,14 @@ msgstr "Terpandu - gunakan area kosong terbesar yang kontinu"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:16001
 msgid "Guided - use entire disk"
-msgstr "Terpandu -- gunakan seluruh harddisk"
+msgstr "Terpandu - gunakan seluruh disk"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:17001
 msgid "Select disk to partition:"
-msgstr "Pilih harddisk yang akan dipartisi:"
+msgstr "Pilih disk yang akan dipartisi:"
 
 #. Type: select
 #. Description
@@ -3732,7 +3732,7 @@ msgstr "Semua berkas di satu partisi (disarankan untuk pemula)"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "Separate /home partition"
-msgstr "Partisi /home yang terpisah"
+msgstr "Partisi /home terpisah"
 
 #. Type: text
 #. Description
@@ -3748,7 +3748,7 @@ msgstr "Partisi /home, /var, dan /tmp terpisah"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "Pisahkan /var dan /srv, swap < 1GB (untuk server)"
 
 #. Type: text
 #. Description
@@ -3756,21 +3756,21 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto-lvm.templates:1001
 msgid "Guided - use entire disk and set up LVM"
-msgstr "Terpandu - gunakan seluruh harddisk dan setel LVM"
+msgstr "Terpandu - gunakan seluruh harddisk dan siapkan LVM"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:1001
 msgid "Starting up the partitioner"
-msgstr "Memulai program pemartisi hard disk"
+msgstr "Memulai program pemartisi disk"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:3001
 msgid "Scanning disks..."
-msgstr "Memindai hard disk..."
+msgstr "Memindai disk..."
 
 #. Type: text
 #. Description
@@ -3802,7 +3802,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-base.templates:11001 ../partman-base.templates:12001
 msgid "Write the changes to disks?"
-msgstr "Tuliskan perubahan yang terjadi pada hard disk?"
+msgstr "Tulis perubahan ke disk?"
 
 #. Type: boolean
 #. Description
@@ -3835,14 +3835,14 @@ msgstr ""
 #. :sl1:
 #: ../partman-base.templates:26001
 msgid "Partitions formatting"
-msgstr "Menyusun partisi"
+msgstr "Memformat partisi"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:27001
 msgid "Processing..."
-msgstr "Sedang memproses..."
+msgstr "Memroses..."
 
 #. Type: text
 #. Description
@@ -3872,7 +3872,7 @@ msgstr "RUANG KOSONG"
 #. :sl1:
 #: ../partman-base.templates:36001
 msgid "unusable"
-msgstr "terbuang"
+msgstr "tak bisa dipakai"
 
 #. Type: text
 #. Description
@@ -3888,7 +3888,7 @@ msgstr "primer"
 #. :sl1:
 #: ../partman-base.templates:38001
 msgid "logical"
-msgstr "logikal"
+msgstr "logis"
 
 #. Type: text
 #. Description
@@ -4085,7 +4085,7 @@ msgstr "Memformat ruang swap pada partisi #${PARTITION} dari ${DEVICE}..."
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:31001
 msgid "ext2"
-msgstr "Ext2"
+msgstr "ext2"
 
 #. Type: text
 #. Description
@@ -4273,7 +4273,7 @@ msgstr "Primer"
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Logikal"
+msgstr "Logis"
 
 #. Type: select
 #. Description
@@ -4290,7 +4290,7 @@ msgstr "Jenis partisi baru:"
 #. :sl1:
 #: ../partman-target.templates:1001 ../partman-target.templates:11001
 msgid "Help on partitioning"
-msgstr "Panduan tentang proses partisi"
+msgstr "Bantuan tentang proses partisi"
 
 #. Type: note
 #. Description
@@ -4420,7 +4420,7 @@ msgstr "Memilih dan memasang perangkat lunak"
 #. :sl1:
 #: ../pkgsel.templates:2001
 msgid "Setting up..."
-msgstr "Sedang menata..."
+msgstr "Menyiapkan..."
 
 #. Type: text
 #. Description
@@ -4429,7 +4429,7 @@ msgstr "Sedang menata..."
 #. :sl1:
 #: ../pkgsel.templates:5001
 msgid "Upgrading software..."
-msgstr "Memperbarui piranti lunak ..."
+msgstr "Meningkatkan perangkat lunak..."
 
 #. Type: text
 #. Description
@@ -4449,14 +4449,14 @@ msgstr "Menjalankan tasksel..."
 #. :sl1:
 #: ../pkgsel.templates:7001
 msgid "Cleaning up..."
-msgstr "Sedang membersihkan..."
+msgstr "Membersihkan..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../rescue-mode.templates:1001
 msgid "Enter rescue mode"
-msgstr "Masuk ke moda darurat"
+msgstr "Masuk ke mode penyelamatan"
 
 #. Type: text
 #. Description
@@ -4566,8 +4566,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"Akun pengguna akan dibuatkan untuk Anda gunakan dalam aktifitas non-"
-"administratif."
+"Akun pengguna akan dibuat bagi Anda untuk digunakan sebagai pengganti akun "
+"root untuk aktivitas non-administratif."
 
 #. Type: string
 #. Description
@@ -4588,7 +4588,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "Nama untuk akun Anda:"
+msgstr "Nama pengguna untuk akun Anda:"
 
 #. Type: string
 #. Description
@@ -4608,7 +4608,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "Kata sandi untuk pengguna baru:"
+msgstr "Pilih kata sandi untuk pengguna baru:"
 
 #. Type: password
 #. Description
@@ -4635,7 +4635,7 @@ msgstr ""
 #. :sl1:
 #: ../user-setup-udeb.templates:17001
 msgid "Set up users and passwords"
-msgstr "Menata pengguna dan kata sandi"
+msgstr "Menyiapkan pengguna dan kata sandi"
 
 #. Type: text
 #. Description
