@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-05-09 12:51+0200\n"
+"PO-Revision-Date: 2024-10-14 16:50+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -954,10 +954,8 @@ msgstr ""
 msgid "The GRUB installation has been aborted."
 msgstr "De installatie van GRUB werd afgebroken."
 
-#. #-#-#-#-#  templates.pot (grub-installer)  #-#-#-#-#
 #. Type: select
 #. Choices
-#. #-#-#-#-#  templates.pot (iso-scan)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. :sl3:
@@ -1577,18 +1575,15 @@ msgstr "Apparaten voor de nieuwe volumegroep:"
 msgid "Please select the devices for the new volume group."
 msgstr "Welke apparaten wilt u voor de nieuwe volumegroep gebruiken?"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: multiselect
 #. Description
 #. :sl3:
 #. Type: multiselect
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-crypto)  #-#-#-#-#
 #. Type: multiselect
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: multiselect
 #. Description
 #. :sl3:
@@ -1618,14 +1613,12 @@ msgstr "Volumegroepnaam:"
 msgid "Please enter the name you would like to use for the new volume group."
 msgstr "Welke naam wilt u voor de nieuwe volumegroep gebruiken?"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
 #. Type: error
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
@@ -1675,11 +1668,9 @@ msgstr ""
 msgid "Volume group name already in use"
 msgstr "Deze volumegroepnaam is reeds in gebruik"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#
 #. Type: string
 #. Description
 #. :sl3:
@@ -1722,7 +1713,6 @@ msgstr "Te verwijderen volumegroep:"
 msgid "Please select the volume group you wish to delete."
 msgstr "Welke volumegroep wilt u verwijderen?"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
@@ -1741,7 +1731,6 @@ msgstr "Welke volumegroep wilt u verwijderen?"
 #. Type: error
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
@@ -1914,14 +1903,12 @@ msgstr "Uit de volumegroep te verwijderen apparaat:"
 msgid "Please select the device you wish to remove from the volume group."
 msgstr "Welke apparaten wilt u uit de volumegroep verwijderen?"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
 #. Type: error
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: error
 #. Description
 #. :sl3:
@@ -1991,14 +1978,12 @@ msgstr "Naam voor logisch volume:"
 msgid "Please enter the name you would like to use for the new logical volume."
 msgstr "Welke naam wilt u voor het nieuw logisch volume gebruiken?"
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: select
 #. Description
 #. :sl3:
 #. Type: select
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: select
 #. Description
 #. :sl3:
@@ -2223,41 +2208,35 @@ msgstr "MD-apparaat aanmaken"
 msgid "Delete MD device"
 msgstr "MD-apparaat verwijderen"
 
-#. #-#-#-#-#  templates.pot (mdcfg)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. Note to translators : Please keep your translations of the choices
 #. below a 65 columns limit (which means 65 characters
 #. in single-byte languages)
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-crypto)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. Note to translators : Please keep your translations of the choices
 #. below a 65 columns limit (which means 65 characters
 #. in single-byte languages)
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-iscsi)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. Note to translators : Please keep your translations of the choices
 #. below a 65 columns limit (which means 65 characters
 #. in single-byte languages)
 #. :sl3:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl3:
 #. Menu entry
 #. Use infinitive form
-#. #-#-#-#-#  templates.pot (partman-md)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. Note to translators : Please keep your translations of the choices
 #. below a 65 columns limit (which means 65 characters
 #. in single-byte languages)
 #. :sl3:
-#. #-#-#-#-#  templates.pot (s390-dasd)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. :sl5:
@@ -5850,6 +5829,8 @@ msgstr "De bootloader systemd-boot installeren"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
+"Aantal pogingen per item uit de reeks opstartmogelijkheden (0 om uit te "
+"schakelen):"
 
 #. Type: select
 #. Description
@@ -5861,6 +5842,11 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Configureert de logica die de automatische opstartevaluatie aanstuurt. Er "
+"wordt automatisch teruggevallen op een vorig item uit de reeks "
+"opstartmogelijkheden als een nieuw toegevoegd opstartitem onsuccesvol blijkt "
+"bij meer dan het geconfigureerde aantal uit te voeren pogingen. Voor meer "
+"informatie, zie: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
