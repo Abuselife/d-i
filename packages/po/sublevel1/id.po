@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-10-13 13:16+0000\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 "X-Poedit-Country: INDONESIA\n"
 "X-Poedit-Language: Indonesian\n"
 
@@ -483,9 +483,9 @@ msgid ""
 "recommended, especially if you plan to install a graphical desktop "
 "environment."
 msgstr ""
-"Penggunaan jaringan cermin sangat dianjurkan, terutama bila Anda berencana "
-"memasang sebuah lingkungan desktop grafis, kecuali bila Anda tidak terhubung "
-"ke Internet yang baik."
+"Kecuali jika Anda tidak memiliki koneksi Internet yang baik, penggunaan "
+"cermin dianjurkan, terutama jika Anda berrencana untuk memasang lingkungan "
+"desktop grafis."
 
 #. Type: text
 #. Description
@@ -495,16 +495,15 @@ msgid ""
 "If you have a reasonably good Internet connection, use of a mirror is "
 "suggested if you plan to install a graphical desktop environment."
 msgstr ""
-"Jika Anda memiliki sambungan Internet yang sangat baik, penggunaan jaringan "
-"cermin sangat dianjurkan jika Anda berencana memasang sebuah lingkungan "
-"desktop grafis."
+"Jika Anda memiliki koneksi Internet yang cukup baik, penggunaan cermin "
+"disarankan jika Anda berrencana untuk memasang lingkungan desktop grafis."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:1001
 msgid "Scanning the mirror..."
-msgstr "Memindai jaringan cermin...."
+msgstr "Memindai cermin..."
 
 #. Type: boolean
 #. Description
@@ -526,7 +525,7 @@ msgstr "Silakan pilih apakah Anda menginginkannya tersedia."
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
 msgid "Use non-free software?"
-msgstr "Gunakan perangkat lunak tak-bebas?"
+msgstr "Gunakan perangkat lunak non-free?"
 
 #. Type: boolean
 #. Description
@@ -538,18 +537,18 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Beberapa perangkat lunak tak-bebas telah dibuat dapat bekerja dengan Debian. "
+"Beberapa perangkat lunak non-free telah dibuat dapat bekerja dengan Debian. "
 "Walau perangkat lunak ini tidak semuanya bagian dari Debian, alat-alat "
-"standar Debian dapat digunakan untuk memasang mereka. Perangkat-perangkat "
-"lunak ini memiliki lisensi yang bervariasi yang dapat menghalangi Anda "
-"menggunakan, mengubah, atau berbagi perangkat lunak tersebut."
+"standar Debian dapat digunakan untuk memasang mereka. Perangkat lunak ini "
+"memiliki lisensi yang bervariasi yang dapat menghalangi Anda menggunakan, "
+"mengubah, atau berbagi perangkat lunak tersebut."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:4001
 msgid "Use contrib software?"
-msgstr "Gunakan perangkat lunak sumbangsih?"
+msgstr "Gunakan perangkat lunak contrib?"
 
 #. Type: boolean
 #. Description
@@ -592,14 +591,14 @@ msgstr ""
 msgid ""
 "Please choose whether you want this software to be made available to you."
 msgstr ""
-"Silakan memilih apakah Anda ingin perangkat lunak ini tersedia untuk anda."
+"Silakan memilih apakah Anda ingin perangkat lunak ini tersedia untuk Anda."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:6001
 msgid "Use a network mirror?"
-msgstr "Gunakan suatu jaringan cermin (mirror)?"
+msgstr "Gunakan suatu cermin jaringan?"
 
 #. Type: boolean
 #. Description
@@ -619,7 +618,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "Bersiap-siap memasang sistem dasar..."
+msgstr "Bersiap memasang sistem dasar..."
 
 #. Type: text
 #. Description
@@ -749,14 +748,14 @@ msgstr "Memasang paket-paket inti"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:32001
 msgid "Unpacking required packages"
-msgstr "Membuka paket-paket yang diperlukan"
+msgstr "Membongkar kemasan paket yang diperlukan"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:33001
 msgid "Configuring required packages"
-msgstr "Mempersiapkan paket-paket wajib"
+msgstr "Mengonfigurasi paket yang diperlukan"
 
 #. Type: text
 #. Description
@@ -765,7 +764,7 @@ msgstr "Mempersiapkan paket-paket wajib"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:34001
 msgid "Unpacking the base system"
-msgstr "Memasang sistem dasar"
+msgstr "Membongkar kemasan sistem dasar"
 
 #. Type: text
 #. Description
@@ -774,7 +773,7 @@ msgstr "Memasang sistem dasar"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:35001
 msgid "Configuring the base system"
-msgstr "Mempersiapkan sistem dasar"
+msgstr "Mengonfigurasi sistem dasar"
 
 #. Type: text
 #. Description
@@ -813,7 +812,7 @@ msgstr "Mengekstrak ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "Membuka ${SUBST0}..."
+msgstr "Membongkar kemasan ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -838,14 +837,14 @@ msgstr "Memeriksa tanda tangan Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Berkas Release sah: (id kunci ${SUBST0})"
+msgstr "Tanda tangan Release valid: (id kunci ${SUBST0})"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "Sedang mencari ketergantungan paket-paket dasar..."
+msgstr "Menguraikan ketergantungan paket dasar..."
 
 #. Type: text
 #. Description
@@ -853,7 +852,7 @@ msgstr "Sedang mencari ketergantungan paket-paket dasar..."
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:45001
 msgid "Found additional base dependencies: ${SUBST0}"
-msgstr "Ditemukan ketergantungan tambahan: ${SUBST0}"
+msgstr "Ditemukan tambahan ketergantungan dasar: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -861,7 +860,7 @@ msgstr "Ditemukan ketergantungan tambahan: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "Ditemukan ketergantungan tambahan wajib: ${SUBST0}"
+msgstr "Ditemukan tambahan ketergantungan yang diperlukan: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -869,14 +868,15 @@ msgstr "Ditemukan ketergantungan tambahan wajib: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "Paket dasar telah ada pada daftar wajib: ${SUBST0}"
+msgstr ""
+"Ditemukan paket dalam dasar yang telah ada pada yang diperlukan: ${SUBST0}"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "Sedang mencari ketergantungan paket-paket yang diwajibkan..."
+msgstr "Menguraikan ketergantungan paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -907,7 +907,7 @@ msgstr "Memasang paket-paket inti..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "Membuka paket-paket yang diwajibkan..."
+msgstr "Membongkar kemsan paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -932,7 +932,7 @@ msgstr "Memasang paket-paket dasar..."
 #. :sl1:
 #: ../bootstrap-base.templates:54001
 msgid "Unpacking the base system..."
-msgstr "Membuka dan memasang sistem dasar..."
+msgstr "Membongkar kemasan sistem dasar..."
 
 #. Type: text
 #. Description
@@ -1050,7 +1050,7 @@ msgstr "<Tab> berpindah; <Spasi> memilih; <Enter> mengaktifkan tombol"
 #: ../cdebconf-newt-udeb.templates:7001
 msgid "<F1> for help; <Tab> moves; <Space> selects; <Enter> activates buttons"
 msgstr ""
-"<F1> untuk petunjuk; <Tab> berpindah; <Spasi> memilih; <Enter> mengaktifkan "
+"<F1> untukb bantuan; <Tab> berpindah; <Spasi> memilih; <Enter> mengaktifkan "
 "tombol"
 
 #. Type: text
@@ -1113,7 +1113,7 @@ msgstr "Memeriksa cermin arsip Debian"
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:6001
 msgid "Downloading Release files..."
-msgstr "Mengunduh berkas Release ..."
+msgstr "Mengunduh berkas Release..."
 
 #. Type: text
 #. Description
@@ -1122,7 +1122,7 @@ msgstr "Mengunduh berkas Release ..."
 #. :sl1:
 #: ../choose-mirror-bin.templates-in:14001
 msgid "Choose a mirror of the Debian archive"
-msgstr "Memilih cermin arsip Debian"
+msgstr "Pilih suatu cermin arsip Debian"
 
 #. Type: select
 #. Choices
@@ -1165,7 +1165,7 @@ msgstr "US"
 #: ../choose-mirror-bin.templates.http-in:2003
 #: ../choose-mirror-bin.templates.ftp.sel-in:2003
 msgid "Debian archive mirror country:"
-msgstr "Negara tempat cermin arsip Debian berada:"
+msgstr "Negara tempat cermin arsip Debian:"
 
 #. Type: select
 #. Description
@@ -1181,7 +1181,7 @@ msgid ""
 "the best choice."
 msgstr ""
 "Tujuannnya adalah mencari cermin arsip Debian yang dekat dengan jaringan "
-"Anda -- bisa saja negara yang dekat ataupun negara Anda sendiri bukan "
+"Anda -- bisa saja negara yang dekat, ataupun negara Anda sendiri, bukan "
 "merupakan pilihan yang terbaik."
 
 #. Type: select
@@ -1208,9 +1208,9 @@ msgid ""
 "country or region if you do not know which mirror has the best Internet "
 "connection to you."
 msgstr ""
-"Silakan pilih cermin Debian. Sebaiknya gunakan cermin yang ada di negara "
-"atau wilayah Anda, bila tidak mengetahui cermin yang memiliki sambungan "
-"Internet terbaik ke komputer Anda."
+"Silakan pilih cermin arsip Debian. Sebaiknya gunakan cermin yang ada di "
+"negara atau wilayah Anda, bila tidak mengetahui cermin yang memiliki "
+"sambungan Internet terbaik ke komputer Anda."
 
 #. Type: select
 #. Description
@@ -1240,7 +1240,7 @@ msgstr "Nama host dari cermin arsip Debian:"
 #: ../choose-mirror-bin.templates.ftp.base-in:2001
 msgid ""
 "Please enter the hostname of the mirror from which Debian will be downloaded."
-msgstr "Silakan masukkan nama host dari cermin Debian yang akan dipakai."
+msgstr "Silakan masukkan nama host dari cermin, Debian akan diunduh dari sana."
 
 #. Type: string
 #. Description
@@ -1253,14 +1253,15 @@ msgstr "Silakan masukkan nama host dari cermin Debian yang akan dipakai."
 msgid ""
 "An alternate port can be specified using the standard [hostname]:[port] "
 "format."
-msgstr "Port alternatif dapat ditentukan dengan format baku [namahost]:[port]."
+msgstr ""
+"Port alternatif dapat ditentukan dengan format standar [namahost]:[port]."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Alamat proxy HTTP (kosongkan bila tak ada):"
+msgstr "Alamat proksi HTTP (kosongkan bila tak ada):"
 
 #. Type: string
 #. Description
@@ -1270,8 +1271,8 @@ msgid ""
 "If you need to use a HTTP proxy to access the outside world, enter the proxy "
 "information here. Otherwise, leave this blank."
 msgstr ""
-"Bila Anda perlu menggunakan proxy HTTP untuk mengakses Internet, masukkan "
-"alamat proxy tersebut disini. Bila tidak, biarkan kosong."
+"Bila Anda perlu menggunakan proksi HTTP untuk mengakses Internet, masukkan "
+"alamat proksi tersebut di sini. Bila tidak, biarkan kosong."
 
 #. Type: string
 #. Description
@@ -1285,8 +1286,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informasi proxy harus diberikan dalam bentuk baku sebagai berikut: \"http://"
-"[[user][:pass]@]host[:port]/\"."
+"Informasi proksi harus diberikan dalam bentuk standar sebagai berikut: \"http"
+"://[[pengguna][:sandi]@]host[:port]/\"."
 
 #. Type: text
 #. Description
@@ -1294,7 +1295,7 @@ msgstr ""
 #. :sl1:
 #: ../keyboard-configuration.templates:2001
 msgid "Configure the keyboard"
-msgstr "Mengatur keyboard"
+msgstr "Mengonfigurasi papan ketik"
 
 #. Type: text
 #. Description
@@ -1308,7 +1309,7 @@ msgstr "Lainnya"
 #. :sl1:
 #: ../keyboard-configuration.templates:5001
 msgid "Country of origin for the keyboard:"
-msgstr "Negara asal untuk keyboard ini:"
+msgstr "Negara asal untuk papan ketik:"
 
 #. Type: select
 #. Description
@@ -1319,8 +1320,9 @@ msgid ""
 "multiple common layouts. Please select the country of origin for the "
 "keyboard of this computer."
 msgstr ""
-"Pola keyboard tiap negara berbeda. Beberapa negara memiliki banyak pola "
-"umum. Silakan pilih negara asal untuk keyboard pada komputer ini."
+"Tata letak papan ketik tiap negara berbeda, dengan beberapa negara memiliki "
+"beberapa tata letak umum. Silakan pilih negara asal untuk papan ketik pada "
+"komputer ini."
 
 #. Type: select
 #. Description
@@ -1334,7 +1336,7 @@ msgstr "Tata letak papan ketik:"
 #. :sl1:
 #: ../keyboard-configuration.templates:6001
 msgid "Please select the layout matching the keyboard for this machine."
-msgstr "Silakan pilih pola keyboard yang cocok untuk mesin ini."
+msgstr "Silakan pilih tata letak papan ketik yang cocok untuk mesin ini."
 
 #. Type: select
 #. Choices
@@ -1517,7 +1519,7 @@ msgstr "Tombol Scroll Lock"
 #. :sl1:
 #: ../keyboard-configuration.templates:11001
 msgid "No toggling"
-msgstr "Tanpa tombol pindah"
+msgstr "Tanpa menjungkit"
 
 #. Type: select
 #. Description
@@ -1534,8 +1536,8 @@ msgid ""
 "You will need a way to toggle the keyboard between the national layout and "
 "the standard Latin layout."
 msgstr ""
-"Anda membutuhkan cara untuk berpindah antara pola keyboard nasional dan "
-"standar Latin."
+"Anda membutuhkan cara untuk menjungkitkan tata letak papan ketik antara tata "
+"letak nasional dan Latin standar."
 
 #. Type: select
 #. Description
@@ -1547,18 +1549,18 @@ msgid ""
 "+Shift is also a popular combination; it will however lose its usual "
 "behavior in Emacs and other programs that use it for specific needs."
 msgstr ""
-"Tombol Alt Kanan atau Caps Lock biasanya digunakan dengan alasan ergonomis "
-"(dalam kasus Caps Lock, gunakan kombinasi Shift+Caps Lock untuk berpindah ke "
-"Caps Lock biasa). Alt+Shift juga biasa digunakan, tetapi hal ini akan "
-"menghilangkan sarana pada Emacs dan program lainnya yang juga menggunakan "
-"kombinasi yang sama."
+"Tombol Alt Kanan atau Caps Lock biasanya digunakan dengan alasan ergonomis ("
+"dalam kasus belakangan, gunakan kombinasi Shift+Caps Lock untuk "
+"menjungkitkan Caps normal). Alt+Shift juga biasa digunakan, tetapi hal ini "
+"akan kehilangkan perilaku biasanya pada Emacs dan program lain yang juga "
+"menggunakan itu untuk kebutuhan spesifik."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../keyboard-configuration.templates:11002
 msgid "Not all listed keys are present on all keyboards."
-msgstr "Tidak semua yang ditampilkan tersedia di semua keyboard."
+msgstr "Tidak semua tombol yang dicantumkan tersedia di semua papan ketik."
 
 #. Type: select
 #. Choices
@@ -2542,10 +2544,10 @@ msgid ""
 "hard drives."
 msgstr ""
 "Tampaknya komputer ini dikonfigurasi untuk boot melalui EFI, tetapi mungkin "
-"konfigurasi itu tidak akan bekerja untuk boot dari hard drive. Beberapa "
+"konfigurasi itu tidak akan bekerja untuk boot dari hard disk. Beberapa "
 "implementasi firmware EFI tidak memenuhi spesifikasi EFI (yaitu mereka "
 "mengandung kutu!) dan tidak mendukung konfigurasi yang tepat untuk opsi boot "
-"dari hard drive sistem."
+"dari hard disk sistem."
 
 #. Type: boolean
 #. Description
@@ -2558,7 +2560,8 @@ msgid ""
 msgstr ""
 "Solusi untuk masalah ini adalah untuk memasang salinan tambahan dari versi "
 "EFI pemuat boot GRUB ke lokasi fallback, \"path media lepas-pasang\". Hampir "
-"semua sistem EFI, tidak peduli seberapa berkutu, akan boot GRUB seperti itu."
+"semua sistem EFI, tidak peduli seberapa berkutu, akan mem-boot GRUB seperti "
+"itu."
 
 #. Type: boolean
 #. Description
@@ -2570,11 +2573,11 @@ msgid ""
 "there will make that operating system temporarily unbootable. GRUB can be "
 "manually configured later to boot it if necessary."
 msgstr ""
-"Peringatan: Jika penginstal gagal mendeteksi sistem operasi lain yang ada "
-"pada komputer Anda yang juga bergantung pada fallback ini, memasang GRUB di "
-"sana akan membuat sistem operasi tersebut untuk sementara tidak dapat di-"
-"boot. Nanti GRUB dapat dikonfigurasi secara manual untuk dapat memboot "
-"sistem operasi itu bila perlu."
+"Peringatan: Jika pemasang gagal mendeteksi sistem operasi lain yang ada pada "
+"komputer Anda yang juga bergantung pada fallback ini, memasang GRUB di sana "
+"akan membuat sistem operasi tersebut untuk sementara tidak dapat di-boot. "
+"Nanti GRUB dapat dikonfigurasi secara manual untuk dapat mem-boot sistem "
+"operasi itu bila perlu."
 
 #. Type: boolean
 #. Description
@@ -2596,7 +2599,7 @@ msgid ""
 "your NVRAM variables have been set up such that your system contacts a PXE "
 "server on every boot, this would preserve that behavior."
 msgstr ""
-"GRUB dapat mengonfigurasi variabel NVRAM platform Anda sehingga boot ke "
+"GRUB dapat mengonfigurasi variabel NVRAM platform Anda sehingga mem-boot ke "
 "Debian secara otomatis saat dinyalakan. Namun, Anda mungkin lebih suka "
 "menonaktifkan perilaku ini dan menghindari perubahan pada konfigurasi boot "
 "Anda. Misalnya, jika variabel NVRAM Anda telah diatur sedemikian rupa "
@@ -2650,8 +2653,8 @@ msgid ""
 msgstr ""
 "Jika komputer Anda memiliki beberapa sistem operasi yang terpasang, maka ini "
 "mungkin yang Anda inginkan. Namun, jika komputer Anda adalah host untuk OS "
-"tamu yang dipasang via LVM atau perangkat diska mentah, menjalankan os-"
-"prober dapat menyebabkan kerusakan pada OS tamu tersebut saat memasang "
+"guest yang dipasang via LVM atau perangkat diska mentah, menjalankan os-"
+"prober dapat menyebabkan kerusakan pada OS guest tersebut saat memasang "
 "sistem berkas untuk mencari sesuatu."
 
 #. Type: boolean
@@ -2820,7 +2823,7 @@ msgid ""
 "installation, but you can still change the country or locale."
 msgstr ""
 "Pada tahap ini, tidak dimungkinkan lagi mengubah pilihan bahasa untuk "
-"instalasi. Tetapi Anda dapat mengubah pilihan untuk negara."
+"instalasi. Tetapi Anda masih dapat mengubah negara atau locale."
 
 #. Type: note
 #. Description
@@ -2830,8 +2833,8 @@ msgid ""
 "To select a different language you will need to abort this installation and "
 "reboot the installer."
 msgstr ""
-"Untuk memilih bahasa yang lain, Anda harus membatalkan proses instalasi ini "
-"dan reboot program instalasi ini."
+"Untuk memilih bahasa lain, Anda perlu menggugurkan instalasi ini dan me-"
+"reboot pemasang."
 
 #. Type: boolean
 #. Description
@@ -2849,7 +2852,7 @@ msgstr "Lanjutkan instalasi dengan bahasa yang dipilih?"
 #: ../localechooser.templates-in:13001
 msgid ""
 "The translation of the installer is incomplete for the selected language."
-msgstr "Terjemahan program instalasi untuk bahasa yang dipilih tidak lengkap."
+msgstr "Terjemahan pemasang tidak lengkap untuk bahasa yang dipilih."
 
 #. Type: boolean
 #. Description
@@ -2858,9 +2861,7 @@ msgstr "Terjemahan program instalasi untuk bahasa yang dipilih tidak lengkap."
 msgid ""
 "The translation of the installer is not fully complete for the selected "
 "language."
-msgstr ""
-"Terjemahan program instalasi untuk bahasa yang dipilih belum lengkap "
-"seluruhnya."
+msgstr "Terjemahan pemasang tidak sepenuhnya lengkap untuk bahasa yang dipilih."
 
 #. Type: text
 #. Description
@@ -2870,8 +2871,8 @@ msgid ""
 "This means that there is a significant chance that some dialogs will be "
 "displayed in English instead."
 msgstr ""
-"Artinya, ada kemungkinan beberapa dialog akan disampaikan dalam bahasa "
-"Inggris."
+"Ini berarti bahwa ada kemungkinan besar bahwa beberapa dialog akan "
+"ditampilkan dalam bahasa Inggris sebagai gantinya."
 
 #. Type: text
 #. Description
@@ -2881,8 +2882,9 @@ msgid ""
 "If you do anything other than a purely default installation, there is a real "
 "chance that some dialogs will be displayed in English instead."
 msgstr ""
-"Jika Anda melakukan sesuatu di luar proses instalasi standar, ada "
-"kemungkinan beberapa dialog disampaikan dalam bahasa Inggris."
+"Jika Anda melakukan sesuatu selain instalasi baku murni, ada kemungkinan "
+"nyata bahwa beberapa dialog akan ditampilkan dalam bahasa Inggris sebagai "
+"gantinya."
 
 #. Type: text
 #. Description
@@ -2893,10 +2895,10 @@ msgid ""
 "should be displayed correctly but - especially if you use the more advanced "
 "options of the installer - some may be displayed in English instead."
 msgstr ""
-"Jika Anda melanjutkan proses instalasi dengan bahasa yang dipilih, "
-"kebanyakan dialog akan disampaikan dengan bahasa yang benar. Tetapi, bila "
-"Anda mengambil pilihan tingkat mahir/lanjut, beberapa dialog akan "
-"disampaikan dalam bahasa Inggris."
+"Jika Anda melanjutkan instalasi dalam bahasa yang dipilih, sebagian besar "
+"dialog mestinya ditampilkan dengan benar tetapi - terutama jika Anda "
+"menggunakan opsi pemasang yang lebih canggih - beberapa mungkin ditampilkan "
+"dalam bahasa Inggris sebagai gantinya."
 
 #. Type: text
 #. Description
@@ -2908,10 +2910,10 @@ msgid ""
 "advanced options of the installer - there is a slight chance some may be "
 "displayed in English instead."
 msgstr ""
-"Jika Anda melanjutkan proses instalasi dengan bahasa yang dipilih, dialog "
-"akan disampaikan dengan bahasa yang benar. Tetapi, bila Anda mengambil "
-"pilihan tingkat mahir/lanjut, ada kemungkinan beberapa dialog akan "
-"disampaikan dalam bahasa Inggris."
+"Jika Anda melanjutkan instalasi dalam bahasa yang dipilih, dialog mestinya "
+"secara normal ditampilkan dengan benar tetapi - terutama jika Anda "
+"menggunakan opsi pemasang yang lebih canggih - ada sedikit kemungkinan "
+"beberapa mungkin ditampilkan dalam bahasa Inggris sebagai gantinya."
 
 #. Type: text
 #. Description
@@ -2922,8 +2924,9 @@ msgid ""
 "into the selected language is extremely small, but it cannot be ruled out "
 "completely."
 msgstr ""
-"Kemungkinan Anda akan menemui dialog yang belum diterjemahkan sangatlah "
-"kecil, tetapi tidak dapat dihilangkan sama sekali."
+"Kemungkinan Anda benar-benar akan menemukan dialog yang tidak diterjemahkan "
+"ke dalam bahasa yang dipilih sangat kecil, tetapi tidak dapat dikesampingkan "
+"sepenuhnya."
 
 #. Type: text
 #. Description
@@ -2933,8 +2936,8 @@ msgid ""
 "Unless you have a good understanding of the alternative language, it is "
 "recommended to either select a different language or abort the installation."
 msgstr ""
-"Jika Anda tidak mengerti proses instalasi dengan bahasa asing, sebaiknya "
-"Anda memilih bahasa yang dimengerti atau membatalkan instalasi."
+"Kecuali Anda memiliki pemahaman yang baik tentang bahasa alternatif, "
+"disarankan untuk memilih bahasa yang berbeda atau membatalkan instalasi."
 
 #. Type: text
 #. Description
@@ -2944,8 +2947,8 @@ msgid ""
 "If you choose not to continue, you will be given the option of selecting a "
 "different language, or you can abort the installation."
 msgstr ""
-"Jika Anda memilih berhenti, Anda akan diberikan pilihan bahasa yang lain, "
-"atau Anda bisa membatalkan instalasi."
+"Jika Anda memilih untuk tidak melanjutkan, Anda akan diberikan opsi untuk "
+"memilih bahasa yang berbeda, atau Anda dapat menggugurkan instalasi."
 
 #. Type: select
 #. Choices
@@ -3047,9 +3050,9 @@ msgid ""
 "can now select your preference from those locales. The locale that will be "
 "used is listed in the second column."
 msgstr ""
-"Tersedia banyak sistem lokan untuk bahasa yang Anda pilih. Anda dapat "
-"memilihnya sekarang juga. Sistem lokal yang akan digunakan tersebut di kolom "
-"kedua."
+"Ada beberapa locale yang ditentukan untuk bahasa yang telah Anda pilih. Anda "
+"sekarang dapat memilih preferensi Anda dari locale tersebut. Locale yang "
+"akan digunakan tercantum di kolom kedua."
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: text
@@ -3069,14 +3072,14 @@ msgstr ""
 #: ../lvmcfg.templates:1001 ../partman-lvm.templates:7001
 #: ../partman-lvm.templates:23001
 msgid "Configure the Logical Volume Manager"
-msgstr "Mengatur Logical Volume Manager"
+msgstr "Mengonfigurasi Manajer Volume Logis"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../main-menu.templates:1001
 msgid "Debian installer main menu"
-msgstr "Menu Utama Instalasi Debian"
+msgstr "Menu utama instalasi Debian"
 
 #. Type: select
 #. Description
@@ -3092,7 +3095,7 @@ msgstr "Pilih langkah berikutnya dalam proses instalasi:"
 #. :sl1:
 #: ../mdcfg-utils.templates:1001
 msgid "Configure MD devices"
-msgstr "Mengatur perangkat MD"
+msgstr "Mengonfigurasi perangkat MD"
 
 #. Type: boolean
 #. Description
@@ -3100,7 +3103,7 @@ msgstr "Mengatur perangkat MD"
 #. :sl1:
 #: ../netcfg-common.templates:2001
 msgid "Auto-configure networking?"
-msgstr "Atur jaringan secara otomatis?"
+msgstr "Konfigurasikan jaringan secara otomatis?"
 
 #. Type: boolean
 #. Description
@@ -3114,11 +3117,12 @@ msgid ""
 "the installer is unable to get a working configuration from the network, you "
 "will be given the opportunity to configure the network manually."
 msgstr ""
-"Jaringan dapat diatur dengan memasukkan informasi secara manual atau dengan "
-"DHCP (atau beragam metode IPv6) untuk mendeteksi setelan jaringan secara "
-"otomatis. Bila Anda memilih konfigurasi otomatis dan program instalasi tidak "
-"mendapatkan konfigurasi dari jaringan, Anda akan diberi kesempatan untuk "
-"konfigurasi manual."
+"Jaringan dapat dikonfigurasi baik dengan memasukkan semua informasi secara "
+"manual, atau dengan menggunakan DHCP (atau berbagai metode khusus IPv6) "
+"untuk mendeteksi pengaturan jaringan secara otomatis. Jika Anda memilih "
+"untuk menggunakan konfigurasi otomatis dan pemasang tidak dapat mendapatkan "
+"konfigurasi yang berfungsi dari jaringan, Anda akan diberi kesempatan untuk "
+"mengonfigurasi jaringan secara manual."
 
 #. Type: string
 #. Description
@@ -3137,10 +3141,11 @@ msgid ""
 "If you are setting up a home network, you can make something up, but make "
 "sure you use the same domain name on all your computers."
 msgstr ""
-"Nama domain adalah bagian dari alamat Internet yang berada di sebelah kanan "
-"nama host. Biasanya berakhiran .com, .net, .edu, atau .org. Bila ini untuk "
-"jaringan di rumah, Anda bisa mereka-reka, tapi pastikan domain tersebut sama "
-"pada semua komputer Anda."
+"Nama domain adalah bagian dari alamat Internet Anda di sebelah kanan nama "
+"host Anda.  Ini sering kali merupakan sesuatu yang diakhiri dengan .com, ."
+"net, .edu, atau .org.  Jika Anda menyiapkan jaringan rumah, Anda dapat "
+"membuat sesuatu sendiri, tetapi pastikan Anda menggunakan nama domain yang "
+"sama di semua komputer Anda."
 
 #. Type: string
 #. Description
@@ -3160,11 +3165,11 @@ msgid ""
 "first to be queried. If you don't want to use any name server, just leave "
 "this field blank."
 msgstr ""
-"Server DNS digunakan untuk mencari nama host Internet. Silakan masukkan "
-"alamat IP (bukan nama host) dari server DNS (maksimum 3 server, dipisahkan "
-"dengan spasi, bukan koma). Server pertama merupakan server yang akan "
-"digunakan pertama kali. Bila Anda tidak menggunakan server DNS, biarkan ruas "
-"ini kosong."
+"Server DNS digunakan untuk mencari nama host di jaringan. Silakan masukkan "
+"alamat IP (bukan nama host) dari hingga 3 server DNS, dipisahkan dengan "
+"spasi. Jangan gunakan koma. Server DNS pertama dalam daftar akan menjadi "
+"yang pertama ditanyakan. Jika Anda tidak ingin menggunakan server DNS apa "
+"pun, biarkan kolom ini kosong."
 
 #. Type: select
 #. Description
@@ -3201,7 +3206,7 @@ msgstr "ESSID nirkabel untuk ${iface}:"
 #. :sl1:
 #: ../netcfg-common.templates:7001
 msgid "Attempting to find an available wireless network failed."
-msgstr "Usaha untuk menemukan jaringan nirkabel telah gagal."
+msgstr "Upaya untuk menemukan jaringan nirkabel yang tersedia gagal."
 
 #. Type: string
 #. Description
@@ -3251,9 +3256,9 @@ msgid ""
 "something up here."
 msgstr ""
 "Nama host adalah kata tunggal yang mengidentifikasi sistem Anda pada "
-"jaringan. Bila Anda tidak tahu apa nama host Anda, tanyakan pada "
-"administrator jaringan. Bila Anda memasang untuk jaringan di rumah, Anda "
-"dapat memberi nama sendiri."
+"jaringan. Bila Anda tidak tahu apa nama host Anda mestinya apa, tanyakan "
+"pada administrator jaringan. Bila Anda memasang untuk jaringan di rumah, "
+"Anda dapat memberi nama sendiri."
 
 #. Type: text
 #. Description
@@ -3270,7 +3275,7 @@ msgstr "Menyimpan pengaturan jaringan ..."
 #. :sl1:
 #: ../netcfg-common.templates:48001
 msgid "Configure the network"
-msgstr "Mengatur jaringan"
+msgstr "Konfigurasikan jaringan"
 
 #. Type: select
 #. Choices
@@ -3309,29 +3314,29 @@ msgid ""
 "You may need to supply a DHCP host name. If you are using a cable modem, you "
 "might need to specify an account number here."
 msgstr ""
-"Anda perlu menyediakan nama host DHCP. Bila Anda menggunakan modem kabel, "
-"Anda perlu memberikan nomor akun Anda di sini."
+"Anda mungkin perlu menyediakan nama host DHCP. Bila Anda menggunakan modem "
+"kabel, Anda mungkin perlu memberikan nomor akun Anda di sini."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:1001
 msgid "Most other users can just leave this blank."
-msgstr "Kebanyakan pengguna dapat membiarkan ruas ini kosong."
+msgstr "Kebanyakan pengguna lain dapat membiarkan ini kosong."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:2001
 msgid "Configuring the network with DHCP"
-msgstr "Mengatur jaringan dengan DHCP"
+msgstr "Mengonfigurasi jaringan dengan DHCP"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:4001
 msgid "Network autoconfiguration has succeeded"
-msgstr "Pengaturan otomatis jaringan telah berhasil"
+msgstr "Konfigurasi otomatis jaringan berhasil"
 
 #. Type: select
 #. Choices
@@ -3341,7 +3346,7 @@ msgstr "Pengaturan otomatis jaringan telah berhasil"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration"
-msgstr "Ulangi pengaturan otomatis jaringan"
+msgstr "Coba lagi konfigurasi otomatis jaringan"
 
 #. Type: select
 #. Choices
@@ -3351,7 +3356,7 @@ msgstr "Ulangi pengaturan otomatis jaringan"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Retry network autoconfiguration with a DHCP hostname"
-msgstr "Ulangi pengaturan otomatis jaringan dengan nama host DHCP"
+msgstr "Coba lagi konfigurasi otomatis jaringan dengan suatu nama host DHCP"
 
 #. Type: select
 #. Choices
@@ -3361,7 +3366,7 @@ msgstr "Ulangi pengaturan otomatis jaringan dengan nama host DHCP"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Configure network manually"
-msgstr "Atur jaringan secara manual"
+msgstr "Konfigurasikan jaringan secara manual"
 
 #. Type: select
 #. Choices
@@ -3371,14 +3376,14 @@ msgstr "Atur jaringan secara manual"
 #. in single-byte languages)
 #: ../netcfg-dhcp.templates:6001
 msgid "Do not configure the network at this time"
-msgstr "Jangan mengatur jaringan saat ini"
+msgstr "Jangan konfigurasikan jaringan saat ini"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../netcfg-dhcp.templates:6002
 msgid "Network configuration method:"
-msgstr "Metoda pengaturan jaringan:"
+msgstr "Metoda konfigurasi jaringan:"
 
 #. Type: select
 #. Description
@@ -3391,11 +3396,11 @@ msgid ""
 "by the client, so you can also choose to retry DHCP network "
 "autoconfiguration with a hostname that you provide."
 msgstr ""
-"Dari sini Anda dapat memilih mengulangi pengaturan otomatis jaringan dengan "
-"DHCP (yang mungkin akan berhasil bila DHCP server lambat merespon "
-"permintaan) atau mengatur jaringan secara manual. Beberapa server DHCP "
+"Dari sini Anda dapat memilih mencoba lagi konfigurasi otomatis jaringan "
+"dengan DHCP (yang mungkin akan berhasil bila DHCP server lambat merespon "
+"permintaan) atau mengonfigurasi jaringan secara manual. Beberapa server DHCP "
 "mewajibkan nama host DHCP dikirimkan oleh klien, jadi Anda dapat juga "
-"mengulangi pengaturan otomatis jaringan dengan DHCP menggunakan nama host "
+"mencoba lagi konfigurasi otomatis jaringan dengan DHCP menggunakan nama host "
 "yang Anda berikan."
 
 #. Type: note
@@ -3403,7 +3408,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-dhcp.templates:7001
 msgid "Network autoconfiguration failed"
-msgstr "Pengaturan otomatis jaringan telah gagal"
+msgstr "Konfigurasi otomatis jaringan gagal"
 
 #. Type: note
 #. Description
@@ -3421,7 +3426,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-dhcp.templates:9001
 msgid "Reconfigure the wireless network"
-msgstr "Mengulangi pengaturan jaringan nirkabel"
+msgstr "Mengonfigurasi ulang jaringan nirkabel"
 
 #. Type: string
 #. Description
@@ -3437,7 +3442,7 @@ msgstr "Alamat IP:"
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "The IP address is unique to your computer and may be:"
-msgstr "Alamat IP adalah unik untuk komputer Anda, yaitu:"
+msgstr "Alamat IP adalah unik untuk komputer Anda bisa berupa:"
 
 #. Type: string
 #. Description
@@ -3448,7 +3453,7 @@ msgid ""
 " * four numbers separated by periods (IPv4);\n"
 " * blocks of hexadecimal characters separated by colons (IPv6)."
 msgstr ""
-" * empat kolom angka dipisahkan dengan titik (IPv4);\n"
+" * empat angka dipisahkan dengan titik (IPv4);\n"
 " * sekelompok aksara heksadesimal dipisahkan dengan titik-dua (IPv6)."
 
 #. Type: string
@@ -3457,7 +3462,8 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "You can also optionally append a CIDR netmask (such as \"/24\")."
-msgstr "Anda juga dapat menggunakan notasi netmask CIDR (seperti \"/24\")."
+msgstr ""
+"Anda juga dapat menggunakan mengimbuhkan netmask CIDR (seperti \"/24\")."
 
 #. Type: string
 #. Description
@@ -3465,7 +3471,9 @@ msgstr "Anda juga dapat menggunakan notasi netmask CIDR (seperti \"/24\")."
 #. :sl1:
 #: ../netcfg-static.templates:1001
 msgid "If you don't know what to use here, consult your network administrator."
-msgstr "Jika Anda tidak tahu apa-apa, tanyakan pengelola jaringan Anda."
+msgstr ""
+"Jika Anda tidak tahu apa yang dipakai di sini, tanyakan pengelola jaringan "
+"Anda."
 
 #. Type: string
 #. Description
@@ -3483,9 +3491,9 @@ msgid ""
 "Consult your network administrator if you do not know the value.  The "
 "netmask should be entered as four numbers separated by periods."
 msgstr ""
-"Netmask digunakan untuk menentukan mesin-mesin lokal pada jaringan. Tanyakan "
-"pada administrator jaringan bila Anda tidak mengetahui nilainya. Netmask "
-"harus dimasukkan dalam bentuk 4 angka yang dipisah dengan titik."
+"Netmask digunakan untuk menentukan mesin mana yang lokal pada jaringan.  "
+"Tanyakan pada administrator jaringan bila Anda tidak mengetahui nilainya.  "
+"Netmask harus dimasukkan dalam bentuk 4 angka yang dipisah dengan titik."
 
 #. Type: string
 #. Description
@@ -3506,10 +3514,10 @@ msgid ""
 "you can leave this blank.  If you don't know the proper answer to this "
 "question, consult your network administrator."
 msgstr ""
-"Gerbang merupakan alamat IP (4 angka yang dipisah dengan titik) yang "
-"menunjukan router gerbang, juga disebut sebagai router utama. Semua lalu "
+"Gateway merupakan alamat IP (empat angka yang dipisah dengan titik) yang "
+"menunjukan router gateway, juga disebut sebagai router baku.  Semua lalu "
 "lintas yang keluar dari LAN (misalnya ke Internet) akan dikirim melalui "
-"router ini. Sangat jarang suatu jaringan tidak memiliki router; dalam kasus "
+"router ini.  Sangat jarang suatu jaringan tidak memiliki router; dalam kasus "
 "ini, biarkan ruas ini kosong. Bila Anda tidak tahu jawaban yang benar, "
 "tanyakan pada administrator jaringan."
 
@@ -3518,14 +3526,14 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:8001
 msgid "Is this information correct?"
-msgstr "Apakah keterangan ini benar?"
+msgstr "Apakah informasi ini benar?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../netcfg-static.templates:8001
 msgid "Currently configured network parameters:"
-msgstr "Parameter pengaturan jaringan saat ini:"
+msgstr "Parameter jaringan terkonfigurasi saat ini:"
 
 #. Type: boolean
 #. Description
@@ -3542,7 +3550,7 @@ msgstr ""
 " antarmuka     = ${interface}\n"
 " alamat ip     = ${ipaddress}\n"
 " netmask       = ${netmask}\n"
-" gerbang       = ${gateway}\n"
+" gateway       = ${gateway}\n"
 " pointopoint   = ${pointopoint}\n"
 " server DNS    = ${nameservers}"
 
@@ -3553,7 +3561,7 @@ msgstr ""
 #. :sl1:
 #: ../netcfg-static.templates:9001
 msgid "Configure a network using static addressing"
-msgstr "Mengatur jaringan dengan alamat statis"
+msgstr "Mengonfigurasi jaringan memakai alamat statis"
 
 #. Type: text
 #. Description
@@ -3607,11 +3615,10 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"Program instalasi ini dapat membimbing Anda mempartisi hard disk (dengan "
-"pola standar yang berbeda), atau bila Anda suka, Anda dapat melakukannya "
-"secara manual. Jika Anda memilih sarana pemartisian terpandu, Anda akan "
-"tetap memiliki kesempatan di lain waktu untuk melihat dan menyesuaikan "
-"hasilnya."
+"Pemasang dapat membimbing Anda mempartisi hard disk (memakai skema standar "
+"yang berbeda), atau bila Anda suka, Anda dapat melakukannya secara manual. "
+"Jika Anda memilih pemartisian terpandu, Anda akan tetap memiliki kesempatan "
+"nanti untuk meninjau dan menyesuaikan hasilnya."
 
 #. Type: select
 #. Description
@@ -3697,9 +3704,9 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"Ingat, bahwa data yang ada di harddisk yang Anda pilih akan dihapus. Tetapi, "
-"akan dilakukan setelah Anda memastikan untuk melakukan perubahan pada "
-"harddisk."
+"Perhatikan bahwa seluruh data yang ada di disk yang Anda pilih akan dihapus, "
+"tetapi tidak sebelum Anda memastikan bahwa Anda memang ingin membuat "
+"perubahan."
 
 #. Type: text
 #. Description
@@ -3790,8 +3797,8 @@ msgid ""
 "partition table."
 msgstr ""
 "Berikut ini merupakan ikhtisar atas partisi dan titik kait yang telah Anda "
-"konfigurasi saat ini. Pilih sebuah partisi bila ingin mengubah susunannya "
-"(sistem berkas, titik kait, dll), ruang kosong untuk membuat sebuah partisi "
+"konfigurasi saat ini. Pilih sebuah partisi untuk mengubah pengaturannya ("
+"sistem berkas, titik kait, dll), ruang kosong untuk membuat sebuah partisi "
 "baru, atau sebuah piranti untuk dibuatkan tabel partisinya."
 
 #. Type: boolean
@@ -3815,8 +3822,9 @@ msgid ""
 "If you continue, the changes listed below will be written to the disks. "
 "Otherwise, you will be able to make further changes manually."
 msgstr ""
-"Jika Anda melanjutkan, perubahan yang tertulis di bawah ini akan ditulis ke "
-"hard disk., Bila tidak, anda dapat melakukan perubahan secara manual."
+"Jika Anda melanjutkan, perubahan yang tercantum di bawah ini akan ditulis ke "
+"disk. Bila tidak, Anda akan dapat melakukan perubahan lebih jauh secara "
+"manual."
 
 #. Type: boolean
 #. Description
@@ -3826,9 +3834,8 @@ msgid ""
 "WARNING: This will destroy all data on any partitions you have removed as "
 "well as on the partitions that are going to be formatted."
 msgstr ""
-"PERINGATAN: Proses ini akan menghapus semua data pada partisi-partisi yang "
-"telah Anda hapus serta partisi-partisi yang Anda pilih untuk dibuatkan "
-"sistem berkas baru."
+"PERINGATAN: Ini akan menghancurkan semua data pada partisi-partisi yang "
+"telah Anda hapus serta partisi-partisi yang Anda pilih untuk diformat."
 
 #. Type: text
 #. Description
@@ -3849,14 +3856,14 @@ msgstr "Memroses..."
 #. :sl1:
 #: ../partman-base.templates:31001
 msgid "Finish partitioning and write changes to disk"
-msgstr "Selesai mempartisi dan tulis perubahan-perubahannya ke hard disk"
+msgstr "Selesai mempartisi dan tulis perubahannya ke disk"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:32001
 msgid "Undo changes to partitions"
-msgstr "Membatalkan perubahan pada partisi"
+msgstr "Batalkan perubahan pada partisi"
 
 #. Type: text
 #. Description
@@ -4248,7 +4255,7 @@ msgstr "Akhir"
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Lokasi partisi baru:"
+msgstr "Lokasi bagi partisi baru:"
 
 #. Type: select
 #. Description
@@ -4301,9 +4308,9 @@ msgid ""
 "to install your new system.  You need to choose which partition(s) will be "
 "used for the installation."
 msgstr ""
-"Proses partisi hard disk terdiri atas pembagian hard disk untuk membuat "
-"ruang yang dibutuhkan untuk menginstal sistem Anda yang baru. Anda perlu "
-"memilih partisi-partisi apa saja yang akan digunakan untuk instalasi."
+"Pemartisian hard disk terdiri atas membaginya untuk membuat ruang yang "
+"diperlukan untuk memasang sistem Anda yang baru.  Anda harus memilih partisi "
+"mana yang akan digunakan untuk instalasi."
 
 #. Type: note
 #. Description
@@ -4335,11 +4342,10 @@ msgid ""
 "system, which allows the system to use disk storage as \"virtual memory\"."
 msgstr ""
 "Pilih sebuah partisi untuk dihapus atau untuk ditentukan bagaimana Debian "
-"akan menggunakannya. Paling tidak, Anda perlu sebuah partisi yang akan "
-"berisi sistem berkas root (yang titik kaitnya adalah /). Kebanyakan orang "
-"juga merasa perlu memiliki partisi swap yang terpisah. \"Swap\" merupakan "
-"ruang hard disk yang dapat digunakan sistem operasi sebagai \"memori virtual"
-"\"."
+"akan menggunakannya. Paling tidak, Anda perlu sebuah partisi untuk menampung "
+"sistem berkas root (yang titik kaitnya adalah /).  Kebanyakan orang juga "
+"merasa perlu memiliki partisi swap yang terpisah.  \"Swap\" merupakan ruang "
+"coretan yang dapat digunakan sistem operasi sebagai \"memori virtual\"."
 
 #. Type: note
 #. Description
@@ -4351,8 +4357,8 @@ msgid ""
 "are marked with \"${KEEP}\" in the main partitioning menu."
 msgstr ""
 "Bila partisi telah diformat, Anda dapat memilih untuk tetap menggunakannya "
-"tanpa menghapus data yang telah ada. Partisi yang seperti ini akan ditandai "
-"dengan \"${KEEP}\" pada menu utama proses partisi."
+"tanpa menghapus data yang telah ada.  Partisi yang akan dipakai seperti ini "
+"akan ditandai dengan \"${KEEP}\" pada menu utama proses partisi."
 
 #. Type: note
 #. Description
@@ -4365,11 +4371,11 @@ msgid ""
 "marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
 "be marked with \"${FORMAT}\"."
 msgstr ""
-"Secara umum, Anda ingin memformat partisi dengan sistem berkas baru. "
-"CATATAN: semua data pada partisi akan dihapus tanpa dapat kembali lagi. Jika "
-"Anda memutuskan untuk  memformat partisi yang telah diformat sebelumnya,  "
-"partisi tersebut akan ditandai dengan \"${DESTROY}\" pada menu utama proses "
-"partisi. Jika tidak, itu akan ditandai dengan \"${FORMAT}\"."
+"Secara umum, Anda ingin memformat partisi dengan sistem berkas baru.  "
+"CATATAN: semua data pada partisi akan dihapus tanpa dapat kembali lagi.  "
+"Jika Anda memutuskan untuk memformat partisi yang telah diformat sebelumnya, "
+"itu akan ditandai dengan \"${DESTROY}\" pada menu utama proses partisi.  "
+"Jika tidak, itu akan ditandai dengan \"${FORMAT}\"."
 
 #. Type: text
 #. Description
@@ -4383,11 +4389,10 @@ msgid ""
 "\"${BOOTABLE}\" in the main partitioning menu."
 msgstr ""
 "Agar dapat menjalankan sistem Anda yang baru, dipakai program yg disebut "
-"boot loader. Program ini dapat dipasang pada master boot record dari hard "
-"disk pertama atau pada sebuah partisi. Bila boot loader dipasang pada sebuah "
-"partisi, Anda harus menyalakan tanda 'bootable' pada partisi tersebut. "
-"Partisi ini akan ditandai dengan \"${BOOTABLE}\" pada menu utama proses "
-"partisi."
+"boot loader.  Ini dapat dipasang pada master boot record dari hard disk "
+"pertama atau pada sebuah partisi.  Bila boot loader dipasang pada sebuah "
+"partisi, Anda harus mengatur tanda 'bootable' pada partisi tersebut. Partisi "
+"ini akan ditandai dengan \"${BOOTABLE}\" pada menu utama proses partisi."
 
 #. Type: text
 #. Description
@@ -4527,7 +4532,7 @@ msgid ""
 msgstr ""
 "Atau, Anda dapat mengunci kata sandi akun root dengan membiarkan pengaturan "
 "ini kosong, dan sebagai pengganti memakai akun pengguna awal sistem (yang "
-"akan diatur dalam langkah berikutnya) untuk mendapatkan hak istimewa "
+"akan disiapkan dalam langkah berikutnya) untuk mendapatkan hak istimewa "
 "administratif. Ini akan diaktifkan untuk Anda dengan menambahkan pengguna "
 "awal ke grup 'sudo'."
 
@@ -4579,9 +4584,10 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"Silakan masukkan nama lengkap pengguna ini. Informasi ini digunakan misalnya "
-"saat mengirim surat-e ataupun oleh program lain yang menampilkan nama "
-"lengkap."
+"Silakan masukkan nama asli pengguna ini. Informasi ini akan digunakan "
+"misalnya sebagai asal baku untuk surel yang dikirim oleh pengguna ini serta "
+"program apa pun yang menampilkan atau menggunakan nama asli pengguna. Nama "
+"lengkap Anda adalah pilihan yang masuk akal."
 
 #. Type: string
 #. Description
@@ -4601,7 +4607,7 @@ msgid ""
 msgstr ""
 "Pilih nama pengguna untuk akun baru. Nama depan Anda merupakan pilihan yang "
 "baik. Nama pengguna sebaiknya dimulai dengan huruf kecil, yang dapat diikuti "
-"dengan kombinasi angka dan huruf kecil."
+"dengan sebarang kombinasi angka dan huruf kecil."
 
 #. Type: password
 #. Description
