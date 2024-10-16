@@ -15,24 +15,22 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel5_lv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2018-10-17 19:33+0000\n"
-"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
+"Last-Translator: GGLVXD <85647114+GGLVXD@users.noreply.github.com>\n"
 "Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Weblate 3.2.1\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Lietot nebrīvo programmatūru?"
+msgstr "Lietot licenzēto programmatūru?"
 
 #. Type: boolean
 #. Description
@@ -43,6 +41,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Programmaparatūra ir sava veida programmatūra, kas nodrošina noteiktu "
+"aparatūras komponentu (piemēram, Wi-Fi karšu vai audio mikroshēmojumu) zema "
+"līmeņa kontroli, kas bez tās var nedarboties pilnībā vai vispār."
 
 #. Type: boolean
 #. Description
@@ -54,6 +55,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Lai gan tā nepavisam nav daļa no Debian, dažas bezmaksas programmaparatūras "
+"ir izveidotas darbam ar Debian. Šai programmaparatūrai ir dažādas licences, "
+"kas ierobežo jūsu brīvības izmantot, modificēt vai koplietot programmatūru, "
+"un parasti tai nav avota veidlapu, kuras jūs varētu izpētīt."
 
 #. Type: text
 #. Description

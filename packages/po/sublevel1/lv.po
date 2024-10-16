@@ -25,15 +25,15 @@ msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2023-04-30 21:51+0300\n"
-"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
+"Last-Translator: GGLVXD <85647114+GGLVXD@users.noreply.github.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #. Type: select
 #. Description
@@ -2121,10 +2121,8 @@ msgstr "Turku (Q izklājums)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#, fuzzy
-#| msgid "Japanese"
 msgid "Taiwanese"
-msgstr "Japāņu"
+msgstr "taivānietis"
 
 #. Type: select
 #. Choices
@@ -2603,6 +2601,8 @@ msgstr ""
 #: ../grub-installer.templates:34001 ../grub-installer.templates:35001
 msgid "Run os-prober automatically to detect and boot other OSes?"
 msgstr ""
+"Vai automātiski palaist OS-prober, lai noteiktu un palaistu citas "
+"operētājsistēmas?"
 
 #. Type: boolean
 #. Description
@@ -2617,6 +2617,9 @@ msgid ""
 "GRUB can use the os-prober tool to attempt to detect other operating systems "
 "on your computer and add them to its list of boot options automatically."
 msgstr ""
+"GRUB var izmantot os-prober rīku, lai mēģinātu noteikt citas jūsu datora "
+"operētājsistēmas un automātiski pievienot tās savam sāknēšanas opciju "
+"sarakstam."
 
 #. Type: boolean
 #. Description
@@ -2633,6 +2636,11 @@ msgid ""
 "installed via LVM or raw disk devices, running os-prober can cause damage to "
 "those guest OSes as it mounts filesystems to look for things."
 msgstr ""
+"Ja jūsu datorā ir instalētas vairākas operētājsistēmas, iespējams, tas ir "
+"tas, ko vēlaties. Tomēr, ja jūsu dators ir viesa operētājsistēmu "
+"resursdators, kas instalēts, izmantojot LVM vai neapstrādātas diska ierīces, "
+"OS-prober palaišana var sabojāt šīs viesu operētājsistēmas, jo tā pievieno "
+"failu sistēmas, lai meklētu lietas."
 
 #. Type: boolean
 #. Description
@@ -2644,6 +2652,9 @@ msgid ""
 "this time, but you may still wish to enable it in case you install more in "
 "the future."
 msgstr ""
+"os-prober pašlaik jūsu datorā neatklāja nevienu citu operētājsistēmu, taču, "
+"iespējams, vēlēsities to iespējot, ja nākotnē instalēsiet citas "
+"operētājsistēmas."
 
 #. Type: text
 #. Description
@@ -3714,7 +3725,7 @@ msgstr "Atsevišķi /home, /var un /tmp nodalījumi"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "Atdaliet /var un /srv, apmainiet < 1 GB (serveriem)"
 
 #. Type: text
 #. Description
@@ -4461,6 +4472,8 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"Dažiem kontiem ir jābūt pieejamam ar administratīvām virslietotāja "
+"privilēģijām. Konta parolei ir jābūt tādai, ko nevar uzminēt."
 
 #. Type: password
 #. Description
@@ -4470,6 +4483,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Lai atļautu tiešu uz paroli balstītu piekļuvi, izmantojot saknes kontu, "
+"varat iestatīt šī konta paroli šeit."
 
 #. Type: password
 #. Description
@@ -4481,13 +4496,17 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Varat arī bloķēt saknes konta paroli, atstājot šo iestatījumu tukšu, un tā "
+"vietā izmantot sistēmas sākotnējo lietotāja kontu (kas tiks iestatīts "
+"nākamajā darbībā), lai iegūtu administratora privilēģijas. Tas tiks "
+"iespējots, pievienojot šo sākotnējo lietotāju grupai \"sudo\"."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note: what you type here will be hidden (unless you select to show it)."
-msgstr ""
+msgstr "Piezīme: šeit rakstītais tiks paslēpts (ja vien neizvēlaties to rādīt)."
 
 #. Type: password
 #. Description
@@ -4565,7 +4584,7 @@ msgstr "Ievadiet paroli jaunajam lietotājam:"
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr ""
+msgstr "Noteikti atlasiet spēcīgu paroli, kuru nevar uzminēt."
 
 #. Type: password
 #. Description

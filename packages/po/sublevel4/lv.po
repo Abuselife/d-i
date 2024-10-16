@@ -11,15 +11,15 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel4_lv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-14 20:02+0000\n"
-"PO-Revision-Date: 2018-10-17 19:33+0000\n"
-"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
+"Last-Translator: GGLVXD <85647114+GGLVXD@users.noreply.github.com>\n"
 "Language-Team: Latvian <locale-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Weblate 3.2.1\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #. Type: text
 #. Description
@@ -200,20 +200,16 @@ msgstr "\"GTK\" ir grafiska saskarne, ko var izmantot jebkurā grafiskā vidē."
 #. Main menu entry.
 #. :sl4:
 #: ../templates:1001
-#, fuzzy
-#| msgid "Make the system bootable"
 msgid "Make this ChromeOS board bootable"
-msgstr "Padarīt sistēmu palaižamu"
+msgstr "Padariet šo ChromeOS plati sāknējamu"
 
 #. Type: note
 #. Description
 #. Progress bar title.
 #. :sl4:
 #: ../templates:2001
-#, fuzzy
-#| msgid "Making the system bootable"
 msgid "Making this ChromeOS board bootable"
-msgstr "Padara sistēmu palaižamu"
+msgstr "Padarot šo ChromeOS plati sāknējamu"
 
 #. Type: note
 #. Description
@@ -221,17 +217,15 @@ msgstr "Padara sistēmu palaižamu"
 #. :sl4:
 #: ../templates:3001
 msgid "Installing tools to manage ChromeOS boot images"
-msgstr ""
+msgstr "Rīku instalēšana ChromeOS sāknēšanas attēlu pārvaldībai"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:4001
-#, fuzzy
-#| msgid "Checking partitions"
 msgid "Checking ChromeOS kernel partitions"
-msgstr "Pārbauda nodalījumus"
+msgstr "Notiek ChromeOS kodola nodalījumu pārbaude"
 
 #. Type: note
 #. Description
@@ -239,7 +233,7 @@ msgstr "Pārbauda nodalījumus"
 #. :sl4:
 #: ../templates:5001
 msgid "Updating initramfs"
-msgstr ""
+msgstr "Initramfs atjaunināšana"
 
 #. Type: note
 #. Description
@@ -247,80 +241,64 @@ msgstr ""
 #. :sl4:
 #: ../templates:6001
 msgid "Building a boot image"
-msgstr ""
+msgstr "Sāknēšanas attēla izveide"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:7001
-#, fuzzy
-#| msgid "Generating boot image on disk..."
 msgid "Writing the boot image to disk"
-msgstr "Ģenerē palaišanas attēlu uz diska..."
+msgstr "Sāknēšanas attēla ierakstīšana diskā"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:9001
-#, fuzzy
-#| msgid "No root partition found"
 msgid "No usable ChromeOS kernel partition is found"
-msgstr "Saknes nodalījums nav atrasts"
+msgstr "Nav atrasts neviens izmantojams ChromeOS kodola nodalījums"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:9001
-#, fuzzy
-#| msgid ""
-#| "An error was returned while trying to install the kernel into the target "
-#| "system."
 msgid "An error was returned while searching for a ChromeOS kernel partition."
-msgstr "Kļūda, mēģinot uzinstalēt kodolu bāzes sistēmā."
+msgstr "Meklējot ChromeOS kodola nodalījumu, tika atgriezta kļūda."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:10001
 msgid "Cannot build a boot image"
-msgstr ""
+msgstr "Nevar izveidot sāknēšanas attēlu"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:10001
-#, fuzzy
-#| msgid ""
-#| "An error was returned while trying to install the kernel into the target "
-#| "system."
 msgid "An error was returned while building a boot image."
-msgstr "Kļūda, mēģinot uzinstalēt kodolu bāzes sistēmā."
+msgstr "Veidojot sāknēšanas attēlu, tika atgriezta kļūda."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:11001
-#, fuzzy
-#| msgid "Generating boot image on disk..."
 msgid "Cannot write boot image to disk"
-msgstr "Ģenerē palaišanas attēlu uz diska..."
+msgstr "Nevar ierakstīt sāknēšanas attēlu diskā"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:11001
-#, fuzzy
-#| msgid "An error occurred while writing the changes to the disks."
 msgid "An error was returned while writing the boot image to disk."
-msgstr "Notika kļūda, rakstot izmaiņas diskos."
+msgstr "Rakstot sāknēšanas attēlu diskā, tika atgriezta kļūda."
 
 #. Type: boolean
 #. Description
 #. :sl4:
 #: ../templates:12001
 msgid "Reconfigure initramfs policies?"
-msgstr ""
+msgstr "Vai atkārtoti konfigurēt initramfs politikas?"
 
 #. Type: boolean
 #. Description
@@ -330,6 +308,8 @@ msgid ""
 "Could not generate a small enough boot image for this board. Usually this "
 "can be resolved by including less modules in the initramfs."
 msgstr ""
+"Nevarēja ģenerēt pietiekami mazu sāknēšanas attēlu šim dēlim. Parasti to var "
+"atrisināt, iekļaujot mazāk moduļu initramfs."
 
 #. Type: text
 #. Description
@@ -426,19 +406,15 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
-#| msgid "Failed to mount CD-ROM"
 msgid "Failed to mount ${PATH}"
-msgstr "Nevarēja piemontēt CD-ROM"
+msgstr "Neizdevās uzstādīt ${PATH}"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
-#| msgid "Mounting the proc file system on /target/proc failed."
 msgid "Mounting the ${FSTYPE} file system on ${PATH} failed."
-msgstr "Neizdevās piemontēt proc datņu sistēmu uz /target/proc."
+msgstr "Failu sistēmas ${FSTYPE} uzstādīšana uz ${PATH} neizdevās."
 
 #. Type: error
 #. Description
@@ -584,10 +560,8 @@ msgstr "shortnames - lietot tikai vecā MSDOS stila 8.3 datņu nosaukumus"
 #. Description
 #. :sl4:
 #: ../partman-cros.templates:1001
-#, fuzzy
-#| msgid "Checking partitions"
 msgid "ChromeOS kernel partition"
-msgstr "Pārbauda nodalījumus"
+msgstr "ChromeOS kodola nodalījums"
 
 #. Type: text
 #. Description
@@ -595,7 +569,7 @@ msgstr "Pārbauda nodalījumus"
 #. :sl4:
 #: ../partman-cros.templates:2001
 msgid "CrOS"
-msgstr ""
+msgstr "CrOS"
 
 #. Type: boolean
 #. Description
@@ -609,6 +583,12 @@ msgid ""
 "physical disk as either the root or the boot partition. Two 512 MB "
 "partitions should be fine for most installations."
 msgstr ""
+"Nav atrasts neviens izmantojams ChromeOS kodola nodalījums. Vismaz viens "
+"šāds nodalījums ir nepieciešams, lai jūsu datoru varētu sāknēt, izmantojot "
+"ChromeOS pārbaudītās sāknēšanas metodes (ar CTRL+D vai CTRL+U). Šiem "
+"nodalījumiem ir jāatrodas tajā pašā fiziskajā diskā, kur atrodas saknes vai "
+"sāknēšanas nodalījums. Diviem 512 MB nodalījumiem vajadzētu būt piemērotiem "
+"lielākajai daļai instalāciju."
 
 #. Type: boolean
 #. Description
@@ -620,6 +600,9 @@ msgid ""
 "boot with CTRL+L), continuing the installation would result in an unbootable "
 "machine."
 msgstr ""
+"Ja nevarat sāknēt instalēto sistēmu citā veidā (piemēram, mantotā sāknēšana, "
+"izmantojot taustiņu kombināciju CTRL+L), instalēšanas turpināšana radītu "
+"nesāknējamu mašīnu."
 
 #. Type: text
 #. Description

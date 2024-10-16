@@ -15,15 +15,15 @@ msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2021-01-29 15:32+0000\n"
-"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
+"Last-Translator: GGLVXD <85647114+GGLVXD@users.noreply.github.com>\n"
 "Language-Team: Latviešu <locale-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #. Type: boolean
 #. Description
@@ -445,13 +445,6 @@ msgstr "Konsoles fonts:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -459,10 +452,11 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"VGA\" ir tradicionāls izskats un vidējs starptautisko rakstu "
-"nodrošinājums. \"Fixed\" ir vienkāršots izskats un labāks starptautisko "
-"skriptu nodrošinājums. \"Terminus\" var mazināt acu nogurumu, bet dažiem "
-"simboliem ir līdzīgs izskats, kas var būt neērti programmētājiem."
+"\"VGA\" ir tradicionāls izskats un vidējs starptautisko skriptu pārklājums. "
+"\"Fixed\" izskats ir vienkāršots, un tajā ir labāks starptautisko skriptu "
+"pārklājums. \"Terminus\" var palīdzēt samazināt acu nogurumu, lai gan dažiem "
+"simboliem ir līdzīgs aspekts, kas var būt problēma programmētājiem. \"DejaVu"
+"\" ir piemērots ekrāniem ar HiDPI."
 
 #. Type: select
 #. Description
@@ -3222,6 +3216,8 @@ msgstr "Ierīču kartētājs (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Ar programmaparatūru nodrošināts paššifrējošs disks (pārdevēja ieviests OPAL "
+"ar LUKS2)"
 
 #. Type: text
 #. Description
@@ -3377,7 +3373,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "OPAL paššifrēšana, kas ligzdota ar dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3388,6 +3384,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Daži diski atbalsta paššifrēšanu. Šī ir aparatūras funkcija, kas, ja tā ir "
+"iespējota, izmantojot šo opciju, tiks izmantota kopā ar dm-crypt, lai "
+"nodrošinātu dubultu šifrēšanas slāni."
 
 #. Type: text
 #. Description
@@ -3410,7 +3409,7 @@ msgstr "Dzēst datus no šī nodalījuma"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Visa diska rūpnīcas atiestatīšana (tiks zaudēti VISI dati)"
 
 #. Type: boolean
 #. Description
@@ -3899,7 +3898,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "OPAL administratora parole:"
 
 #. Type: password
 #. Description
@@ -3909,6 +3908,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Ierīcei ${DEVICE} ir jāizvēlas jauna vai jānorāda esošā OPAL administratora "
+"parole."
 
 #. Type: password
 #. Description
@@ -3920,37 +3921,35 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Šī parole tiks izmantota, lai pārvaldītu visu ierīci – pievienotu jaunus "
+"OPAL nodalījumus, noņemtu tos, dzēstu. Ja šī parole tiek pazaudēta, ierīcei "
+"būs jāatjauno rūpnīcas iestatījumi, tādējādi zaudējot visus datus no visiem "
+"nodalījumiem."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Ievadiet paroli vēlreiz:"
+msgstr "Atkārtoti ievadiet OPAL administratora paroli, lai pārbaudītu:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Lūdzu, ievadiet to pašu superlietotāja paroli vēlreiz, lai pārliecinātos, ka "
-"tā ievadīta pareizi."
+"Lūdzu, vēlreiz ievadiet to pašu paroli, lai pārbaudītu, vai esat to "
+"ievadījis pareizi."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -3960,69 +3959,57 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Jums ir jānorāda ${DEVICE} OPAL PSID. Tas parasti ir norādīts uz diskdziņa "
+"etiķetes."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Ievadiet paroli vēlreiz:"
+msgstr "Atkārtoti ievadiet OPAL PSID, lai pārbaudītu:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Lūdzu, ievadiet to pašu paroli vēlreiz, lai pārliecinātos, ka jūs to "
-"ievadījāt pareizi."
+"Lūdzu, vēlreiz ievadiet to pašu PSID, lai pārbaudītu, vai esat to pareizi "
+"ievadījis."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Kļūda, ievadot paroli"
+msgstr "OPAL PSID ievades kļūda"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Jūsu ievadītās paroles atšķiras. Lūdzu, mēģiniet vēlreiz."
+msgstr "Abi jūsu ievadītie OPAL PSID nebija vienādi. Lūdzu, mēģiniet vēlreiz."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Tukšs OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Jūs ievadījāt tukšu paroli, kas nav atļauts. Lūdzu, ievadiet paroli, kas nav "
-"tukša."
+"Jūs ievadījāt tukšu PSID, kas nav atļauts. Lūdzu, norādiet PSID, kas nav "
+"tukšs."
 
 #. Type: entropy
 #. Description
@@ -4049,29 +4036,23 @@ msgstr "Veidojot atslēgas datni, radusies kļūda."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr "btrfs saknes failu sistēma ir atbalstīta tikai ar atsevišķu /boot"
+msgstr "Vai konfigurēt šifrēšanu bez atsevišķa /boot?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Jūs izvēlējāties izvietot saknes datņu sistēmu šifrētā nodalījumā. Lai "
-"lietotu šādu sistēmu, ir nepieciešams izveidot /boot nodalījumu, kurā "
-"glabātos kodols un initrd."
+"Jūs esat atlasījis saknes failu sistēmu, kas jāsaglabā šifrētā nodalījumā. "
+"Lietojot GRUB, parasti šai funkcijai ir nepieciešams atsevišķs /boot "
+"nodalījums, kurā var saglabāt kodolu un initrd. Tas nav nepieciešams, "
+"izmantojot systemd-boot/UKI, jo tā vietā tiek izmantots ESP."
 
 #. Type: error
 #. Description
@@ -4750,20 +4731,16 @@ msgstr "Loģiskajam sējumam netika norādīts nosaukums. Lūdzu, ievadiet to."
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:52001
-#, fuzzy
-#| msgid ""
-#| "Please enter the size of the new logical volume. The size may be entered "
-#| "in the following formats: 10K (Kilobytes), 10M (Megabytes), 10G "
-#| "(Gigabytes), 10T (Terabytes). The default unit is Megabytes."
 msgid ""
 "Please enter the size of the new logical volume. You can use the following "
 "formats: 10KB (Kilobytes), 10KiB (Kibibytes), 10MB (Megabytes), 10MiB "
 "(Mebibytes), 10GB (Gigabytes), 10GiB (Gibibytes), 10TB (Terabytes), 10TiB "
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
-"Ievadiet jaunā loģiskā sējuma izmēru. To var ievadīt šādos veidos: 10K "
-"(Kilobaiti), 10M (Megabaiti), 10G (Gigabaiti), 10T (Terabaiti). Noklusētā "
-"vienība ir megabaiti."
+"Lūdzu, ievadiet jaunā loģiskā sējuma lielumu. Varat izmantot šādus formātus: "
+"10 KB (kilobaiti), 10 KiB (kibibaiti), 10 MB (mebibaiti), 10 MiB (mebibaiti)"
+", 10 GB (gigabaiti), 10 gibaiti (gibibaiti), 10 TB (terabaiti), 10 tiB "
+"(tebibaiti). Noklusējuma vienība ir megabaiti."
 
 #. Type: error
 #. Description
@@ -5743,10 +5720,8 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Install the GRUB boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Instalēt GRUB palaidēju"
+msgstr "Instalējiet systemd-boot boot loader"
 
 #. Type: select
 #. Description
@@ -5754,6 +5729,7 @@ msgstr "Instalēt GRUB palaidēju"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
+"Atkārtotu mēģinājumu skaits vienam sāknēšanas ierakstam (0, lai atspējotu):"
 
 #. Type: select
 #. Description
@@ -5765,6 +5741,11 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Konfigurē automātisko sāknēšanas novērtēšanas loģiku, kas automātiski "
+"atgriežas pie iepriekšējā sāknēšanas ieraksta, ja jaunais sāknēšanas "
+"ieraksts neizdodas vairāk nekā konfigurētais atkārtoto mēģinājumu skaits pēc "
+"pirmās pievienošanas. Plašāku informāciju skatiet: https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
