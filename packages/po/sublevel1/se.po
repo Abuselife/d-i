@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: se\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:01+0000\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
 "PO-Revision-Date: 2019-08-28 18:10+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
@@ -1169,17 +1169,19 @@ msgstr "čális ieš dieđuid"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:

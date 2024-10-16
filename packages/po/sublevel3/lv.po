@@ -4738,9 +4738,9 @@ msgid ""
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
 "Lūdzu, ievadiet jaunā loģiskā sējuma lielumu. Varat izmantot šādus formātus: "
-"10 KB (kilobaiti), 10 KiB (kibibaiti), 10 MB (mebibaiti), 10 MiB (mebibaiti)"
-", 10 GB (gigabaiti), 10 gibaiti (gibibaiti), 10 TB (terabaiti), 10 tiB "
-"(tebibaiti). Noklusējuma vienība ir megabaiti."
+"10 KB (kilobaiti), 10 KiB (kibibaiti), 10 MB (mebibaiti), 10 MiB "
+"(mebibaiti), 10 GB (gigabaiti), 10 gibaiti (gibibaiti), 10 TB (terabaiti), "
+"10 tiB (tebibaiti). Noklusējuma vienība ir megabaiti."
 
 #. Type: error
 #. Description

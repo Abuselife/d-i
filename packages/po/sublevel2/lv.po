@@ -3306,8 +3306,8 @@ msgid ""
 msgstr ""
 "Padoms: \"max\" var izmantot kā saīsni, lai norādītu maksimālo izmēru, vai "
 "ievadiet procentuālo daļu (piemēram, \"20%\"), lai izmantotu šo procentuālo "
-"daļu no maksimālā izmēra. Varat norādīt nodalījumu izmērus decimāldaļās ("
-"piemēram, MB vai GB), kā arī binārajās vienībās (piemēram, GiB vai TiB)."
+"daļu no maksimālā izmēra. Varat norādīt nodalījumu izmērus decimāldaļās "
+"(piemēram, MB vai GB), kā arī binārajās vienībās (piemēram, GiB vai TiB)."
 
 #. Type: error
 #. Description

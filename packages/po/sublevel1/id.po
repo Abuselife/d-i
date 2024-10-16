@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:01+0000\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
 "PO-Revision-Date: 2024-10-16 15:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
@@ -1138,17 +1138,19 @@ msgstr "masukkan informasi secara manual"
 #. Type: select
 #. Default
 #. Translators, you should put here the ISO 3166 code of a country
-#. which you know hosts at least one Debian HTTP mirror. Please check
-#. that the country really has a Debian HTTP mirror before putting a
-#. random value here
+#. which you know hosts at least one Debian HTTP mirror and which is
+#. network-wise near by your country.
+#. Please check that the country really has a Debian HTTP mirror before
+#. putting a random value here.
 #.
 #. First check that the country you mention here is listed in
-#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist
+#. https://salsa.debian.org/mirror-team/masterlist/-/blob/master/Mirrors.masterlist.in
 #.
-#. BE CAREFUL to use the TWO LETTER ISO-3166 CODE and not anything else
+#. BE CAREFUL to only use the TWO LETTER ISO-3166 CODE and nothing else!
 #.
-#. You do not need to translate what's between the square brackets
+#. You do not need to translate what's between the square brackets.
 #. You should even NOT put square brackets in translations:
+#. Do it like this:
 #. msgid "US[ Default value for http]"
 #. msgstr "FR"
 #. :sl1:
@@ -1286,8 +1288,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informasi proksi harus diberikan dalam bentuk standar sebagai berikut: \"http"
-"://[[pengguna][:sandi]@]host[:port]/\"."
+"Informasi proksi harus diberikan dalam bentuk standar sebagai berikut: "
+"\"http://[[pengguna][:sandi]@]host[:port]/\"."
 
 #. Type: text
 #. Description
@@ -1549,8 +1551,8 @@ msgid ""
 "+Shift is also a popular combination; it will however lose its usual "
 "behavior in Emacs and other programs that use it for specific needs."
 msgstr ""
-"Tombol Alt Kanan atau Caps Lock biasanya digunakan dengan alasan ergonomis ("
-"dalam kasus belakangan, gunakan kombinasi Shift+Caps Lock untuk "
+"Tombol Alt Kanan atau Caps Lock biasanya digunakan dengan alasan ergonomis "
+"(dalam kasus belakangan, gunakan kombinasi Shift+Caps Lock untuk "
 "menjungkitkan Caps normal). Alt+Shift juga biasa digunakan, tetapi hal ini "
 "akan kehilangkan perilaku biasanya pada Emacs dan program lain yang juga "
 "menggunakan itu untuk kebutuhan spesifik."
@@ -2861,7 +2863,8 @@ msgstr "Terjemahan pemasang tidak lengkap untuk bahasa yang dipilih."
 msgid ""
 "The translation of the installer is not fully complete for the selected "
 "language."
-msgstr "Terjemahan pemasang tidak sepenuhnya lengkap untuk bahasa yang dipilih."
+msgstr ""
+"Terjemahan pemasang tidak sepenuhnya lengkap untuk bahasa yang dipilih."
 
 #. Type: text
 #. Description
@@ -3797,8 +3800,8 @@ msgid ""
 "partition table."
 msgstr ""
 "Berikut ini merupakan ikhtisar atas partisi dan titik kait yang telah Anda "
-"konfigurasi saat ini. Pilih sebuah partisi untuk mengubah pengaturannya ("
-"sistem berkas, titik kait, dll), ruang kosong untuk membuat sebuah partisi "
+"konfigurasi saat ini. Pilih sebuah partisi untuk mengubah pengaturannya "
+"(sistem berkas, titik kait, dll), ruang kosong untuk membuat sebuah partisi "
 "baru, atau sebuah piranti untuk dibuatkan tabel partisinya."
 
 #. Type: boolean
