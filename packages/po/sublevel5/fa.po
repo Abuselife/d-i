@@ -9,15 +9,15 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2020-10-22 09:29+0000\n"
-"Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
+"PO-Revision-Date: 2024-10-20 08:17+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-Persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 5.8-rc\n"
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,10 +26,8 @@ msgstr ""
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "از نرم‌افزار ناآزاد استفاده شود؟"
+msgstr "استفاده از ثابت‌افزار ناآزاد؟"
 
 #. Type: boolean
 #. Description
@@ -40,6 +38,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"ثابت‌افزار نوعی نرم‌افزار است که واپایش سطح پایین مولفه‌های سخت‌افزاری خاصی (چون "
+"کارت‌های وای‌فای یا تراشه‌های صدا) را فراهم کرده و ممکن است بدون آن درست یا اصلاً"
+" کار نکند."
 
 #. Type: boolean
 #. Description
@@ -51,6 +52,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"اگرچه کاملاً بیرون از دبیان، برخی ثابت‌افزارهای ناآزاد برای کار با دبیان ساخته "
+"شده‌اند. این ثابت‌افزارها پروانه‌هایی گوناگون داشته که آزادیتان در استفاده، "
+"تغییر یا هم‌رسانی نرم‌افزار را محدود کرده و عموماً ریخت منبعی که بتوانید مطالعه "
+"کنید ندارند."
 
 #. Type: text
 #. Description
