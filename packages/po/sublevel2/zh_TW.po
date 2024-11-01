@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-05-10 13:52+0000\n"
-"Last-Translator: yubike <coby2023t@gmail.com>\n"
+"PO-Revision-Date: 2024-10-30 15:06+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -3649,10 +3649,8 @@ msgstr "/home - 使用者的主目錄"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - 暫存檔"
+msgstr "/tmp - 暫存檔（預設：tmpfs）"
 
 #. Type: select
 #. Choices

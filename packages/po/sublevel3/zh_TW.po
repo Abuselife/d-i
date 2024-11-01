@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-05-29 05:09+0000\n"
+"PO-Revision-Date: 2024-10-30 15:07+0000\n"
 "Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #. Type: boolean
 #. Description
@@ -5525,17 +5525,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Install the GRUB boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "安裝 GRUB 開機程式"
+msgstr "安裝 systemd-boot 開機程式"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "每個開機條目的重試次數（0 表示停用）："
 
 #. Type: select
 #. Description

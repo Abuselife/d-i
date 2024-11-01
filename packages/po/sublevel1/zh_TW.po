@@ -29,8 +29,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-16 20:01+0000\n"
-"PO-Revision-Date: 2024-05-10 13:52+0000\n"
-"Last-Translator: yubike <coby2023t@gmail.com>\n"
+"PO-Revision-Date: 2024-10-30 15:06+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
@@ -38,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #. Type: select
 #. Description
@@ -3693,7 +3693,7 @@ msgstr "將 /home、/var 及 /tmp 分割區獨立出來"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "分隔 /var 和 /srv，交換 < 1GB（用於伺服器）"
 
 #. Type: text
 #. Description
