@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: km\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"POT-Creation-Date: 2024-11-03 20:02+0000\n"
 "PO-Revision-Date: 2012-01-17 11:49+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -3713,7 +3713,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#. This is a method for partioning - as in guided (automatic) versus manual
+#. This is a method for partitioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:18001
 msgid "Manual"
 msgstr "ដោយដៃ"

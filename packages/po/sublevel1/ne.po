@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"POT-Creation-Date: 2024-11-03 20:02+0000\n"
 "PO-Revision-Date: 2017-12-17 18:40+0000\n"
 "Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -3725,7 +3725,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#. This is a method for partioning - as in guided (automatic) versus manual
+#. This is a method for partitioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:18001
 msgid "Manual"
 msgstr "म्यानुअल"

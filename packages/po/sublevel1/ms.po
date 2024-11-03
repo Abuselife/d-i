@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"POT-Creation-Date: 2024-11-03 20:02+0000\n"
 "PO-Revision-Date: 2021-06-03 13:31+0000\n"
 "Last-Translator: zahiruddin Rushdi <dinzahir99@gmail.com>\n"
 "Language-Team: Translation Project Team, Kuching Open Source Community\n"
@@ -3810,7 +3810,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#. This is a method for partioning - as in guided (automatic) versus manual
+#. This is a method for partitioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:18001
 msgid "Manual"
 msgstr "Manual"

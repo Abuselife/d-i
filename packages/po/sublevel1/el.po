@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"POT-Creation-Date: 2024-11-03 20:02+0000\n"
 "PO-Revision-Date: 2024-07-19 16:09+0000\n"
 "Last-Translator: mpt.c <open.alat4@slmail.me>\n"
 "Language-Team: Greek <debian-l10n-greek@lists.debian.org>\n"
@@ -3753,7 +3753,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#. This is a method for partioning - as in guided (automatic) versus manual
+#. This is a method for partitioning - as in guided (automatic) versus manual
 #: ../partman-auto.templates:18001
 msgid "Manual"
 msgstr "Διαχείριση με το χέρι"
