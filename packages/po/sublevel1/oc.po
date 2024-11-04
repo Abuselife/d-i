@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2024-04-03 16:15+0000\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: select
 #. Description
@@ -2122,7 +2122,7 @@ msgstr "Turc (dispo. Q)"
 #, fuzzy
 #| msgid "Japanese"
 msgid "Taiwanese"
-msgstr "Japonés"
+msgstr "taiwanés"
 
 #. Type: select
 #. Choices
@@ -3744,7 +3744,7 @@ msgstr "Particions /home, /var e /tmp separadas"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "Particions /var e /srv separadas, e swap < 1GB (pels servidors)"
 
 #. Type: text
 #. Description
