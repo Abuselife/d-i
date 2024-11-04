@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2023-11-28 13:05+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 "X-Launchpad-Export-Date: 2008-07-14 12:32+0000\n"
 
 #. Type: boolean
@@ -447,13 +447,6 @@ msgstr "Letur fyrir skjáherminn:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -465,7 +458,7 @@ msgstr ""
 "stafaskriftur. \"Fast\" er með mjög einfalt útlit og styður betur "
 "alþjóðlegar stafaskriftur. \"Terminus\" gæti hjálpað til við að minnka "
 "augnþreytu, samt eru sum táknin mjög lík og gæti það verið vandamál t.d. "
-"fyrir forritara."
+"fyrir forritara. \"DejaVu\" hentar skjám með HiDPI."
 
 #. Type: select
 #. Description
@@ -3933,25 +3926,19 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Sláðu lykilorð aftur inn til að staðfesta:"
+msgstr "Sláðu aftur inn lykilorð OPAL-stjórnanda til að staðfesta:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Sláðu inn sama kerfisstjóralykilorðið (root) aftur til að staðfesta að þú "
-"hafir slegið það rétt inn."
+"Sláðu aftur inn sama lykilorðið til að staðfesta að þú hafir slegið það rétt "
+"inn."
 
 #. Type: password
 #. Description
@@ -3973,42 +3960,31 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Sláðu lykilorð aftur inn til að staðfesta:"
+msgstr "Sláðu aftur inn OPAL PSID til að staðfesta:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Sláðu inn sama lykilorðið aftur til að staðfesta að það hafi verið skrifað "
-"rétt."
+"Sláðu aftur inn sama PSID til að staðfesta að það hafi verið skrifað rétt."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Villa í innslætti á lykilorði"
+msgstr "Villa í innslætti á OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Lykilorðin sem þú slóst inn voru ekki eins. Reyndu aftur."
+msgstr "OPAL PSID auðkennin sem þú slóst inn voru ekki eins. Reyndu aftur."
 
 #. Type: error
 #. Description
@@ -4021,16 +3997,11 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Þú slóst inn tómt lykilorð, sem er ekki leyfilegt. Veldu lykilorð sem er "
-"ekki tómt."
+"Þú slóst inn tómt PSID, sem er ekki leyfilegt. Veldu PSID sem er ekki tómt."
 
 #. Type: entropy
 #. Description
@@ -4057,10 +4028,8 @@ msgstr "Villa kom upp við að gera lykilskrá."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr "btrfs rótarskráakerfi er ekki stutt á sérstakrar /boot disksneiðar"
+msgstr "Stilla dulritun án sérstakrar /boot disksneiðar?"
 
 #. Type: boolean
 #. Description
@@ -5752,10 +5721,8 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Install the GRUB boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Setja upp GRUB ræsistjórann"
+msgstr "Setja upp systemd-boot ræsistjórann"
 
 #. Type: select
 #. Description

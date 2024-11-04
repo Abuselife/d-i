@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2023-11-28 13:05+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 "X-Launchpad-Export-Date: 2008-07-14 12:32+0000\n"
 
 #. Type: multiselect
@@ -3804,10 +3804,8 @@ msgstr "/home - heimamöppur notenda"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - bráðabirgðaskrár"
+msgstr "/tmp - bráðabirgðaskrár (sjálfgefið: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -5339,17 +5337,12 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"ATHUGAÐU að þú getur búið til fleiri notendur með því að skrifa 'adduser "
+"Athugaðu að þú getur búið til fleiri notendur með því að skrifa 'adduser "
 "<notendanafn>' sem root, þar sem <notendanafn> er notandanafnið, t.d 'jon' "
 "eða 'siggi'."
 
