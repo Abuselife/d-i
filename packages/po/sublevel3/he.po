@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-09-10 17:33+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: boolean
 #. Description
@@ -3872,7 +3872,7 @@ msgstr "נא להקליד את אותה הסיסמה שוב כדי לוודא ש
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "PSID (מזהה אבטחה פיזי) של OPAL:"
 
 #. Type: password
 #. Description
@@ -3882,65 +3882,53 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"יש לספק את ה־PSID (מזהה אבטחה פיזי) של ה־OPAL עבור ${DEVICE}. זה בדרך כלל "
+"נמצא על תווית הכונן."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "נא למלא את הסיסמה שוב לצורך אימות:"
+msgstr "נא למלא את ה־PSID (מזהה אבטחה פיזי) של OPAL לצורך אימות:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
-msgstr "נא להקליד את אותה מילת הצופן כדי לאמת שהקלדת אותה כראוי."
+msgstr "נא להקליד את אותו PSID (מזהה אבטחה פיזי) כדי לאמת שהקלדת אותו כראוי."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "שגיאה בקליטת הסיסמה"
+msgstr "שגיאה בקליטת OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "שתי הסיסמאות שמילאת אינן זהות. נא לנסות שוב."
+msgstr "שני ה־OPAL PSID שמילאת אינם זהים. נא לנסות שוב."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "OPAL PSID ריק"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
-msgstr "מילאת סיסמה ריקה, אסור לעשות זאת. נא לבחור סיסמה לא ריקה."
+msgstr "מילאת PSID ריק, אסור לעשות זאת. נא לספק PSID לא ריק."
 
 #. Type: entropy
 #. Description
