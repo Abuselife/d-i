@@ -32,16 +32,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2024-07-07 10:09+0000\n"
-"Last-Translator: Zi Jiaxu <3119932298@qq.com>\n"
+"POT-Creation-Date: 2024-10-16 20:01+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
+"Last-Translator: Lou Letian <louletian@sina.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: select
 #. Description
@@ -2100,10 +2100,8 @@ msgstr "土耳其语 (Q 布局)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#, fuzzy
-#| msgid "Taiwan"
 msgid "Taiwanese"
-msgstr "台湾语"
+msgstr "繁体中文（台湾）"
 
 #. Type: select
 #. Choices
@@ -3654,7 +3652,7 @@ msgstr "将 /home、/var 和 /tmp 都分别放在单独的分区"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "将/var和/srv单独分区，swap<1GB(服务器方案)"
 
 #. Type: text
 #. Description
@@ -4392,25 +4390,22 @@ msgstr "有些账户需要拥有超级用户权限，这些账户的密码应当
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
-#, fuzzy
 msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
-msgstr "为了允许通过“root”账户直接使用密码，你可以在此为这一账户确定密码。"
+msgstr "请为root帐号设定密码以便可以直接登陆该帐号。"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
-#, fuzzy
 msgid ""
 "Alternatively, you can lock the root account's password by leaving this "
 "setting empty, and instead use the system's initial user account (which will "
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
-msgstr ""
-"或者，你可以留空密码来锁定 root 账户，而使用用户账户（在下一步设置）获取管理"
-"员权限，即加入 sudo 用户组。"
+msgstr "你也可以不使用root管理员帐号，另外一种方式就是将系统的初始帐号（将在下一步中"
+"设置）加入sudo组来获得管理员权限。"
 
 #. Type: password
 #. Description

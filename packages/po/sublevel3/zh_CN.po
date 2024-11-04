@@ -16,15 +16,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-07-08 13:09+0000\n"
-"Last-Translator: Zi Jiaxu <3119932298@qq.com>\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
+"Last-Translator: Lou Letian <louletian@sina.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: boolean
 #. Description
@@ -3780,14 +3780,10 @@ msgstr "请再次输入密码以验证其正确性："
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
-msgstr "请再次输入相同的 root 密码以保证您的输入没有出错。"
+msgstr "请再次输入相同的密码以保证您的输入没有出错。"
 
 #. Type: password
 #. Description
