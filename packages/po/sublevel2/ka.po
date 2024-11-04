@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-09-17 23:09+0000\n"
+"PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: multiselect
 #. Description
@@ -1825,8 +1825,8 @@ msgstr ""
 "მოწყობილობის მითითება შეიძლება /dev-ში მითითებით. რამდენიმე მაგალითი:\n"
 " - \"/dev/sda\" GRUB- პირველ დისკზე დააყენებს (UEFI/ჩამტვირთავის\n"
 "   ჩანაწერი);\n"
-" - \"/dev/sdb\" GRUB-ს  მეორე დისკზე დააყენებს (რომელიც შეიძლება ფლეშ-"
-"დრაივს    წარმოადგენდეს);\n"
+" - \"/dev/sdb\" GRUB-ს  მეორე დისკზე დააყენებს (რომელიც შეიძლება, \n"
+"     ფლეშ-დრაივს წარმოადგენდეს);\n"
 " - \"(fd0)\" ან \"/dev/fd0\" GRUB-ის დაყენება დისკეტაზე."
 
 #. Type: password
