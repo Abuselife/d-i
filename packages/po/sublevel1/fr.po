@@ -19,14 +19,14 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020, 2022, 2023.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020, 2022, 2023, 2024.
 # bubu <bubub@no-log.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2023-05-14 09:38+0200\n"
+"PO-Revision-Date: 2024-11-05 20:02+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -34,7 +34,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 20.12.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 
 #. Type: select
 #. Description
@@ -2146,10 +2146,9 @@ msgstr "Turc (trqu)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#, fuzzy
 #| msgid "Taiwan"
 msgid "Taiwanese"
-msgstr "Taiwan"
+msgstr "Taiwanais"
 
 #. Type: select
 #. Choices
@@ -3790,7 +3789,7 @@ msgstr "Partitions /home, /var et /tmp séparées"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "/var et /srv séparées, swap < 1Go (pour les serveurs)"
 
 #. Type: text
 #. Description
@@ -4547,6 +4546,9 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"Un compte doit être paramétré pour disposer des privilèges administratifs de "
+"superutilisateur. Le mot de passe pour ce compte doit être quelque chose qui "
+"ne peut pas être deviné."
 
 #. Type: password
 #. Description
@@ -4556,6 +4558,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Pour autoriser un connexion directe par mot de passe du superutilisateur "
+"(« root »), saisissez ici ce mot de passe."
 
 #. Type: password
 #. Description
@@ -4567,6 +4571,11 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Autrement, vous pouvez bloquer le mot de passe du superutilisateur "
+"en laissant ce champ vide. À la place, vous pourrez utiliser le "
+"premier utilisateur créé par le système (à la prochaine étape) pour obtenir "
+"des privilèges d'administration. Ceci sera effectué en ajoutant le premier "
+"utilisateur créé au groupe « sudo »."
 
 #. Type: password
 #. Description
@@ -4574,6 +4583,8 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note: what you type here will be hidden (unless you select to show it)."
 msgstr ""
+"Remarque : ce que vous saisirez ici sera caché (à moins de choisir de "
+"l'afficher)."
 
 #. Type: password
 #. Description
@@ -4654,6 +4665,8 @@ msgstr "Mot de passe pour le nouvel utilisateur :"
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
 msgstr ""
+"Assurez-vous de choisir un mot de passe suffisamment robuste qui ne puisse "
+"pas être deviné."
 
 #. Type: password
 #. Description
