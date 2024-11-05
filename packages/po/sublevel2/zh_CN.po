@@ -5132,9 +5132,9 @@ msgid ""
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"请注意，您也可以稍后再创建此账户 (也包括任何其他账户)。方法是以 root "
-"身份执行 \"adduser <username>\"，此处的 <username> 是一个用户名，例如 "
-"\"imurdock\" 或 \"rms\"。"
+"请注意，您也可以稍后再创建此账户 (也包括任何其他账户)。方法是以 root 身份执"
+"行 \"adduser <username>\"，此处的 <username> 是一个用户名，例如 \"imurdock\" "
+"或 \"rms\"。"
 
 #. Type: error
 #. Description
