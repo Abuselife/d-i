@@ -3400,10 +3400,6 @@ msgstr "Schéma de partitionnement des petits disques (<10 Go)"
 #: ../partman-auto-lvm.templates:11001 ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 #, no-c-format
-#| msgid ""
-#| "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
-#| "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
-#| "size."
 msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
@@ -3896,7 +3892,6 @@ msgstr "/home - répertoires personnels des utilisateurs"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
 msgstr "/tmp - fichiers temporaires (tmpfs par défaut)"
 
@@ -5454,10 +5449,6 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "

@@ -2146,7 +2146,6 @@ msgstr "Turc (trqu)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#| msgid "Taiwan"
 msgid "Taiwanese"
 msgstr "Taiwanais"
 
@@ -4558,8 +4557,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
-"Pour autoriser une connexion directe du superutilisateur (« root ») "
-"par mot de passe, saisissez ici son mot de passe."
+"Pour autoriser une connexion directe du superutilisateur (« root ») par mot "
+"de passe, saisissez ici son mot de passe."
 
 #. Type: password
 #. Description
@@ -4571,10 +4570,10 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
-"Autrement, vous pouvez bloquer le mot de passe du superutilisateur "
-"en laissant ce champ vide. À la place, vous pourrez utiliser le "
-"premier utilisateur créé par le système (à la prochaine étape) pour obtenir "
-"des privilèges d'administration. Cela sera effectué en ajoutant le premier "
+"Autrement, vous pouvez bloquer le mot de passe du superutilisateur en "
+"laissant ce champ vide. À la place, vous pourrez utiliser le premier "
+"utilisateur créé par le système (à la prochaine étape) pour obtenir des "
+"privilèges d'administration. Cela sera effectué en ajoutant le premier "
 "utilisateur créé au groupe « sudo »."
 
 #. Type: password
