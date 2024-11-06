@@ -3413,8 +3413,8 @@ msgstr ""
 "Il est possible d'utiliser « max » comme méthode simplifiée pour choisir la "
 "taille maximale ou d'indiquer un pourcentage (p. ex. « 20% ») pour utiliser "
 "ce pourcentage de la taille maximale. Les tailles de partitions peuvent être "
-"indiquées en unités décimales (p. ex. MB ou GB) ou en unités binaires (p. "
-"ex. GiB ou TiB)."
+"indiquées en unités décimales (p. ex. MB ou GB) ou en unités binaires (p. ex "
+"GiB ou TiB)."
 
 #. Type: error
 #. Description

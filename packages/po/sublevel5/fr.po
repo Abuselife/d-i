@@ -62,9 +62,9 @@ msgid ""
 msgstr ""
 "Bien qu'ils ne fassent pas partie de Debian, certains microprogrammes non "
 "libres ont été faits pour fonctionner avec Debian. Ces microprogrammes "
-"possèdent différentes licences qui restreignent vos liberté de les utiliser, "
-"les modifier ou les partager. Et leurs sources ne sont généralement pas "
-"disponibles pour les étudier."
+"possèdent différentes licences qui restreignent votre liberté de les "
+"utiliser, de les modifier ou de les partager. Et leurs sources ne sont "
+"généralement pas disponibles pour les étudier."
 
 #. Type: text
 #. Description
