@@ -4664,8 +4664,8 @@ msgstr "Mot de passe pour le nouvel utilisateur :"
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
 msgstr ""
-"Assurez-vous de choisir un mot de passe suffisamment robuste qui ne puisse "
-"pas être deviné."
+"Assurez-vous de choisir un mot de passe suffisamment robuste pour qu'il ne "
+"puisse pas être deviné."
 
 #. Type: password
 #. Description
