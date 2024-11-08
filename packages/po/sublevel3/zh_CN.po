@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-11-04 08:22+0000\n"
-"Last-Translator: Lou Letian <louletian@sina.com>\n"
+"PO-Revision-Date: 2024-11-08 16:47+0000\n"
+"Last-Translator: Weng Qizhi <zhiiwg@foxmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -436,7 +436,6 @@ msgstr "控制台字体："
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -444,9 +443,10 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"VGA\" 具有传统的外观和中等的国际化文字覆盖程度。\"Fixed\" 具有简化的外观和"
-"更好的国际化文字覆盖程度。\"Terminus\" 可帮助减少视觉疲劳，但有些字符可能会看"
-"起来类似，这可能会给程序员带来一些麻烦。"
+"\"VGA\" 具有传统的外观和中等的国际化文字覆盖程度。\"Fixed\" "
+"具有简化的外观和更好的国际化文字覆盖程度。\"Terminus\" 可帮助减少视觉疲劳，但"
+"有些字符可能会看起来类似，这可能会给程序员带来一些麻烦。\"DejaVu\" "
+"适合高分辨率屏幕。"
 
 #. Type: select
 #. Description
@@ -3241,7 +3241,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "嵌套于 dm-crypt 的 OPAL 自加密："
 
 #. Type: select
 #. Description
@@ -3251,7 +3251,8 @@ msgid ""
 "Some disks support self-encryption. This is a hardware feature that, if "
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
-msgstr ""
+msgstr "一些硬盘本身支持加密。这是一项硬件功能，如果通过此选项启用该功能，将会和 dm-"
+"crypt 一起提供双层的加密保护。"
 
 #. Type: text
 #. Description
@@ -3274,7 +3275,7 @@ msgstr "擦除此分区上的数据"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "将这整个硬盘恢复出厂化设置（所有数据将会丢失）"
 
 #. Type: boolean
 #. Description
@@ -3745,7 +3746,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "OPAL 管理密码："
 
 #. Type: password
 #. Description
@@ -3754,7 +3755,7 @@ msgstr ""
 msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
-msgstr ""
+msgstr "你需要为 ${DEVICE} 选择一个新的 OPAL 管理密码，或者提供已有的密码。"
 
 #. Type: password
 #. Description
@@ -3766,15 +3767,15 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"此密码用于管理整个设备 - 添加新 OPAL 分区、移除或擦除 OPAL 分区。如果此密码丢"
+"失，设备将需要重置为出厂状态以恢复使用，所有分区的所有数据将会丢失。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "请再次输入密码以验证其正确性："
+msgstr "请再次输入 OPAL 管理密码来验证："
 
 #. Type: password
 #. Description
@@ -3790,7 +3791,7 @@ msgstr "请再次输入相同的密码以保证您的输入没有出错。"
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL 产品序列号："
 
 #. Type: password
 #. Description
@@ -3799,66 +3800,52 @@ msgstr ""
 msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
-msgstr ""
+msgstr "你需要为 ${DEVICE} 提供 OPAL 产品序列号。这通常可以在驱动器的标签上找到。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "请再次输入密码以验证其正确性："
+msgstr "请再次输入 OPAL 产品序列号来验证："
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
-msgstr "请重新输入相同的密码句以确保您的输入正确无误。"
+msgstr "请再次输入相同的产品序列号以确保您的输入正确无误。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "密码输入错误"
+msgstr "OPAL 产品序列号输入错误"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "您所输入的两个密码并不相同。请重新输入。"
+msgstr "您所输入的两个 OPAL 产品序列号并不相同。请重新输入。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "OPAL 产品序列号为空"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
-msgstr "您输入的是空密码，这是不允许的。请选择一个非空的密码。"
+msgstr "您输入的产品序列号为空，这是不允许的。请提供一个非空的产品序列号。"
 
 #. Type: entropy
 #. Description
@@ -3885,28 +3872,22 @@ msgstr "在创建密钥文件时出现一个错误。"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr "不支持在不使用单独的 /boot 的情况下，使用 btrfs 作为根文件系统"
+msgstr "在不划分单独 /boot 分区的情况下设置加密？"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"您选择了将根文件系统放在一个加密分区上。此功能需要一个用来存放内核和 initrd "
-"的单独 /boot 分区。"
+"您选择了将根文件系统放在一个加密分区上。在使用 GRUB 时，"
+"此功能需要一个用来存放内核和 initrd 的单独 /boot 分区。使用 systemd-boot/UKI "
+"的时候则不需要单独的 /boot 分区，这时候使用 ESP 分区来实现对应功能。"
 
 #. Type: error
 #. Description
@@ -5503,17 +5484,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "正在安装 aboot 引导管理器"
+msgstr "安装 systemd-boot 引导管理器"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "每个启动项目的重试次数（0 为禁用）："
 
 #. Type: select
 #. Description
@@ -5525,6 +5504,9 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"设置自动启动评估逻辑，当添加一个新启动项后，如果它启动失败超过设置的重试次数"
+"，将自动回退到之前的启动项。更多细节请参阅：https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
