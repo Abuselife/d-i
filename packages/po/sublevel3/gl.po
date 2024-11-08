@@ -21,15 +21,15 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2022-04-18 13:37+0000\n"
-"Last-Translator: Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>\n"
+"PO-Revision-Date: 2024-11-06 18:00+0000\n"
+"Last-Translator: Víctor Posada <victorposadasoto@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: boolean
 #. Description
@@ -455,13 +455,6 @@ msgstr "Tipo de letra para a consola:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -473,7 +466,8 @@ msgstr ""
 "internacionais. «Fixed» ten un aspecto simple e ten mellor cobertura dos "
 "alfabetos internacionais. «Terminus» pode axudar a reducir a fatiga visual "
 "aínda que algúns símbolos teñen un aspecto similar, o que pode ser un "
-"problema para os programadores."
+"problema para os programadores. \"DejaVu\" está enfocada para monitores con "
+"HiDPI."
 
 #. Type: select
 #. Description

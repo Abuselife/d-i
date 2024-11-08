@@ -21,15 +21,15 @@ msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2024-01-29 20:01+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2024-11-06 18:00+0000\n"
+"Last-Translator: Víctor Posada <victorposadasoto@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: select
 #. Description
@@ -2118,10 +2118,8 @@ msgstr "Turco (esquema Q)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#, fuzzy
-#| msgid "Japanese"
 msgid "Taiwanese"
-msgstr "Xaponés"
+msgstr "Taiwanés"
 
 #. Type: select
 #. Choices
@@ -3737,7 +3735,7 @@ msgstr "Particións /home, /var e /tmp separadas"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "Particións /var e /src,swap < 1GB separadas (para servidores)"
 
 #. Type: text
 #. Description
@@ -4493,6 +4491,9 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"Algunhas contas necesitas estar dispoñibles con privilexios de super-"
+"ususario. O contrasinal para esa conta debe ser algo que no poida ser "
+"adiviñado."
 
 #. Type: password
 #. Description
@@ -4502,6 +4503,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Para permitir aceso directo basado en contrasinal para root, podes "
+"configurar o contrasinal da conta aquí."
 
 #. Type: password
 #. Description
@@ -4513,6 +4516,9 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Tamén podes bloquear a conta de root deixando o campo baleiro, e a conta de "
+"usuario inicial (que configurarase no seguite paso) obterá permisos de "
+"administrador ao ser engadida ao grupo 'sudo'."
 
 #. Type: password
 #. Description
@@ -4520,6 +4526,7 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note: what you type here will be hidden (unless you select to show it)."
 msgstr ""
+"Nota: o que escribas aquí estaŕa agochado (a non ser que elixas amosalo)."
 
 #. Type: password
 #. Description
@@ -4597,7 +4604,7 @@ msgstr "Escriba o contrasinal do novo usuario:"
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr ""
+msgstr "Asegúrate de elixir un contrasinal seguro que non poda ser adiviñado."
 
 #. Type: password
 #. Description
