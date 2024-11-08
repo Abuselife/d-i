@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2018-06-12 16:58+0300\n"
+"PO-Revision-Date: 2024-11-08 20:20+0000\n"
 "Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
@@ -21,9 +21,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: boolean
 #. Description
@@ -3229,7 +3229,7 @@ msgstr "Device-mapper (dm-crypt)"
 #: ../partman-crypto.templates:4001
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
-msgstr ""
+msgstr "Самашыфруючы дыск з прашыўкай (рэалізаваны вытворцам OPAL з LUKS2)"
 
 #. Type: text
 #. Description
@@ -3385,7 +3385,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "Самашыфраванне OPAL, укладзенае ў dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3396,6 +3396,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Некаторыя дыскі падтрымліваюць самашыфраванне. Гэта апаратная функцыя, якая, "
+"калі яе ўключыць з дапамогай гэтай опцыі, будзе выкарыстоўвацца разам з dm-"
+"crypt для забеспячэння падвойнага ўзроўню шыфравання."
 
 #. Type: text
 #. Description
@@ -3419,6 +3422,7 @@ msgstr "Ачысціць дадзеныя ў гэтым падзеле:"
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
 msgstr ""
+"Скінуць увесь гэты дыск да заводскіх налад (УСЕ дадзеныя будуць страчаны)"
 
 #. Type: boolean
 #. Description
@@ -3907,7 +3911,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "Пароль адміністратара OPAL:"
 
 #. Type: password
 #. Description
@@ -3917,6 +3921,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Вам трэба выбраць новы або ўвесці існуючы пароль адміністратара OPAL для "
+"${DEVICE}."
 
 #. Type: password
 #. Description
@@ -3928,6 +3934,10 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Гэты пароль будзе выкарыстоўвацца для кіравання ўсёй прыладай - дадаваць "
+"новыя раздзелы OPAL, выдаляць іх, сціраць. Калі гэты пароль будзе згублены, "
+"для аднаўлення прылады трэба будзе скінуць заводскія налады, пры гэтым "
+"будуць страчаны ўсе даныя з усіх раздзелаў."
 
 #. Type: password
 #. Description
@@ -3957,7 +3967,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -3967,6 +3977,8 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Вам трэба ўказаць OPAL PSID для ${DEVICE}. Звычайна гэта значыцца на "
+"этыкетцы дыскавода."
 
 #. Type: password
 #. Description
@@ -4014,7 +4026,7 @@ msgstr "Уведзеныя паролі не супадаюць. Калі лас
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Пусты OPAL PSID"
 
 #. Type: error
 #. Description
@@ -5759,7 +5771,7 @@ msgstr "Усталяваць загрузчык GRUB"
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Колькасць паўтораў на запіс загрузкі (0 для адключэння):"
 
 #. Type: select
 #. Description
@@ -5771,6 +5783,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Наладжвае логіку аўтаматычнай ацэнкі загрузкі, якая аўтаматычна вяртаецца да "
+"папярэдняга запісу загрузкі, калі новая колькасць паўторных спроб перавышае "
+"наладжаную пры першым даданні. Для атрымання дадатковай інфармацыі глядзіце: "
+"https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
