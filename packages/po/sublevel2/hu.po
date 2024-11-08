@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-10-27 20:00+0000\n"
+"PO-Revision-Date: 2024-11-08 16:47+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 # Type: multiselect
 # Description
@@ -244,8 +244,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"A telepítő nem tudta letölteni ezen helyi tároló aláírásához használt "
-"nyilvános kulcsot: ${MIRROR}:"
+"A telepítő nem tudta letölteni ennek a helyi tárolónak az aláíráshoz "
+"használt nyilvános kulcsát: ${MIRROR}:"
 
 # Type: error
 # Description
@@ -362,7 +362,7 @@ msgstr "Nincs kiválasztva hálózati tükörszerver."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Akarsz korlátozás alá eső szoftvert használni?"
+msgstr "Szeretnél korlátozás alá eső szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -394,7 +394,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Akarsz az „universe” komponensből szoftvert használni?"
+msgstr "Szeretnél az „universe” komponensből szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -424,7 +424,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Akarsz a „multiverse” komponensből szoftvert használni?"
+msgstr "Szeretnél a „multiverse” komponensből szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -458,7 +458,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Akarsz a „partner” tárolóból szoftvert használni?"
+msgstr "Szeretnél a „partner” tárolóból szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -488,7 +488,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Akarsz backportolt szoftvert használni?"
+msgstr "Szeretnél backportolt szoftvert használni?"
 
 # Type: boolean
 # Description
@@ -1665,7 +1665,7 @@ msgstr "Nincs AltGr billentyű"
 #. :sl2:
 #: ../keyboard-configuration.templates:13001
 msgid "Keypad Enter key"
-msgstr "Numerikus Enter"
+msgstr "Numerikus Enter billentyű"
 
 # Type: select
 # Choices
@@ -1738,8 +1738,8 @@ msgid ""
 "found on the keyboard."
 msgstr ""
 "A kombinációs billentyű (másképp: Multi_billentyű) hatására a gép a "
-"következő pár billentyűt kombinációként értelmezi a billentyűzeten nem "
-"található karakterek előállítására."
+"következő néhány billentyűleütést kombinációként értelmezi, és a "
+"billentyűzeten nem található karaktert hoz létre."
 
 # Type: select
 # Description
@@ -1753,7 +1753,7 @@ msgid ""
 "Unicode mode, regardless of what you choose here, you can always also use "
 "the Control+period combination as a Compose key."
 msgstr ""
-"Szöveges konzolon a Kombinációs billentyű nem működik Unicode módban. Nem "
+"Szöveges konzolon a kombinációs billentyű nem működik Unicode módban. Nem "
 "Unicode módban - az itteni beállítástól függetlenül - a Control+pont "
 "kombináció is mindig használható kombinációs billentyűként."
 
@@ -1764,7 +1764,7 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the integrity of installation media"
-msgstr "Ellenőrizze a telepítési adathordozó sértetlenségét"
+msgstr "Telepítési adathordozó sértetlenségének ellenőrzése"
 
 #. Type: boolean
 #. Description
@@ -1793,9 +1793,9 @@ msgid ""
 "media, and continue. Otherwise, you will be given the option to manually "
 "select some modules."
 msgstr ""
-"Szüksége lehet további illesztőprogramok betöltésére cserélhető "
+"Szükséged lehet további illesztőprogramok betöltésére cserélhető "
 "adathordozóról, például hajlékonylemezről vagy USB-meghajtóról. Ha van ilyen "
-"adathordozója, tegye be a folytatás előtt. Ellenkező esetben lehetősége lesz "
+"adathordozód, tedd be a folytatás előtt. Ellenkező esetben lehetőséged lesz "
 "az egyes modulok kézi kiválasztására."
 
 # Type: boolean
@@ -1805,10 +1805,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:3001
-#, fuzzy
-#| msgid "Manually select a CD-ROM module and device?"
 msgid "Manually select a module and device for installation media?"
-msgstr "Kézzel választ CD-ROM modult és eszközt?"
+msgstr "Kézzel választod ki a modult és az eszközt a telepítési adathordozóhoz?"
 
 # Type: boolean
 # Description
@@ -1820,10 +1818,9 @@ msgstr "Kézzel választ CD-ROM modult és eszközt?"
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:3001
-#, fuzzy
-#| msgid "No common CD-ROM drive was detected."
 msgid "No device for installation media (like a CD-ROM device) was detected."
-msgstr "Nem találtam általános CD-ROM meghajtót."
+msgstr ""
+"A rendszer nem észlelt telepítési adathordozót (például CD-ROM-eszközt)."
 
 # Type: boolean
 # Description
@@ -1832,32 +1829,23 @@ msgstr "Nem találtam általános CD-ROM meghajtót."
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:3001
-#, fuzzy
-#| msgid ""
-#| "Your CD-ROM drive may be an old Mitsumi or another non-IDE, non-SCSI CD-"
-#| "ROM drive. In that case you should choose which module to load and the "
-#| "device to use. If you don't know which module and device are needed, look "
-#| "for some documentation or try a network installation instead of a CD-ROM "
-#| "installation."
 msgid ""
 "If your CD-ROM drive is an old Mitsumi or another non-IDE, non-SCSI CD-ROM "
 "drive, you should choose which module to load and the device to use. If you "
 "don't know which module and device are needed, look for some documentation "
 "or try a network installation."
 msgstr ""
-"Az Ön CD-ROM meghajtója egy régi Mitsumi vagy más nem-IDE, nem-SCSI eszköz "
-"lehet. Ez esetben ki kell választania a betöltendő modult és használandó "
-"eszközt. Kétség esetén forduljon a dokumentációkhoz, vagy a CD-ROM telepítés "
-"helyett hálózati telepítéssel próbálkozzon."
+"Ha a CD-ROM meghajtód egy régi Mitsumi vagy más nem IDE vagy nem SCSI CD-"
+"ROM, akkor ki kell választanod a betöltendő modult és a használandó eszközt. "
+"Ha nem tudod, hogy melyik modulra és eszközre van szükséged, keresd meg a CD-"
+"ROM meghajtó dokumentációját, vagy próbáld meg a hálózati telepítést."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:4001
-#, fuzzy
-#| msgid "Remote installation password:"
 msgid "Retry mounting installation media?"
-msgstr "Távoli telepítés jelszava:"
+msgstr "Megpróbálod újra csatlakoztatni a telepítési adathordozót?"
 
 # Type: boolean
 # Description
@@ -1866,17 +1854,14 @@ msgstr "Távoli telepítés jelszava:"
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:4001
-#, fuzzy
-#| msgid ""
-#| "Your installation CD-ROM couldn't be mounted. This probably means that "
-#| "the CD-ROM was not in the drive. If so you can insert it and try again."
 msgid ""
 "Your installation media couldn't be mounted. When installing from CD-ROM, "
 "this probably means that the disk was not in the drive. If so you can insert "
 "it and try again."
 msgstr ""
-"A telepítő CD-ROM nem csatolható. Valószínűleg nincs a meghajtóban. Ebben az "
-"esetben most tegye be és próbálja újra."
+"A telepítési adathordozót nem sikerült csatlakoztatni. CD-ROM-ról történő "
+"telepítés esetén ez azt jelenti, hogy a lemez valószínűleg nincs a "
+"meghajtóban. Ha így van, tedd be és próbáld újra."
 
 # Type: select
 # Description
@@ -1885,10 +1870,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:5001
-#, fuzzy
-#| msgid "Module needed for accessing the CD-ROM:"
 msgid "Module needed for accessing the installation media:"
-msgstr "A CD-ROM eléréséhez szükséges modul:"
+msgstr "A telepítési adathordozó eléréséhez szükséges modul:"
 
 # Type: select
 # Description
@@ -1897,18 +1880,14 @@ msgstr "A CD-ROM eléréséhez szükséges modul:"
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:5001
-#, fuzzy
-#| msgid ""
-#| "The automatic detection didn't find a CD-ROM drive. You can try to load a "
-#| "specific module if you have an unusual CD-ROM drive (that is neither IDE "
-#| "nor SCSI)."
 msgid ""
 "The automatic detection didn't find a drive for installation media. When "
 "installing from CD-ROM and you have an unusual CD-ROM drive (that is neither "
 "IDE nor SCSI), you can try to load a specific module."
 msgstr ""
-"Nem található automatikusan CD-ROM illesztőprogram. Nem-szokványos (sem IDE, "
-"sem SCSI) CD-ROM meghajtó esetén megpróbálhatja betölteni a megfelelő modult."
+"Az automatikus észlelés nem talált meghajtót a telepítési adathordozóhoz. Ha "
+"CD-ROM-ról telepítesz, és szokatlan CD-ROM meghajtód van (ami nem IDE és nem "
+"SCSI), akkor megpróbálhatod a szükséges modult betölteni."
 
 # Type: string
 # Description
@@ -1917,10 +1896,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:6001
-#, fuzzy
-#| msgid "Device file for accessing the CD-ROM:"
 msgid "Device file for accessing the installation media:"
-msgstr "A CD-ROM eléréshez használt eszközfájl:"
+msgstr "Eszközfájl a telepítési adathordozó eléréséhez:"
 
 # Type: string
 # Description
@@ -1929,19 +1906,14 @@ msgstr "A CD-ROM eléréshez használt eszközfájl:"
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:6001
-#, fuzzy
-#| msgid ""
-#| "In order to access your CD-ROM drive, please enter the device file that "
-#| "should be used. Non-standard CD-ROM drives use non-standard device files "
-#| "(such as /dev/mcdx)."
 msgid ""
 "In order to access your installation media (like your CD-ROM), please enter "
 "the device file that should be used. Non-standard CD-ROM drives use non-"
 "standard device files (such as /dev/mcdx)."
 msgstr ""
-"Kérem, adja meg a CD-ROM meghajtó eléréséhez használni kívánt eszközfájlt. A "
-"nem-szabványos CD-ROM meghajtók nem-szabványos eszközfájlokat használnak "
-"(pl. /dev/mcdx)."
+"Kérlek add meg a telepítési adathordozó (például CD-ROM) eléréséhez "
+"használandó eszközfájlt. A nem szabványos CD-ROM meghajtók nem szabványos "
+"eszközfájlokat használnak (pl. /dev/mcdx)."
 
 # Type: string
 # Description
@@ -1955,8 +1927,9 @@ msgid ""
 "available devices in /dev with \"ls /dev\". You can return to this screen by "
 "pressing ALT+F1."
 msgstr ""
-"A második terminálra váltva (ALT+F2) az \"ls /dev | more\" paranccsal "
-"átnézhetők az elérhető eszközök. Az ALT+F1 visszatér ide."
+"A második terminálra válthatsz az ALT+F2 billentyűkombinációval és az „ls /"
+"dev | more” paranccsal átnézheted az elérhető eszközöket. Az ALT+F1 "
+"billentyűkombinációval visszatérhetsz ide."
 
 # Type: error
 # Description
@@ -1965,10 +1938,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:12001
-#, fuzzy
-#| msgid "UNetbootin media detected"
 msgid "Installation media detected"
-msgstr "UNetbootin adathordozót észleltem"
+msgstr "Telepítési adathordozó észlelve"
 
 # Type: note
 # Description
@@ -1977,17 +1948,12 @@ msgstr "UNetbootin adathordozót észleltem"
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:12001
-#, fuzzy
-#| msgid ""
-#| "The CD-ROM autodetection was successful. A CD-ROM drive has been found "
-#| "and it currently contains the CD ${cdname}. The installation will now "
-#| "continue."
 msgid ""
 "Autodetection of the installation media was successful. A drive has been "
 "found that contains '${cdname}'. The installation will now continue."
 msgstr ""
-"A CD-ROM automatikus felismerése megtörtént. Találtam egy CD-ROM meghajtót, "
-"melyben most ez a CD van: ${cdname}. A telepítés folytatódik."
+"A telepítési adathordozó automatikus felismerése sikeres volt. A meghajtó a "
+"következőt tartalmazza: „${cdname}”. A telepítés folytatódik."
 
 # Type: error
 # Description
