@@ -303,7 +303,8 @@ msgstr "initramfsポリシーを再設定しますか?"
 msgid ""
 "Could not generate a small enough boot image for this board. Usually this "
 "can be resolved by including less modules in the initramfs."
-msgstr "このコンピュータに入るようにブートイメージを縮小できませんでした。 通常 "
+msgstr ""
+"このコンピュータに入るようにブートイメージを縮小できませんでした。 通常 "
 "initramfs に組み込むモジュールを減らせば解決できます。"
 
 #. Type: text

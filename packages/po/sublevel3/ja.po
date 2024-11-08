@@ -453,10 +453,10 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"VGA\" は伝統的な表示形式で、世界中の文字を半分ほどをカバーします。\"Fixed\""
-" は単純化した表現でさらにより多くの書体をカバーします。\"Terminus\" は眼精疲"
-"労を軽減するでしょうが、いくつかの文字が似通ってしまい、プログラマには不評に"
-"なり得ます。\"DejaVu\" は HiDPI の画面に適しています。"
+"\"VGA\" は伝統的な表示形式で、世界中の文字を半分ほどをカバーします。\"Fixed"
+"\" は単純化した表現でさらにより多くの書体をカバーします。\"Terminus\" は眼精"
+"疲労を軽減するでしょうが、いくつかの文字が似通ってしまい、プログラマには不評"
+"になり得ます。\"DejaVu\" は HiDPI の画面に適しています。"
 
 #. Type: select
 #. Description
@@ -3394,9 +3394,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
-"いくつかのディスクは自動暗号化をサポートしています。 "
-"これはハードウェアの機能で、もしこの項目をオンにすると dm-crypt "
-"と同時に使用され二重レイヤーの暗号となります。"
+"いくつかのディスクは自動暗号化をサポートしています。 これはハードウェアの機能"
+"で、もしこの項目をオンにすると dm-crypt と同時に使用され二重レイヤーの暗号と"
+"なります。"
 
 #. Type: text
 #. Description
@@ -3918,8 +3918,9 @@ msgstr "OPAL 管理パスワード:"
 msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
-msgstr "${DEVICE} 用の OPAL "
-"管理パスワードを新規に作成するか、既存のものを入力してください。"
+msgstr ""
+"${DEVICE} 用の OPAL 管理パスワードを新規に作成するか、既存のものを入力してく"
+"ださい。"
 
 #. Type: password
 #. Description
@@ -3931,10 +3932,9 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
-"このパスワードはすべてのデバイスを管理するために使用されます - OPAL "
-"パーティションの新規追加、削除、消去など。 このパスワードを忘失すると、工場出"
-"荷状態にリセットする以外復旧できなくなります、その場合データはすべて失われま"
-"す。"
+"このパスワードはすべてのデバイスを管理するために使用されます - OPAL パーティ"
+"ションの新規追加、削除、消去など。 このパスワードを忘失すると、工場出荷状態に"
+"リセットする以外復旧できなくなります、その場合データはすべて失われます。"
 
 #. Type: password
 #. Description
@@ -3966,8 +3966,9 @@ msgstr "OPAL PSID:"
 msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
-msgstr "${DEVICE} の OPAL PSID を入力してください。 "
-"これは一般的にドライブのラベルに書いてあります。"
+msgstr ""
+"${DEVICE} の OPAL PSID を入力してください。 これは一般的にドライブのラベルに"
+"書いてあります。"
 
 #. Type: password
 #. Description
@@ -4012,8 +4013,9 @@ msgstr "空の OPAL PSID"
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
-msgstr "許可されていない、空の PSID が入力されました。空ではない PSID "
-"を選んでください。"
+msgstr ""
+"許可されていない、空の PSID が入力されました。空ではない PSID を選んでくださ"
+"い。"
 
 #. Type: entropy
 #. Description
@@ -4053,10 +4055,10 @@ msgid ""
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"暗号化パーティションにルートファイルシステムを格納するよう選択しました。"
-"この機能は通常 GRUBを使用している場合、カーネルと initrd "
-"を格納する分割された /boot パーティションを必要とします。 systemd-boot/UKIs "
-"を ESP/EFIパーティションとして使用している場合は不要です。"
+"暗号化パーティションにルートファイルシステムを格納するよう選択しました。この"
+"機能は通常 GRUBを使用している場合、カーネルと initrd を格納する分割された /"
+"boot パーティションを必要とします。 systemd-boot/UKIs を ESP/EFIパーティショ"
+"ンとして使用している場合は不要です。"
 
 #. Type: error
 #. Description
@@ -4740,8 +4742,8 @@ msgid ""
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
 "新しい論理ボリュームのサイズを入力してください。サイズは以下の書式で入力でき"
-"ます: 10KB (キロバイト)、10 KiB (10キビバイト)、10MB (メガバイト)、10 MiB "
-"(10メビバイト)、10GB (ギガバイト)、10GiB (10ギビバイト)、 10TB (テラバイト)、"
+"ます: 10KB (キロバイト)、10 KiB (10キビバイト)、10MB (メガバイト)、10 MiB (10"
+"メビバイト)、10GB (ギガバイト)、10GiB (10ギビバイト)、 10TB (テラバイト)、"
 "10TiB (10テビバイト)。デフォルトの単位はメガバイトです。"
 
 #. Type: error
@@ -5751,8 +5753,8 @@ msgid ""
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
 "自動起動手順論理を設定します、何らかの理由で起動に失敗した場合、自動的に代用"
-"となる過去成功したブート方法を事前に設定した回数選択し直す仕組みです。 "
-"詳しくはこちら: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
+"となる過去成功したブート方法を事前に設定した回数選択し直す仕組みです。 詳しく"
+"はこちら: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description

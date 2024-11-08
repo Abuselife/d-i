@@ -443,10 +443,9 @@ msgid ""
 "fatigue, though some symbols have a similar aspect which may be a problem "
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
-"\"VGA\" 具有传统的外观和中等的国际化文字覆盖程度。\"Fixed\" "
-"具有简化的外观和更好的国际化文字覆盖程度。\"Terminus\" 可帮助减少视觉疲劳，但"
-"有些字符可能会看起来类似，这可能会给程序员带来一些麻烦。\"DejaVu\" "
-"适合高分辨率屏幕。"
+"\"VGA\" 具有传统的外观和中等的国际化文字覆盖程度。\"Fixed\" 具有简化的外观和"
+"更好的国际化文字覆盖程度。\"Terminus\" 可帮助减少视觉疲劳，但有些字符可能会看"
+"起来类似，这可能会给程序员带来一些麻烦。\"DejaVu\" 适合高分辨率屏幕。"
 
 #. Type: select
 #. Description
@@ -3251,7 +3250,8 @@ msgid ""
 "Some disks support self-encryption. This is a hardware feature that, if "
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
-msgstr "一些硬盘本身支持加密。这是一项硬件功能，如果通过此选项启用该功能，将会和 dm-"
+msgstr ""
+"一些硬盘本身支持加密。这是一项硬件功能，如果通过此选项启用该功能，将会和 dm-"
 "crypt 一起提供双层的加密保护。"
 
 #. Type: text
@@ -3800,7 +3800,8 @@ msgstr "OPAL 产品序列号："
 msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
-msgstr "你需要为 ${DEVICE} 提供 OPAL 产品序列号。这通常可以在驱动器的标签上找到。"
+msgstr ""
+"你需要为 ${DEVICE} 提供 OPAL 产品序列号。这通常可以在驱动器的标签上找到。"
 
 #. Type: password
 #. Description
@@ -3885,9 +3886,9 @@ msgid ""
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"您选择了将根文件系统放在一个加密分区上。在使用 GRUB 时，"
-"此功能需要一个用来存放内核和 initrd 的单独 /boot 分区。使用 systemd-boot/UKI "
-"的时候则不需要单独的 /boot 分区，这时候使用 ESP 分区来实现对应功能。"
+"您选择了将根文件系统放在一个加密分区上。在使用 GRUB 时，此功能需要一个用来存"
+"放内核和 initrd 的单独 /boot 分区。使用 systemd-boot/UKI 的时候则不需要单独"
+"的 /boot 分区，这时候使用 ESP 分区来实现对应功能。"
 
 #. Type: error
 #. Description
@@ -5504,8 +5505,8 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
-"设置自动启动评估逻辑，当添加一个新启动项后，如果它启动失败超过设置的重试次数"
-"，将自动回退到之前的启动项。更多细节请参阅：https://systemd.io/"
+"设置自动启动评估逻辑，当添加一个新启动项后，如果它启动失败超过设置的重试次"
+"数，将自动回退到之前的启动项。更多细节请参阅：https://systemd.io/"
 "AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select

@@ -4525,8 +4525,9 @@ msgid ""
 "Some account needs to be available with administrative super-user "
 "privileges. The password for that account should be something that cannot be "
 "guessed."
-msgstr "いずれかのアカウントはスーパーユーザと呼ばれる管理特権を有する必要があります"
-"。 そのパスワードは容易に推測されないものにしてください。"
+msgstr ""
+"いずれかのアカウントはスーパーユーザと呼ばれる管理特権を有する必要がありま"
+"す。 そのパスワードは容易に推測されないものにしてください。"
 
 #. Type: password
 #. Description
@@ -4535,7 +4536,8 @@ msgstr "いずれかのアカウントはスーパーユーザと呼ばれる管
 msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
-msgstr "rootに直接パスワードでログインする場合、ここでパスワード設定してください。"
+msgstr ""
+"rootに直接パスワードでログインする場合、ここでパスワード設定してください。"
 
 #. Type: password
 #. Description
@@ -4547,10 +4549,10 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
-"あるいは、root アカウントのパスワードを空白にしておいて、通常ユーザで root "
-"権限を得られるアカウントを次のステップで設定することにより root "
-"アカウントをロックすることができます。最初に作られた管理用通常アカウントは "
-"'sudo' グループに自動的に入れられます。"
+"あるいは、root アカウントのパスワードを空白にしておいて、通常ユーザで root 権"
+"限を得られるアカウントを次のステップで設定することにより root アカウントを"
+"ロックすることができます。最初に作られた管理用通常アカウントは 'sudo' グルー"
+"プに自動的に入れられます。"
 
 #. Type: password
 #. Description
