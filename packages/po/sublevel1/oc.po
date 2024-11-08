@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2024-11-04 08:22+0000\n"
+"PO-Revision-Date: 2024-11-06 18:00+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -4498,6 +4498,8 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"D’unes comptes an mestièr dels privilègis superutilizaire. La clau d’aqueste "
+"compte se deu pas endevinar facilament."
 
 #. Type: password
 #. Description
