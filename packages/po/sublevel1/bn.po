@@ -2798,7 +2798,7 @@ msgstr "হার্ড ড্রাইভে ইনস্টলার আই.�
 #. :sl1:
 #: ../localechooser.templates-in:1001
 msgid "Choose language"
-msgstr "ভাষা বেছে নিন"
+msgstr "ভাষা বেছে নিন/Choose language"
 
 #. Type: text
 #. Description

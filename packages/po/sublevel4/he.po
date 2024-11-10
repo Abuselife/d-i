@@ -418,7 +418,7 @@ msgstr "עגינת ${PATH} נכשלה"
 #. :sl4:
 #: ../grub-installer.templates:30001
 msgid "Mounting the ${FSTYPE} file system on ${PATH} failed."
-msgstr "עיגון מערכת קבצים מסוג ${FSPATH} ב־‎‎${PATH} נכשל."
+msgstr "עיגון מערכת קבצים מסוג ${FSTYPE} ב־‎‎${PATH} נכשל."
 
 #. Type: error
 #. Description

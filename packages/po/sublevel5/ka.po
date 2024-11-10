@@ -514,7 +514,7 @@ msgid ""
 "For example, the DASD could be a member of a mapped device in an LVM volume "
 "group."
 msgstr ""
-"DASD მოწყობილობის %{device} დაბალი დონის ფორმატირება შეუძლებელია, რადგან "
+"DASD მოწყობილობის ${device} დაბალი დონის ფორმატირება შეუძლებელია, რადგან "
 "DASD უკვე გამოიყენება.  შეიძლება DASD-ი მიმაგრებული მოწყობილობის ან LVM "
 "ტომების ჯგუფის ნაწილია."
 

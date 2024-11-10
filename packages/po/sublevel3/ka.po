@@ -1287,6 +1287,7 @@ msgstr "არის ISO ფაილი ${FILENAME} სწორი ასლ�
 #. Description
 #. :sl3:
 #: ../iso-scan.templates:17001
+#, fuzzy
 msgid ""
 "The ISO file ${FILENAME} on ${DEVICE} (${SUITE}, code ${CODENAME}, self-"
 "described as '${DESCRIPTION}') will be used as the installation ISO image."

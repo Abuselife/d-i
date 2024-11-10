@@ -2892,7 +2892,7 @@ msgid ""
 "${PERCENT}); please note that the packages you choose to install may require "
 "more space than this. The maximum available size is ${MAXSIZE}."
 msgstr ""
-"所选择的分区方案的最小大小是 ${MINSIZE} (或$ {PERCENT})；请注意您选择安装的软"
+"所选择的分区方案的最小大小是 ${MINSIZE} (或 ${PERCENT})；请注意您选择安装的软"
 "件包可能需要更多的磁盘空间。最大可用大小是 ${MAXSIZE}。"
 
 #. Type: error

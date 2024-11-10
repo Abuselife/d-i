@@ -2729,7 +2729,7 @@ msgid ""
 "To continue the installation, please use an SSH client to connect to the IP "
 "address ${ips} and log in as the \"installer\" user. For example:"
 msgstr ""
-"अधिष्ठापना पुढे सुरु ठेवण्यासाठी, एस्एस्एच् क्लायंट वापरुन ${ip} आय पी पत्त्यावर जा व "
+"अधिष्ठापना पुढे सुरु ठेवण्यासाठी, एस्एस्एच् क्लायंट वापरुन ${ips} आय पी पत्त्यावर जा व "
 "\"installer\" वापरदार म्हणून सत्रारंभ करा. उदाहरणार्थः"
 
 #. Type: note

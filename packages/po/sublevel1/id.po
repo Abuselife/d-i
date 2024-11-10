@@ -1156,7 +1156,7 @@ msgstr "masukkan informasi secara manual"
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:2002
 msgid "US[ Default value for http]"
-msgstr "US[Nilai baku bagi http]"
+msgstr "ID"
 
 #. Type: select
 #. Description

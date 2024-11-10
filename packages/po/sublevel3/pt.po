@@ -3968,7 +3968,7 @@ msgid ""
 "${DEVICE}."
 msgstr ""
 "Tem de escolher uma palavra-passe de OPAL admin nova, ou indicar a "
-"existente, para ${DISPOSITIVO}."
+"existente, para ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -4018,7 +4018,7 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
-"Necessita disponibilizar o OPAL PSID para {$DEVICE}. Isto é encontrado "
+"Necessita disponibilizar o OPAL PSID para ${DEVICE}. Isto é encontrado "
 "normalmente na etiqueta do disco."
 
 #. Type: password
