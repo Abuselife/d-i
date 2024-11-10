@@ -14,19 +14,20 @@
 # Philippe Batailler <philippe.batailler@free.fr>, 2002-2004.
 # Michel Grentzinger <mic.grentz@online.fr>, 2003-2004.
 # Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016.
+# Baptiste Jammet <baptiste@mailoo.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-14 20:02+0000\n"
-"PO-Revision-Date: 2016-01-26 09:01+0100\n"
-"Last-Translator: Christian Perrier <bubulle@debian.org>\n"
+"PO-Revision-Date: 2024-11-10 17:37+0100\n"
+"Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 "Language: fr\n"
 
 #. Type: text
@@ -210,50 +211,45 @@ msgstr ""
 #. Main menu entry.
 #. :sl4:
 #: ../templates:1001
-#, fuzzy
 #| msgid "Make the system bootable"
 msgid "Make this ChromeOS board bootable"
-msgstr "Rendre le système amorçable"
+msgstr "Rendre cette carte ChromeOS amorçable"
 
 #. Type: note
 #. Description
 #. Progress bar title.
 #. :sl4:
 #: ../templates:2001
-#, fuzzy
 #| msgid "Making the system bootable"
 msgid "Making this ChromeOS board bootable"
-msgstr "Préparation d'un système amorçable"
+msgstr "Préparation d'une carte ChromeOS amorçable"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:3001
-#, fuzzy
 #| msgid "Installing the Cobalt boot loader"
 msgid "Installing tools to manage ChromeOS boot images"
-msgstr "Installation du programme de démarrage Cobalt"
+msgstr "Installation des outils de gestion des images d'amorçage de ChromeOS"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:4001
-#, fuzzy
 #| msgid "Checking partitions"
 msgid "Checking ChromeOS kernel partitions"
-msgstr "Vérification des partitions"
+msgstr "Vérification des partitions noyau de ChromeOS"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:5001
-#, fuzzy
 #| msgid "Regenerating initramfs"
 msgid "Updating initramfs"
-msgstr "Recréation du système de fichiers d'amorçage en mémoire"
+msgstr "Mise à jour du système de fichiers d'amorçage en mémoire"
 
 #. Type: note
 #. Description
@@ -261,86 +257,79 @@ msgstr "Recréation du système de fichiers d'amorçage en mémoire"
 #. :sl4:
 #: ../templates:6001
 msgid "Building a boot image"
-msgstr ""
+msgstr "Construction d'une image d'amorçage"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:7001
-#, fuzzy
 #| msgid "Generating boot image on disk..."
 msgid "Writing the boot image to disk"
-msgstr "Création de l'image d'amorçage sur le disque..."
+msgstr "Écriture de l'image d'amorçage sur le disque"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:9001
-#, fuzzy
 #| msgid "No root partition found"
 msgid "No usable ChromeOS kernel partition is found"
-msgstr "Aucune partition racine trouvée"
+msgstr "Aucune partition noyau de ChromeOS trouvée"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:9001
-#, fuzzy
 #| msgid ""
 #| "An error was returned while trying to install the kernel into the target "
 #| "system."
 msgid "An error was returned while searching for a ChromeOS kernel partition."
 msgstr ""
-"Une erreur s'est produite lors de la tentative d'installation du noyau vers "
-"le système cible."
+"Une erreur s'est produite lors de la recherche d'une partition noyau de "
+"ChromeOS."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:10001
 msgid "Cannot build a boot image"
-msgstr ""
+msgstr "Impossible de construire une image d'amorçage"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:10001
-#, fuzzy
 #| msgid ""
 #| "An error was returned while trying to install the kernel into the target "
 #| "system."
 msgid "An error was returned while building a boot image."
 msgstr ""
-"Une erreur s'est produite lors de la tentative d'installation du noyau vers "
-"le système cible."
+"Une erreur s'est produite lors de la construction d'une image d'amorçage."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:11001
-#, fuzzy
 #| msgid "Generating boot image on disk..."
 msgid "Cannot write boot image to disk"
-msgstr "Création de l'image d'amorçage sur le disque..."
+msgstr "Impossible d'écrire l'image d'amorçage sur le disque"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../templates:11001
-#, fuzzy
 #| msgid "An error occurred while writing the changes to the disks."
 msgid "An error was returned while writing the boot image to disk."
 msgstr ""
-"Une erreur s'est produite lors de l'écriture des modifications sur les "
-"disques."
+"Une erreur s'est produite lors de l'écriture de l'image d'amorçage sur le "
+"disque."
 
 #. Type: boolean
 #. Description
 #. :sl4:
 #: ../templates:12001
 msgid "Reconfigure initramfs policies?"
-msgstr ""
+msgstr "Reconfigurer les règles du système de fichiers d'amorçage en mémoire ?"
 
 #. Type: boolean
 #. Description
@@ -350,6 +339,9 @@ msgid ""
 "Could not generate a small enough boot image for this board. Usually this "
 "can be resolved by including less modules in the initramfs."
 msgstr ""
+"Impossible de générer une image d'amorçage assez petite pour cette carte. "
+"Généralement, cela peut être résolu en incluant moins de modules dans le "
+"système de fichiers d'amorçage en mémoire."
 
 #. Type: text
 #. Description
@@ -448,19 +440,17 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
 #| msgid "Failed to mount CD-ROM"
 msgid "Failed to mount ${PATH}"
-msgstr "Impossible de monter le CD"
+msgstr "Impossible de monter ${PATH}"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
 #| msgid "Mounting the proc file system on /target/proc failed."
 msgid "Mounting the ${FSTYPE} file system on ${PATH} failed."
-msgstr "Le montage du système de fichiers « proc » sur /target/proc a échoué."
+msgstr "Le montage du système de fichiers ${FSTYPE} sur ${PATH} a échoué."
 
 #. Type: error
 #. Description
@@ -607,10 +597,9 @@ msgstr "shortnames - n'utiliser que des noms de fichiers 8.3 type MS-DOS"
 #. Description
 #. :sl4:
 #: ../partman-cros.templates:1001
-#, fuzzy
 #| msgid "Checking partitions"
 msgid "ChromeOS kernel partition"
-msgstr "Vérification des partitions"
+msgstr "Partition noyau ChromeOS"
 
 #. Type: text
 #. Description
@@ -618,7 +607,7 @@ msgstr "Vérification des partitions"
 #. :sl4:
 #: ../partman-cros.templates:2001
 msgid "CrOS"
-msgstr ""
+msgstr "CrOS"
 
 #. Type: boolean
 #. Description
@@ -632,6 +621,12 @@ msgid ""
 "physical disk as either the root or the boot partition. Two 512 MB "
 "partitions should be fine for most installations."
 msgstr ""
+"Aucune partition noyau utilisable pour ChromOS n'a été trouvée. Au moins une "
+"partition de ce type est nécessaire pour que le système soit amorçable avec "
+"les méthodes d'amorçage vérifiées de ChromeOS (avec CTRL+D ou CTRL+U). Ces "
+"partitions doivent être situées sur le même disque physique que la partition "
+"racine ou la partition boot. Deux partitions de 512 Mo devraient suffire "
+"pour la plupart des installations."
 
 #. Type: boolean
 #. Description
@@ -643,6 +638,9 @@ msgid ""
 "boot with CTRL+L), continuing the installation would result in an unbootable "
 "machine."
 msgstr ""
+"Si vous ne pouvez pas amorcer le système installé d'une autre façon (par "
+"exemple avec un amorçage traditionnel avec CTRL+L), continuer l'installation "
+"rendra la machine impossible à démarrer."
 
 #. Type: text
 #. Description
