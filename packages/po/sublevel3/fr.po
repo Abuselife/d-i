@@ -9,20 +9,20 @@
 # Philippe Batailler <philippe.batailler@free.fr>, 2002-2004.
 # Michel Grentzinger <mic.grentz@online.fr>, 2003-2004.
 # Christian Perrier <bubulle@debian.org>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2017, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2020-08-17 10:18+0100\n"
+"PO-Revision-Date: 2024-11-10 12:05+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 22.12.3\n"
 "Language: fr\n"
 
 #. Type: boolean
@@ -458,7 +458,6 @@ msgstr "Police de caractères pour la console :"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
 #| msgid ""
 #| "\"VGA\" has a traditional appearance and has medium coverage of "
 #| "international scripts. \"Fixed\" has a simplistic appearance and has "
@@ -477,7 +476,7 @@ msgstr ""
 "une meilleure couverture des écritures internationales. « Terminus » a pour "
 "but de limiter la fatigue oculaire. Cependant certains symboles peuvent "
 "apparaître presque semblables, ce qui peut représenter un problème pour les "
-"programmeurs."
+"programmeurs. « DejaVu » est adaptée aux écrans HiDPI."
 
 #. Type: select
 #. Description
@@ -3322,6 +3321,8 @@ msgstr "« Device-mapper » (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"« Firmware-backed self-encrypting disk » (implémentation OPAL du fabriquant "
+"avec LUKS2)"
 
 #. Type: text
 #. Description
@@ -3481,7 +3482,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "Chiffrage autonome OPAL couplé avec dm-crypt :"
 
 #. Type: select
 #. Description
@@ -3492,6 +3493,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Certains disques prennent en charge le chiffrage autonome (« self-"
+"encryption »). Si cette option est activée, cette fonctionnalité du matériel "
+"sera utilisée avec dm-crypt pour fournir une double couche de chiffrement."
 
 #. Type: text
 #. Description
@@ -3515,6 +3519,8 @@ msgstr "Effacer les données de cette partition"
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
 msgstr ""
+"Réinitialiser le disque entier aux paramètres d'usine (TOUTES les données "
+"seront perdues)"
 
 #. Type: boolean
 #. Description
@@ -4018,7 +4024,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "Mot de passe OPAL administrateur :"
 
 #. Type: password
 #. Description
@@ -4028,6 +4034,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Vous devez choisir un nouveau mot de passe OPAL administrateur, ou entrer "
+"l'existant, pour ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -4039,21 +4047,24 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Ce mot de passe sera utilisé pour gérer la totalité du périphérique - "
+"ajouter de nouvelle partitions, les supprimer, les effacer. Si ce mot de "
+"passe est perdu, il sera nécessaire de réinitialiser le périphérique aux "
+"paramètres d'usine pour s'en servir à nouveau. Dans ce cas, toutes les "
+"données de toutes les partitions seront perdues."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
 #| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Confirmation du mot de passe :"
+msgstr "Confirmation du mot de passe OPAL :"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
 #| msgid ""
 #| "Please enter the same root password again to verify that you have typed "
 #| "it correctly."
@@ -4061,15 +4072,15 @@ msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Veuillez entrer à nouveau le mot de passe du superutilisateur afin de "
-"vérifier qu'il a été saisi correctement."
+"Veuillez entrer à nouveau le mot de passe afin de vérifier qu'il a été saisi "
+"correctement."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID :"
 
 #. Type: password
 #. Description
@@ -4079,48 +4090,46 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Vous devez fournir le PSID OPAL pour ${DEVICE}. Celui-ci est généralement "
+"indiqué sur l'étiquette du disque."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
 #| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Confirmation du mot de passe :"
+msgstr "Confirmation du PSID OPAL :"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
 #| msgid ""
 #| "Please enter the same passphrase again to verify that you have typed it "
 #| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Veuillez entrer à nouveau la phrase secrète, afin de vérifier que votre "
-"saisie est correcte."
+"Veuillez entrer à nouveau le PSID, afin de vérifier que votre saisie est "
+"correcte."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
 #| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Erreur de saisie du mot de passe"
+msgstr "Erreur de saisie du PSID OPAL"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
 #| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
 msgstr ""
-"Les deux mots de passe que vous avez entrés sont différents. Veuillez "
+"Les deux PSID OPAL que vous avez entrés sont différents. Veuillez "
 "recommencer."
 
 #. Type: error
@@ -4128,13 +4137,12 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "PSID OPAL vide"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
 #| msgid ""
 #| "You entered an empty password, which is not allowed. Please choose a non-"
 #| "empty password."
@@ -4142,8 +4150,8 @@ msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Vous avez choisi un mot de passe vide, ce qui n'est pas autorisé. Veuillez "
-"choisir un mot de passe non vide."
+"Vous avez entré un PSID vide, ce qui n'est pas autorisé. Veuillez entrer un "
+"PSID non vide."
 
 #. Type: entropy
 #. Description
@@ -4170,17 +4178,14 @@ msgstr "Une erreur s'est produite lors de la création du fichier de clé."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
 #| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr ""
-"Impossible d'utiliser un système de fichiers racine btrfs sans /boot séparé"
+msgstr "Faut-il configurer un chiffrement sans /boot séparé ?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
 #| msgid ""
 #| "You have selected the root file system to be stored on an encrypted "
 #| "partition. This feature requires a separate /boot partition on which the "
@@ -4192,9 +4197,12 @@ msgid ""
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
 "Vous avez choisi de placer le système de fichiers racine sur une partition "
-"chiffrée. Cette fonctionnalité impose d'utiliser une partition /boot dédiée "
-"sur laquelle le noyau et l'image disque en mémoire (« initrd ») seront "
-"stockés."
+"chiffrée. Généralement, lorsque GRUB est utilisé, cette fonctionnalité "
+"nécessite d'utiliser une partition /boot dédiée sur laquelle le noyau et "
+"l'image disque en mémoire (« initrd ») seront stockés. En revanche, si "
+"systemd-bootd et UKI sont utilisés, la partition système de l'EFI (« ESP ») "
+"est utilisée à la place, et une partition /boot séparée n'est donc pas "
+"nécessaire"
 
 #. Type: error
 #. Description
@@ -4887,7 +4895,6 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:52001
-#, fuzzy
 #| msgid ""
 #| "Please enter the size of the new logical volume. The size may be entered "
 #| "in the following formats: 10K (Kilobytes), 10M (Megabytes), 10G "
@@ -4899,8 +4906,9 @@ msgid ""
 "(Tebibytes). The default unit is Megabytes."
 msgstr ""
 "Veuillez indiquer la taille du nouveau volume logique. Les tailles peuvent "
-"être indiquées aux formats suivants : 10K (kilo-octets), 10M (mégaoctets), "
-"10G (gigaoctets), 10T (téraoctets). L'unité par défaut est le mégaoctet."
+"être indiquées aux formats suivants : 10K (kilo-octets) 10KiB (kibioctets), "
+"10M (mégaoctets), 10MiB (mébioctets), 10G (gigaoctets), 10GiB (gibioctets), "
+"10T (téraoctets), 10TiB (tébioctets). L'unité par défaut est le mégaoctet."
 
 #. Type: error
 #. Description
@@ -5915,17 +5923,16 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
 #| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Installation du programme de démarrage aboot"
+msgstr "Installation du programme de démarrage systemd-bootd"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Nombre de re-tentatives par entrée d'amorçage (0 pour désactiver) :"
 
 #. Type: select
 #. Description
@@ -5937,6 +5944,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Cela configure la logique de d'amorçage automatique, qui revient à une "
+"entrée précédente si une nouvelle entrée échoue un nombre de fois supérieur "
+"au nombre indiqué. Pour plus de détails, consultez https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
