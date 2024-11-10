@@ -12,15 +12,15 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel5_mk\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2024-03-06 06:01+0000\n"
-"Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
+"PO-Revision-Date: 2024-11-10 04:00+0000\n"
+"Last-Translator: \"Kristijan \\\"Fremen\\\" Velkovski\" <me@krisfremen.com>\n"
 "Language-Team: Macedonian <info@slobodensoftver.org.mk>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: boolean
 #. Description
@@ -38,6 +38,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Фирмвер е врста на софтвер кој овозможува ниско ниво контрола на одредени "
+"хардверски компоненти (како што се например Wi-Fi картички или аудио чипсети)"
+", кои може да не функционираат деловно или целосно без него."
 
 #. Type: boolean
 #. Description
@@ -49,6 +52,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Макар и да не е дел од Debian, некои не-слободни фирмвер се биле направени "
+"да работи со Debian. Овие фирмвери имаат различни лиценци кои ги "
+"ограничуваат вашите слободи да ги користите, модифицирате или споделувате, и "
+"обично немаат форми на извор кои може да ги истражувате."
 
 #. Type: text
 #. Description
