@@ -12,15 +12,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-05-04 07:07+0000\n"
-"Last-Translator: Norimitsu SUGIMOTO <dictoss@live.jp>\n"
+"PO-Revision-Date: 2024-11-10 04:00+0000\n"
+"Last-Translator: Sadaharu Wakisaka <informatiekantoor@gmail.com>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #. Type: multiselect
 #. Description
@@ -3311,20 +3311,17 @@ msgstr "小さなディスク (< 10GB) のパーティショニング機構"
 #. :sl2:
 #: ../partman-auto-lvm.templates:11001 ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
-#, fuzzy, no-c-format
-#| msgid ""
-#| "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
-#| "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
-#| "size."
+#, no-c-format
 msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
 "size. You can specify partition sizes in decimal units (like MB or GB) as "
 "well as in binary units (like GiB or TiB)."
 msgstr ""
-"ヒント: 最大サイズを指定するショートカットとして、\"max\" を利用できます。ま"
-"た、利用する最大サイズの割合を指定するのにパーセンテージ (\"20%\" など) を入"
-"力できます。"
+"ヒント: 最大サイズを指定するショートカットとして、\"max\" "
+"を利用できます。また、利用する最大サイズの割合を指定するのにパーセンテージ ("
+"\"20%\" など) を入力できます。また、十進数の単位 (MBやGB)と二進数の単位 "
+"(GiBやTiB) も指定できます。"
 
 #. Type: error
 #. Description
@@ -3801,10 +3798,8 @@ msgstr "/home - ユーザのホームディレクトリ"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - テンポラリファイル"
+msgstr "/tmp - テンポラリファイル (既定値: tmpfs)"
 
 #. Type: select
 #. Choices
