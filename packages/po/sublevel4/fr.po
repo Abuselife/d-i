@@ -211,7 +211,6 @@ msgstr ""
 #. Main menu entry.
 #. :sl4:
 #: ../templates:1001
-#| msgid "Make the system bootable"
 msgid "Make this ChromeOS board bootable"
 msgstr "Rendre cette carte ChromeOS amorçable"
 
@@ -220,7 +219,6 @@ msgstr "Rendre cette carte ChromeOS amorçable"
 #. Progress bar title.
 #. :sl4:
 #: ../templates:2001
-#| msgid "Making the system bootable"
 msgid "Making this ChromeOS board bootable"
 msgstr "Préparation d'une carte ChromeOS amorçable"
 
@@ -229,7 +227,6 @@ msgstr "Préparation d'une carte ChromeOS amorçable"
 #. Progress bar step.
 #. :sl4:
 #: ../templates:3001
-#| msgid "Installing the Cobalt boot loader"
 msgid "Installing tools to manage ChromeOS boot images"
 msgstr "Installation des outils de gestion des images d'amorçage de ChromeOS"
 
@@ -238,7 +235,6 @@ msgstr "Installation des outils de gestion des images d'amorçage de ChromeOS"
 #. Progress bar step.
 #. :sl4:
 #: ../templates:4001
-#| msgid "Checking partitions"
 msgid "Checking ChromeOS kernel partitions"
 msgstr "Vérification des partitions noyau de ChromeOS"
 
@@ -247,7 +243,6 @@ msgstr "Vérification des partitions noyau de ChromeOS"
 #. Progress bar step.
 #. :sl4:
 #: ../templates:5001
-#| msgid "Regenerating initramfs"
 msgid "Updating initramfs"
 msgstr "Mise à jour du système de fichiers d'amorçage en mémoire"
 
@@ -264,7 +259,6 @@ msgstr "Construction d'une image d'amorçage"
 #. Progress bar step.
 #. :sl4:
 #: ../templates:7001
-#| msgid "Generating boot image on disk..."
 msgid "Writing the boot image to disk"
 msgstr "Écriture de l'image d'amorçage sur le disque"
 
@@ -272,7 +266,6 @@ msgstr "Écriture de l'image d'amorçage sur le disque"
 #. Description
 #. :sl4:
 #: ../templates:9001
-#| msgid "No root partition found"
 msgid "No usable ChromeOS kernel partition is found"
 msgstr "Aucune partition noyau de ChromeOS trouvée"
 
@@ -280,9 +273,6 @@ msgstr "Aucune partition noyau de ChromeOS trouvée"
 #. Description
 #. :sl4:
 #: ../templates:9001
-#| msgid ""
-#| "An error was returned while trying to install the kernel into the target "
-#| "system."
 msgid "An error was returned while searching for a ChromeOS kernel partition."
 msgstr ""
 "Une erreur s'est produite lors de la recherche d'une partition noyau de "
@@ -299,9 +289,6 @@ msgstr "Impossible de construire une image d'amorçage"
 #. Description
 #. :sl4:
 #: ../templates:10001
-#| msgid ""
-#| "An error was returned while trying to install the kernel into the target "
-#| "system."
 msgid "An error was returned while building a boot image."
 msgstr ""
 "Une erreur s'est produite lors de la construction d'une image d'amorçage."
@@ -310,7 +297,6 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../templates:11001
-#| msgid "Generating boot image on disk..."
 msgid "Cannot write boot image to disk"
 msgstr "Impossible d'écrire l'image d'amorçage sur le disque"
 
@@ -318,7 +304,6 @@ msgstr "Impossible d'écrire l'image d'amorçage sur le disque"
 #. Description
 #. :sl4:
 #: ../templates:11001
-#| msgid "An error occurred while writing the changes to the disks."
 msgid "An error was returned while writing the boot image to disk."
 msgstr ""
 "Une erreur s'est produite lors de l'écriture de l'image d'amorçage sur le "
@@ -440,7 +425,6 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#| msgid "Failed to mount CD-ROM"
 msgid "Failed to mount ${PATH}"
 msgstr "Impossible de monter ${PATH}"
 
@@ -448,7 +432,6 @@ msgstr "Impossible de monter ${PATH}"
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#| msgid "Mounting the proc file system on /target/proc failed."
 msgid "Mounting the ${FSTYPE} file system on ${PATH} failed."
 msgstr "Le montage du système de fichiers ${FSTYPE} sur ${PATH} a échoué."
 
@@ -597,7 +580,6 @@ msgstr "shortnames - n'utiliser que des noms de fichiers 8.3 type MS-DOS"
 #. Description
 #. :sl4:
 #: ../partman-cros.templates:1001
-#| msgid "Checking partitions"
 msgid "ChromeOS kernel partition"
 msgstr "Partition noyau ChromeOS"
 

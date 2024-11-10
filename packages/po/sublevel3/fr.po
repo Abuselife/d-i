@@ -458,12 +458,6 @@ msgstr "Police de caractères pour la console :"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -4057,7 +4051,6 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
 msgstr "Confirmation du mot de passe OPAL :"
 
@@ -4065,9 +4058,6 @@ msgstr "Confirmation du mot de passe OPAL :"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
@@ -4097,7 +4087,6 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
 msgstr "Confirmation du PSID OPAL :"
 
@@ -4105,9 +4094,6 @@ msgstr "Confirmation du PSID OPAL :"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
@@ -4118,7 +4104,6 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
 msgstr "Erreur de saisie du PSID OPAL"
 
@@ -4126,7 +4111,6 @@ msgstr "Erreur de saisie du PSID OPAL"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
 msgstr ""
 "Les deux PSID OPAL que vous avez entrés sont différents. Veuillez "
@@ -4143,9 +4127,6 @@ msgstr "PSID OPAL vide"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
@@ -4178,7 +4159,6 @@ msgstr "Une erreur s'est produite lors de la création du fichier de clé."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
 msgstr "Faut-il configurer un chiffrement sans /boot séparé ?"
 
@@ -4186,10 +4166,6 @@ msgstr "Faut-il configurer un chiffrement sans /boot séparé ?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
@@ -4895,10 +4871,6 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:52001
-#| msgid ""
-#| "Please enter the size of the new logical volume. The size may be entered "
-#| "in the following formats: 10K (Kilobytes), 10M (Megabytes), 10G "
-#| "(Gigabytes), 10T (Terabytes). The default unit is Megabytes."
 msgid ""
 "Please enter the size of the new logical volume. You can use the following "
 "formats: 10KB (Kilobytes), 10KiB (Kibibytes), 10MB (Megabytes), 10MiB "
@@ -5923,7 +5895,6 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
 msgstr "Installation du programme de démarrage systemd-bootd"
 
