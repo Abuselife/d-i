@@ -3476,7 +3476,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr "Chiffrage autonome OPAL couplé avec dm-crypt :"
+msgstr "Chiffrement autonome OPAL couplé avec dm-crypt :"
 
 #. Type: select
 #. Description
@@ -3487,7 +3487,7 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
-"Certains disques prennent en charge le chiffrage autonome (« self-"
+"Certains disques prennent en charge le chiffrement autonome (« self-"
 "encryption »). Si cette option est activée, cette fonctionnalité du matériel "
 "sera utilisée avec dm-crypt pour fournir une double couche de chiffrement."
 
@@ -4042,7 +4042,7 @@ msgid ""
 "partitions."
 msgstr ""
 "Ce mot de passe sera utilisé pour gérer la totalité du périphérique : "
-"ajouter de nouvelle partitions OPAL, les supprimer ou les effacer. Si ce mot "
+"ajouter de nouvelles partitions OPAL, les supprimer ou les effacer. Si ce mot "
 "de passe est perdu, il sera nécessaire de réinitialiser le périphérique aux "
 "paramètres d'usine pour s'en servir à nouveau. Dans ce cas, toutes les "
 "données de toutes les partitions seront perdues."
@@ -5915,10 +5915,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
-"Cela configure la logique d'amorçage automatique, qui revient à une "
-"entrée précédente si une nouvelle entrée échoue un nombre de fois supérieur "
-"au nombre indiqué. Pour plus de détails, consultez https://systemd.io/"
-"AUTOMATIC_BOOT_ASSESSMENT/"
+"Cela configure la logique d’évaluation automatique de l’amorçage, qui revient "
+"à une entrée d'amorçage précédente si une nouvelle entrée échoue un nombre de "
+"fois supérieur au nombre indiqué. Pour plus de détails, consultez "
+"https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
