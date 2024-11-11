@@ -620,7 +620,7 @@ msgid ""
 "boot with CTRL+L), continuing the installation would result in an unbootable "
 "machine."
 msgstr ""
-"Si vous ne pouvez pas amorcer le système installé d'une autre façon (par "
+"Si vous ne pouvez pas amorcer d'une autre façon le système installé (par "
 "exemple avec un amorçage traditionnel avec CTRL+L), continuer l'installation "
 "rendra la machine impossible à démarrer."
 
