@@ -3318,10 +3318,10 @@ msgid ""
 "size. You can specify partition sizes in decimal units (like MB or GB) as "
 "well as in binary units (like GiB or TiB)."
 msgstr ""
-"ヒント: 最大サイズを指定するショートカットとして、\"max\" "
-"を利用できます。また、利用する最大サイズの割合を指定するのにパーセンテージ ("
-"\"20%\" など) を入力できます。また、十進数の単位 (MBやGB)と二進数の単位 "
-"(GiBやTiB) も指定できます。"
+"ヒント: 最大サイズを指定するショートカットとして、\"max\" を利用できます。ま"
+"た、利用する最大サイズの割合を指定するのにパーセンテージ (\"20%\" など) を入"
+"力できます。また、十進数の単位 (MBやGB)と二進数の単位 (GiBやTiB) も指定できま"
+"す。"
 
 #. Type: error
 #. Description

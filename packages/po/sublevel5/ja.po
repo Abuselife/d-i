@@ -46,10 +46,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
-"しかし、Debianですべての部分を賄うことはできず、"
-"いくつかの非フリー版のファームウェアが Debian を運用する上で不可欠です。 この"
-"ファームウェアはライセンスの違いにより、使用、改変、配布において制限がありま"
-"す、また、一般的にこれらのソースを読んで研究することもできません。"
+"しかし、Debianですべての部分を賄うことはできず、いくつかの非フリー版のファー"
+"ムウェアが Debian を運用する上で不可欠です。 このファームウェアはライセンスの"
+"違いにより、使用、改変、配布において制限があります、また、一般的にこれらの"
+"ソースを読んで研究することもできません。"
 
 #. Type: text
 #. Description

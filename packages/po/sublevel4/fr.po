@@ -603,12 +603,12 @@ msgid ""
 "physical disk as either the root or the boot partition. Two 512 MB "
 "partitions should be fine for most installations."
 msgstr ""
-"Aucune partition noyau utilisable pour ChromeOS n'a été trouvée. Au moins une "
-"partition de ce type est nécessaire pour que le système soit amorçable avec "
-"les méthodes d'amorçage vérifiées de ChromeOS (avec CTRL+D ou CTRL+U). Ces "
-"partitions doivent être situées sur le même disque physique que la partition "
-"racine ou la partition boot. Deux partitions de 512 Mo devraient suffire "
-"pour la plupart des installations."
+"Aucune partition noyau utilisable pour ChromeOS n'a été trouvée. Au moins "
+"une partition de ce type est nécessaire pour que le système soit amorçable "
+"avec les méthodes d'amorçage vérifiées de ChromeOS (avec CTRL+D ou CTRL+U). "
+"Ces partitions doivent être situées sur le même disque physique que la "
+"partition racine ou la partition boot. Deux partitions de 512 Mo devraient "
+"suffire pour la plupart des installations."
 
 #. Type: boolean
 #. Description

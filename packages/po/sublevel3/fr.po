@@ -4042,9 +4042,9 @@ msgid ""
 "partitions."
 msgstr ""
 "Ce mot de passe sera utilisé pour gérer la totalité du périphérique : "
-"ajouter de nouvelles partitions OPAL, les supprimer ou les effacer. Si ce mot "
-"de passe est perdu, il sera nécessaire de réinitialiser le périphérique aux "
-"paramètres d'usine pour s'en servir à nouveau. Dans ce cas, toutes les "
+"ajouter de nouvelles partitions OPAL, les supprimer ou les effacer. Si ce "
+"mot de passe est perdu, il sera nécessaire de réinitialiser le périphérique "
+"aux paramètres d'usine pour s'en servir à nouveau. Dans ce cas, toutes les "
 "données de toutes les partitions seront perdues."
 
 #. Type: password
@@ -4062,8 +4062,8 @@ msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Veuillez entrer à nouveau le mot de passe, afin de vérifier qu'il a été saisi "
-"correctement."
+"Veuillez entrer à nouveau le mot de passe, afin de vérifier qu'il a été "
+"saisi correctement."
 
 #. Type: password
 #. Description
@@ -4177,8 +4177,8 @@ msgstr ""
 "nécessite d'utiliser une partition /boot dédiée sur laquelle le noyau et "
 "l'image disque en mémoire (« initrd ») seront stockés. En revanche, si "
 "systemd-boot et des UKI (« Unified Kernel Image ») sont utilisés, la "
-"partition système de l'EFI (« ESP ») est utilisée à la place, et une partition "
-"/boot séparée n'est donc pas nécessaire"
+"partition système de l'EFI (« ESP ») est utilisée à la place, et une "
+"partition /boot séparée n'est donc pas nécessaire"
 
 #. Type: error
 #. Description
@@ -5903,7 +5903,9 @@ msgstr "Installation du programme de démarrage systemd-boot"
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr "Nombre de tentatives supplémentaires par entrée d'amorçage (0 pour désactiver) :"
+msgstr ""
+"Nombre de tentatives supplémentaires par entrée d'amorçage (0 pour "
+"désactiver) :"
 
 #. Type: select
 #. Description
@@ -5915,9 +5917,9 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
-"Cela configure la logique d’évaluation automatique de l’amorçage, qui revient "
-"à une entrée d'amorçage précédente si une nouvelle entrée échoue un nombre de "
-"fois supérieur au nombre indiqué. Pour plus de détails, consultez "
+"Cela configure la logique d’évaluation automatique de l’amorçage, qui "
+"revient à une entrée d'amorçage précédente si une nouvelle entrée échoue un "
+"nombre de fois supérieur au nombre indiqué. Pour plus de détails, consultez "
 "https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
