@@ -4018,7 +4018,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr "Mot de passe OPAL administrateur :"
+msgstr "Mot de passe administrateur OPAL :"
 
 #. Type: password
 #. Description
@@ -4028,7 +4028,7 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
-"Vous devez choisir un nouveau mot de passe OPAL administrateur, ou entrer "
+"Vous devez choisir un nouveau mot de passe administrateur OPAL, ou entrer "
 "l'existant, pour ${DEVICE}."
 
 #. Type: password
@@ -4495,7 +4495,7 @@ msgstr "Cibles iSCSI sur ${PORTAL} :"
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:11001
 msgid "Select the iSCSI targets you wish to use."
-msgstr "Veuillez indiquer les cibles iSCSI vous souhaitez utiliser."
+msgstr "Veuillez indiquer les cibles iSCSI que vous souhaitez utiliser."
 
 #. Type: error
 #. Description
