@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-03 20:02+0000\n"
-"PO-Revision-Date: 2024-11-06 18:00+0000\n"
+"PO-Revision-Date: 2024-11-17 14:05+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: select
 #. Description
@@ -4509,6 +4509,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Per permetre l'accès dirècte utilizant una clau al compte de « root », se "
+"pòt definir la clau aquí."
 
 #. Type: password
 #. Description
@@ -4520,6 +4522,11 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Alternativament, se pòt blocar la clau del compte de « root » en daissant "
+"void aquel paramètre e, a la plaça, utilizar lo compte d'utilizaire inicial "
+"del sistèma (que serà configurat a l’etapa venenta) per obténer de "
+"privilègis d'administracion. Aquò se farà en apondent automaticament aquel "
+"utilizaire inicial al grop « sudo »."
 
 #. Type: password
 #. Description
@@ -4527,6 +4534,8 @@ msgstr ""
 #: ../user-setup-udeb.templates:6001
 msgid "Note: what you type here will be hidden (unless you select to show it)."
 msgstr ""
+"Nòta : çò que escrivètz aquí demorarà amagat (levat se causissètz d’o "
+"mostrar)."
 
 #. Type: password
 #. Description
@@ -4605,7 +4614,7 @@ msgstr "Senhal per l'utilizaire novèl :"
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr ""
+msgstr "Asseguratz-vos de causir una clau segura de mal endevinar."
 
 #. Type: password
 #. Description

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-09 20:01+0000\n"
-"PO-Revision-Date: 2024-04-03 16:15+0000\n"
+"PO-Revision-Date: 2024-11-17 14:05+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -3838,10 +3838,8 @@ msgstr "/home - repèrtoris personals dels utilizaires"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - fichièrs temporaris"
+msgstr "/tmp - fichièrs temporaris (per defaut : tmpfs)"
 
 #. Type: select
 #. Choices
