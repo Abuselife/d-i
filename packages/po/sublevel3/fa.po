@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2022-12-11 11:40+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"PO-Revision-Date: 2024-11-17 14:05+0000\n"
+"Last-Translator: peylight <peylight@riseup.net>\n"
 "Language-Team: debian-l10n-persian <debian-l10n-persian@lists.debian.com>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -192,15 +192,15 @@ msgid ""
 "Choose \"Continue\" to really exit the shell and resume the installation; "
 "any processes still running in the shell will be aborted."
 msgstr ""
-"گزینه «ادامه» را برای خروج از پوسته و بازگشت به نصب انتخاب کنید؛ هر پروسه در "
-"حال اجرا در پوسته لغو خواهد شد."
+"گزینش «ادامه» برای خروج واقعی از پوسته و از سر گیری نصب. هر فرایند در حال "
+"اجرا در پوسته لغو خواهد شد."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../choose-mirror-bin.templates-in:9001
 msgid "Architecture not supported"
-msgstr "این معماری پشتیبانی نشده است ."
+msgstr "معماری پشتیبانی نشده"
 
 #. Type: error
 #. Description
@@ -210,22 +210,22 @@ msgid ""
 "The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"به نظر نمی‌رسد که آینه های دریافب دبیان مشخص شده، معماری سخت افزار شما را "
-"پشتیبانی کند. لطفا آینه دریافت دیگری را امتحان کنید. "
+"به نظر نمی‌رسد آینهٔ بایگانی دبیان مشخّص شده از معماریتان پشتیبانی کند. لطفاً "
+"آینه‌ای دیگر را بیازمایید."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../console-setup.templates:2001
 msgid "Do not change the boot/kernel font"
-msgstr "قلم بوت/هسته را عوض نکن"
+msgstr "تغییر ندادن قلم راه‌اندازی و کرنل"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../console-setup.templates:3001
 msgid "Let the system select a suitable font"
-msgstr "اجازه دهید سیستم، فونت مناسب را انتخاب کند."
+msgstr "اجازه به سامانه برای گزینش قلمی مناسب"
 
 #. Type: text
 #. Description
@@ -233,7 +233,7 @@ msgstr "اجازه دهید سیستم، فونت مناسب را انتخاب �
 #. :sl3:
 #: ../console-setup.templates:4001
 msgid "framebuffer only"
-msgstr "فقط framebuffer"
+msgstr "تنها میانگیر قاب"
 
 #. Type: select
 #. Choices
@@ -254,23 +254,21 @@ msgstr "# ارمنی"
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Cyrillic - KOI8-R and KOI8-U"
-msgstr "# سایلیریک - KIO8-U و KIO8-R"
+msgstr "# سریلیک - KIO8-U و KIO8-R"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Cyrillic - non-Slavic languages"
-msgstr "# سایلیریک - زبان‌های غیر اسلاوی"
+msgstr "# سریلیک - زبان‌های غیر اسلاوی"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
-#, fuzzy
-#| msgid "# Cyrillic - non-Slavic languages"
 msgid ". Cyrillic - non-Slavic languages (for blind users)"
-msgstr "# سایلیریک - زبان‌های غیر اسلاوی"
+msgstr ". سریلیک - زبان‌های غیر اسلاوی (برای کاربران نابینا)"
 
 #. Type: select
 #. Choices
@@ -283,10 +281,8 @@ msgstr "# سایلیریک - زبان‌های اسلاوی (همچنین بوس
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
-#, fuzzy
-#| msgid "# Cyrillic - Slavic languages (also Bosnian and Serbian Latin)"
 msgid ". Cyrillic - Slavic languages (for blind users)"
-msgstr "# سایلیریک - زبان‌های اسلاوی (همچنین بوسنیایی و لاتین صربستانی)"
+msgstr ". سریلیک - زبان‌های اسلاوی (برای کاربران نابینا)"
 
 #. Type: select
 #. Choices
@@ -300,7 +296,7 @@ msgstr ". اتیوپیایی"
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Georgian"
-msgstr "# جورجیایی"
+msgstr "# گرجی"
 
 #. Type: select
 #. Choices
@@ -485,7 +481,7 @@ msgstr ""
 #. :sl3:
 #: ../console-setup.templates:7001 ../console-setup.templates:8001
 msgid "Font size:"
-msgstr "اندازه قلم:"
+msgstr "اندازهٔ قلم:"
 
 #. Type: select
 #. Description
@@ -664,10 +660,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
-#, fuzzy
-#| msgid "Continue with the installation?"
 msgid "Check integrity of the installation media?"
-msgstr "با نصب ادامه یابد؟"
+msgstr "بررسی یکپارچکی رسانهٔ نصب؟"
 
 #. Type: boolean
 #. Description
@@ -680,33 +674,24 @@ msgstr "هشدار: این بررسی به سخت‌افزار شما بستگی
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
-#, fuzzy
-#| msgid "Debian installer main menu"
 msgid "Insert Debian installation media"
-msgstr "منوی اصلی نصب‌کنندهٔ دبیان"
+msgstr "درچ رسانهٔ نصب کنندهٔ دبیان"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Please insert one of the official Debian CD-ROMs into the drive before "
-#| "continuing."
 msgid ""
 "Please insert one of the official Debian installation media before "
 "continuing."
-msgstr ""
-"لطفا پیش از ادامه ، یکی از Debian CD-ROMهای رسمی را درون درایو بگذارید."
+msgstr "لطفاً پیش از ادامه، یکی از رسانه‌های رسمی نصب دبیان را وارد کنید."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
-#, fuzzy
-#| msgid "Failed to unmount partitions"
 msgid "Failed to mount installation media"
-msgstr "خارج کردن این پارتیشن از دسترسی شکست خورد."
+msgstr "شکست در سوار کردن رسانهٔ نصب"
 
 #. Type: error
 #. Description
@@ -727,25 +712,17 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
-#, fuzzy
-#| msgid "Debian installer main menu"
 msgid "No valid Debian installation media"
-msgstr "منوی اصلی نصب‌کنندهٔ دبیان"
+msgstr "رسانهٔ نصب دبیان معتبری وجود ندارد"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
-#, fuzzy
-#| msgid ""
-#| "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change "
-#| "the disk."
 msgid ""
 "What you have inserted is no valid Debian installation media. Please try "
 "again."
-msgstr ""
-"CD-ROM که وارد کرده اید یک Debian CD-ROM نامعتبر است . لطفا دیسک را عوض "
-"کنید ."
+msgstr "آنچه وارد کرده‌اید رسانهٔ نصب معتبر دیبان نیست. لطفاً دوباره تلاش کنید."
 
 #. Type: error
 #. Description
@@ -782,10 +759,8 @@ msgstr "تست کامل موفقیت آمیز بود"
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
-#, fuzzy
-#| msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
 msgid "The integrity test was successful. The installation image is valid."
-msgstr "تست کامل CD-ROM موفق آمیز بود . CD-ROM معتبر است ."
+msgstr "آزمون یکپارچگی موفّق بود. تصویر نصب معتبر است."
 
 #. Type: error
 #. Description
@@ -813,19 +788,15 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
-#, fuzzy
-#| msgid "Check the integrity of another CD-ROM?"
 msgid "Check the integrity of another installation image?"
-msgstr "درستی CD-ROM دیگری بررسی شود؟"
+msgstr "بررسی یکپارچکی تصویر نصبی دیگر؟"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
-#, fuzzy
-#| msgid "Insert Debian boot CD-ROM"
 msgid "Insert Debian boot media"
-msgstr "CD-ROM رام بوت دبیان را قرار دهید"
+msgstr "درچ رسانهٔ راه‌اندازی دبیان"
 
 #. Type: note
 #. Description
@@ -846,10 +817,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
-#, fuzzy
-#| msgid "Gathering information for installation report..."
 msgid "Checking integrity of installation image"
-msgstr "جمع آوری اطلاعات برای اعلام گزارش نصب ..."
+msgstr "بررسی کردن یکپارچگی تصویر نصب"
 
 #. Type: text
 #. Description
@@ -862,10 +831,8 @@ msgstr "در حال بررسی فایل : ${FILE}"
 #. Description
 #. :sl3:
 #: ../cdrom-detect.templates:13001
-#, fuzzy
-#| msgid "No network interfaces detected"
 msgid "UNetbootin media detected"
-msgstr "هیچ رابط شبکه‌ای تشخیص داده نشد"
+msgstr "رسانهٔ UNetbootin تشخیص داده شد"
 
 #. Type: note
 #. Description
@@ -878,6 +845,10 @@ msgid ""
 "please try your installation again without using UNetbootin before reporting "
 "issues."
 msgstr ""
+"به نظر می رسد واسط نصبتان با استفاده از UNetbootin ایجاد شده. UNetbootin به "
+"طور منظم با گزارش مشکل‌های دشوار یا غیرقابل بازتولید از کاربران در ارتباط "
+"است. اگر در استفاده از این وایط نصب مشکلی دارید، لطفاً پیش از گزارش مشکل، نصب "
+"را بدون استفاده از UNetbootin بیازمایید."
 
 #. Type: note
 #. Description
@@ -895,7 +866,7 @@ msgstr ""
 #. :sl3:
 #: ../debian-installer-launcher.templates:1001
 msgid "Kernel version mismatch"
-msgstr "عدم تطابق نسخهٔ هسته"
+msgstr "نامطابقت نگارش کرنل"
 
 #. Type: error
 #. Description
@@ -1352,7 +1323,7 @@ msgstr ""
 #. :sl3:
 #: ../iso-scan.templates:18001
 msgid "Copy the ISO image into RAM before mounting it?"
-msgstr ""
+msgstr "رونوشت از تصویر ایزو روی رم پیش از سوار کردنش؟"
 
 #. Type: boolean
 #. Description
@@ -3028,7 +2999,7 @@ msgstr "لطفا این مشکل را از طریق منوی پارتیشن‌ب
 #. :sl3:
 #: ../partman-auto-lvm.templates:11001
 msgid "Amount of volume group to use for guided partitioning:"
-msgstr ""
+msgstr "مقدار گروه حجمی مورد استفاده برای افرازش راهنمایی شده:"
 
 #. Type: string
 #. Description
@@ -3061,10 +3032,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-auto-lvm.templates:12001
-#, fuzzy
-#| msgid "Invalid size"
 msgid "Invalid input"
-msgstr "اندازهٔ نامعتبر"
+msgstr "ورودی نامعتبر"
 
 #. Type: error
 #. Description
@@ -3072,13 +3041,14 @@ msgstr "اندازهٔ نامعتبر"
 #: ../partman-auto-lvm.templates:12001
 msgid "You entered \"${INPUT}\", which was not recognized as a valid size."
 msgstr ""
+"مقدار «${INPUT}» را وارد کرده‌اید که به عنوان اندازه‌ای معتبر شناخته نشد."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-auto-lvm.templates:13001
 msgid "${SIZE} is too big"
-msgstr ""
+msgstr "${SIZE} بیش از اندازه بزرگ است"
 
 #. Type: error
 #. Description
@@ -3093,10 +3063,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-auto-lvm.templates:14001
-#, fuzzy
-#| msgid "EFI partition too small"
 msgid "${SIZE} is too small"
-msgstr "پارتیشن EFI خیلی کوچک"
+msgstr "${SIZE} بیش از اندازه کوچک است"
 
 #. Type: error
 #. Description
@@ -3442,7 +3410,7 @@ msgstr "داده را از این پارتیشن پاک کنید"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "بازنشانی کارخانهٔ کل این دیسک (همهٔ داده‌ها از دست خواهند رفت)"
 
 #. Type: boolean
 #. Description
@@ -3929,7 +3897,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "گذرواژهٔ مدیر اوپال:"
 
 #. Type: password
 #. Description
@@ -3955,31 +3923,24 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "گذرواژه را برای درست داشتن دوباره وارد کنید:"
+msgstr "ورود دوبارهٔ گذرواژهٔ مدیر اوپال برای تأیید:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
-msgstr ""
-"لطفاً کلمه عبور ریشه را مجددا وارد کنید تا از ورود درست آن اطمینان حاصل شود."
+msgstr "لطفاً برای تأیید درست نوشتن گذرواژه، همان را دوباره وارد کنید."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "PSID اوپال:"
 
 #. Type: password
 #. Description
@@ -3994,49 +3955,37 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "گذرواژه را برای درست داشتن دوباره وارد کنید:"
+msgstr "ورود دوبارهٔ PISD اوپال برای تأیید:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
-msgstr ""
-"لطفا اسم‌رمز نصب از راه دو ر را مجددا وارد کنید تا از صحت تایپ اطمینان حاصل "
-"گردد."
+msgstr "لطفاً برای تأیید درست نوشتن PSID، همان را دوباره وارد کنید."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "خطای ورودی کلمهٔ‌عبور"
+msgstr "خطای ورودی PSID اوپال"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "دو کلمهٔ‌عبوری که وارد کرده‌اید یکی نبودند. لطفاً دوباره سعی کنید."
+msgstr "دو PSID اوپالی که وارد کرده‌اید یکسان نیستند. لطفاً دوباره تلاش کنید."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "PSID خالی اوپال"
 
 #. Type: error
 #. Description
@@ -4078,10 +4027,8 @@ msgstr "هنگام ثبت تغییرات در دیسک خطایی رخ داد."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr "فایل سیستم روت btrfs بدون /boot مجزی پشتیبانی نمی‌شود."
+msgstr "پیکربندی رمزنگاری بدون ‪/boot‬ جدا؟"
 
 #. Type: boolean
 #. Description
@@ -4254,10 +4201,8 @@ msgstr "هیچ ابزاری برای رمزگذاری انتخاب نشده اس
 #. Description
 #. :sl3:
 #: ../partman-iscsi.templates:1001
-#, fuzzy
-#| msgid "Configure encrypted volumes"
 msgid "Configure iSCSI volumes"
-msgstr "حجم‌های پنهان شده را تایید نمایید"
+msgstr "پیکربندی حجم‌های آی‌اسکازی"
 
 #. Type: select
 #. Choices
@@ -4273,27 +4218,22 @@ msgstr "وارد شدن به اسکازی‌های هدف"
 #. Description
 #. :sl3:
 #: ../partman-iscsi.templates:2002
-#, fuzzy
-#| msgid "ZFS configuration action:"
 msgid "iSCSI configuration actions"
-msgstr "عملیات پیکربندی ZFS:"
+msgstr "کنش‌های پیکربندی آی‌اسکازی"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-iscsi.templates:2002
-#, fuzzy
-#| msgid "This menu allows you to configure encrypted volumes."
 msgid "This menu allows you to configure iSCSI volumes."
-msgstr ""
-"این لیست به شما اجازه می‌دهد که volume های رمزنگاری شده را تایید نمایید."
+msgstr "این فهرست می‌گذارد حجم‌های آی‌اسکازی را پیکربندی کنید."
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../partman-iscsi.templates:3001
 msgid "iSCSI target portal address:"
-msgstr ""
+msgstr "نشانی درگاه مقصد آی‌اسکازی:"
 
 #. Type: string
 #. Description
@@ -4310,7 +4250,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:4001
 msgid "iSCSI initiator username for ${PORTAL}:"
-msgstr ""
+msgstr "نام کاربری آغازندهٔ آی‌اسکازی برای ${PORTAL}:"
 
 #. Type: string
 #. Description
@@ -4329,7 +4269,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:5001
 msgid "iSCSI initiator password for ${PORTAL}:"
-msgstr ""
+msgstr "گذرواژهٔ آغازندهٔ آی‌اسکازی برای ${PORTAL}:"
 
 #. Type: password
 #. Description
@@ -4338,7 +4278,7 @@ msgstr ""
 #: ../partman-iscsi.templates:5001
 msgid ""
 "Enter the initiator password needed to authenticate to this iSCSI target."
-msgstr ""
+msgstr "ورود گذرواژهٔ آغازندهٔ مورد نیاز برای هویت‌سنجی این مقصد آی‌اسکازی."
 
 #. Type: string
 #. Description
@@ -4346,7 +4286,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:6001
 msgid "iSCSI target username for ${PORTAL}:"
-msgstr ""
+msgstr "نام کاربری مقصد آی‌اسکازی برای ${PORTAL}:"
 
 #. Type: string
 #. Description
@@ -4366,7 +4306,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:7001
 msgid "iSCSI target password for ${PORTAL}:"
-msgstr ""
+msgstr "گذرواژهٔ مقصد آی‌اسکازی برای ${PORTAL}:"
 
 #. Type: password
 #. Description
@@ -4382,7 +4322,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-iscsi.templates:9001
 msgid "No iSCSI targets discovered"
-msgstr ""
+msgstr "هیچ مقصد آی‌اسکازی کشف نشد"
 
 #. Type: error
 #. Description
@@ -4390,7 +4330,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:9001
 msgid "No iSCSI targets were discovered on ${PORTAL}."
-msgstr ""
+msgstr "هیچ مقصد آی‌اسکازی روی ${PORTAL} کشقف نشد."
 
 #. Type: multiselect
 #. Description
@@ -4398,26 +4338,22 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:11001
 msgid "iSCSI targets on ${PORTAL}:"
-msgstr ""
+msgstr "مقصدهای آی‌اسکازی روی ${PORTAL}:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:11001
-#, fuzzy
-#| msgid "Please select the ZFS pool you wish to delete."
 msgid "Select the iSCSI targets you wish to use."
-msgstr "لطفا ZFS poolای را که می‌خواهید حذف شود انتخاب کنید."
+msgstr "گزینش مقصدهای آی‌اسکازی که می‌خواهید استفاده شوند."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-iscsi.templates:12001
-#, fuzzy
-#| msgid "SILO installation failed"
 msgid "iSCSI login failed"
-msgstr "نصب SILO نا موفق بود ."
+msgstr "ورود آی‌اسکازی شکست خورد"
 
 #. Type: error
 #. Description
@@ -4425,7 +4361,7 @@ msgstr "نصب SILO نا موفق بود ."
 #. Translators : do NOT translate the variable names (PORTAL and TARGET)
 #: ../partman-iscsi.templates:12001
 msgid "Logging into the iSCSI target ${TARGET} on ${PORTAL} failed."
-msgstr ""
+msgstr "ورود به مقصد آی‌اسکازی ${TARGET} روی ${PORTAL} شکست خورد."
 
 #. Type: text
 #. Description
@@ -4716,10 +4652,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:32001
-#, fuzzy
-#| msgid "Error while deleting volume group"
 msgid "Error while creating volume group"
-msgstr "خطا در هنگام حذف گروه volume"
+msgstr "خطا هنگام ایجاد کردن گروه حجمی"
 
 #. Type: error
 #. Description
@@ -5739,19 +5673,15 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:21001
-#, fuzzy
-#| msgid "Separate /home partition"
 msgid "Mount separate ${FILESYSTEM} partition?"
-msgstr "شاخه /home مجزا"
+msgstr "سوار کردن افراز ${FILESYSTEM} جدا؟"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:21001
-#, fuzzy
-#| msgid "Install the kernel on a PReP boot partition"
 msgid "The installed system appears to use a separate ${FILESYSTEM} partition."
-msgstr "نصب کرنل روی پارتیشن boot PReP"
+msgstr "به نظر سامانهٔ نصب شده از افراز ${FILESYSTEM} جدایی استفاده می‌کند."
 
 #. Type: boolean
 #. Description
@@ -5769,17 +5699,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "نصب راه انداز aboot"
+msgstr "نصب بارکنندهٔ راه‌اندازی systemd-boot"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "شمار تلاش‌های دوباره به ازای مدخل راه‌اندازی (0 برای از کار انداختن):"
 
 #. Type: select
 #. Description
@@ -6481,7 +6409,7 @@ msgstr "شمال غربی"
 #. :sl3:
 #: ../common.templates.in:22001
 msgid "Sonora"
-msgstr ""
+msgstr "سونورا"
 
 #. Type: select
 #. Choices
@@ -6685,7 +6613,7 @@ msgstr "Samoa"
 #. :sl3:
 #: ../common.templates.in:29001
 msgid "Port Moresby"
-msgstr ""
+msgstr "پورت مورسبی"
 
 #. Type: select
 #. Choices
@@ -6693,4 +6621,4 @@ msgstr ""
 #. :sl3:
 #: ../common.templates.in:29001
 msgid "Bougainville"
-msgstr ""
+msgstr "بوگنویل"
