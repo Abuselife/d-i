@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2024-11-16 15:11+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
@@ -310,9 +310,9 @@ msgid ""
 "booted from. If you do not have any additional media, this step can just be "
 "skipped."
 msgstr ""
-"گزینهٔ پوییدن رسانهٔ اضافی برای استفاده به دست مدیر بسته (apt) را دارید. معمولاً"
-" باید از همان مجموعه‌ای که راه‌اندازی شده باشند. در صورت نداشتن رسانهٔ اضافی می‌"
-"تواند رد شود."
+"گزینهٔ پوییدن رسانهٔ اضافی برای استفاده به دست مدیر بسته (apt) را دارید. "
+"معمولاً باید از همان مجموعه‌ای که راه‌اندازی شده باشند. در صورت نداشتن رسانهٔ "
+"اضافی می‌تواند رد شود."
 
 #. Type: boolean
 #. Description
@@ -397,8 +397,8 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"از تصویر سی‌دی netinst نصب می‌کنید که تنها اجازهٔ نصب سامانهٔ پایه‌ای بسیار کمینه‌"
-"ای را خواهد داد. برای نصب سامانه‌ای کامل‌تر از آینه استفاده کنید."
+"از تصویر سی‌دی netinst نصب می‌کنید که تنها اجازهٔ نصب سامانهٔ پایه‌ای بسیار "
+"کمینه‌ای را خواهد داد. برای نصب سامانه‌ای کامل‌تر از آینه استفاده کنید."
 
 #. Type: text
 #. Description
@@ -522,9 +522,9 @@ msgid ""
 "using, modifying, or sharing it."
 msgstr ""
 "تعدادی نرم‌افزار غیر آزاد برای کار با دبیان ساخته شده‌اند که با این که جزوی از "
-"دبیان نیستند می‌توان از ابزارهای دبیان برای نصبشان استفاده کرد. این نرم‌"
-"افزارها می‌توانند پروانه‌های مختلفی داشته باشند که از استفاده، دستکاری و هم‌"
-"رسانیشان جلوگیری کنند."
+"دبیان نیستند می‌توان از ابزارهای دبیان برای نصبشان استفاده کرد. این "
+"نرم‌افزارها می‌توانند پروانه‌های مختلفی داشته باشند که از استفاده، دستکاری و "
+"هم‌رسانیشان جلوگیری کنند."
 
 #. Type: boolean
 #. Description
@@ -2369,8 +2369,8 @@ msgid ""
 msgstr ""
 "اگر همهٔ سیستم‌عامل‌هایتان در بالا سیاهه شده‌اند، نصب بارکنندهٔ راه‌آندازی روی "
 "گردانندهٔ اصلیتان (افزار UEFI یا رکورد راه‌اندازی) امن است. هنگام راه‌اندازی "
-"رایانه‌تان قارد خواهید بود یکی از این سیستم‌عامل‌ها یا سامانهٔ دبیان تازه نصب "
-"شده را برای بار شدن برگزینید."
+"رایانه‌تان قارد خواهید بود یکی از این سیستم‌عامل‌ها یا سامانهٔ دبیان "
+"تازه نصب شده را برای بار شدن برگزینید."
 
 #. Type: boolean
 #. Description
@@ -2529,9 +2529,9 @@ msgid ""
 "of the GRUB boot loader to a fallback location, the \"removable media path"
 "\". Almost all EFI systems, no matter how buggy, will boot GRUB that way."
 msgstr ""
-"یک روش برای دور زدن این مشکل، نصب رونوشتی اضافی از نگارش EFI بارکنندهٔ راه‌"
-"اندازی گراب در مکانی جایگزین (مسیر رسانهٔ جداشدنی) است. تقریباً همهٔ سامانه‌های "
-"EFI گراب را با این روش راه می‌اندازند."
+"یک روش برای دور زدن این مشکل، نصب رونوشتی اضافی از نگارش EFI بارکنندهٔ "
+"راه‌اندازی گراب در مکانی جایگزین (مسیر رسانهٔ جداشدنی) است. تقریباً همهٔ "
+"سامانه‌های EFI گراب را با این روش راه می‌اندازند."
 
 #. Type: boolean
 #. Description
@@ -2860,8 +2860,8 @@ msgid ""
 "options of the installer - some may be displayed in English instead."
 msgstr ""
 "اگر نصب را در زبان گزیده ادامه دهید، بیش‌تر گفت‌وگوها درست نشان داده می‌شوند، "
-"ولی -مخصوصاً اگر از گزینه‌های پیشرفته‌تر نصب کننده استفاده کنید- ممکن است بعضی‌"
-"هایشان به انگلیسی نشان داده شوند."
+"ولی -مخصوصاً اگر از گزینه‌های پیشرفته‌تر نصب کننده استفاده کنید- ممکن است "
+"بعضی‌هایشان به انگلیسی نشان داده شوند."
 
 #. Type: text
 #. Description
@@ -4097,7 +4097,7 @@ msgstr "بی‌تی‌آر‌اف‌اس"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
 msgstr "پارتیشن سیستم EFI"
 
@@ -4106,14 +4106,14 @@ msgstr "پارتیشن سیستم EFI"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr "رابط توسعه پذیر سفت افزاری (ESP)"
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 msgid "EFI-fat16"
 msgstr "EFI-fat16"
 

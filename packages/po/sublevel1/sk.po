@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2017-11-26 21:44+0200\n"
 "Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
 "Language-Team: x\n"
@@ -4195,7 +4195,7 @@ msgstr "btrfs"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
 msgstr "Systémová oblasť EFI"
 
@@ -4204,14 +4204,14 @@ msgstr "Systémová oblasť EFI"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr "ESP"
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 msgid "EFI-fat16"
 msgstr "EFI-fat16"
 

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel2_ne\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:01+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2019-08-28 18:10+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: \n"
@@ -4451,21 +4451,21 @@ msgstr "तपाईँ /boot विभाजनका लागि अर्क
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-cros.templates:3001 ../partman-efi.templates:3001
+#: ../partman-cros.templates:3001 ../partman-efi.templates:2001
 msgid "Go back to the menu and resume partitioning?"
 msgstr "मेनुमा फर्केर जानुहुन्छ र विभाजनलाई पुन: निरन्तरता दिनुहुन्छ?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:3001
+#: ../partman-efi.templates:2001
 msgid "No EFI partition was found."
 msgstr "कुनै EFI विभाजन फेला परेन ।"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 #, fuzzy
 #| msgid "Partitions to assemble:"
 msgid "EFI partition too small"
@@ -4474,7 +4474,7 @@ msgstr "जोड्नको लागि विभाजनहरु:"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 msgid ""
 "EFI System Partitions on this architecture cannot be created with a size "
 "less than 35 MB. Please make the EFI System Partition larger."
@@ -4483,7 +4483,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 #, fuzzy
 #| msgid "Abort the installation"
 msgid "Force UEFI installation?"
@@ -4492,7 +4492,7 @@ msgstr "स्थापना परित्याग गर्नुहोस�
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "This machine's firmware has started the installer in UEFI mode but it looks "
 "like there may be existing operating systems already installed using \"BIOS "
@@ -4504,7 +4504,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "If you wish to install in UEFI mode and don't care about keeping the ability "
 "to boot one of the existing systems, you have the option to force that here. "

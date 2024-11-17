@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2007-10-29 18:09+0000\n"
 "Last-Translator: Heybes <heybes@gmail.com>\n"
 "Language-Team: Afrikaans <af@li.org>\n"
@@ -4023,7 +4023,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 #, fuzzy
 #| msgid "format the partition"
 msgid "EFI System Partition"
@@ -4034,14 +4034,14 @@ msgstr "formateer die partisie"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 #, fuzzy
 #| msgid "fat16"
 msgid "EFI-fat16"

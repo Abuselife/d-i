@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2024-03-19 11:01+0000\n"
 "Last-Translator: Ola Haugen Havrevoll <havrevoll@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -4123,7 +4123,7 @@ msgstr "btrfs"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
 msgstr "EFI-systempartisjon"
 
@@ -4132,14 +4132,14 @@ msgstr "EFI-systempartisjon"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr "ESP"
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 msgid "EFI-fat16"
 msgstr "EFI-fat16"
 

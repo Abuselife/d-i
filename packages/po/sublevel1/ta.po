@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2023-11-25 05:13+0000\n"
 "Last-Translator: FRANKLIN PRAKASH <franklinprakash1090@gmail.com>\n"
 "Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
@@ -4128,7 +4128,7 @@ msgstr "பிடிஆர்எப்எஸ்(btrfs)"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
 msgstr "ஈஎப்ஐ கணினி பகிர்வு"
 
@@ -4137,14 +4137,14 @@ msgstr "ஈஎப்ஐ கணினி பகிர்வு"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr "ஈஎஸ்பி"
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 msgid "EFI-fat16"
 msgstr "ஈஎப்ஐ-(பேட்16) FAT16"
 

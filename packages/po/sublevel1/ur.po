@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2006-11-26 05:25+0500\n"
 "Last-Translator: TAHIR RAUF <linux_kernel_worm@yahoo.com>\n"
 "Language-Team: \n"
@@ -3938,7 +3938,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 #, fuzzy
 msgid "EFI System Partition"
 msgstr "پارٹیشن کر فارمیٹ کرو:"
@@ -3948,14 +3948,14 @@ msgstr "پارٹیشن کر فارمیٹ کرو:"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 #, fuzzy
 msgid "EFI-fat16"
 msgstr "fat16"

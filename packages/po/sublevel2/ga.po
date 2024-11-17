@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:01+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2023-04-24 19:41-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language: ga\n"
@@ -4499,7 +4499,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-cros.templates:3001 ../partman-efi.templates:3001
+#: ../partman-cros.templates:3001 ../partman-efi.templates:2001
 msgid "Go back to the menu and resume partitioning?"
 msgstr ""
 "An bhfuil fonn ort dul ar ais go dtí an roghchlár agus na deighiltí a shocrú "
@@ -4508,14 +4508,14 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:3001
+#: ../partman-efi.templates:2001
 msgid "No EFI partition was found."
 msgstr "Níor aimsíodh deighilt tosaithe EFI."
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 #, fuzzy
 #| msgid "Partitions to assemble:"
 msgid "EFI partition too small"
@@ -4524,7 +4524,7 @@ msgstr "Deighiltí le cur le chéile:"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 msgid ""
 "EFI System Partitions on this architecture cannot be created with a size "
 "less than 35 MB. Please make the EFI System Partition larger."
@@ -4535,14 +4535,14 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid "Force UEFI installation?"
 msgstr "Déan suiteáil UEFI mar sin féin?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "This machine's firmware has started the installer in UEFI mode but it looks "
 "like there may be existing operating systems already installed using \"BIOS "
@@ -4559,7 +4559,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "If you wish to install in UEFI mode and don't care about keeping the ability "
 "to boot one of the existing systems, you have the option to force that here. "

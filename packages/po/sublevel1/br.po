@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-03 20:02+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2022-02-02 23:51+0000\n"
 "Last-Translator: Linda 'linigrhf' Ayasing <linigrhf@gmail.com>\n"
 "Language-Team: Brenux <brenux@free.fr>\n"
@@ -3967,7 +3967,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:2001 ../partman-efi.templates:4001
+#: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
 msgstr "Mentrezhañ ar parzhad"
 
@@ -3976,14 +3976,14 @@ msgstr "Mentrezhañ ar parzhad"
 #. :sl1:
 #. short variant of 'EFI System Partition'
 #. Up to 10 character positions
-#: ../partman-efi.templates:5001
+#: ../partman-efi.templates:4001
 msgid "ESP"
 msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-efi.templates:7001
+#: ../partman-efi.templates:6001
 #, fuzzy
 #| msgid "fat16"
 msgid "EFI-fat16"

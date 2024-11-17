@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-09 20:01+0000\n"
+"POT-Creation-Date: 2024-11-17 20:02+0000\n"
 "PO-Revision-Date: 2023-12-10 18:08+0000\n"
 "Last-Translator: omwani <omwani03+gitlab@gmail.com>\n"
 "Language-Team: janabhaaratii, C-DAC (formerly NCST), Mumbai-21, India\n"
@@ -4325,28 +4325,28 @@ msgstr "आपण ईएक्सटी4 सारखी अन्य फाइ�
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-cros.templates:3001 ../partman-efi.templates:3001
+#: ../partman-cros.templates:3001 ../partman-efi.templates:2001
 msgid "Go back to the menu and resume partitioning?"
 msgstr "मेन्यूकडे परतून विभाजन करणे चालू ठेवायचे का?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:3001
+#: ../partman-efi.templates:2001
 msgid "No EFI partition was found."
 msgstr "कोणतेही ईएफआय विभाजन सापडले नाही."
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 msgid "EFI partition too small"
 msgstr "EFI विभाजन खूप लहान आहे"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:8001
+#: ../partman-efi.templates:7001
 msgid ""
 "EFI System Partitions on this architecture cannot be created with a size "
 "less than 35 MB. Please make the EFI System Partition larger."
@@ -4357,14 +4357,14 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid "Force UEFI installation?"
 msgstr "बळजबरीने यूईएफआय मोडमध्ये अधिष्ठापना करायची?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "This machine's firmware has started the installer in UEFI mode but it looks "
 "like there may be existing operating systems already installed using \"BIOS "
@@ -4380,7 +4380,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-efi.templates:9001
+#: ../partman-efi.templates:8001
 msgid ""
 "If you wish to install in UEFI mode and don't care about keeping the ability "
 "to boot one of the existing systems, you have the option to force that here. "
