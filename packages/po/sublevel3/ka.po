@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-09-21 07:40+0000\n"
+"PO-Revision-Date: 2024-11-16 13:00+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -1287,13 +1287,12 @@ msgstr "არის ISO ფაილი ${FILENAME} სწორი ასლ�
 #. Description
 #. :sl3:
 #: ../iso-scan.templates:17001
-#, fuzzy
 msgid ""
 "The ISO file ${FILENAME} on ${DEVICE} (${SUITE}, code ${CODENAME}, self-"
 "described as '${DESCRIPTION}') will be used as the installation ISO image."
 msgstr ""
-"ISO ფაილი ${FILENAME} მოწყობილობაზე ${DEVICE} (${SUITE}) გამოყენებული იქნება "
-"დაყენების პროგრამის ISO ფაილად."
+"ISO ფაილი ${FILENAME} მოწყობილობაზე ${DEVICE} (${SUITE}, მიღებული აღწერით "
+"'${DESCRIPTION}') გამოყენებული იქნება დაყენების პროგრამის ISO ფაილად."
 
 #. Type: boolean
 #. Description
