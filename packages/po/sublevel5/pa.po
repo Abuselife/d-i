@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2024-05-20 15:01+0000\n"
+"PO-Revision-Date: 2024-11-19 09:29+0000\n"
 "Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -55,6 +55,9 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"ਹਾਲਾਂ ਕਿ ਡੇਬੀਅਨ ਦੇ ਸਾਰੇ ਹਿੱਸਿਆਂ ਉੱਤੇ ਨਹੀਂ, ਪਰ ਕੁਝ ਗ਼ੈਰ-ਮੁਕਤ ਫਿਰਮਵੇਅਰ ਡੇਬੀਅਨ ਨਾਲ ਕੰਮ ਕਰਦੇ ਹਨ। ਇਹ ਫਿਰਮਵੇਅਰ ਵਿੱ"
+"ਚ ਵੱਖ-ਵੱਖ ਲਸੰਸ ਹੁੰਦੇ ਹਨ, ਜੋ ਕਿ ਸਾਫਟਵੇਅਰਾਂ ਨੂੰ ਵਰਤਣ, ਸੋਧ ਕਰਨ ਜਾਂ ਸਾਂਝਾ ਕਰਨ ਦੀ ਤੁਹਾਡੀ ਆਜ਼ਾਦੀ ਨੂੰ ਸੀਮਿਤ ਕਰ ਸਕਦੇ "
+"ਹਨ ਅਤੇ ਅਕਸਰ ਤੁਹਾਡੇ ਕੋਲ ਅਧਿਐਨ ਕਰਨ ਵਾਸਤੇ ਸਰੋਤ ਰੂਪ ਵਿੱਚ ਮੌਜੂਦ ਨਹੀਂ ਹੁੰਦੇ ਹਨ।"
 
 #. Type: text
 #. Description

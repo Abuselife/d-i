@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-17 20:02+0000\n"
-"PO-Revision-Date: 2024-05-20 15:01+0000\n"
+"PO-Revision-Date: 2024-11-19 09:29+0000\n"
 "Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: select
 #. Description
@@ -3670,7 +3670,7 @@ msgstr "ਵੱਖਰੇ /home, /var, ਅਤੇ /tmp ਪਾਰਟੀਸ਼ਨ"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "ਵੱਖਰੇ /var ਅਤੇ /srv, swap < 1GB (ਸਰਵਰਾਂ ਲਈ)"
 
 #. Type: text
 #. Description
@@ -4381,7 +4381,7 @@ msgstr "ਟਾਈਮ ਜ਼ੋਨ ਸੰਰਚਨਾ ਸੰਭਾਲੀ ਜਾ �
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "ਕੀ ਰੂਟ (root) ਲਾਗਇਨ ਕਰ ਸਕੇ?"
+msgstr "ਕੀ ਰੂਟ (root) ਲਾਗਇਨ ਦੀ ਮਨਜ਼ੂਰੀ ਹੈ?"
 
 #. Type: boolean
 #. Description
@@ -4469,8 +4469,7 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"ਤੁਹਾਡੇ ਲਈ ਨਾ-ਪ੍ਰਬੰਧਕੀ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਰੂਟ (root) ਅਕਾਊਂਟ ਤੋਂ ਬਿਨਾਂ ਇੱਕ ਹੋਰ ਵਰਤੋਂਕਾਰ ਅਕਾਊਂਟ "
-"ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ।"
+"ਤੁਹਾਡੇ ਲਈ ਗ਼ੈਰ-ਪਰਸ਼ਾਸ਼ਕੀ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਰੂਟ (root) ਅਕਾਊਂਟ ਤੋਂ ਬਿਨਾਂ ਇੱਕ ਹੋਰ ਵਰਤੋਂਕਾਰ ਅਕਾਊਂਟ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
 #. Type: string
 #. Description
@@ -4541,7 +4540,7 @@ msgstr "ਵਰਤੋਂਕਾਰ ਅਤੇ ਪਾਸਵਰਡ ਸੈੱਟਅੱ
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Setting users and passwords..."
-msgstr "ਵਰਤੋਂਕਾਰ ਅਤੇ ਪਾਸਵਰਡ ਸੈੱਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+msgstr "ਵਰਤੋਂਕਾਰ ਅਤੇ ਪਾਸਵਰਡ ਸੈੱਟ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ..."
 
 #~ msgid ""
 #~ "Some non-free firmware has been made to work with Debian. Though this "
