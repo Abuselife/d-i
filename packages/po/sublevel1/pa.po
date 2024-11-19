@@ -4469,7 +4469,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"ਤੁਹਾਡੇ ਲਈ ਗ਼ੈਰ-ਪਰਸ਼ਾਸ਼ਕੀ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਰੂਟ (root) ਅਕਾਊਂਟ ਤੋਂ ਬਿਨਾਂ ਇੱਕ ਹੋਰ ਵਰਤੋਂਕਾਰ ਅਕਾਊਂਟ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ।"
+"ਤੁਹਾਡੇ ਲਈ ਗ਼ੈਰ-ਪਰਸ਼ਾਸ਼ਕੀ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਰੂਟ (root) ਅਕਾਊਂਟ ਤੋਂ ਬਿਨਾਂ ਇੱਕ ਹੋਰ ਵਰਤੋਂਕਾਰ ਅਕਾਊਂਟ "
+"ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ।"
 
 #. Type: string
 #. Description
