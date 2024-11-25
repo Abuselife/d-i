@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-17 20:02+0000\n"
-"PO-Revision-Date: 2024-01-28 19:24+0000\n"
+"PO-Revision-Date: 2024-11-24 22:01+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -956,9 +956,9 @@ msgstr ""
 "    paigalduse,\n"
 " - 'kõrge' tähendab, et küsimusel pole mõistlikke vaikeväärtusi,\n"
 " - 'keskmine' tähendab, et küsimusele on olemas mõistlikud\n"
-"    vaikeväärtused,\n"
+"     vaikeväärtused,\n"
 " - 'madal' märgib triviaalseid küsimusi, mille vaikeväärtused\n"
-"    sobivad valdavale enamikule juhtudest."
+"     sobivad valdavale enamikule juhtudest."
 
 #. Type: select
 #. Description
@@ -3763,10 +3763,8 @@ msgstr "/home - kasutajate kodukataloogid"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - ajutised failid"
+msgstr "/tmp - ajutised failid (vaikimisi: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -5293,19 +5291,14 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
-"Pane tähele, et võid tavakasutajakonto ka hiljem luua (või siis mitu kontot) "
-"tippides juurkasutajana 'adduser <username>', kus <username> on soovitud "
-"kasutajanimi, näiteks 'vleppikson' või 'kjp'."
+"Pane tähele, et võid tavakasutaja konto (või siis mitu kontot) luua ka "
+"hiljem tippides juurkasutajana 'adduser <username>', kus <username> on "
+"soovitud kasutajanimi, näiteks 'vleppikson' või 'kjp'."
 
 #. Type: error
 #. Description

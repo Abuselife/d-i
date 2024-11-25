@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-01-28 19:24+0000\n"
+"PO-Revision-Date: 2024-11-24 22:01+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian\n"
 "Language: et\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -440,13 +440,6 @@ msgstr "Konsoolifont:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -457,7 +450,8 @@ msgstr ""
 "\"VGA\" annab tavapärase väljanägemise ning selles on keskpäraselt maailma "
 "keelte märke. \"Fixed\" annab lihtsa väljanägemise ning selles on rohkem "
 "erinevate keelte märke. \"Terminus\" võib vähendada silmade väsimist, kuid "
-"mõned sümbolid on sarnased ning võivad programmeerijaid eksitada."
+"mõned sümbolid on sarnased ning võivad programmeerijaid eksitada. \"DejaVu\" "
+"sobib kõrglahutusega (HiDPI) ekraanidele."
 
 #. Type: select
 #. Description
@@ -3208,6 +3202,7 @@ msgstr "Seadme-kaardistaja (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Püsivaral põhinev isekrüpteeriv ketas (toota teostatud LUKS2 toega OPAL)"
 
 #. Type: text
 #. Description
@@ -3362,7 +3357,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "dm-crypt'i toega pesastatud isekrüpteeriv OPAL:"
 
 #. Type: select
 #. Description
@@ -3373,6 +3368,8 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Mõned kettad toetavad enese krüpteerimist. See on riistvara erisus, mis siit "
+"sisselülitatuna pakub koos dm-cryptiga andmete topeltkrüpteerimist."
 
 #. Type: text
 #. Description
@@ -3395,7 +3392,7 @@ msgstr "Kustuta sellel partitsioonil olevad andmed"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Taasta kogu ketta tehaseseaded (KÕIK andmed kaovad)"
 
 #. Type: boolean
 #. Description
@@ -3888,7 +3885,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "OPAL haldusparool:"
 
 #. Type: password
 #. Description
@@ -3898,6 +3895,7 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Sa pead valima seadmele ${DEVICE} kas uue parooli või sisestama olemasoleva."
 
 #. Type: password
 #. Description
@@ -3909,35 +3907,33 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Seda parooli kasutatakse kogu ketta haldamiseks: uute kettajaotiste "
+"lisamiseks, eemaldamiseks ja kustutamiseks. Kui see parool kaob, siis peab "
+"ketta kasutamiseks tegema teahseseadete taastamise, mis kaotab ketta sisu "
+"kõikidelt jaotistelt."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Sisesta parool uuesti:"
+msgstr "Sisesta OPAL hadusparool uuesti:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
-msgstr "Palun sisesta sama parool uuesti, et välistada trükkimise vead."
+msgstr "Palun sisesta sama parool uuesti, et välistada tippimise vead."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -3947,67 +3943,54 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Sa pead sisestama seadme ${DEVICE} OAPL PSID. Tavaliselt leiab selle ketta "
+"sildilt."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Sisesta parool uuesti:"
+msgstr "Sisesta OPAL PSID uuesti:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Palun sisesta sama kaugligipääsuparool uuesti, veendumaks, et sisestasid "
-"selle õigesti."
+"Palun sisesta sama PSID uuesti, veendumaks, et sisestasid selle õigesti."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Tõrge parooli sisestamisel"
+msgstr "Tõrge OPAL PSID sisestamisel"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
-msgstr "Sinu sisestatud paroolid olid erinevad. Palun proovi uuesti."
+msgstr "Sinu sisestatud OPAL PSID-d on erinevad. Palun proovi uuesti."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Tühi OPAL PSID"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
-msgstr "Sisestasid tühja parooli. See ei ole lubatud. Palun vali uus parool."
+msgstr "Sisestasid tühja PSID. See ei ole lubatud. Palun vali uus PSID."
 
 #. Type: entropy
 #. Description
@@ -4034,29 +4017,23 @@ msgstr "Võtmefaili kettale kirjutamisel esines viga."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr ""
-"btrfs failisüsteem juurikal ei ole toetatud ilma eraldi /boot partitsioonita"
+msgstr "Kas seadistada krüpteerimine eraldi /boot partitsioonita?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Oled valinud krüpteeritud juurfailisüsteemi. Sellisel juhul on vaja eraldi /"
-"boot partitsiooni, kus hoida kernelit ja initrd tõmmist."
+"Oled valinud krüpteeritud juurfailisüsteemi. GRUB alglaaduriga on sellisel "
+"juhul vaja eraldi /boot partitsiooni, kus hoida kernelit ja initrd tõmmist. "
+"Eraldi /boot ei ole vajalik, kui kasutad alglaadimiseks systemd-boot/UKI'd, "
+"sest kasutatakse ESP'd."
 
 #. Type: error
 #. Description
@@ -5723,17 +5700,15 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Install the GRUB boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Paigalda GRUB alglaadur"
+msgstr "Paigalda systemd-boot alglaadur"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Korduste arv iga kirje kohta (0 keelab):"
 
 #. Type: select
 #. Description
@@ -5745,6 +5720,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Seadistab automaatse alglaadimise hindamise loogika, mis pöördub "
+"automaatselt eelmise kirje juurde, kui uue kasutamine nurjub rohkem kui "
+"seadistatud arv kordi. Täpsemalt vaata https://systemd.io/"
+"AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description

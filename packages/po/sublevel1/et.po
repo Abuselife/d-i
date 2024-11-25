@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-17 20:02+0000\n"
-"PO-Revision-Date: 2024-01-29 20:01+0000\n"
+"PO-Revision-Date: 2024-11-24 22:01+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: select
 #. Description
@@ -2121,10 +2121,8 @@ msgstr "türgi (Q asetus)"
 #. Choices
 #. :sl1:
 #: ../keyboard-configuration.templates:16001
-#, fuzzy
-#| msgid "Japanese"
 msgid "Taiwanese"
-msgstr "jaapani"
+msgstr "Taiwani"
 
 #. Type: select
 #. Choices
@@ -3727,7 +3725,7 @@ msgstr "Eraldi /home, /var, ja /tmp partitsioonid"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
-msgstr ""
+msgstr "Eraldi /var ja /srv, saaleala < 1GB (serveritele)"
 
 #. Type: text
 #. Description
@@ -4475,6 +4473,8 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"Mõnel kontol peab olema administratiivsed juurkasutaja haldusõigused. Selle "
+"konto parool ei tohiks olla lihtsalt arvatav."
 
 #. Type: password
 #. Description
@@ -4484,6 +4484,7 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Sisesta siia parool, kui soovid lubada konto 'root' paroolipõhise kasutamise."
 
 #. Type: password
 #. Description
@@ -4495,13 +4496,16 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Alternatiivina saad jätta selle välja tühjaks ja lukustada konto root "
+"parooli ning süsteemi haldusõigused saab esimene kasutaja (seadistatakse "
+"järgmisel sammul). Selleks lisatakse see esmane kasutaja gruppi 'sudo'."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Note: what you type here will be hidden (unless you select to show it)."
-msgstr ""
+msgstr "NB! Siia kirjutatu peidetakse, kui sa just ei vali selle kuvamist."
 
 #. Type: password
 #. Description
@@ -4576,7 +4580,7 @@ msgstr "Sisesta uue kasutaja parool:"
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr ""
+msgstr "Vali korralik parool, mida ei saa ära arvata."
 
 #. Type: password
 #. Description

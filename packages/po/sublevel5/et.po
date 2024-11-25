@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-04-25 19:42+0000\n"
+"PO-Revision-Date: 2024-11-24 22:01+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -37,6 +37,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Põsivara on programm mõningate riistvarakomponentide (nagu Wi-Fi kaardid või "
+"audio kiibistikud) juhtimiseks, sest ilma püsivarata töötavad nad kas "
+"osaliselt või ei tööta üleüldse."
 
 #. Type: boolean
 #. Description
@@ -48,6 +51,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Kuigi tegemist ei ole Debiani osadega, on mõned mitte-vabad püsivarad tehtud "
+"Debianis kasutatavaks. Sellised püsivarad on erinevate litsentsidega, mis "
+"võivad piirata su vabadust tarkvara kasutamisel, muutmisel või jagamisel; "
+"samuti ei ole neil tavaliselt lähtekoodi, millega sa saaksid tutvuda."
 
 #. Type: text
 #. Description
