@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel2_he\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-17 20:02+0000\n"
-"PO-Revision-Date: 2024-11-15 09:00+0000\n"
+"PO-Revision-Date: 2024-11-26 14:00+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <debian-hebrew-common@lists.alioth.debian.org>\n"
 "Language: he\n"
@@ -355,9 +355,10 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"מספר תכניות לא חופשיות זמינות בצורת חבילות. למרות שתכנית זאת אינה חלק מההפצה "
-"הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותה. לתכניות אלו יש "
-"רישיונות שונים והגבלות פטנטים, שעלולים למנוע ממך להשתמש, לשנות או לשתף אותן."
+"מספר תוכניות לא חופשיות זמינות בצורת חבילות. למרות שתוכנית זאת אינה חלק "
+"מההפצה הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותה. לתוכניות אלו "
+"יש רישיונות שונים והגבלות פטנטים, שעלולים למנוע ממך להשתמש, לשנות או לשתף "
+"אותן."
 
 #. Type: boolean
 #. Description
@@ -479,8 +480,8 @@ msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"תכנית ההתקנה לא יכולה להבין כיצד להתקין את מערכת הבסיס. לא נמצאה דמות להתקנה "
-"ולא הוגדר אתר מראה תקין."
+"תוכנית ההתקנה לא יכולה להבין כיצד להתקין את מערכת הבסיס. לא נמצאה דמות "
+"להתקנה ולא הוגדר אתר מראה תקין."
 
 #. Type: error
 #. Description
@@ -1619,7 +1620,7 @@ msgid ""
 "program used to set the clock may have problems talking to the hardware "
 "clock."
 msgstr ""
-"כיוון שעון החומרה אורך מעבר למצופה. ייתכן שלתכנית ‚hwclock’ שמשמשת לכיוון "
+"כיוון שעון החומרה אורך מעבר למצופה. ייתכן שלתוכנית ‚hwclock’ שמשמשת לכיוון "
 "השעון יש בעיות ליצור קשר עם שעון החומרה."
 
 #. Type: boolean
@@ -1679,7 +1680,7 @@ msgstr "הפקודה „exit” תחזיר אותך לתפריט ההתקנה."
 #. :sl2:
 #: ../di-utils-exit-installer.templates:1001
 msgid "Exit installer"
-msgstr "יציאה מתכנית ההתקנה"
+msgstr "יציאה מתוכנית ההתקנה"
 
 #. Type: boolean
 #. Description
@@ -1732,8 +1733,8 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"לחלופין, ניתן לפתוח מעטפת על ידי לחיצה על Ctrl+Alt+F2, או על Alt+F5 כדי "
-"להגיע חזרה לתכנית ההתקנה."
+"לחלופין, ניתן לפתוח מעטפת בלחיצה על Ctrl+Alt+F2, או על Alt+F5 כדי לחזור "
+"לתוכנית ההתקנה."
 
 #. Type: error
 #. Description
@@ -2198,7 +2199,7 @@ msgid ""
 "to achieve that), saved to some mounted file system (like the one on a USB "
 "stick), or to a floppy."
 msgstr ""
-"קובצי ניפוי השגיאות לתכנית ההתקנה זמינים תחת /var/log/. אפשר להגיש אותם דרך "
+"קובצי ניפוי השגיאות לתוכנית ההתקנה זמינים תחת /var/log/. אפשר להגיש אותם דרך "
 "הרשת (או שרת קטן שמופעל במכונה הזאת כדי לספק את הצורך הזה), הם יישמרו למערכת "
 "קבצים מעוגנת כלשהי (כמו כזאת שעל כונן USB נשלף) או לכונן תקליטונים."
 
@@ -2264,7 +2265,7 @@ msgstr "מידע זה יאוחסן גם תחת ‎/var/log/installer/‎ במע�
 #. :sl2:
 #: ../load-iso.templates:1001
 msgid "Load installer components from an installer ISO"
-msgstr "טעינת רכיבי תכנית ההתקנה מתוך קובץ ה־ISO של תכנית ההתקנה"
+msgstr "טעינת רכיבי תוכנית ההתקנה מתוך קובץ ה־ISO של תכנית ההתקנה"
 
 #. Type: select
 #. Description
@@ -3100,7 +3101,7 @@ msgstr "יתכן ששגית בהקלדת כתובת ה־IP, מסכת הרשת ו
 #. :sl2:
 #: ../download-installer.templates:1001
 msgid "Download installer components"
-msgstr "הורדת רכיבי תכנית ההתקנה"
+msgstr "הורדת רכיבי תוכנית ההתקנה"
 
 #. Type: select
 #. Description
@@ -3112,9 +3113,9 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"תכנית ההתקנה נכשלה בעת הורדת קובץ מאתר המראה. יכול להיות שמדובר בתקלה ברשת "
-"שלך או באתר המראה. באפשרותך לבחור לנסות להוריד שוב, לבחור באתר מראה אחר או "
-"לבטל ולבחור בשיטת התקנה אחרת."
+"תוכנית ההתקנה נכשלה בעת הורדת קובץ מאתר המראה. יכול להיות שמדובר בתקלה ברשת "
+"שלך או באתר המראה. אפשר לבחור לנסות להוריד שוב או באתר מראה אחר או לבטל "
+"ולבחור בשיטת התקנה אחרת."
 
 #. #-#-#-#-#  templates.pot (network-console)  #-#-#-#-#
 #. Type: error
@@ -3598,7 +3599,7 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"סירוב מצדך לחזור לתפריט החלוקה למחיצות ולהקצות שטח להחלפה תגרום לכך שתכנית "
+"סירוב מצדך לחזור לתפריט החלוקה למחיצות ולהקצות שטח להחלפה תגרום לכך שתוכנית "
 "ההתקנה תמשיך ללא שטח החלפה."
 
 #. Type: error
@@ -4250,7 +4251,7 @@ msgid ""
 "boot loader used by default by this installer."
 msgstr ""
 "שורש מערכת הקבצים שלך היא מערכת קבצים מסוג btrfs. היא אינה נתמכת על ידי מנהל "
-"האתחול שהוגדר כבררת מחדל על ידי תכנית ההתקנה."
+"האתחול שהוגדר כברירת מחדל על ידי תוכנית ההתקנה."
 
 #. Type: error
 #. Description
@@ -4276,8 +4277,8 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"עיגנת מערכת קבצים מסוג btrfs כ־‎/boot. מנהל האתחול שהוגדר כבררת מחדל על ידי "
-"תכנית ההתקנה אינו תומך במצב שכזה."
+"עיגנת מערכת קבצים מסוג btrfs כ־‎/boot. מנהל האתחול שהוגדר כברירת מחדל על ידי "
+"תוכנית ההתקנה אינו תומך במצב שכזה."
 
 #. Type: error
 #. Description
@@ -4343,7 +4344,7 @@ msgid ""
 "might be difficult to reboot the machine into any BIOS-mode operating "
 "systems later."
 msgstr ""
-"הקושחה של המכונה הזאת הפעילה את תכנית ההתקנה במצב UEFI אך כנראה שכבר הותקנה "
+"הקושחה של המכונה הזאת הפעילה את תוכנית ההתקנה במצב UEFI אך כנראה שכבר הותקנה "
 "מערכת הפעלה בתצורת „מצב תאימות BIOS”. בחירתך להמשיך בהתקנת דביאן במצב UEFI "
 "עשויה להקשות על הפעלת המכונה למערכות הפעלה שהותקנו במצב BIOS בהמשך."
 
