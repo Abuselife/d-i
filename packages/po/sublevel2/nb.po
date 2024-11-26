@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-06-08 15:09+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -3241,7 +3241,7 @@ msgstr "Du oppga et tomt passord, noe som ikke er tillatt. Velg et passord."
 #. Type: error
 #. Description
 #. :sl3:
-#: ../partman-auto.templates:3001 ../partman-auto.templates:4001
+#: ../partman-auto.templates:4001 ../partman-auto.templates:5001
 #: ../partman-auto-lvm.templates:4001
 msgid "Failed to partition the selected disk"
 msgstr "Klarte ikke å partisjonere den valgte harddisken"
@@ -3249,7 +3249,7 @@ msgstr "Klarte ikke å partisjonere den valgte harddisken"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:3001
+#: ../partman-auto.templates:4001
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
@@ -3261,7 +3261,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:4001
+#: ../partman-auto.templates:5001
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
@@ -3272,14 +3272,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid "Unusable free space"
 msgstr "Kan ikke bruke det ledige området"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
@@ -3291,7 +3291,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:24001
 msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "Partisjoneringsoppsett for liten disk (< 10 Gb)"
 

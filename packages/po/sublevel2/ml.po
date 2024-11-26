@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1 - sublevel 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2023-09-20 17:02+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -3340,7 +3340,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl3:
-#: ../partman-auto.templates:3001 ../partman-auto.templates:4001
+#: ../partman-auto.templates:4001 ../partman-auto.templates:5001
 #: ../partman-auto-lvm.templates:4001
 msgid "Failed to partition the selected disk"
 msgstr "തിരഞ്ഞടുത്ത ഡിസ്ക് വിഭജിക്കുന്നതില്‍ പരാജയപ്പെട്ടു"
@@ -3348,7 +3348,7 @@ msgstr "തിരഞ്ഞടുത്ത ഡിസ്ക് വിഭജിക�
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:3001
+#: ../partman-auto.templates:4001
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
@@ -3359,7 +3359,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:4001
+#: ../partman-auto.templates:5001
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
@@ -3369,14 +3369,14 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid "Unusable free space"
 msgstr "ഉപയോഗിക്കാനാകാത്ത ഫ്രീ സ്പേയ്സ്"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
@@ -3388,7 +3388,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:24001
 msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "ചെറിയ-ഡിസ്ക് (< 10GB) വിഭജന പദ്ധതി"
 

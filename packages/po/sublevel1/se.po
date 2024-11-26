@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: se\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2019-08-28 18:10+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Northern Sami <i18n-sme@lister.ping.uio.no>\n"
@@ -3636,6 +3636,99 @@ msgid "Continue without boot loader"
 msgstr "Joatkit vuolggahangieđahalli haga"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Veahkki partišuneremii"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Go partišuneret garraskearru, de juogát dan osiide ja ráhkadat saji gosa\n"
+"sajáiduhtát ođđa vuogádaga. Fertet válljet guđe partišuvnna(id) galgá\n"
+"geavahit sajáiduhttimii."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Vállje guorus guovllu masa ráhkadat partišuvnnaid."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Vállje ovttadaga mas háliidat sihkkut buot partišuvnnaid ja\n"
+"ráhkadit ođđa, guorus partišuvdnatabealla."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Válljes partišuvnna jus háliidat sihkkut dan dahje mearridit mo dan \n"
+"galgá geavahit. Dárbbašat goittotge ovtta partišuvnna mas lea \n"
+"fiilavuogádaga ruohta (mas lea čatnanbáiki «/»). Eanáš olbmuid mielas\n"
+"lea maid dárbu ráhkadit «swap»-partišuvnna. «Swap» lea sadji maid\n"
+"operatiivavuogádat geavaha virtuella muitun go siskkáldas muitu dievvá."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Go partišuvdna lea formatterejuvvon ovdalgihtii, de sáhtát válljet jus\n"
+"háliidat geavahit dataid mat juo leat das. Partišuvnnat mat geavahuvvot\n"
+"dán láhkai merkejuvvo «${KEEP}» partišunerenfálus."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Dábálaččat láve formatteret partišuvnna mas lea easka ráhkaduvvon \n"
+"fiilavuogádat. FUOMÁŠ: buot datat partišuvnnas biliduvvo áibbas. Jus\n"
+"áiggut formatteret partišuvnna mii juo lea formatterejuvvon, de dat \n"
+"merkejuvvo «${DESTROY}» partišunerenfálus. Muđui dat merkejuvvo «${FORMAT}»."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3646,7 +3739,7 @@ msgstr "Joatkit vuolggahangieđahalli haga"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Vuorddes …"
@@ -3654,7 +3747,7 @@ msgstr "Vuorddes …"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Ráhkadeamen ođđa partišuvnnaid …"
 
@@ -3664,14 +3757,14 @@ msgstr "Ráhkadeamen ođđa partišuvnnaid …"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Partišunerenvuohki:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3689,7 +3782,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3700,7 +3793,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Partišunerenplána:"
 
@@ -3713,14 +3806,14 @@ msgstr "Partišunerenplána:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Dát partišunerejuvvo:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3732,7 +3825,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Nevvojuvvon partišuneren"
 
@@ -3740,7 +3833,7 @@ msgstr "Nevvojuvvon partišuneren"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Vehkiin - geavat stuorimus guorus saji"
 
@@ -3748,21 +3841,21 @@ msgstr "Vehkiin - geavat stuorimus guorus saji"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Nevvojuvvon - geavat olles garraskearru"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Vállje garraskearru maid partišuneret:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3775,7 +3868,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Manuella"
 
@@ -3783,7 +3876,7 @@ msgstr "Manuella"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Partišunere automáhtalaččat guorus saji"
 
@@ -3791,7 +3884,7 @@ msgstr "Partišunere automáhtalaččat guorus saji"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Buot fiillat ovtta partišuvnnas (heive buoremus ođđa geavaheddjiide)"
 
@@ -3799,7 +3892,7 @@ msgstr "Buot fiillat ovtta partišuvnnas (heive buoremus ođđa geavaheddjiide)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Sierra /home partišuvdna"
 
@@ -3807,7 +3900,7 @@ msgstr "Sierra /home partišuvdna"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Sierra /home, /var, ja /tmp partišuvnnat"
 
@@ -3815,7 +3908,7 @@ msgstr "Sierra /home, /var, ja /tmp partišuvnnat"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4353,93 +4446,6 @@ msgstr "Logalaš"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Ođđa partišuvnna šládja:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Veahkki partišuneremii"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Go partišuneret garraskearru, de juogát dan osiide ja ráhkadat saji gosa\n"
-"sajáiduhtát ođđa vuogádaga. Fertet válljet guđe partišuvnna(id) galgá\n"
-"geavahit sajáiduhttimii."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Vállje guorus guovllu masa ráhkadat partišuvnnaid."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Vállje ovttadaga mas háliidat sihkkut buot partišuvnnaid ja\n"
-"ráhkadit ođđa, guorus partišuvdnatabealla."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Válljes partišuvnna jus háliidat sihkkut dan dahje mearridit mo dan \n"
-"galgá geavahit. Dárbbašat goittotge ovtta partišuvnna mas lea \n"
-"fiilavuogádaga ruohta (mas lea čatnanbáiki «/»). Eanáš olbmuid mielas\n"
-"lea maid dárbu ráhkadit «swap»-partišuvnna. «Swap» lea sadji maid\n"
-"operatiivavuogádat geavaha virtuella muitun go siskkáldas muitu dievvá."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Go partišuvdna lea formatterejuvvon ovdalgihtii, de sáhtát válljet jus\n"
-"háliidat geavahit dataid mat juo leat das. Partišuvnnat mat geavahuvvot\n"
-"dán láhkai merkejuvvo «${KEEP}» partišunerenfálus."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Dábálaččat láve formatteret partišuvnna mas lea easka ráhkaduvvon \n"
-"fiilavuogádat. FUOMÁŠ: buot datat partišuvnnas biliduvvo áibbas. Jus\n"
-"áiggut formatteret partišuvnna mii juo lea formatterejuvvon, de dat \n"
-"merkejuvvo «${DESTROY}» partišunerenfálus. Muđui dat merkejuvvo «${FORMAT}»."
 
 #. Type: text
 #. Description

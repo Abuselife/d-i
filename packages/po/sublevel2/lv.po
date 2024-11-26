@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-10-16 15:16+0000\n"
 "Last-Translator: GGLVXD <85647114+GGLVXD@users.noreply.github.com>\n"
 "Language-Team: Latvian <locale-l10n@googlegroups.com>\n"
@@ -3233,7 +3233,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl3:
-#: ../partman-auto.templates:3001 ../partman-auto.templates:4001
+#: ../partman-auto.templates:4001 ../partman-auto.templates:5001
 #: ../partman-auto-lvm.templates:4001
 msgid "Failed to partition the selected disk"
 msgstr "Neizdevās sadalīt izvēlēto disku"
@@ -3241,7 +3241,7 @@ msgstr "Neizdevās sadalīt izvēlēto disku"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:3001
+#: ../partman-auto.templates:4001
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
@@ -3252,7 +3252,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:4001
+#: ../partman-auto.templates:5001
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
@@ -3261,14 +3261,14 @@ msgstr "Iespējams, nodalījumu tabulā ir pārāk daudz (primāro) nodalījumu.
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid "Unusable free space"
 msgstr "Neizmantojama brīvā vieta"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
@@ -3280,7 +3280,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:24001
 msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "Maza diska (< 10GB) dalīšanas shēma"
 

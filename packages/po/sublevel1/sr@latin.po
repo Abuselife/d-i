@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2012-10-15 05:21+0100\n"
 "Last-Translator: Milan Kostic <kosticmilan77@open.telekom.rs>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
@@ -3622,6 +3622,101 @@ msgid "Continue without boot loader"
 msgstr "Nastavi bez pokretačkog programa"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Pomoć pri particionisanju"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Particionisanje hard drajva se sastoji od deljenja istog da bi se napravio "
+"prostor potreban za instalaciju vašeg novog sistema.  Potrebno je da "
+"odaberete koje particije će biti upotrebljene za instalaciju."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Izaberite prazan prostor da biste na njemu kreirali particije."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Izaberite uređaj sa koga ćete ukloniti sve particije i kreirati novu, praznu "
+"particionu tabelu."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Izaberite particiju da biste je uklonili ili naznačili kao će biti "
+"korišćena. Minimalno je potrebno da imate jednu particiju koja će sadržati "
+"„root“ fajl sistem (čija tačka montiranja je /). Mnogi smatraju da je "
+"zasebna particija za pomoćnu memoriju neophodna.  „Pomoćna memorija“ "
+"dozvoljava sistemu da koristi prostor na disku kao svoju „virtuelnu "
+"memoriju“."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Kada je particija već formatirana možete odabrati da je sačuvate i "
+"iskoristite postojeće podatke na njoj.  Particije koje će se koristiti na "
+"ovaj način su označene sa „${KEEP}“ u glavnom meniju za particionisanje."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"U opštem slučaju poželećete da formatirate particiju sa novokreiranim fajl "
+"sistemom.  NAPOMENA: svi podaci na particiji će biti nepovratno obrisani.  "
+"Ako odlučite da formatirate već formatiranu particiju, ona će biti označena "
+"sa „${DESTROY}“ u meniju za particionisanje.  U suprotnom ona će biti "
+"označena sa „${FORMAT}“."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3632,7 +3727,7 @@ msgstr "Nastavi bez pokretačkog programa"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Molim sačekajte..."
@@ -3640,7 +3735,7 @@ msgstr "Molim sačekajte..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Računanje nove particije..."
 
@@ -3650,14 +3745,14 @@ msgstr "Računanje nove particije..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Način particionisanja:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3675,7 +3770,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3686,7 +3781,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Šema particionisanja:"
 
@@ -3699,14 +3794,14 @@ msgstr "Šema particionisanja:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Odabrano za particionisanje:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3718,7 +3813,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Navođeno particionisanje"
 
@@ -3726,7 +3821,7 @@ msgstr "Navođeno particionisanje"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Navođeno - upotrebi najveći slobodan prostor"
 
@@ -3734,21 +3829,21 @@ msgstr "Navođeno - upotrebi najveći slobodan prostor"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Navođeno - upotrebi ceo disk"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Izaberite disk za particionisanje:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3761,7 +3856,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Ručno"
 
@@ -3769,7 +3864,7 @@ msgstr "Ručno"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Automatski particioniši slobodan prostor"
 
@@ -3777,7 +3872,7 @@ msgstr "Automatski particioniši slobodan prostor"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Svi fajlovi na jednoj particiji (dobro za početnike)"
 
@@ -3785,7 +3880,7 @@ msgstr "Svi fajlovi na jednoj particiji (dobro za početnike)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Zasebna /home particija"
 
@@ -3793,7 +3888,7 @@ msgstr "Zasebna /home particija"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Zasebne /home, /var i /tmp particije"
 
@@ -3801,7 +3896,7 @@ msgstr "Zasebne /home, /var i /tmp particije"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4345,95 +4440,6 @@ msgstr "Logička"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Tip nove particije:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Pomoć pri particionisanju"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Particionisanje hard drajva se sastoji od deljenja istog da bi se napravio "
-"prostor potreban za instalaciju vašeg novog sistema.  Potrebno je da "
-"odaberete koje particije će biti upotrebljene za instalaciju."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Izaberite prazan prostor da biste na njemu kreirali particije."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Izaberite uređaj sa koga ćete ukloniti sve particije i kreirati novu, praznu "
-"particionu tabelu."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Izaberite particiju da biste je uklonili ili naznačili kao će biti "
-"korišćena. Minimalno je potrebno da imate jednu particiju koja će sadržati "
-"„root“ fajl sistem (čija tačka montiranja je /). Mnogi smatraju da je "
-"zasebna particija za pomoćnu memoriju neophodna.  „Pomoćna memorija“ "
-"dozvoljava sistemu da koristi prostor na disku kao svoju „virtuelnu "
-"memoriju“."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Kada je particija već formatirana možete odabrati da je sačuvate i "
-"iskoristite postojeće podatke na njoj.  Particije koje će se koristiti na "
-"ovaj način su označene sa „${KEEP}“ u glavnom meniju za particionisanje."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"U opštem slučaju poželećete da formatirate particiju sa novokreiranim fajl "
-"sistemom.  NAPOMENA: svi podaci na particiji će biti nepovratno obrisani.  "
-"Ako odlučite da formatirate već formatiranu particiju, ona će biti označena "
-"sa „${DESTROY}“ u meniju za particionisanje.  U suprotnom ona će biti "
-"označena sa „${FORMAT}“."
 
 #. Type: text
 #. Description

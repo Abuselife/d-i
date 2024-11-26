@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-10-15 21:12+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
@@ -3595,6 +3595,100 @@ msgid "Continue without boot loader"
 msgstr "Verdergaan zonder bootloader"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Hulp bij de schijfindeling"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Een harde schijf indelen is de nodige ruimte erop creëren om uw nieuw "
+"systeem te installeren. U moet kiezen welke partitie(s) voor de installatie "
+"gebruikt moeten worden."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Kies een vrije om er partities in aan te maken."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Kies een schijf om alle partities erop te verwijderen en een nieuwe lege "
+"schijfindelingstabel aan te maken."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Kies een partitie om ze te verwijderen of aan te geven hoe ze gebruikt moet "
+"worden. Minstens één partitie is vereist voor het basisbestandssysteem (i.e. "
+"voor aankoppelpunt /). Voorts neemt men meestal een afzonderlijke partitie "
+"voor wisselgeheugen (swap). 'Swap' is een kladblok dat het systeem in staat "
+"stelt de harde schijf als 'virtueel geheugen' te gebruiken."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Als de partitie reeds geformatteerd is, kunt ervoor kiezen om de bestaande "
+"gegevens in de partitie te bewaren. Op deze manier gebruikte partities "
+"worden aangeven met '${KEEP}' in het schijfindelingshoofdmenu."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Meestal wordt de partitie geformatteerd met een nieuw gecreëerd "
+"bestandssysteem. NOOT: alle gegevens in de partitie worden onherroepelijk "
+"verwijderd. Een reeds geformatteerde partitie die u opnieuw laat "
+"formatteren, krijgt in het schijfindelingshoofdmenu een '${DESTROY}'. Anders "
+"wordt ze aangeduid met '${FORMAT}'."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3605,7 +3699,7 @@ msgstr "Verdergaan zonder bootloader"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Even geduld..."
@@ -3613,7 +3707,7 @@ msgstr "Even geduld..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Nieuwe partities worden berekend..."
 
@@ -3623,14 +3717,14 @@ msgstr "Nieuwe partities worden berekend..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Schijfindelingsmethode:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3649,7 +3743,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3660,7 +3754,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Schijfindelingsschema:"
 
@@ -3673,14 +3767,14 @@ msgstr "Schijfindelingsschema:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Geselecteerd om in te delen:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3692,7 +3786,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Begeleide schijfindeling"
 
@@ -3700,7 +3794,7 @@ msgstr "Begeleide schijfindeling"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Begeleid - grootste ononderbroken vrije ruimte gebruiken"
 
@@ -3708,21 +3802,21 @@ msgstr "Begeleid - grootste ononderbroken vrije ruimte gebruiken"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Begeleid - benut gehele schijf"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "In te delen schijf:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3736,7 +3830,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Handmatig"
 
@@ -3744,7 +3838,7 @@ msgstr "Handmatig"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "De beschikbare vrije ruimte automatisch indelen"
 
@@ -3752,7 +3846,7 @@ msgstr "De beschikbare vrije ruimte automatisch indelen"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Alles in één partitie (aanbevolen voor nieuwe gebruikers)"
 
@@ -3760,7 +3854,7 @@ msgstr "Alles in één partitie (aanbevolen voor nieuwe gebruikers)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Afzonderlijke /home-partitie"
 
@@ -3768,7 +3862,7 @@ msgstr "Afzonderlijke /home-partitie"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Afzonderlijke partities /home, /var, en /tmp"
 
@@ -3776,7 +3870,7 @@ msgstr "Afzonderlijke partities /home, /var, en /tmp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr "Afzonderlijke /var en /srv, swap < 1GB (voor servers)"
 
@@ -4317,94 +4411,6 @@ msgstr "Logisch"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Type van de nieuwe partitie:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Hulp bij de schijfindeling"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Een harde schijf indelen is de nodige ruimte erop creëren om uw nieuw "
-"systeem te installeren. U moet kiezen welke partitie(s) voor de installatie "
-"gebruikt moeten worden."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Kies een vrije om er partities in aan te maken."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Kies een schijf om alle partities erop te verwijderen en een nieuwe lege "
-"schijfindelingstabel aan te maken."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Kies een partitie om ze te verwijderen of aan te geven hoe ze gebruikt moet "
-"worden. Minstens één partitie is vereist voor het basisbestandssysteem (i.e. "
-"voor aankoppelpunt /). Voorts neemt men meestal een afzonderlijke partitie "
-"voor wisselgeheugen (swap). 'Swap' is een kladblok dat het systeem in staat "
-"stelt de harde schijf als 'virtueel geheugen' te gebruiken."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Als de partitie reeds geformatteerd is, kunt ervoor kiezen om de bestaande "
-"gegevens in de partitie te bewaren. Op deze manier gebruikte partities "
-"worden aangeven met '${KEEP}' in het schijfindelingshoofdmenu."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Meestal wordt de partitie geformatteerd met een nieuw gecreëerd "
-"bestandssysteem. NOOT: alle gegevens in de partitie worden onherroepelijk "
-"verwijderd. Een reeds geformatteerde partitie die u opnieuw laat "
-"formatteren, krijgt in het schijfindelingshoofdmenu een '${DESTROY}'. Anders "
-"wordt ze aangeduid met '${FORMAT}'."
 
 #. Type: text
 #. Description

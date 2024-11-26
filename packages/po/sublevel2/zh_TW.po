@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-10-30 15:06+0000\n"
 "Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
@@ -3116,7 +3116,7 @@ msgstr "您所輸入的是空的密碼，而這是不允許的。請選擇一個
 #. Type: error
 #. Description
 #. :sl3:
-#: ../partman-auto.templates:3001 ../partman-auto.templates:4001
+#: ../partman-auto.templates:4001 ../partman-auto.templates:5001
 #: ../partman-auto-lvm.templates:4001
 msgid "Failed to partition the selected disk"
 msgstr "無法分割所選定的磁碟"
@@ -3124,7 +3124,7 @@ msgstr "無法分割所選定的磁碟"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:3001
+#: ../partman-auto.templates:4001
 msgid ""
 "This probably happened because the selected disk or free space is too small "
 "to be automatically partitioned."
@@ -3134,7 +3134,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:4001
+#: ../partman-auto.templates:5001
 msgid ""
 "This probably happened because there are too many (primary) partitions in "
 "the partition table."
@@ -3143,14 +3143,14 @@ msgstr "這或許是因為在磁碟分割表有過多的 (主) 分割區。"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid "Unusable free space"
 msgstr "無法使用的未使用空間"
 
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:11001
+#: ../partman-auto.templates:12001
 msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
@@ -3162,7 +3162,7 @@ msgstr ""
 #. Description
 #. :sl2:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:23001
+#: ../partman-auto.templates:24001
 msgid "Small-disk (< 10GB) partitioning scheme"
 msgstr "小型磁碟 (< 10GB) 分割方案"
 

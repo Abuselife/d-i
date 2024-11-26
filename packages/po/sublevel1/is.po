@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -3546,6 +3546,98 @@ msgid "Continue without boot loader"
 msgstr "Halda áfram án ræsistjóra"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Hjálp við sneiðingu"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Að sneiða harðan disk snýst um að búta hann niður til að búa til plássið sem "
+"þarf til að setja upp nýtt kerfi. Þú þarft að velja þær sneiðar sem á að "
+"nota fyrir uppsetninguna."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Veldu laust pláss til að búa til sneiðar á því."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Veldu drif sem á að eyða öllum sneiðum af og búa til nýja tóma sneiðatöflu."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Veldu sneið til að fjarlægja eða skilgreina notkun. Þú þarft að lágmarki "
+"eina sneið til að halda utanum rótarskráakerfið (sem er með "
+"tengipunktinn /). Flestir halda því fram að einnig sé nauðsynlegt  að hafa "
+"sérstaka swap-sneið. \"Swap\" er pláss sem gerir stýrikerfinu kleift að nota "
+"diskapláss sem \"sýndarminni\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Þegar sneið er þegar forsniðin, getur þú valið að halda og nota gögnin á "
+"þeirri sneið. Sneiðar sem eru notaðar á þennan hátt eru merktar sem "
+"\"${KEEP}\" í aðal sneiðavalmyndinni."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Almennt muntu vilja forsníða sneiðina með nýju skráakerfi. ATHUGIÐ: öllum "
+"gögnum á sneiðinni verður algerlega eytt. Ef þú velur að forsníða sneið sem "
+"hefur þegar verið forsniðin, verður hún merkt sem \"${DESTROY}\" í "
+"sneiðavalmyndinni. Annars verður hún merkt sem \"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3556,7 +3648,7 @@ msgstr "Halda áfram án ræsistjóra"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Bíddu aðeins..."
@@ -3564,7 +3656,7 @@ msgstr "Bíddu aðeins..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Reikna út nýjar disksneiðar..."
 
@@ -3574,14 +3666,14 @@ msgstr "Reikna út nýjar disksneiðar..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Disksneiðingar aðferð:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3600,7 +3692,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3611,7 +3703,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Disksneiðingar skema:"
 
@@ -3624,14 +3716,14 @@ msgstr "Disksneiðingar skema:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Valið til disksneiðingar:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3643,7 +3735,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Leiðbeind disksneiðing"
 
@@ -3651,7 +3743,7 @@ msgstr "Leiðbeind disksneiðing"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Leiðbeint - nota stærsta samliggjandi lausa pláss"
 
@@ -3659,21 +3751,21 @@ msgstr "Leiðbeint - nota stærsta samliggjandi lausa pláss"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Með aðstoð - nota allan diskinn"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Veldu disk til að sneiða:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3686,7 +3778,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Handvirk"
 
@@ -3694,7 +3786,7 @@ msgstr "Handvirk"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Sneiða niður laust pláss sjálfvirkt"
 
@@ -3702,7 +3794,7 @@ msgstr "Sneiða niður laust pláss sjálfvirkt"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Allar skrár á einni disksneið (ráðlagt fyrir nýja notendur)"
 
@@ -3710,7 +3802,7 @@ msgstr "Allar skrár á einni disksneið (ráðlagt fyrir nýja notendur)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Sérstök disksneið fyrir heimasvæði (/home)"
 
@@ -3718,7 +3810,7 @@ msgstr "Sérstök disksneið fyrir heimasvæði (/home)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Aðskilja /home, /var og /tmp möppur"
 
@@ -3726,7 +3818,7 @@ msgstr "Aðskilja /home, /var og /tmp möppur"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr "Aðskilja /var og /srv, swap < 1GB (fyrir þjóna)"
 
@@ -4258,92 +4350,6 @@ msgstr "Rökleg (logical)"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Tegund nýju disksneiðarinnar:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Hjálp við sneiðingu"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Að sneiða harðan disk snýst um að búta hann niður til að búa til plássið sem "
-"þarf til að setja upp nýtt kerfi. Þú þarft að velja þær sneiðar sem á að "
-"nota fyrir uppsetninguna."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Veldu laust pláss til að búa til sneiðar á því."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Veldu drif sem á að eyða öllum sneiðum af og búa til nýja tóma sneiðatöflu."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Veldu sneið til að fjarlægja eða skilgreina notkun. Þú þarft að lágmarki "
-"eina sneið til að halda utanum rótarskráakerfið (sem er með "
-"tengipunktinn /). Flestir halda því fram að einnig sé nauðsynlegt  að hafa "
-"sérstaka swap-sneið. \"Swap\" er pláss sem gerir stýrikerfinu kleift að nota "
-"diskapláss sem \"sýndarminni\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Þegar sneið er þegar forsniðin, getur þú valið að halda og nota gögnin á "
-"þeirri sneið. Sneiðar sem eru notaðar á þennan hátt eru merktar sem "
-"\"${KEEP}\" í aðal sneiðavalmyndinni."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Almennt muntu vilja forsníða sneiðina með nýju skráakerfi. ATHUGIÐ: öllum "
-"gögnum á sneiðinni verður algerlega eytt. Ef þú velur að forsníða sneið sem "
-"hefur þegar verið forsniðin, verður hún merkt sem \"${DESTROY}\" í "
-"sneiðavalmyndinni. Annars verður hún merkt sem \"${FORMAT}\"."
 
 #. Type: text
 #. Description

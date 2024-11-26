@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2012-01-19 23:47+0100\n"
 "Last-Translator: mouhamadoumamoune@gmail.com\n"
 "Language-Team: Wolof <wolofteam@gmail.com>\n"
@@ -3671,6 +3671,101 @@ msgid "Continue without boot loader"
 msgstr "Kontine ci ludul sëfkatu boot bi"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Ndimbal ci partisoŋ bi"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Partisoŋ ab disk budëgër mooy nga xaajale ko ngir sos barab bi ngay soxla "
+"ngir istale sa sistem bu bees bi. Da ngaa wara tann yan partisoŋ lañu nara "
+"jëfandikoo ci istalaasioŋ bi."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Tannal ab barab bu deful dara ngir sos ci ab partisoŋ."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Tannal ab periferik ngir far mboolem partisoŋ yi ci ne daldi sos benn taabal "
+"u partisoŋ bu bees."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Tannal ab partisoŋ ngir far ko walla ngir wax nan lan ko wara jëfandikoo. Lu "
+"mu néewnéew, danga soxla benn partisoŋ buy def reen bu sistem bi, at poñ "
+"biñukoy monte di  '/'. Li ëppu ci nit ñi jappunañu ne yit barab u weccoonte "
+"bi (swap) dafay soxla ab partisoŋ bu boppam. \"Swap\" nak dafay may sa "
+"sistem u doxal bi mana jëfandikoo sa diskbudëgër bi defko \"memuwar wirtuel"
+"\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Bu fekkee partisoŋ bi deeskoo formaate ba noppi, kon man ngaa tëye done yi "
+"ci nekk.  Partisoŋ yi deme nooni deesna  leen mandargaal ak \"${KEEP}\" ci "
+"menu bu partisoŋ bi."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Li ci ëppu da ngay bëgg a formaate patisoŋ bi ak sistem u fiise bu yees booy "
+"sos SEETLU: mbooleem done ci yi partisoŋ bi deesna leen far ba fawwu.  Boo "
+"dogoo ci formaate ab partisoŋ bu ñu formaate ba noppi, deesna ko mandargale "
+"ak  \"${DESTROY}\" ci menu partisoŋ bu mag bi.  Bu loolu amul deeskoy marke  "
+"\"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3681,7 +3776,7 @@ msgstr "Kontine ci ludul sëfkatu boot bi"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Xaaral tuuti..."
@@ -3689,7 +3784,7 @@ msgstr "Xaaral tuuti..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Mi ngi waññi partisoŋ yu bees yi..."
 
@@ -3699,14 +3794,14 @@ msgstr "Mi ngi waññi partisoŋ yu bees yi..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Yoonu xaajalewi:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3724,7 +3819,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3735,7 +3830,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Plaaŋ bu xaajale bi:"
 
@@ -3748,14 +3843,14 @@ msgstr "Plaaŋ bu xaajale bi:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Liñu tann ngir partisoŋ ko:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3767,7 +3862,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Xaajale bi julay gindée"
 
@@ -3775,7 +3870,7 @@ msgstr "Xaajale bi julay gindée"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Gindee - jëfandikool espaas bu féex bi taqaloo bi ëpp"
 
@@ -3783,21 +3878,21 @@ msgstr "Gindee - jëfandikool espaas bu féex bi taqaloo bi ëpp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Gindee - jëfandikool disk béppu"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Tannal disk bu ñuy partisoŋ:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3810,7 +3905,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Ak loxo"
 
@@ -3818,7 +3913,7 @@ msgstr "Ak loxo"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Xaajale (partisoŋ) barab bu féex bi ci otomatik"
 
@@ -3826,7 +3921,7 @@ msgstr "Xaajale (partisoŋ) barab bu féex bi ci otomatik"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Fiise yéppu ci benn partisoŋ (moom la ñuy deŋk ñiy doora tambule)"
 
@@ -3834,7 +3929,7 @@ msgstr "Fiise yéppu ci benn partisoŋ (moom la ñuy deŋk ñiy doora tambule)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Partisoŋ /home bu beru"
 
@@ -3842,7 +3937,7 @@ msgstr "Partisoŋ /home bu beru"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Partisoŋ  /home, /var, and /tmp yu beru"
 
@@ -3850,7 +3945,7 @@ msgstr "Partisoŋ  /home, /var, and /tmp yu beru"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4394,95 +4489,6 @@ msgstr "Logik"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Fasoŋ u partisoŋ bu bees bi:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Ndimbal ci partisoŋ bi"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Partisoŋ ab disk budëgër mooy nga xaajale ko ngir sos barab bi ngay soxla "
-"ngir istale sa sistem bu bees bi. Da ngaa wara tann yan partisoŋ lañu nara "
-"jëfandikoo ci istalaasioŋ bi."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Tannal ab barab bu deful dara ngir sos ci ab partisoŋ."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Tannal ab periferik ngir far mboolem partisoŋ yi ci ne daldi sos benn taabal "
-"u partisoŋ bu bees."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Tannal ab partisoŋ ngir far ko walla ngir wax nan lan ko wara jëfandikoo. Lu "
-"mu néewnéew, danga soxla benn partisoŋ buy def reen bu sistem bi, at poñ "
-"biñukoy monte di  '/'. Li ëppu ci nit ñi jappunañu ne yit barab u weccoonte "
-"bi (swap) dafay soxla ab partisoŋ bu boppam. \"Swap\" nak dafay may sa "
-"sistem u doxal bi mana jëfandikoo sa diskbudëgër bi defko \"memuwar wirtuel"
-"\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Bu fekkee partisoŋ bi deeskoo formaate ba noppi, kon man ngaa tëye done yi "
-"ci nekk.  Partisoŋ yi deme nooni deesna  leen mandargaal ak \"${KEEP}\" ci "
-"menu bu partisoŋ bi."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Li ci ëppu da ngay bëgg a formaate patisoŋ bi ak sistem u fiise bu yees booy "
-"sos SEETLU: mbooleem done ci yi partisoŋ bi deesna leen far ba fawwu.  Boo "
-"dogoo ci formaate ab partisoŋ bu ñu formaate ba noppi, deesna ko mandargale "
-"ak  \"${DESTROY}\" ci menu partisoŋ bu mag bi.  Bu loolu amul deeskoy marke  "
-"\"${FORMAT}\"."
 
 #. Type: text
 #. Description

@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2023-10-16 04:19+0000\n"
 "Last-Translator: Rhodri <rhodrilld@gmail.com>\n"
 "Language-Team: Welsh <>\n"
@@ -3573,6 +3573,101 @@ msgid "Continue without boot loader"
 msgstr "Parhau heb lwythwr ymgychwyn"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Cymorth ynghylch rhaniadu"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Mae rhaniadu disg galed yn golygu ei rhannu er mwyn creu'r gofod "
+"angenrheidiol i sefydlu eich system newydd. Mae'n rhaid i chi ddewis pa "
+"rhaniad(au) a gaiff eu defnyddio ar gyfer y sefydliad."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Dewiswch ofod rhydd er mwyn creu rhaniadau ynddo."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Dewiswch ddyfais er mwyn dileu pob rhaniad ynddo a creu tabl rhaniad newydd "
+"gwag."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Dewiswch rhaniad i'w ddileu neu i benodi sut y ddylai gael ei ddefnyddio. Ar "
+"y lleiaf, mae angen un rhaniad yn cynnwys gwraidd y system ffeiliau (wedi ei "
+"glymu at /). Mae'r rhan fwyaf o bobl yn credu fod rhaniad cyfnewid ar wahan "
+"yn angenrheidiol. Mae \"cyfnewid\" yn ofod dros dro ar gyfer y system "
+"gweithredu, sy'n galluogi i'ch system ddefnyddio disg fel \"cof rhithwir\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Pan mae'r rhaniad wedi ei fformatio eisioes cewch ddewis i gadw a "
+"defnyddio'r data sy'n bodoli yn y rhaniad. Mae'r rhaniadau a gaiff eu "
+"defnyddio yn y ffordd yma wedi eu marcio gyda \"${KEEP}\" yn y prif "
+"ddewislen rhaniadu."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Yn gyffredinol byddwch eisiau fformati'r rhaniad gyda system ffeiliau "
+"newydd. SYLWER: caiff yr holl ddata yn y rhaniad ei ddileu yn anadferadwy. "
+"Os ydych chi'n penderfynu fformatio rhaniad sydd wedi ei fformatio eisioes, "
+"caiff ei farcio gyda \"${DESTROY}\" yn y prif ddewislen rhaniadu. Fel arall "
+"caiff ei farcio gyda \"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3583,7 +3678,7 @@ msgstr "Parhau heb lwythwr ymgychwyn"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Arhoswch os gwelwch yn dda..."
@@ -3591,7 +3686,7 @@ msgstr "Arhoswch os gwelwch yn dda..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Yn cyfrifo'r rhaniadau newydd..."
 
@@ -3601,14 +3696,14 @@ msgstr "Yn cyfrifo'r rhaniadau newydd..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Dull rhaniadu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3626,7 +3721,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3637,7 +3732,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Cynllun rhaniadu:"
 
@@ -3650,14 +3745,14 @@ msgstr "Cynllun rhaniadu:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Wedi ei ddewis ar gyfer rhaniadu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3669,7 +3764,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Rhaniadu wedi tywys"
 
@@ -3677,7 +3772,7 @@ msgstr "Rhaniadu wedi tywys"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Wedi tywys - dewiswch yr ardal parhaol fwyaf"
 
@@ -3685,21 +3780,21 @@ msgstr "Wedi tywys - dewiswch yr ardal parhaol fwyaf"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Wedi tywys - defnyddio'r holl disg"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Dewiswch ddisg i raniadu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3712,7 +3807,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Â llaw"
 
@@ -3720,7 +3815,7 @@ msgstr "Â llaw"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Rhaniadu'r gofod rhydd yn awtomatig"
 
@@ -3728,7 +3823,7 @@ msgstr "Rhaniadu'r gofod rhydd yn awtomatig"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Pob ffeil mewn un rhaniad (ar gyfer defnyddwyr newydd)"
 
@@ -3736,7 +3831,7 @@ msgstr "Pob ffeil mewn un rhaniad (ar gyfer defnyddwyr newydd)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Rhaniad /home ar wahan"
 
@@ -3744,7 +3839,7 @@ msgstr "Rhaniad /home ar wahan"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Rhaniadau /home, /var a /tmp ar wahan"
 
@@ -3752,7 +3847,7 @@ msgstr "Rhaniadau /home, /var a /tmp ar wahan"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4289,95 +4384,6 @@ msgstr "Rhesymegol"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Math y rhaniad newydd:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Cymorth ynghylch rhaniadu"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Mae rhaniadu disg galed yn golygu ei rhannu er mwyn creu'r gofod "
-"angenrheidiol i sefydlu eich system newydd. Mae'n rhaid i chi ddewis pa "
-"rhaniad(au) a gaiff eu defnyddio ar gyfer y sefydliad."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Dewiswch ofod rhydd er mwyn creu rhaniadau ynddo."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Dewiswch ddyfais er mwyn dileu pob rhaniad ynddo a creu tabl rhaniad newydd "
-"gwag."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Dewiswch rhaniad i'w ddileu neu i benodi sut y ddylai gael ei ddefnyddio. Ar "
-"y lleiaf, mae angen un rhaniad yn cynnwys gwraidd y system ffeiliau (wedi ei "
-"glymu at /). Mae'r rhan fwyaf o bobl yn credu fod rhaniad cyfnewid ar wahan "
-"yn angenrheidiol. Mae \"cyfnewid\" yn ofod dros dro ar gyfer y system "
-"gweithredu, sy'n galluogi i'ch system ddefnyddio disg fel \"cof rhithwir\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Pan mae'r rhaniad wedi ei fformatio eisioes cewch ddewis i gadw a "
-"defnyddio'r data sy'n bodoli yn y rhaniad. Mae'r rhaniadau a gaiff eu "
-"defnyddio yn y ffordd yma wedi eu marcio gyda \"${KEEP}\" yn y prif "
-"ddewislen rhaniadu."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Yn gyffredinol byddwch eisiau fformati'r rhaniad gyda system ffeiliau "
-"newydd. SYLWER: caiff yr holl ddata yn y rhaniad ei ddileu yn anadferadwy. "
-"Os ydych chi'n penderfynu fformatio rhaniad sydd wedi ei fformatio eisioes, "
-"caiff ei farcio gyda \"${DESTROY}\" yn y prif ddewislen rhaniadu. Fel arall "
-"caiff ei farcio gyda \"${FORMAT}\"."
 
 #. Type: text
 #. Description

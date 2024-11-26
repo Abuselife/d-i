@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Aksel Azwaw <akselyan@proton.me>\n"
 "Language-Team: Kabyle <kab@li.org>\n"
@@ -3515,6 +3515,99 @@ msgid "Continue without boot loader"
 msgstr "Kemmel s war asalay n usenker"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Tallalt ɣef beṭṭu"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Beṭṭu n unuḍaf aqquran yewwi-d ad yettwabḍu i tmerna n tallunt yettusran i "
+"usebded n unagraw-inek·inem amaynut. Tesriḍ ad tferneḍ anwa aḥric(anwi "
+"iḥricen) ara yettusqedcen i usebded."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Fren tallunt tilellit i tmerna n yiḥricen deg-s."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Fren ibenk i tukksa n meṛṛa iḥricen yellan deg-s syen rnu tafelwit n uḥric "
+"ilem tamaynut."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Fren aḥric ara tekkseḍ neɣ i wakken ad t-tferneḍ amek ara yettuseqdac. S "
+"wazal adday, tesriḍ yiwen uḥric ideg ara yili uẓar n unagraw n yifuyla (agaz-"
+"ines n userkeb d /).  Amur ameqqran n yimdanen ttxemmimen belli aḥric n swap "
+"yettuɛezlen d ayen ilaqen.  \"Swap\" d tallunt n useqdec n unagraw n wammud "
+"i yettaǧǧan anagraw ad iseqdec aklas n uḍebsi d \"takatut tuhlist\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Ma yili aḥric yettumsel yakan tzemreḍ ad tferneḍ ad teǧǧeḍ yerna ad "
+"tesqedceḍ isefka yellan deg-s.  Iḥricen ara yettusqedcen dagi ttucerḍen s "
+"\"${KEEP}\" deg wumuɣ n beṭṭu agejdan."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"S umata, ma tebɣiḍ ad tmesleḍ aḥric s unagraw n yifuyla i yettwarnan yakan. "
+"TAMAWT: meṛṛa isefka deg uḥric ad ttwakksen i lebda. Ma yella twalaḍ ad "
+"tmesleḍ aḥric i yettumeslen yakan, ad yettucreḍ s \"${DESTROY}\" deg wumuɣ n "
+"beṭṭu agejdan. Neɣ, ad yettucreḍ s \"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3525,7 +3618,7 @@ msgstr "Kemmel s war asalay n usenker"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Ttxil-k·m rǧu..."
@@ -3533,7 +3626,7 @@ msgstr "Ttxil-k·m rǧu..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Asiḍen n yiḥricen imaynuten…"
 
@@ -3543,14 +3636,14 @@ msgstr "Asiḍen n yiḥricen imaynuten…"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Tarrayt n beṭṭu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3567,7 +3660,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3578,7 +3671,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Azenziɣ n beṭṭu:"
 
@@ -3591,14 +3684,14 @@ msgstr "Azenziɣ n beṭṭu:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Yettufren i beṭṭu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3610,7 +3703,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Beṭṭu yettuwelhen"
 
@@ -3618,7 +3711,7 @@ msgstr "Beṭṭu yettuwelhen"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Yettuwelleh - seqdec tallunt tilellit tahrawant yettkemmilen"
 
@@ -3626,21 +3719,21 @@ msgstr "Yettuwelleh - seqdec tallunt tilellit tahrawant yettkemmilen"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Yettuwelleh - seqdec akk aḍebsi"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Fren aḍebsi i beṭṭu:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3653,7 +3746,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Awfus"
 
@@ -3661,7 +3754,7 @@ msgstr "Awfus"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Beṭṭu n tallunt tilellit s wudem awurman"
 
@@ -3669,7 +3762,7 @@ msgstr "Beṭṭu n tallunt tilellit s wudem awurman"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Meṛṛa ifuyla deg yiwen uḥric (yelha i yiseqdac imaynuten)"
 
@@ -3677,7 +3770,7 @@ msgstr "Meṛṛa ifuyla deg yiwen uḥric (yelha i yiseqdac imaynuten)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Aḥric yettuɛezlen/agejan"
 
@@ -3685,7 +3778,7 @@ msgstr "Aḥric yettuɛezlen/agejan"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Iḥricen yettuɛezlen /home, var/d /tmp"
 
@@ -3693,7 +3786,7 @@ msgstr "Iḥricen yettuɛezlen /home, var/d /tmp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr "Separate /var and /srv, swap < 1GB (i yiqeddcen)"
 
@@ -4226,93 +4319,6 @@ msgstr "Tameẓla"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Anaw n uḥric amaynut:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Tallalt ɣef beṭṭu"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Beṭṭu n unuḍaf aqquran yewwi-d ad yettwabḍu i tmerna n tallunt yettusran i "
-"usebded n unagraw-inek·inem amaynut. Tesriḍ ad tferneḍ anwa aḥric(anwi "
-"iḥricen) ara yettusqedcen i usebded."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Fren tallunt tilellit i tmerna n yiḥricen deg-s."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Fren ibenk i tukksa n meṛṛa iḥricen yellan deg-s syen rnu tafelwit n uḥric "
-"ilem tamaynut."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Fren aḥric ara tekkseḍ neɣ i wakken ad t-tferneḍ amek ara yettuseqdac. S "
-"wazal adday, tesriḍ yiwen uḥric ideg ara yili uẓar n unagraw n yifuyla (agaz-"
-"ines n userkeb d /).  Amur ameqqran n yimdanen ttxemmimen belli aḥric n swap "
-"yettuɛezlen d ayen ilaqen.  \"Swap\" d tallunt n useqdec n unagraw n wammud "
-"i yettaǧǧan anagraw ad iseqdec aklas n uḍebsi d \"takatut tuhlist\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Ma yili aḥric yettumsel yakan tzemreḍ ad tferneḍ ad teǧǧeḍ yerna ad "
-"tesqedceḍ isefka yellan deg-s.  Iḥricen ara yettusqedcen dagi ttucerḍen s "
-"\"${KEEP}\" deg wumuɣ n beṭṭu agejdan."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"S umata, ma tebɣiḍ ad tmesleḍ aḥric s unagraw n yifuyla i yettwarnan yakan. "
-"TAMAWT: meṛṛa isefka deg uḥric ad ttwakksen i lebda. Ma yella twalaḍ ad "
-"tmesleḍ aḥric i yettumeslen yakan, ad yettucreḍ s \"${DESTROY}\" deg wumuɣ n "
-"beṭṭu agejdan. Neɣ, ad yettucreḍ s \"${FORMAT}\"."
 
 #. Type: text
 #. Description

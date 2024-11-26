@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-11-08 20:20+0000\n"
 "Last-Translator: Joe <happenstance@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Belarusian <i18n@mova.org>\n"
@@ -3540,6 +3540,100 @@ msgid "Continue without boot loader"
 msgstr "Працягваць без загрузчыка"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Дапамога па перадзеле"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Пры перадзеле жорсткага дыска ён дзеліцца на часткі, каб стварыць месца, "
+"патрэбнае для ўстаноўкі новай сістэмы. Вам трэба выбраць, якія падзелы ўжыць "
+"для ўстаноўкі."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Пазначце вольнае месца, каб стварыць на ім падзелы."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Пазначце прыладу, каб выдаліць з яе ўсе падзелы і стварыць новую пустую "
+"табліцу падзелаў."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Пазначце падзел, каб выдаліць яго, ці каб вызначыць, якім чынам яго трэба "
+"ўжываць. Як мінімум, Вам спатрэбіцца адзін падзел, каб змясціць каранёвы "
+"каталог файлавай сістэмы (пункт мацавання /). Шмат людзей таксама лічаць "
+"неабходным падзел для падкачкі (swap). \"Swap\" - прастора, што дазваляе "
+"аперацыйнай сістэме ўжываць частку дыска як \"віртуальную памяць\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Калі падзел ужо адфарматаваны, Вы маеце магчымасць захаваць і ўжываць "
+"дадзеныя з яго. Такія падзелы пазначаныя \"${KEEP}\" ў галоўным меню "
+"перадзелу дыска."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"У агульным выпадку Вам спатрэбіцца адфарматаваць падзел з новай файлавай "
+"сістэмай. УВАГА: усе дадзеныя ў падзеле будуць незваротна знішчаныя. Калі "
+"мэтавы падзел ужо адфарматаваны раней, ён будзе пазначаны ў галоўным меню "
+"перадзелу дыскаў з дапамогай \"${DESTROY}\". Калі не - з дапамогай "
+"\"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3550,7 +3644,7 @@ msgstr "Працягваць без загрузчыка"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Калі ласка, чакайце..."
@@ -3558,7 +3652,7 @@ msgstr "Калі ласка, чакайце..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Разлік новых падзелаў..."
 
@@ -3568,14 +3662,14 @@ msgstr "Разлік новых падзелаў..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Спосаб перадзелу:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3593,7 +3687,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3604,7 +3698,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Схема перадзелу:"
 
@@ -3617,14 +3711,14 @@ msgstr "Схема перадзелу:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Пазначана для перадзелу:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3636,7 +3730,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Перадзел паводле падказкі ([П])"
 
@@ -3644,7 +3738,7 @@ msgstr "Перадзел паводле падказкі ([П])"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "[П] на найбольшым вольным месцы"
 
@@ -3652,21 +3746,21 @@ msgstr "[П] на найбольшым вольным месцы"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "[П] на суцэльным дыску"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Пазначыць дыск для падзелу:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3679,7 +3773,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Самастойна"
 
@@ -3687,7 +3781,7 @@ msgstr "Самастойна"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Аўтаперадзел вольнага месца"
 
@@ -3695,7 +3789,7 @@ msgstr "Аўтаперадзел вольнага месца"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Адзіны падзел (пачаткоўцам)"
 
@@ -3703,7 +3797,7 @@ msgstr "Адзіны падзел (пачаткоўцам)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Асобны падзел для /home"
 
@@ -3711,7 +3805,7 @@ msgstr "Асобны падзел для /home"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Асобныя падзелы /home, /var, /tmp"
 
@@ -3719,7 +3813,7 @@ msgstr "Асобныя падзелы /home, /var, /tmp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr "Раздзяліць /var і /srv, swap < 1 ГБ (для сервераў)"
 
@@ -4253,94 +4347,6 @@ msgstr "Лагічны"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Тып новага падзела:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Дапамога па перадзеле"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Пры перадзеле жорсткага дыска ён дзеліцца на часткі, каб стварыць месца, "
-"патрэбнае для ўстаноўкі новай сістэмы. Вам трэба выбраць, якія падзелы ўжыць "
-"для ўстаноўкі."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Пазначце вольнае месца, каб стварыць на ім падзелы."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Пазначце прыладу, каб выдаліць з яе ўсе падзелы і стварыць новую пустую "
-"табліцу падзелаў."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Пазначце падзел, каб выдаліць яго, ці каб вызначыць, якім чынам яго трэба "
-"ўжываць. Як мінімум, Вам спатрэбіцца адзін падзел, каб змясціць каранёвы "
-"каталог файлавай сістэмы (пункт мацавання /). Шмат людзей таксама лічаць "
-"неабходным падзел для падкачкі (swap). \"Swap\" - прастора, што дазваляе "
-"аперацыйнай сістэме ўжываць частку дыска як \"віртуальную памяць\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Калі падзел ужо адфарматаваны, Вы маеце магчымасць захаваць і ўжываць "
-"дадзеныя з яго. Такія падзелы пазначаныя \"${KEEP}\" ў галоўным меню "
-"перадзелу дыска."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"У агульным выпадку Вам спатрэбіцца адфарматаваць падзел з новай файлавай "
-"сістэмай. УВАГА: усе дадзеныя ў падзеле будуць незваротна знішчаныя. Калі "
-"мэтавы падзел ужо адфарматаваны раней, ён будзе пазначаны ў галоўным меню "
-"перадзелу дыскаў з дапамогай \"${DESTROY}\". Калі не - з дапамогай "
-"\"${FORMAT}\"."
 
 #. Type: text
 #. Description

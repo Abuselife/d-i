@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2023-05-14 17:53+0000\n"
 "Last-Translator: Indrani Roy <indrani@scriptek.co.in>\n"
 "Language-Team: Bengali\n"
@@ -3586,6 +3586,101 @@ msgid "Continue without boot loader"
 msgstr "বুট লোডার ছাড়াই এগিয়ে যাও"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "পার্টিশন সম্পর্কিত সহায়িকা"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"নতুন সিস্টেম ইনস্টল করার জন্য যে স্থান প্রয়োজন, পার্টিশন প্রক্রিয়ায় হার্ড ডিস্ককে খণ্ডিত "
+"করে সে স্থান সংগ্রহ করা হয়। কোন পার্টিশন (বা পার্টিশনগুলো) ইনস্টলেশনের জন্য ব্যবহৃত "
+"হবে তা আপনাকে বেছে নিতে হবে।"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "এটিতে পার্টিশন তৈরি করতে একটি মুক্ত স্থান নির্বাচন করুন।"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"একটি ডিভাইস নির্বাচন করুন যার সব পার্টিশন অপসারণ করে সম্পূর্ণ নতুন একটি ফাঁকা "
+"পার্টিশন টেবিল তৈরি করা হবে।"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"একটি পার্টিশন বেছে নিন যাকে অপসারণ করা হবে বা কীভাবে ব্যবহার করা হবে তা উল্লেখ "
+"করা হবে। আপনাকে অন্তত একটি পার্টিশন বেছে নিতে হবে যাতে রুট ফাইল সিস্টেম থাকবে "
+"(যার মাউন্ট পয়েন্ট হল /) । অধিকাংশ ব্যক্তিই মনে করেন যে সিস্টেমের একটি সোয়াপ "
+"পার্টিশনও থাকা প্রয়োজন। \"সোয়াপ\" হল হার্ড ডিস্কের এমন একটি স্থান যাকে অপারেটিং "
+"সিস্টেম \"ভার্চুয়াল মেমরি\" হিসেবে ব্যবহার করতে পারে।"
+
+# FIXME
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"কোন পার্টিশন যদি ফরম্যাট করা অবস্থাতেই থাকে, তবে আপনি উক্ত পার্টিশনে অবস্থিত তথ্যকে "
+"অক্ষত রেখে পরবর্তীকালে ব্যবহার করার সিদ্ধান্ত নিতে পারেন। যেসব পার্টিশনকে এভাবে "
+"রাখা হবে, তারা মূল পার্টিশন মেনুতে \"${KEEP}\" হিসেবে চিহ্নিত থাকবে।"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"সাধারণত আপনি কোন পার্টিশনকে নতুন তৈরিকৃত ফাইল সিস্টেম দ্বারা ফরম্যাট করতে চাইবেন। "
+"লক্ষ্যণীয়: এর ফলে পার্টিশনের সকল তথ্য চিরতরে অপসারিত হবে। আপনি যদি ফরম্যাটকৃত কোন "
+"পার্টিশনকে আবারো ফরম্যাট করতে চান, তবে তাকে মূল পার্টিশনকারী মেনুতে "
+"\"${DESTROY}\" হিসেবে চিহ্নিত করা হবে। অন্যথায় একে \"${FORMAT}\" হিসেবে চিহ্নিত "
+"করা হবে।"
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3596,7 +3691,7 @@ msgstr "বুট লোডার ছাড়াই এগিয়ে যাও"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "অনুগ্রহপূর্বক অপেক্ষা করুন…"
@@ -3604,7 +3699,7 @@ msgstr "অনুগ্রহপূর্বক অপেক্ষা করু�
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "নতুন পার্টিশন গণনা করা হচ্ছে…"
 
@@ -3614,14 +3709,14 @@ msgstr "নতুন পার্টিশন গণনা করা হচ্�
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "পার্টিশন করার পদ্ধতি:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3639,7 +3734,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3650,7 +3745,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "পার্টিশন পরিকল্পনা:"
 
@@ -3663,7 +3758,7 @@ msgstr "পার্টিশন পরিকল্পনা:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "পার্টিশনের জন্য নির্বাচিত:"
 
@@ -3671,7 +3766,7 @@ msgstr "পার্টিশনের জন্য নির্বাচিত:
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3683,7 +3778,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "পার্টিশন করার নিয়ন্ত্রিত ব্যবস্থা"
 
@@ -3691,7 +3786,7 @@ msgstr "পার্টিশন করার নিয়ন্ত্রিত ব
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "সহায়তা নিয়ে - বৃহত্তম ধারাবাহিক মুক্ত স্থান ব্যবহার করো"
 
@@ -3699,21 +3794,21 @@ msgstr "সহায়তা নিয়ে - বৃহত্তম ধারাব�
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "সহায়তা নিয়ে - সম্পূর্ণ ডিস্ক এর ব্যবহার"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "পার্টিশনের জন্য ডিস্ক নির্বাচন করুন:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3726,7 +3821,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "নিজ হাতে"
 
@@ -3734,7 +3829,7 @@ msgstr "নিজ হাতে"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "মুক্ত স্থান স্বয়ংক্রিয়ভাবে পার্টিশন করো"
 
@@ -3742,7 +3837,7 @@ msgstr "মুক্ত স্থান স্বয়ংক্রিয়ভাব�
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "এক পার্টিশনে সব ফাইল (নতুন ব্যবহারকারীর জন্য সুপারিশকৃত)"
 
@@ -3751,7 +3846,7 @@ msgstr "এক পার্টিশনে সব ফাইল (নতুন ব
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "পৃথক /home পার্টিশন"
 
@@ -3760,7 +3855,7 @@ msgstr "পৃথক /home পার্টিশন"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "পৃথক /home, /var, ও /tmp পার্টিশন"
 
@@ -3768,7 +3863,7 @@ msgstr "পৃথক /home, /var, ও /tmp পার্টিশন"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4301,95 +4396,6 @@ msgstr "লজিকাল"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "নতুন পার্টিশনের ধরন:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "পার্টিশন সম্পর্কিত সহায়িকা"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"নতুন সিস্টেম ইনস্টল করার জন্য যে স্থান প্রয়োজন, পার্টিশন প্রক্রিয়ায় হার্ড ডিস্ককে খণ্ডিত "
-"করে সে স্থান সংগ্রহ করা হয়। কোন পার্টিশন (বা পার্টিশনগুলো) ইনস্টলেশনের জন্য ব্যবহৃত "
-"হবে তা আপনাকে বেছে নিতে হবে।"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "এটিতে পার্টিশন তৈরি করতে একটি মুক্ত স্থান নির্বাচন করুন।"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"একটি ডিভাইস নির্বাচন করুন যার সব পার্টিশন অপসারণ করে সম্পূর্ণ নতুন একটি ফাঁকা "
-"পার্টিশন টেবিল তৈরি করা হবে।"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"একটি পার্টিশন বেছে নিন যাকে অপসারণ করা হবে বা কীভাবে ব্যবহার করা হবে তা উল্লেখ "
-"করা হবে। আপনাকে অন্তত একটি পার্টিশন বেছে নিতে হবে যাতে রুট ফাইল সিস্টেম থাকবে "
-"(যার মাউন্ট পয়েন্ট হল /) । অধিকাংশ ব্যক্তিই মনে করেন যে সিস্টেমের একটি সোয়াপ "
-"পার্টিশনও থাকা প্রয়োজন। \"সোয়াপ\" হল হার্ড ডিস্কের এমন একটি স্থান যাকে অপারেটিং "
-"সিস্টেম \"ভার্চুয়াল মেমরি\" হিসেবে ব্যবহার করতে পারে।"
-
-# FIXME
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"কোন পার্টিশন যদি ফরম্যাট করা অবস্থাতেই থাকে, তবে আপনি উক্ত পার্টিশনে অবস্থিত তথ্যকে "
-"অক্ষত রেখে পরবর্তীকালে ব্যবহার করার সিদ্ধান্ত নিতে পারেন। যেসব পার্টিশনকে এভাবে "
-"রাখা হবে, তারা মূল পার্টিশন মেনুতে \"${KEEP}\" হিসেবে চিহ্নিত থাকবে।"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"সাধারণত আপনি কোন পার্টিশনকে নতুন তৈরিকৃত ফাইল সিস্টেম দ্বারা ফরম্যাট করতে চাইবেন। "
-"লক্ষ্যণীয়: এর ফলে পার্টিশনের সকল তথ্য চিরতরে অপসারিত হবে। আপনি যদি ফরম্যাটকৃত কোন "
-"পার্টিশনকে আবারো ফরম্যাট করতে চান, তবে তাকে মূল পার্টিশনকারী মেনুতে "
-"\"${DESTROY}\" হিসেবে চিহ্নিত করা হবে। অন্যথায় একে \"${FORMAT}\" হিসেবে চিহ্নিত "
-"করা হবে।"
 
 #. Type: text
 #. Description

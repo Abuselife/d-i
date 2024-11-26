@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2024-03-19 11:01+0000\n"
 "Last-Translator: Ola Haugen Havrevoll <havrevoll@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -3550,6 +3550,101 @@ msgid "Continue without boot loader"
 msgstr "Gå vidare utan oppstartslastar"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Hjelp med partisjonering"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Partisjonering av ein harddisk tyder å dela opp disken for å laga plass til "
+"installasjonen av det nye systemet ditt. Du må velja kva for partisjon(ar) "
+"som skal brukast til installasjon."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Vel eit ledig område for å laga partisjonar på det."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Vel ei eining for å fjerna alle partisjonar på henne og oppretta ein ny, tom "
+"partisjonstabell."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Vel ein partisjon for å fjerna han eller for å oppgje korleis han skal "
+"brukast. Som eit minimum treng du ein partisjon som kan innehalda "
+"rotfilsystemet (der monteringspunktet er «/»). Nokre føler også at ein eigen "
+"partisjon for vekselminne (swap) er naudsynt. «Vekselminne» er eit "
+"mellombels lagringsområde for eit operativsystem. Det lèt systemet bruka "
+"harddiskplass som «virtuelt minne»."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Når partisjonen allereie er formatert kan du velja å ta vare på og bruka dei "
+"eksisterande dataa på partisjonen. Partisjonar som vil verta brukte på denne "
+"måten er markerte med «${KEEP}» i hovudmenyen for partisjonering."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Generelt bør du formatera partisjonen med eit nyoppretta filsystem. MERK: "
+"Alle data på partisjonen vil verta sletta for alltid. Viss du vel å "
+"formatera ein partisjon som allereie er formatert, vil han verta markert med "
+"«${DESTROY}» i hovudmenyen for partisjonering. Elles vil han verta markert "
+"med «${FORMAT}»."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3560,7 +3655,7 @@ msgstr "Gå vidare utan oppstartslastar"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Vent litt …"
@@ -3568,7 +3663,7 @@ msgstr "Vent litt …"
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Reknar ut dei nye partisjonane …"
 
@@ -3578,14 +3673,14 @@ msgstr "Reknar ut dei nye partisjonane …"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Partisjoneringsmetode:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3603,7 +3698,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3614,7 +3709,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Partisjoneringsoppsett:"
 
@@ -3627,14 +3722,14 @@ msgstr "Partisjoneringsoppsett:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Disk(område) som skal klargjerast:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3646,7 +3741,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Partisjonering med rettleiing"
 
@@ -3654,7 +3749,7 @@ msgstr "Partisjonering med rettleiing"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "Rettleiing – bruk området som har mest samanhengande ledig plass"
 
@@ -3662,21 +3757,21 @@ msgstr "Rettleiing – bruk området som har mest samanhengande ledig plass"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "Rettleiing – bruk heile harddisken"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Vel harddisken som skal partisjonerast:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3689,7 +3784,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Manuelt"
 
@@ -3697,7 +3792,7 @@ msgstr "Manuelt"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Partisjoner det ledige området automatisk"
 
@@ -3705,7 +3800,7 @@ msgstr "Partisjoner det ledige området automatisk"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Alle filer på éin partisjon (tilrådd for nye brukarar)"
 
@@ -3713,7 +3808,7 @@ msgstr "Alle filer på éin partisjon (tilrådd for nye brukarar)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Eigen /home-partisjon"
 
@@ -3721,7 +3816,7 @@ msgstr "Eigen /home-partisjon"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Eigne partisjonar for /home, /var og /tmp"
 
@@ -3729,7 +3824,7 @@ msgstr "Eigne partisjonar for /home, /var og /tmp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4262,95 +4357,6 @@ msgstr "Logisk"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Type for den nye partisjonen:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Hjelp med partisjonering"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Partisjonering av ein harddisk tyder å dela opp disken for å laga plass til "
-"installasjonen av det nye systemet ditt. Du må velja kva for partisjon(ar) "
-"som skal brukast til installasjon."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Vel eit ledig område for å laga partisjonar på det."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Vel ei eining for å fjerna alle partisjonar på henne og oppretta ein ny, tom "
-"partisjonstabell."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Vel ein partisjon for å fjerna han eller for å oppgje korleis han skal "
-"brukast. Som eit minimum treng du ein partisjon som kan innehalda "
-"rotfilsystemet (der monteringspunktet er «/»). Nokre føler også at ein eigen "
-"partisjon for vekselminne (swap) er naudsynt. «Vekselminne» er eit "
-"mellombels lagringsområde for eit operativsystem. Det lèt systemet bruka "
-"harddiskplass som «virtuelt minne»."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Når partisjonen allereie er formatert kan du velja å ta vare på og bruka dei "
-"eksisterande dataa på partisjonen. Partisjonar som vil verta brukte på denne "
-"måten er markerte med «${KEEP}» i hovudmenyen for partisjonering."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Generelt bør du formatera partisjonen med eit nyoppretta filsystem. MERK: "
-"Alle data på partisjonen vil verta sletta for alltid. Viss du vel å "
-"formatera ein partisjon som allereie er formatert, vil han verta markert med "
-"«${DESTROY}» i hovudmenyen for partisjonering. Elles vil han verta markert "
-"med «${FORMAT}»."
 
 #. Type: text
 #. Description

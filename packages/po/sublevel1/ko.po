@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2023-05-04 21:19+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
@@ -3516,6 +3516,99 @@ msgid "Continue without boot loader"
 msgstr "부트로더 없이 계속"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "파티션하기에 대한 도움말"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"하드 드라이브를 파티션한다는 말은 하드 드라이브를 나눠서 데비안 시스템 설치"
+"에 필요한 공간을 만든다는 뜻입니다. 어떤 파티션에 데비안을 설치할지 지정해야 "
+"합니다."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "파티션을 만들 빈 공간을 하나 선택하십시오."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"장치 안의 파티션을 모두 지우고 빈 파티션 테이블을 새로 만드려면 장치를선택하"
+"십시오."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"파티션을 지우거나 데비안에서 어떻게 사용할 지 지정하려면 파티션을 하나 선택하"
+"십시오. 데비안은 최소한 루트 파일 시스템을 위한 파티션 한 개가 필요합니다 (마"
+"운트 위치는 /입니다). 많은 사람들은 스왑 파티션을 별도로 만들어야 한다고 권장"
+"합니다. \"스왑\"은 운영 체제에서 임시로 사용하는 공간으로, 디스크 저장 공간"
+"을 \"가상 메모리\"로 사용합니다."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"이미 포맷한 파티션의 경우, 이 파티션의 현재 데이터를 유지하고 계속 사용할 수"
+"도 있습니다. 현재 데이터를 유지할 경우 그 파티션은 주 파티션 메뉴에 "
+"\"${KEEP}\" 표시가 됩니다."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"일반적으로는 파티션을 포맷해서 파일 시스템을 새로 만듭니다. 주의: 이 파티션"
+"의 모든 데이터를 복구할 수 없게 지울 것입니다. 이미 포맷한 파티션을 포맷하는 "
+"경우, 주 파티션 메뉴에서 \"${DESTROY}\" 표시가 됩니다. 포맷하지 않은 파티션"
+"은 \"${FORMAT}\" 표시가 됩니다."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3526,7 +3619,7 @@ msgstr "부트로더 없이 계속"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "잠시 기다리십시오..."
@@ -3534,7 +3627,7 @@ msgstr "잠시 기다리십시오..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "새로 만들 파티션을 계산하는 중입니다..."
 
@@ -3544,14 +3637,14 @@ msgstr "새로 만들 파티션을 계산하는 중입니다..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "파티션 방법:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3569,7 +3662,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3580,7 +3673,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "파티션 구성:"
 
@@ -3593,14 +3686,14 @@ msgstr "파티션 구성:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "파티션하려고 선택한 사항:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3612,7 +3705,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "자동 파티션"
 
@@ -3620,7 +3713,7 @@ msgstr "자동 파티션"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "자동 - 가장 큰 연속된 공간 사용"
 
@@ -3628,21 +3721,21 @@ msgstr "자동 - 가장 큰 연속된 공간 사용"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "자동 - 디스크 전체 사용"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "파티션할 디스크를 선택하십시오:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3655,7 +3748,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "수동으로"
 
@@ -3663,7 +3756,7 @@ msgstr "수동으로"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "남은 공간을 자동으로 파티션"
 
@@ -3671,7 +3764,7 @@ msgstr "남은 공간을 자동으로 파티션"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "모두 한 파티션에 설치 (처음 사용하는 경우 추천)"
 
@@ -3679,7 +3772,7 @@ msgstr "모두 한 파티션에 설치 (처음 사용하는 경우 추천)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "/home 파티션 분리"
 
@@ -3687,7 +3780,7 @@ msgstr "/home 파티션 분리"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "/home, /var, /tmp 파티션 분리"
 
@@ -3695,7 +3788,7 @@ msgstr "/home, /var, /tmp 파티션 분리"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4230,93 +4323,6 @@ msgstr "논리 파티션"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "새 파티션의 종류:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "파티션하기에 대한 도움말"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"하드 드라이브를 파티션한다는 말은 하드 드라이브를 나눠서 데비안 시스템 설치"
-"에 필요한 공간을 만든다는 뜻입니다. 어떤 파티션에 데비안을 설치할지 지정해야 "
-"합니다."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "파티션을 만들 빈 공간을 하나 선택하십시오."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"장치 안의 파티션을 모두 지우고 빈 파티션 테이블을 새로 만드려면 장치를선택하"
-"십시오."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"파티션을 지우거나 데비안에서 어떻게 사용할 지 지정하려면 파티션을 하나 선택하"
-"십시오. 데비안은 최소한 루트 파일 시스템을 위한 파티션 한 개가 필요합니다 (마"
-"운트 위치는 /입니다). 많은 사람들은 스왑 파티션을 별도로 만들어야 한다고 권장"
-"합니다. \"스왑\"은 운영 체제에서 임시로 사용하는 공간으로, 디스크 저장 공간"
-"을 \"가상 메모리\"로 사용합니다."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"이미 포맷한 파티션의 경우, 이 파티션의 현재 데이터를 유지하고 계속 사용할 수"
-"도 있습니다. 현재 데이터를 유지할 경우 그 파티션은 주 파티션 메뉴에 "
-"\"${KEEP}\" 표시가 됩니다."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"일반적으로는 파티션을 포맷해서 파일 시스템을 새로 만듭니다. 주의: 이 파티션"
-"의 모든 데이터를 복구할 수 없게 지울 것입니다. 이미 포맷한 파티션을 포맷하는 "
-"경우, 주 파티션 메뉴에서 \"${DESTROY}\" 표시가 됩니다. 포맷하지 않은 파티션"
-"은 \"${FORMAT}\" 표시가 됩니다."
 
 #. Type: text
 #. Description

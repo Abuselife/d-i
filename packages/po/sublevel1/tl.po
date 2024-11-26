@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2019-08-28 13:24+0000\n"
 "Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Tagalog <debian-tl@banwa.upm.edu.ph>\n"
@@ -3726,6 +3726,100 @@ msgid "Continue without boot loader"
 msgstr "Magpatuloy na walang boot loader"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Payo sa pag-partisyon"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Ang pag-partisyon ng hard drive ay ang paghahati nito upang bumuo ng mga "
+"puwang na kailangan upang maluklok ang inyong bagong sistema.  Kailangan "
+"niyong pumili kung aling (mga) partisyon ang gagamitin sa pagluklok."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Pumili ng free space upang bumuo ng mga partisyon dito."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr "Pumili ng device upang tanggalin ang nilal"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Pumili ng partisyon upang tanggalin ito o upang itakda kung paano ito "
+"gagamitin. Kinakailangan ng hindi kukulang sa isang partisyon na maglalaman "
+"ng root ng file system (na ang kanyang mount point ay /). Marami ang "
+"hinihikayat na kailangan ang hiwalay na partisyon para sa swap. Ang \"swap\" "
+"ay puwang na ginagamit ng operating system bilang scratch, na nagagamit ng "
+"sistema ang disk storage bilang \"virtual memory\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Kapag naka-format na ang partisyon, maaari niyong piliin na ipanatili at "
+"gamitin ang mga datos sa partisyon. Ang mga partisyon na gagamitin sa "
+"ganitong paraan ay markado ng \"${KEEP}\" sa pangunahing menu ng pag-"
+"partisyon."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Karaniwan na hinahanda ang isang partisyon sa pamamagitan ng pag-format nito "
+"gamit ang isang file system.  PAUNAWA: lahat ng datos sa partisyon ay "
+"mabubura ng tuluyan.  Kung magpasiya kayong i-format ang isang partisyon na "
+"naka-format na, ito ay mamarkahan ng \"${DESTROY}\" sa punong menu ng pag-"
+"partisyon.  Kung hindi, ito ay mamarkahan ng \"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3736,7 +3830,7 @@ msgstr "Magpatuloy na walang boot loader"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "Maghintay ng sandali..."
@@ -3744,7 +3838,7 @@ msgstr "Maghintay ng sandali..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "Tinatantiya ang mga bagong mga partisyon..."
 
@@ -3754,14 +3848,14 @@ msgstr "Tinatantiya ang mga bagong mga partisyon..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "Paraan ng pag-partisyon:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3780,7 +3874,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3791,7 +3885,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "Balak na pag-partisyon:"
 
@@ -3804,14 +3898,14 @@ msgstr "Balak na pag-partisyon:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "Napili na ipapartisyon:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3823,7 +3917,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "Pag-partisyon na may gabay"
 
@@ -3831,7 +3925,7 @@ msgstr "Pag-partisyon na may gabay"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "May gabay - gamitin ang pinakamalaking malayang puwang na magkarugtong"
 
@@ -3839,21 +3933,21 @@ msgstr "May gabay - gamitin ang pinakamalaking malayang puwang na magkarugtong"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "May gabay - gamitin ang buong disk"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "Piliin ang disk na ipapartisyon:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3866,7 +3960,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "Mano-mano"
 
@@ -3874,7 +3968,7 @@ msgstr "Mano-mano"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "Ipartisyon ang free space ng awtomatiko"
 
@@ -3882,7 +3976,7 @@ msgstr "Ipartisyon ang free space ng awtomatiko"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "Lahat ng mga talaksan sa iisang partisyon (mungkahi ito sa baguhan)"
 
@@ -3890,7 +3984,7 @@ msgstr "Lahat ng mga talaksan sa iisang partisyon (mungkahi ito sa baguhan)"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "Ihiwalay ang partisyon na /home "
 
@@ -3898,7 +3992,7 @@ msgstr "Ihiwalay ang partisyon na /home "
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "Ihiwalay na partisyon ng /home, /var, at /tmp"
 
@@ -3906,7 +4000,7 @@ msgstr "Ihiwalay na partisyon ng /home, /var, at /tmp"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4444,94 +4538,6 @@ msgstr "Lohikal"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Uri ng bagong partisyon:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Payo sa pag-partisyon"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Ang pag-partisyon ng hard drive ay ang paghahati nito upang bumuo ng mga "
-"puwang na kailangan upang maluklok ang inyong bagong sistema.  Kailangan "
-"niyong pumili kung aling (mga) partisyon ang gagamitin sa pagluklok."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Pumili ng free space upang bumuo ng mga partisyon dito."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr "Pumili ng device upang tanggalin ang nilal"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Pumili ng partisyon upang tanggalin ito o upang itakda kung paano ito "
-"gagamitin. Kinakailangan ng hindi kukulang sa isang partisyon na maglalaman "
-"ng root ng file system (na ang kanyang mount point ay /). Marami ang "
-"hinihikayat na kailangan ang hiwalay na partisyon para sa swap. Ang \"swap\" "
-"ay puwang na ginagamit ng operating system bilang scratch, na nagagamit ng "
-"sistema ang disk storage bilang \"virtual memory\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Kapag naka-format na ang partisyon, maaari niyong piliin na ipanatili at "
-"gamitin ang mga datos sa partisyon. Ang mga partisyon na gagamitin sa "
-"ganitong paraan ay markado ng \"${KEEP}\" sa pangunahing menu ng pag-"
-"partisyon."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Karaniwan na hinahanda ang isang partisyon sa pamamagitan ng pag-format nito "
-"gamit ang isang file system.  PAUNAWA: lahat ng datos sa partisyon ay "
-"mabubura ng tuluyan.  Kung magpasiya kayong i-format ang isang partisyon na "
-"naka-format na, ito ay mamarkahan ng \"${DESTROY}\" sa punong menu ng pag-"
-"partisyon.  Kung hindi, ito ay mamarkahan ng \"${FORMAT}\"."
 
 #. Type: text
 #. Description

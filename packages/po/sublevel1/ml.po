@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian Installer Level 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2023-09-19 17:01+0000\n"
 "Last-Translator: Anish Sheela <aneesh.nl@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing <discuss@lists.smc.org.in>\n"
@@ -3645,6 +3645,100 @@ msgid "Continue without boot loader"
 msgstr "ബൂട്ട് ലോഡര്‍ ഇല്ലാതെ തുടരുക"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "വിഭജനത്തിനു് സഹായം"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"ഒരു ഹാര്‍ഡ് ഡിസ്കിന്റെ വിഭജനം നിങ്ങളുടെ പുതിയ സിസ്റ്റം ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതിനാവശ്യമായ സ്പേയ്സ് "
+"സൃഷ്ടിക്കാനായി അതിനെ മുറിക്കുന്നതുള്‍ക്കൊള്ളുന്നു. ഏതെല്ലാം ഭാഗങ്ങളാണു്  ഇന്‍സ്റ്റലേഷനുപയോഗിക്കാന്‍ "
+"പോകുന്നതു് എന്നു് നിങ്ങള്‍ തെരഞ്ഞെടുക്കേണ്ടതുണ്ടു്."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "ഭാഗങ്ങള്‍ സൃഷ്ടിക്കാനായി ഒരു സ്വതന്ത്ര സ്ഥലം തെരഞ്ഞെടുക്കുക."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"ഒരു ഉപകരണം തെരഞ്ഞെടുത്തു് അതിലെ എല്ലാ ഭാഗങ്ങളും ഒഴിവാക്കി ഒരു പുതിയ ശൂന്യ വിഭജനപട്ടിക "
+"സൃഷ്ടിക്കുക."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"ഒഴിവാക്കാനോ അല്ലെങ്കില്‍ എങ്ങനെ ഉപയോഗിക്കണം എന്നു് വ്യക്തമാക്കാനോ ഒരു ഭാഗം തെരഞ്ഞെടുക്കുക. "
+"ഏറ്റവും ചുരുങ്ങിയത് റൂട്ട് ഫയല്‍ സിസ്റ്റം (അതിന്റെ മൌണ്ട് പോയിന്റ് / ആണു്) ഉള്‍ക്കൊള്ളുന്നതിന് ഒരു ഭാഗം "
+"നിങ്ങള്‍ക്കു് വേണ്ടി വരും. കൂടുതല്‍ ആളുകളും വേറൊരു സ്വാപ് ഭാഗം അത്യാവശ്യമാണെന്ന് കരുതുന്നു. \"സ്വാപ്\" "
+"എന്നതു്  \"വിര്‍ച്വല്‍ മെമറി\" ആയി ഡിസ്ക് സ്റ്റോറേജ് ഉപയോഗിയ്ക്കാന്‍ സിസ്റ്റത്തിനെ അനുവദിക്കുന്ന ഒരു "
+"ഓപറേറ്റിങ്ങ് സിസ്റ്റത്തിനു വേണ്ട സ്ക്രാച് സ്പേയ്സ് ആണു്."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"ഒരു ഭാഗം നേരത്തെ തന്നെ ഫോര്‍മാറ്റ് ചെയ്തതാണെങ്കില്‍ നിങ്ങള്‍ക്കു് അതു് മാറ്റാതെ ആ ഭാഗത്ത് "
+"നേരത്തെയുള്ള ഡാറ്റ ഉപയോഗിയ്ക്കാന്‍ തെരഞ്ഞെടുക്കാം. ഇങ്ങനെ ഉപയോഗിക്കുന്ന ഭാഗങ്ങള്‍ പ്രധാന വിഭജന "
+"മെനുവില്‍ \"${KEEP}\" എന്നു് അടയാളപ്പെടുത്തിയിട്ടുണ്ടാകും."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"പൊതുവേ നിങ്ങള്‍ക്കു് പുതുതായി സൃഷ്ടിച്ച ഫയല്‍ സിസ്റ്റം കൊണ്ടു് ഫോര്‍മാറ്റ് ചെയ്യേണ്ടതായി വരാം. കുറിപ്പ്: "
+"ആ ഭാഗത്തിലെ ഡാറ്റ മുഴുവന്‍ തിരിച്ചെടുക്കാന്‍ പറ്റാത്തവിധം നീക്കം ചെയ്യുന്നതായിരിയ്ക്കും. നിങ്ങള്‍ "
+"നേരത്തേ ഫോര്‍മാറ്റ് ചെയ്ത ഭാഗം ഫാര്‍മാറ്റ് ചെയ്യാന്‍ തീരുമാനിച്ചാല്‍ പ്രധാന മെനുവില്‍ അതു് "
+"\"${DESTROY}\" എന്നു് അടയാളപ്പെടുത്തിയിരിക്കും. അല്ലെങ്കില്‍ അതു് \"${FORMAT}\" എന്നു് "
+"അടയാളപ്പെടുത്തിയിരിക്കും."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3655,7 +3749,7 @@ msgstr "ബൂട്ട് ലോഡര്‍ ഇല്ലാതെ തുടര
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr "ദയവായി കാത്തിരിയ്ക്കുക..."
@@ -3663,7 +3757,7 @@ msgstr "ദയവായി കാത്തിരിയ്ക്കുക..."
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
 msgstr "പുതിയ ഭാഗങ്ങള്‍ കണക്കുകൂട്ടിക്കൊണ്ടിരിയ്ക്കുന്നു..."
 
@@ -3673,14 +3767,14 @@ msgstr "പുതിയ ഭാഗങ്ങള്‍ കണക്കുകൂട�
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
 msgstr "വിഭജന രീതി:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3698,7 +3792,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3709,7 +3803,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
 msgstr "വിഭജന പദ്ധതി:"
 
@@ -3722,14 +3816,14 @@ msgstr "വിഭജന പദ്ധതി:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
 msgstr "വിഭജനത്തിനു് തെരഞ്ഞെടുത്തിരിക്കുന്നു:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3741,7 +3835,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 msgid "Guided partitioning"
 msgstr "സഹായത്തോടെയുള്ള വിഭജനം"
 
@@ -3749,7 +3843,7 @@ msgstr "സഹായത്തോടെയുള്ള വിഭജനം"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr "സഹായത്തോടെയുള്ള - ഏറ്റവും വലിയ തുടര്‍ച്ചയായ സ്വതന്ത്ര സ്ഥലം ഉപയോഗിയ്ക്കുക"
 
@@ -3757,21 +3851,21 @@ msgstr "സഹായത്തോടെയുള്ള - ഏറ്റവും �
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr "സഹായത്തോടെയുള്ള - ഡിസ്ക് മുഴുവനും ഉപയോഗിയ്ക്കുക"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
 msgstr "വിഭജിക്കേണ്ട ഡിസ്ക് തെരഞ്ഞെടുക്കുക:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3784,7 +3878,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr "തന്നത്താന്‍"
 
@@ -3792,7 +3886,7 @@ msgstr "തന്നത്താന്‍"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr "ഇടപെടലില്ലാതെ സ്വതന്ത്ര സ്ഥലത്തെ വിഭജിയ്ക്കുക"
 
@@ -3800,7 +3894,7 @@ msgstr "ഇടപെടലില്ലാതെ സ്വതന്ത്ര സ�
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr "എല്ലാ ഫയലുകളും ഒറ്റ ഭാഗത്തു് (പുതിയ ഉപയോക്താക്കള്‍ക്കു് ശുപാര്‍ശ ചെയ്തിരിയ്ക്കുന്നു)"
 
@@ -3808,7 +3902,7 @@ msgstr "എല്ലാ ഫയലുകളും ഒറ്റ ഭാഗത്ത
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 msgid "Separate /home partition"
 msgstr "വേറിട്ട /home ഭാഗം"
 
@@ -3816,7 +3910,7 @@ msgstr "വേറിട്ട /home ഭാഗം"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr "വേറിട്ട /home, /var, /tmp എന്നീ ഭാഗങ്ങള്‍"
 
@@ -3824,7 +3918,7 @@ msgstr "വേറിട്ട /home, /var, /tmp എന്നീ ഭാഗങ്�
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4362,94 +4456,6 @@ msgstr "ലോജിക്കല്‍"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "പുതിയ ഭാഗത്തിന്റെ തരം:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "വിഭജനത്തിനു് സഹായം"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"ഒരു ഹാര്‍ഡ് ഡിസ്കിന്റെ വിഭജനം നിങ്ങളുടെ പുതിയ സിസ്റ്റം ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതിനാവശ്യമായ സ്പേയ്സ് "
-"സൃഷ്ടിക്കാനായി അതിനെ മുറിക്കുന്നതുള്‍ക്കൊള്ളുന്നു. ഏതെല്ലാം ഭാഗങ്ങളാണു്  ഇന്‍സ്റ്റലേഷനുപയോഗിക്കാന്‍ "
-"പോകുന്നതു് എന്നു് നിങ്ങള്‍ തെരഞ്ഞെടുക്കേണ്ടതുണ്ടു്."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "ഭാഗങ്ങള്‍ സൃഷ്ടിക്കാനായി ഒരു സ്വതന്ത്ര സ്ഥലം തെരഞ്ഞെടുക്കുക."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"ഒരു ഉപകരണം തെരഞ്ഞെടുത്തു് അതിലെ എല്ലാ ഭാഗങ്ങളും ഒഴിവാക്കി ഒരു പുതിയ ശൂന്യ വിഭജനപട്ടിക "
-"സൃഷ്ടിക്കുക."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"ഒഴിവാക്കാനോ അല്ലെങ്കില്‍ എങ്ങനെ ഉപയോഗിക്കണം എന്നു് വ്യക്തമാക്കാനോ ഒരു ഭാഗം തെരഞ്ഞെടുക്കുക. "
-"ഏറ്റവും ചുരുങ്ങിയത് റൂട്ട് ഫയല്‍ സിസ്റ്റം (അതിന്റെ മൌണ്ട് പോയിന്റ് / ആണു്) ഉള്‍ക്കൊള്ളുന്നതിന് ഒരു ഭാഗം "
-"നിങ്ങള്‍ക്കു് വേണ്ടി വരും. കൂടുതല്‍ ആളുകളും വേറൊരു സ്വാപ് ഭാഗം അത്യാവശ്യമാണെന്ന് കരുതുന്നു. \"സ്വാപ്\" "
-"എന്നതു്  \"വിര്‍ച്വല്‍ മെമറി\" ആയി ഡിസ്ക് സ്റ്റോറേജ് ഉപയോഗിയ്ക്കാന്‍ സിസ്റ്റത്തിനെ അനുവദിക്കുന്ന ഒരു "
-"ഓപറേറ്റിങ്ങ് സിസ്റ്റത്തിനു വേണ്ട സ്ക്രാച് സ്പേയ്സ് ആണു്."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"ഒരു ഭാഗം നേരത്തെ തന്നെ ഫോര്‍മാറ്റ് ചെയ്തതാണെങ്കില്‍ നിങ്ങള്‍ക്കു് അതു് മാറ്റാതെ ആ ഭാഗത്ത് "
-"നേരത്തെയുള്ള ഡാറ്റ ഉപയോഗിയ്ക്കാന്‍ തെരഞ്ഞെടുക്കാം. ഇങ്ങനെ ഉപയോഗിക്കുന്ന ഭാഗങ്ങള്‍ പ്രധാന വിഭജന "
-"മെനുവില്‍ \"${KEEP}\" എന്നു് അടയാളപ്പെടുത്തിയിട്ടുണ്ടാകും."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"പൊതുവേ നിങ്ങള്‍ക്കു് പുതുതായി സൃഷ്ടിച്ച ഫയല്‍ സിസ്റ്റം കൊണ്ടു് ഫോര്‍മാറ്റ് ചെയ്യേണ്ടതായി വരാം. കുറിപ്പ്: "
-"ആ ഭാഗത്തിലെ ഡാറ്റ മുഴുവന്‍ തിരിച്ചെടുക്കാന്‍ പറ്റാത്തവിധം നീക്കം ചെയ്യുന്നതായിരിയ്ക്കും. നിങ്ങള്‍ "
-"നേരത്തേ ഫോര്‍മാറ്റ് ചെയ്ത ഭാഗം ഫാര്‍മാറ്റ് ചെയ്യാന്‍ തീരുമാനിച്ചാല്‍ പ്രധാന മെനുവില്‍ അതു് "
-"\"${DESTROY}\" എന്നു് അടയാളപ്പെടുത്തിയിരിക്കും. അല്ലെങ്കില്‍ അതു് \"${FORMAT}\" എന്നു് "
-"അടയാളപ്പെടുത്തിയിരിക്കും."
 
 #. Type: text
 #. Description

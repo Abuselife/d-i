@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-17 20:02+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
 "PO-Revision-Date: 2005-06-13 14:08+0200\n"
 "Last-Translator: Canonical Ltd <translations@canonical.com>\n"
 "Language-Team: Xhosa \n"
@@ -3509,6 +3509,108 @@ msgid "Continue without boot loader"
 msgstr "Qhubeka ngaphandle kwendlela emiselweyo?"
 
 #. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
+#. Type: note
+#. Description
+#. :sl1:
+#. Type: text
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#: ../partman-target.templates:11001
+msgid "Help on partitioning"
+msgstr "Nceda kulwahlulo"
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#, fuzzy
+msgid ""
+"Partitioning a hard drive consists of dividing it to create the space needed "
+"to install your new system.  You need to choose which partition(s) will be "
+"used for the installation."
+msgstr ""
+"Ukwahlulwa kwenkqubo eyakhelwe ngaphakathi kuxhomeke ekuyahluleni ukuze "
+"udale isithuba esifunekayo ukuze kusekwe inkqubo yakho entsha yoBuntu. "
+"Kufuneka ukhethe ukuba yeyiphi na okanye zeziphi na izinto zokwahlulwa eziya "
+"kusetyenziswa ekusekweni kwenkqubo ye-Debian."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid "Select a free space to create partitions in it."
+msgstr "Khetha isithuba esizimeleyo ukuba udale izinto zokwahlulwa kuso."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"Select a device to remove all partitions in it and create a new empty "
+"partition table."
+msgstr ""
+"Khetha isixhobo sokususa zonke izinto zokwahlulwa kuso uze udale itheyibhile "
+"entsha eze yokwahlulwa."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#, fuzzy
+msgid ""
+"Select a partition to remove it or to specify how it should be used. At a "
+"bare minimum, you need one partition to contain the root of the file system "
+"(whose mount point is /).  Most people also feel that a separate swap "
+"partition is a necessity.  \"Swap\" is scratch space for an operating "
+"system, which allows the system to use disk storage as \"virtual memory\"."
+msgstr ""
+"Khetha ukwahlulwa ukwenzela ukuba ukushenxise okanye ucacise indlela Debian "
+"aza kukusebenzisa ngayo. Kuphela nje ubuncinane, Debian ufuna isahluli "
+"esinye esizakuqulatha ingcambu esebenza ngamandla akhethekilyo yenkqubo "
+"yefayili (enencam yayo yanyuso ingu /). Inkoliso yabantu nayo icinga ukuba "
+"utshintsho lwesahluli okukhethekileyo luyimfuneko. \"Utshintsho\" "
+"lusisithuba sokurhoxa senkqubo esebenzayo, eyenza ukuba inkqubo isebenzise "
+"uvimba wediski njenge \"vimba wolwazi oyelelanisiweyo\"."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+#, fuzzy
+msgid ""
+"When the partition is already formatted you may choose to keep and use the "
+"existing data in the partition.  Partitions that will be used in this way "
+"are marked with \"${KEEP}\" in the main partitioning menu."
+msgstr ""
+"Xa isahluli sele simisiwe ungakhetha ukugcina yaye usebenzise ii-data "
+"ezikhoyo kwisahluli. Izahluli ezakusetyenziswa ngale ndlela ziphawulwe ngo "
+"\"${KEEP}\" kwimenyu yokwahlulwa eyintloko. QAPHELA: esi siseki-nkqubo "
+"asikuvumel'ukubuseke inkqubo ngaphezu kwenkqubo ye-GNU/Linux ekhoyo "
+"yeefayili zeenkqubo ezinebhale phezu kokubhaliweyo."
+
+#. Type: note
+#. Description
+#. :sl1:
+#: ../partman-auto.templates:1001 ../partman-target.templates:1001
+msgid ""
+"In general you will want to format the partition with a newly created file "
+"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
+"you decide to format a partition that is already formatted, it will be "
+"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
+"be marked with \"${FORMAT}\"."
+msgstr ""
+"Ngokwesiqhelo uyakufuna ukulungiselela isahlukaniso ngenkqubo yefayili "
+"edalwe ngokutsha. QAPHELA: zonke ii-data ezikwisahlukaniso ziya kucinywa "
+"ngokungaguqukiyo. Ukuba ugqiba kwelokuba ulungiselele isahlukaniso esele "
+"ilungiselelwe, iya kuphawulwa ngo \"${DESTROY}\" kwimenyu yesahlukaniso "
+"eyintloko.  Kungenjalo iya kuphawulwa ngo \"${FORMAT}\"."
+
+#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -3519,7 +3621,7 @@ msgstr "Qhubeka ngaphandle kwendlela emiselweyo?"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-auto.templates:1001 ../partman-base.templates:2001
+#: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
 msgstr ""
@@ -3527,7 +3629,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:2001
+#: ../partman-auto.templates:3001
 #, fuzzy
 msgid "Computing the new partitions..."
 msgstr "Ithelekelela isimo esitsha setheyibhile yesahlukaniso..."
@@ -3538,7 +3640,7 @@ msgstr "Ithelekelela isimo esitsha setheyibhile yesahlukaniso..."
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 #, fuzzy
 msgid "Partitioning method:"
 msgstr "Igama lesahlukaniso:"
@@ -3546,7 +3648,7 @@ msgstr "Igama lesahlukaniso:"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001
+#: ../partman-auto.templates:6001
 msgid ""
 "The installer can guide you through partitioning a disk (using different "
 "standard schemes) or, if you prefer, you can do it manually. With guided "
@@ -3560,7 +3662,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:5001 ../partman-auto.templates:9001
+#: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
@@ -3569,7 +3671,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 #, fuzzy
 msgid "Partitioning scheme:"
 msgstr "Igama lesahlukaniso:"
@@ -3583,7 +3685,7 @@ msgstr "Igama lesahlukaniso:"
 #.
 #. It is followed by a variable giving the chosen disk, hence the colon
 #. at the end of the sentence. Please keep it.
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 #, fuzzy
 msgid "Selected for partitioning:"
 msgstr "Ukwhlulwa komthombo:"
@@ -3591,7 +3693,7 @@ msgstr "Ukwhlulwa komthombo:"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:10001
+#: ../partman-auto.templates:11001
 msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
@@ -3601,7 +3703,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:14001
+#: ../partman-auto.templates:15001
 #, fuzzy
 msgid "Guided partitioning"
 msgstr "Nceda kulwahlulo"
@@ -3610,7 +3712,7 @@ msgstr "Nceda kulwahlulo"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:15001
+#: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
 msgstr ""
 
@@ -3618,14 +3720,14 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:16001
+#: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
 msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 #, fuzzy
 msgid "Select disk to partition:"
 msgstr "Ukwhlulwa komthombo:"
@@ -3633,7 +3735,7 @@ msgstr "Ukwhlulwa komthombo:"
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-auto.templates:17001
+#: ../partman-auto.templates:18001
 msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
@@ -3644,7 +3746,7 @@ msgstr ""
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #. This is a method for partitioning - as in guided (automatic) versus manual
-#: ../partman-auto.templates:18001
+#: ../partman-auto.templates:19001
 msgid "Manual"
 msgstr ""
 
@@ -3652,7 +3754,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:19001
+#: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
 msgstr ""
 
@@ -3660,7 +3762,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:20001
+#: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
 msgstr ""
 
@@ -3668,7 +3770,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:21001
+#: ../partman-auto.templates:22001
 #, fuzzy
 msgid "Separate /home partition"
 msgstr "lungiselela ukwahlulwa"
@@ -3677,7 +3779,7 @@ msgstr "lungiselela ukwahlulwa"
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:22001
+#: ../partman-auto.templates:23001
 msgid "Separate /home, /var, and /tmp partitions"
 msgstr ""
 
@@ -3685,7 +3787,7 @@ msgstr ""
 #. Description
 #. :sl1:
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
-#: ../partman-auto.templates:24001
+#: ../partman-auto.templates:25001
 msgid "Separate /var and /srv, swap < 1GB (for servers)"
 msgstr ""
 
@@ -4236,102 +4338,6 @@ msgstr "Enengqiqo"
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Uhlobo olwenzelwe isahlukaniso esitsha:"
-
-#. Type: note
-#. Description
-#. :sl1:
-#. Type: text
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001 ../partman-target.templates:11001
-msgid "Help on partitioning"
-msgstr "Nceda kulwahlulo"
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-#, fuzzy
-msgid ""
-"Partitioning a hard drive consists of dividing it to create the space needed "
-"to install your new system.  You need to choose which partition(s) will be "
-"used for the installation."
-msgstr ""
-"Ukwahlulwa kwenkqubo eyakhelwe ngaphakathi kuxhomeke ekuyahluleni ukuze "
-"udale isithuba esifunekayo ukuze kusekwe inkqubo yakho entsha yoBuntu. "
-"Kufuneka ukhethe ukuba yeyiphi na okanye zeziphi na izinto zokwahlulwa eziya "
-"kusetyenziswa ekusekweni kwenkqubo ye-Debian."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid "Select a free space to create partitions in it."
-msgstr "Khetha isithuba esizimeleyo ukuba udale izinto zokwahlulwa kuso."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"Select a device to remove all partitions in it and create a new empty "
-"partition table."
-msgstr ""
-"Khetha isixhobo sokususa zonke izinto zokwahlulwa kuso uze udale itheyibhile "
-"entsha eze yokwahlulwa."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-#, fuzzy
-msgid ""
-"Select a partition to remove it or to specify how it should be used. At a "
-"bare minimum, you need one partition to contain the root of the file system "
-"(whose mount point is /).  Most people also feel that a separate swap "
-"partition is a necessity.  \"Swap\" is scratch space for an operating "
-"system, which allows the system to use disk storage as \"virtual memory\"."
-msgstr ""
-"Khetha ukwahlulwa ukwenzela ukuba ukushenxise okanye ucacise indlela Debian "
-"aza kukusebenzisa ngayo. Kuphela nje ubuncinane, Debian ufuna isahluli "
-"esinye esizakuqulatha ingcambu esebenza ngamandla akhethekilyo yenkqubo "
-"yefayili (enencam yayo yanyuso ingu /). Inkoliso yabantu nayo icinga ukuba "
-"utshintsho lwesahluli okukhethekileyo luyimfuneko. \"Utshintsho\" "
-"lusisithuba sokurhoxa senkqubo esebenzayo, eyenza ukuba inkqubo isebenzise "
-"uvimba wediski njenge \"vimba wolwazi oyelelanisiweyo\"."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-#, fuzzy
-msgid ""
-"When the partition is already formatted you may choose to keep and use the "
-"existing data in the partition.  Partitions that will be used in this way "
-"are marked with \"${KEEP}\" in the main partitioning menu."
-msgstr ""
-"Xa isahluli sele simisiwe ungakhetha ukugcina yaye usebenzise ii-data "
-"ezikhoyo kwisahluli. Izahluli ezakusetyenziswa ngale ndlela ziphawulwe ngo "
-"\"${KEEP}\" kwimenyu yokwahlulwa eyintloko. QAPHELA: esi siseki-nkqubo "
-"asikuvumel'ukubuseke inkqubo ngaphezu kwenkqubo ye-GNU/Linux ekhoyo "
-"yeefayili zeenkqubo ezinebhale phezu kokubhaliweyo."
-
-#. Type: note
-#. Description
-#. :sl1:
-#: ../partman-target.templates:1001
-msgid ""
-"In general you will want to format the partition with a newly created file "
-"system.  NOTE: all data in the partition will be irreversibly deleted.  If "
-"you decide to format a partition that is already formatted, it will be "
-"marked with \"${DESTROY}\" in the main partitioning menu.  Otherwise it will "
-"be marked with \"${FORMAT}\"."
-msgstr ""
-"Ngokwesiqhelo uyakufuna ukulungiselela isahlukaniso ngenkqubo yefayili "
-"edalwe ngokutsha. QAPHELA: zonke ii-data ezikwisahlukaniso ziya kucinywa "
-"ngokungaguqukiyo. Ukuba ugqiba kwelokuba ulungiselele isahlukaniso esele "
-"ilungiselelwe, iya kuphawulwa ngo \"${DESTROY}\" kwimenyu yesahlukaniso "
-"eyintloko.  Kungenjalo iya kuphawulwa ngo \"${FORMAT}\"."
 
 #. Type: text
 #. Description
