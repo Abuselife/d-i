@@ -14,7 +14,7 @@ config () {
 	echo >&2 "Configuring git to push to $AUTH_BASE_URL instead of $ANON_BASE_URL"
 	runshow git config --global "url.$AUTH_BASE_URL.pushInsteadOf" "$ANON_BASE_URL"
 	echo >&2 "Cleaning up legacy configuration left over by this script"
-	runshow git config --global --unset "url.$ANON_BASE_URL.insteadOf" "$AUTH_BASE_URL"
+	runshow git config --global --unset "url.$ANON_BASE_URL.insteadOf" "$AUTH_BASE_URL" || true
 }
 
 case "${1:-}" in
