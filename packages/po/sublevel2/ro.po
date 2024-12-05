@@ -145,7 +145,8 @@ msgstr ""
 msgid ""
 "The installation will probably fail to work if you continue without kernel "
 "modules."
-msgstr "Instalarea probabil că va eșua dacă continuați fără modulele de nucleu."
+msgstr ""
+"Instalarea probabil că va eșua dacă continuați fără modulele de nucleu."
 
 #. Type: text
 #. Description
@@ -1630,8 +1631,8 @@ msgid ""
 msgstr ""
 "A apărut o problemă la citirea datelor. Vă rugăm să vă asigurați că ați "
 "introdus corect mediul de instalare. În cazul în care reîncercarea nu "
-"funcționează, ar trebui să verificați integritatea mediului de instalare ("
-"există o intrare asociată în meniul principal pentru acest lucru)."
+"funcționează, ar trebui să verificați integritatea mediului de instalare "
+"(există o intrare asociată în meniul principal pentru acest lucru)."
 
 #. Type: boolean
 #. Description
@@ -1908,7 +1909,8 @@ msgstr ""
 #. :sl2:
 #: ../grub-installer.templates:7001
 msgid "If you do not wish to set a GRUB password, leave this field blank."
-msgstr "Dacă nu doriți să activați o parolă pentru GRUB, lăsați gol acest câmp."
+msgstr ""
+"Dacă nu doriți să activați o parolă pentru GRUB, lăsați gol acest câmp."
 
 #. Type: password
 #. Description
@@ -2670,9 +2672,9 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"Dacă cheia dumneavoastră WEP este de forma „nnnn-nnnn-nn”, "
-"„nn:nn:nn:nn:nn:nn:nn:nn” sau „nnnnnnnn”, unde n este un număr, introduceți-"
-"o așa cum este în acest câmp."
+"Dacă cheia dumneavoastră WEP este de forma „nnnn-nnnn-nn”, „nn:nn:nn:nn:nn:"
+"nn:nn:nn” sau „nnnnnnnn”, unde n este un număr, introduceți-o așa cum este "
+"în acest câmp."
 
 #. Type: string
 #. Description
@@ -4447,8 +4449,8 @@ msgstr ""
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Ar trebui să utilizați un alt sistem de fișiere, ca ext4, pentru partiția "
-"„/boot”."
+"Ar trebui să utilizați un alt sistem de fișiere, ca ext4, pentru partiția „/"
+"boot”."
 
 #. #-#-#-#-#  templates.pot (partman-cros)  #-#-#-#-#
 #. Type: boolean
@@ -4781,8 +4783,8 @@ msgid ""
 "unit of measure is the megabyte."
 msgstr ""
 "Dimensiunea introdusă nu era validă. Introduceți o valoare întreagă pozitivă "
-"urmată opțional de unitatea de măsură (în notația din engleză); de exemplu: „"
-"200 GB”. Unitatea implicită de măsură este megaoctetul (MB)."
+"urmată opțional de unitatea de măsură (în notația din engleză); de exemplu: "
+"„200 GB”. Unitatea implicită de măsură este megaoctetul (MB)."
 
 #. Type: error
 #. Description
@@ -5153,7 +5155,8 @@ msgstr ""
 #. :sl2:
 #: ../partman-target.templates:5001
 msgid "Please correct this by changing mount points."
-msgstr "Vă rugăm să corectați acest lucru prin schimbarea punctelor de montare."
+msgstr ""
+"Vă rugăm să corectați acest lucru prin schimbarea punctelor de montare."
 
 #. Type: error
 #. Description
@@ -5330,8 +5333,8 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
-"Suma de control (checksum) ${ALGORITHM} a fișierului obținut de la "
-"<${LOCATION}> nu se potrivește cu valoarea specificată de \"${CHECKSUM}\". "
+"Suma de control (checksum) ${ALGORITHM} a fișierului obținut de la <"
+"${LOCATION}> nu se potrivește cu valoarea specificată de \"${CHECKSUM}\". "
 "Fișierul ar putea fi corupt sau suma de control ar putea fi învechită."
 
 #. Type: error

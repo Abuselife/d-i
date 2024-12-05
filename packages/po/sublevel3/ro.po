@@ -544,8 +544,8 @@ msgid ""
 "is defined as XKBLAYOUT=\"${XKBLAYOUT}\" and XKBVARIANT=\"${XKBVARIANT}\"."
 msgstr ""
 "Aranjamentul curent de tastatură din fișierul de configurare „/etc/default/"
-"keyboard” este definit ca XKBLAYOUT=\"${XKBLAYOUT}\" și XKBVARIANT=\""
-"${XKBVARIANT}\"."
+"keyboard” este definit ca XKBLAYOUT=\"${XKBLAYOUT}\" și XKBVARIANT="
+"\"${XKBVARIANT}\"."
 
 #. Type: boolean
 #. Description
@@ -576,8 +576,8 @@ msgid ""
 "XKBVARIANT=\"${XKBVARIANT}\".  This default value is based on the currently "
 "defined language/region and the settings in /etc/X11/xorg.conf."
 msgstr ""
-"Valoarea implicită pentru aranjamentul de tastatură este XKBLAYOUT=\""
-"${XKBLAYOUT}\" și XKBVARIANT=\"${XKBVARIANT}\". Această valoare implicită "
+"Valoarea implicită pentru aranjamentul de tastatură este XKBLAYOUT="
+"\"${XKBLAYOUT}\" și XKBVARIANT=\"${XKBVARIANT}\". Această valoare implicită "
 "este bazată pe limba/regiunea definită și parametrii din „/etc/X11/xorg."
 "conf”."
 
@@ -2483,9 +2483,9 @@ msgid ""
 "able to add them later to the array."
 msgstr ""
 "Vă rugăm să alegeți care partiții vor fi folosite ca dispozitive de rezervă. "
-"Puteți alege până la ${COUNT} dispozitive. Dacă alegeți mai puțin de ${COUNT}"
-" dispozitive, partițiile rămase vor fi adăugate la ansamblu ca „lipsă”. Veți "
-"putea să le adăugați mai târziu la ansamblu."
+"Puteți alege până la ${COUNT} dispozitive. Dacă alegeți mai puțin de "
+"${COUNT} dispozitive, partițiile rămase vor fi adăugate la ansamblu ca "
+"„lipsă”. Veți putea să le adăugați mai târziu la ansamblu."
 
 #. Type: string
 #. Description
@@ -2953,9 +2953,9 @@ msgid ""
 "The recipe you selected does not contain a separate partition for /boot. "
 "This is normally needed to allow you to boot the system when using LVM."
 msgstr ""
-"Rețeta aleasă de dumneavoastră nu conține o partiție separată pentru „/boot”"
-". Acest lucru este, în mod normal, necesar pentru a vă permite să porniți "
-"sistemul când se folosește LVM."
+"Rețeta aleasă de dumneavoastră nu conține o partiție separată pentru „/"
+"boot”. Acest lucru este, în mod normal, necesar pentru a vă permite să "
+"porniți sistemul când se folosește LVM."
 
 #. Type: boolean
 #. Description
@@ -4361,8 +4361,8 @@ msgid ""
 "default of 3260, use \"IP:port\" notation, for example \"1.2.3.4:3261\"."
 msgstr ""
 "Introduceți o adresă IP de scanat pentru ținte iSCSI. Pentru a folosi un alt "
-"port decât cel implicit 3260 folosiți notația „IP:port”, de exemplu „1.2.3."
-"4:3261”."
+"port decât cel implicit 3260 folosiți notația „IP:port”, de exemplu "
+"„1.2.3.4:3261”."
 
 #. Type: string
 #. Description
@@ -5392,7 +5392,8 @@ msgstr ""
 #. :sl3:
 #: ../partman-md.templates:24001
 msgid "Software RAID devices about to be removed: ${REMOVED_DEVICES}"
-msgstr "Dispozitive RAID software pe cale de a fi eliminate: ${REMOVED_DEVICES}"
+msgstr ""
+"Dispozitive RAID software pe cale de a fi eliminate: ${REMOVED_DEVICES}"
 
 #. Type: boolean
 #. Description
@@ -5473,8 +5474,8 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)."
 msgstr ""
-"Pentru instalări complet automate, „preseed/url” ar trebui preconfigurat ("
-"prin intermediul liniei de comandă pentru nucleu, DHCP sau syslinux.cfg pe "
+"Pentru instalări complet automate, „preseed/url” ar trebui preconfigurat "
+"(prin intermediul liniei de comandă pentru nucleu, DHCP sau syslinux.cfg pe "
 "medii modificate)."
 
 #. Type: string
@@ -5809,9 +5810,9 @@ msgid ""
 "\"Automatic\", then all devices containing RAID physical volumes will be "
 "scanned and assembled."
 msgstr ""
-"Alegeți partițiile de asamblat într-un ansamblu RAID. Dacă alegeți „Automat”"
-", atunci toate dispozitivele care conțin volume fizice RAID vor fi scanate "
-"și asamblate."
+"Alegeți partițiile de asamblat într-un ansamblu RAID. Dacă alegeți "
+"„Automat”, atunci toate dispozitivele care conțin volume fizice RAID vor fi "
+"scanate și asamblate."
 
 #. Type: multiselect
 #. Description

@@ -371,7 +371,8 @@ msgstr "Vă rugăm să îl înlocuiți acum, dacă doriți să scanați altul."
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
 msgid "Please check that the media has been inserted correctly."
-msgstr "Vă rugăm să verificați dacă mediul de instalare a fost introdus corect."
+msgstr ""
+"Vă rugăm să verificați dacă mediul de instalare a fost introdus corect."
 
 #. Type: text
 #. Description
@@ -1276,7 +1277,8 @@ msgstr ""
 #. :sl1:
 #: ../choose-mirror-bin.templates.http-in:6001
 msgid "HTTP proxy information (blank for none):"
-msgstr "Informații despre proxy-ul HTTP (lăsați acest câmp gol dacă nu există):"
+msgstr ""
+"Informații despre proxy-ul HTTP (lăsați acest câmp gol dacă nu există):"
 
 #. Type: string
 #. Description
@@ -1301,8 +1303,8 @@ msgid ""
 "The proxy information should be given in the standard form of \"http://"
 "[[user][:pass]@]host[:port]/\"."
 msgstr ""
-"Informațiile despre proxy trebuie introduse în formatul standard "
-"„http://[[utilizator][:parolă]@]gazdă[:port]/”."
+"Informațiile despre proxy trebuie introduse în formatul standard „http://"
+"[[utilizator][:parolă]@]gazdă[:port]/”."
 
 #. Type: text
 #. Description
@@ -2238,11 +2240,11 @@ msgid ""
 "This is recommended unless you also use another operating system that "
 "expects the clock to be set to local time."
 msgstr ""
-"În general, ceasurile sistemului sunt fixate la timpul universal coordonat („"
-"Coordinated Universal Time”: UTC). Sistemul de operare utilizează fusul orar "
-"pentru a converti ora sistemului în ora locală. Acest lucru este recomandat, "
-"cu excepția cazului în care utilizați și un alt sistem de operare care se "
-"așteaptă ca ceasul să fie fixat la ora locală."
+"În general, ceasurile sistemului sunt fixate la timpul universal coordonat "
+"(„Coordinated Universal Time”: UTC). Sistemul de operare utilizează fusul "
+"orar pentru a converti ora sistemului în ora locală. Acest lucru este "
+"recomandat, cu excepția cazului în care utilizați și un alt sistem de "
+"operare care se așteaptă ca ceasul să fie fixat la ora locală."
 
 #. Type: text
 #. Description
@@ -2567,9 +2569,9 @@ msgid ""
 msgstr ""
 "Se pare că acest calculator este configurat pentru a porni prin EFI, dar "
 "poate că această configurație nu va funcționa pentru a porni de pe discul "
-"dur. Unele implementări de firmware EFI nu respectă specificațiile EFI ("
-"adică sunt eronate!) și nu acceptă configurarea corespunzătoare a opțiunilor "
-"de pornire de pe discurile dure ale sistemului."
+"dur. Unele implementări de firmware EFI nu respectă specificațiile EFI "
+"(adică sunt eronate!) și nu acceptă configurarea corespunzătoare a "
+"opțiunilor de pornire de pe discurile dure ale sistemului."
 
 #. Type: boolean
 #. Description
@@ -4672,7 +4674,8 @@ msgstr "Alegeți o parolă pentru noul utilizator:"
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr "Asigurați-vă că selectați o parolă sigură, care să nu poată fi ghicită."
+msgstr ""
+"Asigurați-vă că selectați o parolă sigură, care să nu poată fi ghicită."
 
 #. Type: password
 #. Description
