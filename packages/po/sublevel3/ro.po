@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2023-12-28 23:07+0000\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -52,17 +52,17 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
-"În mod implicit depozitele sunt listate în /etc/apt/sources.list (cu liniile "
-"„deb-src” aferente) pentru ca „apt-get” să funcționeze. Totuși dacă nu "
-"doriți această funcționalitate, puteți dezactiva acele linii și salva ceva "
-"banda de internet în timpul operațiunilor „apt-get update”."
+"În mod implicit depozitele sunt listate în „/etc/apt/sources.list” (cu "
+"liniile „deb-src” aferente) pentru ca «apt-get» să funcționeze. Totuși dacă "
+"nu doriți această funcționalitate, puteți dezactiva acele linii și salva "
+"ceva lățime de bandă în timpul operațiilor «apt-get update»."
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "Unealta utilizată pentru a genera imaginea initrd:"
+msgstr "Instrumentul utilizat pentru a genera imaginea „initrd”:"
 
 #. Type: select
 #. Description
@@ -73,8 +73,8 @@ msgid ""
 "should select the default. If your system fails to boot, you can retry the "
 "installation using the other options."
 msgstr ""
-"Această listă conține uneltele disponibile. Dacă nu știți pe care să o "
-"selectați, ar trebui să o alegeți pe cea implicită. Dacă sistemul eșuează la "
+"Această listă conține instrumentele disponibile. Dacă nu știți pe care să îl "
+"selectați, ar trebui să îl alegeți pe cel implicit. Dacă sistemul eșuează la "
 "pornire, puteți reîncerca instalarea folosind celelalte opțiuni."
 
 #. Type: error
@@ -82,7 +82,7 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "Generator de initrd nesuportat"
+msgstr "Generator de „initrd” neacceptat"
 
 #. Type: error
 #. Description
@@ -92,8 +92,8 @@ msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
 msgstr ""
-"Pachetul ${GENERATOR} care a fost selectat să genereze imaginea RAM, nu este "
-"suportat."
+"Pachetul ${GENERATOR} care a fost selectat să genereze imaginea „initrd”, nu "
+"este acceptat."
 
 #. Type: select
 #. Choices
@@ -114,7 +114,7 @@ msgstr "direcționat: include doar modulele necesare pentru acest sistem"
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "Modulele de inclus în initrd:"
+msgstr "Controlorii de inclus în „initrd”:"
 
 #. Type: select
 #. Description
@@ -125,9 +125,9 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"Funcția primordială a unui initrd este să permită nucleului să monteze "
-"sistemul de fișiere rădăcină. În consecință, trebuie să conțină toate "
-"modulele și programele necesare pentru a realiza acest lucru."
+"Funcția primordială a unei imagini „initrd” este să permită nucleului să "
+"monteze sistemul de fișiere rădăcină. În consecință, trebuie să conțină "
+"toate modulele și programele necesare pentru a realiza acest lucru."
 
 #. Type: select
 #. Description
@@ -140,11 +140,12 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"Un initrd generic este mult mai mare decât unul direcționat și ar putea fi "
-"atât de mare încât unele încărcătoare de sistem sa nu poată să le încarce, "
-"dar are avantajul că poate fi folosit pentru pornirea sistemul pe aproape "
-"orice fel de hardware. Cu initrd-ul mai mic, cel direcționat, există o mică "
-"șansă ca să lipsească din modulele necesare."
+"O imagine „initrd” generică este mult mai mare decât una direcționată și ar "
+"putea fi atât de mare încât unele încărcătoare de pornire să nu poată să o "
+"încarce, dar are avantajul că poate fi folosită pentru pornirea sistemului "
+"țintă pe aproape orice fel de componente și dispozitive ale mașinii. Cu "
+"imaginea „initrd” mai mică, cea direcționată, există o mică șansă ca nu "
+"toate modulele de nucleu necesare să fie incluse."
 
 #. Type: text
 #. Description
@@ -165,8 +166,8 @@ msgid ""
 "take a long time)."
 msgstr ""
 "Puteți ajuta la accelerarea procesului prin introducerea de caractere "
-"aleatoare la tastatură sau puteți aștepta până când se strâng date "
-"suficiente pentru cheie (lucru care poate dura mult)."
+"aleatoare la tastatură sau puteți aștepta până când sunt colectate "
+"suficiente date pentru cheie (lucru care poate dura mult)."
 
 #. Type: text
 #. Description
@@ -182,7 +183,7 @@ msgstr "Datele cheii au fost create."
 #. :sl3:
 #: ../cdebconf-gtk-entropy.templates:1001
 msgid "Enter random characters or make random movements with the mouse"
-msgstr "Introduceți caractere aleatoare sau mișcați haotic mausul"
+msgstr "Introduceți caractere aleatoare sau mișcați haotic mouse-ul"
 
 #. Type: text
 #. Description
@@ -193,14 +194,14 @@ msgid ""
 "keyboard or by making random movements with the mouse."
 msgstr ""
 "Puteți ajuta la accelerarea procesului prin introducerea de caractere "
-"aleatoare la tastatură sau mișcări haotice cu mausul."
+"aleatoare la tastatură sau mișcări haotice cu mouse-ul."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdebconf-gtk-terminal.templates:1001
 msgid "Resume installation"
-msgstr "Continuarea instalării"
+msgstr "Reluarea instalării"
 
 #. Type: text
 #. Description
@@ -210,9 +211,8 @@ msgid ""
 "Choose \"Continue\" to really exit the shell and resume the installation; "
 "any processes still running in the shell will be aborted."
 msgstr ""
-"Alegeți „Continuă” pentru a ieși cu adevărat din consolă și pentru a "
-"continua instalarea; orice proces care încă rulează în consolă va fi "
-"abandonat."
+"Alegeți «Continuă» pentru a ieși cu adevărat din consolă și pentru a reluua "
+"instalarea; orice proces care încă rulează în consolă va fi întrerupt."
 
 #. Type: error
 #. Description
@@ -229,15 +229,15 @@ msgid ""
 "The specified Debian archive mirror does not seem to support your "
 "architecture. Please try a different mirror."
 msgstr ""
-"Situl arhivei Debian menționat se pare că nu oferă suport pentru arhitectura "
-"dumneavoastră. Vă rugăm să alegeți un alt sit."
+"Oglinda arhivei Debian menționată se pare că nu oferă suport pentru "
+"arhitectura dumneavoastră. Vă rugăm să alegeți o altă oglindă."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../console-setup.templates:2001
 msgid "Do not change the boot/kernel font"
-msgstr "Nu modificați fontul pentru boot/nucleu"
+msgstr "Nu modificați fontul pentru porniret/nucleu"
 
 #. Type: text
 #. Description
@@ -252,7 +252,7 @@ msgstr "Lăsați sistemul să selecteze un font potrivit"
 #. :sl3:
 #: ../console-setup.templates:4001
 msgid "framebuffer only"
-msgstr "numai framebuffer"
+msgstr "numai „framebuffer” (tampon cadre video)"
 
 #. Type: select
 #. Choices
@@ -273,35 +273,35 @@ msgstr "# Armean"
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Cyrillic - KOI8-R and KOI8-U"
-msgstr "# Cyrillic - KOI8-R și KOI8-U"
+msgstr "# Chirilic - KOI8-R și KOI8-U"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Cyrillic - non-Slavic languages"
-msgstr "# Cyrillic - limbi non slavice"
+msgstr "# Chirilic - limbi non slavice"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid ". Cyrillic - non-Slavic languages (for blind users)"
-msgstr ". Cyrillic - limbi non slavice (pentru utilizatori nevăzători)"
+msgstr ". Chirilic - limbi non slavice (pentru utilizatori nevăzători)"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid "# Cyrillic - Slavic languages (also Bosnian and Serbian Latin)"
-msgstr "# Cyrillic - limbi slavice (inclusiv bosniacă și latină sârbă)"
+msgstr "# Chirilic - limbi slavice (inclusiv bosniacă și latină sârbă)"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../console-setup.templates:5001
 msgid ". Cyrillic - Slavic languages (for blind users)"
-msgstr ". Cyrillic - limbi slavice (pentru utilizatori nevăzători)"
+msgstr ". Chirilic - limbi slavice (pentru utilizatori nevăzători)"
 
 #. Type: select
 #. Choices
@@ -420,7 +420,7 @@ msgstr "Se ghicește setul de caractere optim"
 #. :sl3:
 #: ../console-setup.templates:5002
 msgid "Character set to support:"
-msgstr "Set de caractere de suportat:"
+msgstr "Set de caractere de utilizat:"
 
 #. Type: select
 #. Description
@@ -429,7 +429,7 @@ msgstr "Set de caractere de suportat:"
 msgid ""
 "Please choose the character set that should be supported by the console font."
 msgstr ""
-"Alegeți setul de caractere care ar trebui să fie suportat de fontul de "
+"Alegeți setul de caractere care ar trebui să fie utilizat de fontul de "
 "consolă."
 
 #. Type: select
@@ -440,7 +440,7 @@ msgid ""
 "If you don't use a framebuffer, the choices that start with \".\" will "
 "reduce the number of available colors on the console."
 msgstr ""
-"Dacă nu utilizați framebuffer, opțiunile care încep cu „.” vor reduce "
+"Dacă nu utilizați „framebuffer”, opțiunile care încep cu „.” vor reduce "
 "numărul de culori disponibile în consolă."
 
 #. Type: select
@@ -460,13 +460,6 @@ msgstr "Fontul pentru consolă:"
 #. relatively short.
 #. :sl3:
 #: ../console-setup.templates:6001
-#, fuzzy
-#| msgid ""
-#| "\"VGA\" has a traditional appearance and has medium coverage of "
-#| "international scripts. \"Fixed\" has a simplistic appearance and has "
-#| "better coverage of international scripts. \"Terminus\" may help to reduce "
-#| "eye fatigue, though some symbols have a similar aspect which may be a "
-#| "problem for programmers."
 msgid ""
 "\"VGA\" has a traditional appearance and has medium coverage of "
 "international scripts. \"Fixed\" has a simplistic appearance and has better "
@@ -475,10 +468,10 @@ msgid ""
 "for programmers. \"DejaVu\" is suited to screens with HiDPI."
 msgstr ""
 "„VGA” are un aspect tradițional și o acoperire medie a alfabetelor "
-"internaționale. „Fixed” are un aspect simplist și acoperă mai bine "
-"alfabetele internaționale. „Terminus” poate ajuta la reducerea oboselii "
-"ochilor, deși unele simboluri sunt asemănătoare, lucru ce poate fi o "
-"problemă pentru programatori."
+"internaționale. „Fixed” are un aspect simplist și are o acoperire mai bună a "
+"alfabetelor internaționale. „Terminus” poate ajuta la reducerea oboselii "
+"ochilor, deși unele simboluri au un aspect similar care poate fi o problemă "
+"pentru programatori. „DejaVu” este potrivit pentru ecranele cu HiDPI."
 
 #. Type: select
 #. Description
@@ -491,8 +484,8 @@ msgid ""
 "If you prefer a bold version of the Terminus font, choose either "
 "TerminusBold (if you use a framebuffer) or TerminusBoldVGA (otherwise)."
 msgstr ""
-"Dacă preferați o variantă îngroșată a fontului Terminus, alegeți fie "
-"TerminusBold (dacă utilizați un framebuffer) sau TerminusBoldVGA (în caz "
+"Dacă preferați o variantă aldină a fontului Terminus, alegeți fie "
+"TerminusBold (dacă utilizați un „framebuffer”) sau TerminusBoldVGA (în caz "
 "contrar)."
 
 #. Type: select
@@ -513,8 +506,8 @@ msgid ""
 "Please select the size of the font for the console. For reference, the font "
 "used when the computer boots has size 8x16."
 msgstr ""
-"Alegeți mărimea fontului pentru consolă. Ca referință, fontul folosit la "
-"pornirea calculatorului are mărimea 8x16."
+"Alegeți dimensiunea fontului pentru consolă. Ca referință, fontul folosit la "
+"pornirea calculatorului are dimensiunea 8x16."
 
 #. Type: select
 #. Description
@@ -525,21 +518,22 @@ msgid ""
 "framebuffer."
 msgstr ""
 "Vă rugăm să selectați dimensiunea fontului pentru consolă. Unele dimensiuni "
-"ale fonturilor necesită framebuffer."
+"ale fonturilor necesită „framebuffer”."
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../console-setup.templates:9001
 msgid "Encoding to use on the console:"
-msgstr "Codificare folosită în consolă:"
+msgstr "Codificarea folosită în consolă:"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../keyboard-configuration.templates:7001
 msgid "Keep the current keyboard layout in the configuration file?"
-msgstr "Se păstrează aranjamentul curent din fișierul de configurare?"
+msgstr ""
+"Se păstrează aranjamentul curent de tastatură din fișierul de configurare?"
 
 #. Type: boolean
 #. Description
@@ -549,8 +543,9 @@ msgid ""
 "The current keyboard layout in the configuration file /etc/default/keyboard "
 "is defined as XKBLAYOUT=\"${XKBLAYOUT}\" and XKBVARIANT=\"${XKBVARIANT}\"."
 msgstr ""
-"Aranjamentul curent în fișierul de configurare /etc/default/keyboard este "
-"definit ca XKBLAYOUT=\"${XKBLAYOUT}\" și XKBVARIANT=\"${XKBVARIANT}\"."
+"Aranjamentul curent de tastatură din fișierul de configurare „/etc/default/"
+"keyboard” este definit ca XKBLAYOUT=\"${XKBLAYOUT}\" și XKBVARIANT=\""
+"${XKBVARIANT}\"."
 
 #. Type: boolean
 #. Description
@@ -581,9 +576,10 @@ msgid ""
 "XKBVARIANT=\"${XKBVARIANT}\".  This default value is based on the currently "
 "defined language/region and the settings in /etc/X11/xorg.conf."
 msgstr ""
-"Valoarea implicită pentru aranjamentul de tastatură este XKBLAYOUT="
-"\"${XKBLAYOUT}\" și XKBVARIANT=\"${XKBVARIANT}\". Această valoare implicită "
-"este bazată pe limba/regiunea definită și setările din /etc/X11/xorg.conf."
+"Valoarea implicită pentru aranjamentul de tastatură este XKBLAYOUT=\""
+"${XKBLAYOUT}\" și XKBVARIANT=\"${XKBVARIANT}\". Această valoare implicită "
+"este bazată pe limba/regiunea definită și parametrii din „/etc/X11/xorg."
+"conf”."
 
 #. Type: boolean
 #. Description
@@ -611,8 +607,8 @@ msgid ""
 "The current keyboard options in the configuration file /etc/default/keyboard "
 "are defined as XKBOPTIONS=\"${XKBOPTIONS}\"."
 msgstr ""
-"Opțiunile curente pentru tastatură din fișierul de configurare /etc/default/"
-"keyboard sunt definite ca XKBOPTIONS=\"${XKBOPTIONS}\"."
+"Opțiunile curente pentru tastatură din fișierul de configurare „/etc/default/"
+"keyboard” sunt definite ca XKBOPTIONS=\"${XKBOPTIONS}\"."
 
 #. Type: boolean
 #. Description
@@ -643,7 +639,7 @@ msgid ""
 msgstr ""
 "Valoarea implicită pentru opțiunile aranjamentului de tastatură este "
 "XKBOPTIONS=\"${XKBOPTIONS}\". Aceasta se bazează pe țara/regiunea definită "
-"și configurația din /etc/X11/xorg.conf."
+"și configurația din „/etc/X11/xorg.conf”."
 
 #. Type: boolean
 #. Description
@@ -661,7 +657,7 @@ msgstr ""
 #. :sl3:
 #: ../keyboard-configuration.templates:15001
 msgid "Use Control+Alt+Backspace to terminate the X server?"
-msgstr "Se folosește Control+Alt+Backspace pentru a închide serverul X?"
+msgstr "Se folosește «Control+Alt+Backspace» pentru a închide serverul X?"
 
 #. Type: boolean
 #. Description
@@ -671,7 +667,7 @@ msgid ""
 "By default the combination Control+Alt+Backspace does nothing.  If you want "
 "it can be used to terminate the X server."
 msgstr ""
-"Combinația Control+Alt+Backspace implicit nu face nimic. Dacă doriți poate "
+"Combinația «Control+Alt+Backspace» implicit nu face nimic. Dacă doriți poate "
 "fi folosită pentru a închide serverul X."
 
 #. Type: boolean
@@ -679,7 +675,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check integrity of the installation media?"
-msgstr "Verificați integritatea suportului de instalare?"
+msgstr "Verificați integritatea mediului de instalare?"
 
 #. Type: boolean
 #. Description
@@ -695,7 +691,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert Debian installation media"
-msgstr "Introduceți suportul de instalare Debian"
+msgstr "Introduceți mediul de instalare Debian"
 
 #. Type: note
 #. Description
@@ -705,7 +701,7 @@ msgid ""
 "Please insert one of the official Debian installation media before "
 "continuing."
 msgstr ""
-"Vă rugăm să introduceți unul dintre suporturile oficiale de instalare Debian "
+"Vă rugăm să introduceți unul dintre medirile oficiale de instalare Debian "
 "înainte de a continua."
 
 #. Type: error
@@ -713,7 +709,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount installation media"
-msgstr "Eșec la demontarea suportului de instalare"
+msgstr "Eșec la demontarea mediului de instalare"
 
 #. Type: error
 #. Description
@@ -731,7 +727,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian installation media"
-msgstr "Nu există suport de instalare Debian valid"
+msgstr "Nu există niciun mediu de instalare Debian valid"
 
 #. Type: error
 #. Description
@@ -741,7 +737,7 @@ msgid ""
 "What you have inserted is no valid Debian installation media. Please try "
 "again."
 msgstr ""
-"Ceea ce ați inserat nu este un suport de instalare Debian valid. Vă rugăm să "
+"Ceea ce ați inserat nu este un mediu de instalare Debian valid. Vă rugăm să "
 "încercați din nou."
 
 #. Type: error
@@ -761,8 +757,8 @@ msgid ""
 "Opening the MD5 file on the media failed. This file contains the checksums "
 "of the files located on the media."
 msgstr ""
-"Deschiderea fișierului MD5 de pe suport media a eșuat. Acest fișier conține "
-"sumele de control ale fișierelor aflate pe suportul media."
+"Deschiderea fișierului MD5 din mediul de instalare a eșuat. Acest fișier "
+"conține sumele de control ale fișierelor aflate în mediul de instalare."
 
 #. Type: note
 #. Description
@@ -794,8 +790,8 @@ msgid ""
 "The file ${FILE} failed the MD5 checksum verification. Your installation "
 "media or this file may have been corrupted."
 msgstr ""
-"Fișierul ${FILE} nu a trecut de verificarea sumei de control MD5. Este "
-"posibil ca suportul dvs. de instalare sau acest fișier să fi fost corupt."
+"Fișierul ${FILE} nu a trecut testul de verificare a sumei de control MD5. "
+"Este posibil ca mediul dvs. de instalare sau acest fișier să fi fost corupt."
 
 #. Type: boolean
 #. Description
@@ -809,7 +805,7 @@ msgstr "Verificați integritatea unei alte imagini de instalare?"
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot media"
-msgstr "Introduceți dispozitivul media Debian de pornire"
+msgstr "Introduceți mediul de pornire Debian"
 
 #. Type: note
 #. Description
@@ -819,15 +815,15 @@ msgid ""
 "Please make sure you have inserted the Debian installation media you booted "
 "from, to continue with the installation."
 msgstr ""
-"Pentru a continua instalarea, vă rugăm să vă asigurați că ați introdus "
-"dispozitivul media Debian de pornire."
+"Vă rugăm să vă asigurați că ați introdus mediul de instalare Debian de pe "
+"care ați pornit, pentru a continua cu instalarea."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking integrity of installation image"
-msgstr "Verificarea integrității imaginii de instalare"
+msgstr "Se verifică integritatea imaginii de instalare"
 
 #. Type: text
 #. Description
@@ -841,7 +837,7 @@ msgstr "Se verifică fișierul: ${FILE}"
 #. :sl3:
 #: ../cdrom-detect.templates:13001
 msgid "UNetbootin media detected"
-msgstr "Media de tip UNetbootin detectată"
+msgstr "Mediu UNetbootin detectat"
 
 #. Type: note
 #. Description
@@ -854,10 +850,11 @@ msgid ""
 "please try your installation again without using UNetbootin before reporting "
 "issues."
 msgstr ""
-"Se pare că mediul de instalare a fost generat cu UNetbootin. UNetbootin este "
-"deseori asociat cu probleme dificile și nereproductibile raportate de "
-"utilizatori; dacă aveți probleme cu acest mediu de instalare, încercați din "
-"nou cu UNetbootin înainte de a raporta problema."
+"Se pare că mediul dvs. de instalare a fost generat utilizând UNetbootin. "
+"UNetbootin este asociat în mod regulat cu rapoarte de probleme dificile sau "
+"ireproductibile din partea utilizatorilor; dacă aveți probleme utilizând "
+"acest mediu de instalare, vă rugăm să încercați instalarea din nou fără a "
+"utiliza UNetbootin înainte de a raporta problemele."
 
 #. Type: note
 #. Description
@@ -867,8 +864,8 @@ msgid ""
 "The installation guide contains more information on how to create a USB "
 "installation medium directly without UNetbootin."
 msgstr ""
-"Ghidul de instalare conține mai multe informații despre cum puteți crea un "
-"mediu de instalare usm direct, fără UNetbootin."
+"Ghidul de instalare conține mai multe informații despre cum să creați un "
+"mediu de instalare USB direct, fără UNetbootin."
 
 #. Type: title
 #. Description
@@ -883,7 +880,7 @@ msgstr "Nepotrivire de versiune de nucleu"
 #: ../debian-installer-launcher.templates:2001
 msgid "Live system kernel and installer kernel don't match"
 msgstr ""
-"Nucleul sistemului live și nucleul programului de instalare nu se potrivesc"
+"Nucleul sistemului „live” și nucleul programului de instalare nu se potrivesc"
 
 #. Type: error
 #. Description
@@ -896,7 +893,7 @@ msgid ""
 "(${LIVE_KERNEL}) and of the installer (${DI_KERNEL}) are the same."
 msgstr ""
 "Programul de instalare poate fi folosit doar dacă versiunea de nucleu "
-"(${LIVE_KERNEL}) a sistemului live și (${DI_KERNEL}) a programului de "
+"(${LIVE_KERNEL}) a sistemului „live” și (${DI_KERNEL}) a programului de "
 "instalare sunt identice."
 
 #. Type: error
@@ -906,22 +903,21 @@ msgstr ""
 #. 2.6.32-5-486, 2.6.32-5-amd64, or 2.6.32-5-powerpc etc.
 #: ../debian-installer-launcher.templates:2001
 msgid "Please reboot with the correct kernel (${DI_KERNEL})."
-msgstr "Vă rugăm reporniți sistemul cu nucleul corect (${DI_KERNEL})."
+msgstr "Vă rugăm să reporniți sistemul cu nucleul corect (${DI_KERNEL})."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:3001
 msgid "Install the GRUB boot loader to the multipath device?"
-msgstr "Instalează încărcătorul de sistem GRUB pe dispozitivul multicale?"
+msgstr "Instalați încărcătorul de pornire GRUB pe dispozitivul „multipath”?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:3001
 msgid "Installation of GRUB on multipath is experimental."
-msgstr ""
-"Instalarea lui GRUB pe dispozitive multicale este o facilitate experimentală."
+msgstr "Instalarea lui GRUB pe un dispozitiv „multipath” este experimentală."
 
 #. Type: boolean
 #. Description
@@ -932,9 +928,9 @@ msgid ""
 "device. It is also assumed that the WWID of this device is selected as boot "
 "device in the system's FibreChannel adapter BIOS."
 msgstr ""
-"GRUB este întotdeauna instalat în înregistrarea master boot (MBR) a "
-"dispozitivelor multicale. De asemenea, se presupune că WWID-ul acestui "
-"dispozitiv este selectat ca dispozitivul de pornire în configurația BIOS a "
+"GRUB este întotdeauna instalat în sectorul principal de pornire (MBR) al "
+"dispozitivului „multipath”. De asemenea, se presupune că WWID-ul acestui "
+"dispozitiv este selectat ca dispozitiv de pornire în configurația BIOS a "
 "adaptorului FiberChannel."
 
 #. Type: boolean
@@ -951,14 +947,14 @@ msgstr "Dispozitivul rădăcină al lui GRUB este: ${GRUBROOT}."
 msgid "An error occurred while setting up GRUB for the multipath device."
 msgstr ""
 "A apărut o eroare în timpul configurării lui GRUB pentru dispozitivul "
-"multicale."
+"„multipath”."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../grub-installer.templates:4001
 msgid "The GRUB installation has been aborted."
-msgstr "Procesul de instalare al lui GRUB a fost abandonat."
+msgstr "Procesul de instalare al lui GRUB a fost înttrerupt."
 
 #. #-#-#-#-#  templates.pot (grub-installer)  #-#-#-#-#
 #. Type: select
@@ -969,7 +965,7 @@ msgstr "Procesul de instalare al lui GRUB a fost abandonat."
 #. :sl3:
 #: ../grub-installer.templates:6001 ../iso-scan.templates:14001
 msgid "Enter device manually"
-msgstr "Specificați dispozitivul"
+msgstr "Introduceți manual numele dispozitivului"
 
 #. Type: boolean
 #. Description
@@ -1012,9 +1008,9 @@ msgid ""
 msgstr ""
 "Modulul ${MODULE} a eșuat la încărcare. Probabil că va fi nevoie să dați "
 "parametri modulului pentru a-l face să funcționeze; acest lucru este comun "
-"la componente vechi. Acești parametri sunt, de regulă porturi I/O și numere "
-"IRQ care variază de la o mașină la alta,și nu pot fi detectate. Un exemplu "
-"de un asemenea șir: „irq=7 io=0x220”"
+"la componente vechi. Acești parametri sunt, de regulă porturi de In/Ieș și "
+"numere IRQ care variază de la o mașină la alta,și nu pot fi detectate. Un "
+"exemplu de un asemenea șir: „irq=7 io=0x220”"
 
 #. Type: string
 #. Description
@@ -1071,9 +1067,9 @@ msgid ""
 "left running, and will be accessible once the network is configured."
 msgstr ""
 "Un server simplu de web a fost pornit pe acest calculator pentru a servi "
-"fișiere jurnal și informații de depanare. Totuși, rețeaua nu este pregătită "
-"încă. Serverul de web va fi lăsat pornit și va fi accesibil odată cu "
-"configurarea rețelei."
+"fișiere jurnal și informații de depanare. Cu toate acestea, rețeaua nu este "
+"încă configurată. Serverul web va fi lăsat în funcțiune și va fi accesibil "
+"odată ce rețeaua este configurată."
 
 #. Type: note
 #. Description
@@ -1118,14 +1114,14 @@ msgstr ""
 #. :sl3:
 #: ../iso-scan.templates:4001
 msgid "Detecting hardware to find hard drives"
-msgstr "Se detectează componentele pentru a găsi discurile fixe"
+msgstr "Se detectează componentele pentru a găsi discurile dure"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../iso-scan.templates:5001
 msgid "Searching drives for an installer ISO image"
-msgstr "Caută pe discurile fixe o imagine ISO cu programul de instalare"
+msgstr "Se caută pe discurile dure o imagine ISO cu programul de instalare"
 
 #. Type: text
 #. Description
@@ -1159,8 +1155,8 @@ msgid ""
 msgstr ""
 "Examinarea rapidă, în căutarea unei imagini ISO cu programul de instalare, "
 "care caută doar în locurile cele mai comune, nu a găsit o imagine ISO cu "
-"programul de instalare. Este posibil ca o căutare mai temeinică să găsească "
-"imaginea, dar ar putea dura mult."
+"programul de instalare. Este posibil ca o căutare mai amănunțită să găsească "
+"imaginea ISO, dar poate dura mult mai mult timp."
 
 #. Type: error
 #. Description
@@ -1181,9 +1177,9 @@ msgid ""
 "have a bad filename (not ending in \".iso\"), or it may be on a file system "
 "that could not be mounted."
 msgstr ""
-"Nu s-a găsit nici o imagine ISO cu programul de instalare. Dacă ați "
-"descărcat imaginea ISO, s-ar putea să nu aibă un nume bun (nu se termină în "
-"„.iso”), sau ar putea fi pe un sistem de fișiere care nu a putut fi montat."
+"Nu s-a găsit nicio imagine ISO cu programul de instalare. Dacă ați descărcat "
+"imaginea ISO, s-ar putea să nu aibă un nume bun (nu se termină în „.iso”), "
+"sau ar putea fi pe un sistem de fișiere care nu a putut fi montat."
 
 #. Type: error
 #. Description
@@ -1247,8 +1243,8 @@ msgid ""
 "The ISO file ${FILENAME} on ${DEVICE} (${SUITE}) will be used as the "
 "installation ISO image."
 msgstr ""
-"Fișierul ISO ${FILENAME} de pe ${DEVICE} (${SUITE}) va fi folosită ca "
-"imagine ISO de instalare."
+"Fișierul ISO ${FILENAME} de pe ${DEVICE} (${SUITE}) va fi folosit ca imagine "
+"ISO de instalare."
 
 #. Type: select
 #. Choices
@@ -1272,9 +1268,9 @@ msgid ""
 "You can select a device, manually specify a non-detected device, or rescan "
 "available devices (useful for slow USB devices)."
 msgstr ""
-"Puteți alege un dispozitiv, alege manual un dispozitiv care nu a fost "
+"Puteți alege un dispozitiv, specifica manual un dispozitiv care nu a fost "
 "detectat, sau să rescanați dispozitivele disponibile (util pentru "
-"dispozitive USB încete)."
+"dispozitive USB lente)."
 
 #. Type: string
 #. Description
@@ -1307,7 +1303,7 @@ msgid ""
 msgstr ""
 "Unul sau mai multe fișiere ISO au fost detectate în dispozitivul(ele) "
 "selectat(e). Alegeți pe care doriți să-l folosiți, sau cereți o căutare mai "
-"extinsă."
+"a mănunțită."
 
 #. Type: boolean
 #. Description
@@ -1324,8 +1320,8 @@ msgid ""
 "The ISO file ${FILENAME} on ${DEVICE} (${SUITE}, code ${CODENAME}, self-"
 "described as '${DESCRIPTION}') will be used as the installation ISO image."
 msgstr ""
-"Fișierul ISO ${FILENAME} de pe ${DEVICE} (${SUITE}, nume de cod ${CODENAME}, "
-"auto-intitulat „${DESCRIPTION}”) va fi folosit ca imagine ISO de instalare."
+"Fișierul ISO ${FILENAME} de pe ${DEVICE} (${SUITE}, nume în cod ${CODENAME}, "
+"auto-descris „${DESCRIPTION}”) va fi folosit ca imagine ISO de instalare."
 
 #. Type: boolean
 #. Description
@@ -1351,7 +1347,9 @@ msgstr "Doriți copierea imaginii ISO în RAM înainte de a o monta?"
 #: ../iso-scan.templates:18001
 msgid ""
 "There is enough available memory to be able to copy the ISO image into RAM."
-msgstr "Este destulă memorie pentru a copia imaginea ISO în RAM."
+msgstr ""
+"Există suficientă memorie disponibilă pentru a putea copia imaginea ISO în "
+"RAM."
 
 #. Type: boolean
 #. Description
@@ -1364,7 +1362,7 @@ msgid ""
 msgstr ""
 "Opțiunea aceasta vă permite refolosirea discului cu imaginea ISO. Dacă nu o "
 "folosiți, discul va fi folosit în mod activ pentru a accesa imaginea ISO și "
-"aceasta nu poate fi partiționată de instalator."
+"acesta nu poate fi partiționat de programul de instalare."
 
 #. Type: boolean
 #. Description
@@ -1376,10 +1374,10 @@ msgid ""
 "to restart the installer since the ISO image will be gone from the hard disk "
 "and memory."
 msgstr ""
-"Aveți grijă că dacă suprascrieți discul care conține imaginea ISO nu ar "
-"trebui să reporniți sistemul înainte de încheierea instalării deoarece este "
-"posibil să nu mai puteți reporni instalatorul fără imaginea ISO de pe disc "
-"sau din memorie."
+"Rețineți totuși că, dacă suprascrieți discul care conține imaginea ISO, nu "
+"trebuie să reporniți înainte de sfârșitul instalării, pentru că nu veți mai "
+"putea reporni programul de instalare deoarece imaginea ISO va dispărea de pe "
+"discul dur și din memorie."
 
 #. Type: boolean
 #. Description
@@ -1470,7 +1468,7 @@ msgstr "Acțiunea de configurare LVM:"
 #: ../lvmcfg-utils.templates:2002
 msgid "This is the Logical Volume Manager configuration menu."
 msgstr ""
-"Acesta este meniul de configurare al Managerului de volume logice (LVM)."
+"Acesta este meniul de configurare al managerului de volume logice (LVM)."
 
 #. Type: select
 #. Choices
@@ -1569,14 +1567,14 @@ msgstr "Acțiunea de configurare a volumelor logice:"
 #. :sl3:
 #: ../lvmcfg-utils.templates:5001 ../partman-lvm.templates:26001
 msgid "Devices for the new volume group:"
-msgstr "Dispozitive pentru noul Grup de volume:"
+msgstr "Dispozitive pentru noul grup de volume:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:5001 ../partman-lvm.templates:26001
 msgid "Please select the devices for the new volume group."
-msgstr "Vă rugăm să selectați dispozitivele pentru noul Grup de volume."
+msgstr "Vă rugăm să selectați dispozitivele pentru noul grup de volume."
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: multiselect
@@ -1610,7 +1608,7 @@ msgstr "Puteți selecta unul sau mai multe dispozitive."
 #. :sl3:
 #: ../lvmcfg-utils.templates:6001 ../partman-lvm.templates:27001
 msgid "Volume group name:"
-msgstr "Numele Grupului de volume:"
+msgstr "Numele grupului de volume:"
 
 #. Type: string
 #. Description
@@ -1619,7 +1617,7 @@ msgstr "Numele Grupului de volume:"
 msgid "Please enter the name you would like to use for the new volume group."
 msgstr ""
 "Vă rugăm să introduceți numele pe care doriți să-l utilizați pentru noul "
-"Grup de volume."
+"grup de volume."
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
@@ -1642,7 +1640,7 @@ msgstr ""
 #: ../partman-lvm.templates:28001 ../partman-lvm.templates:40001
 #: ../partman-lvm.templates:45001
 msgid "No physical volumes selected"
-msgstr "Nu s-a selectat un volum fizic"
+msgstr "Nu s-a selectat niciun volum fizic"
 
 #. Type: error
 #. Description
@@ -1652,15 +1650,15 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group was "
 "aborted."
 msgstr ""
-"Nu s-a selectat nici un volum fizic. Crearea unui nou grup de volume (Volume "
-"Group) a fost abandonată."
+"Nu s-a selectat niciun volum fizic. Crearea unui nou grup de volum a fost "
+"abandonată."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:8001 ../partman-lvm.templates:29001
 msgid "No volume group name entered"
-msgstr "Nume de grup de volume neintrodus"
+msgstr "Nu a fost introdus numele grupului de volume"
 
 #. Type: error
 #. Description
@@ -1668,8 +1666,8 @@ msgstr "Nume de grup de volume neintrodus"
 #: ../lvmcfg-utils.templates:8001
 msgid "No name for the volume group has been entered.  Please enter a name."
 msgstr ""
-"Nu s-a introdus nici un nume pentru grupul de volume. Vă rugăm să "
-"introduceți un nume."
+"Nu s-a introdus niciun nume pentru grupul de volume. Vă rugăm să introduceți "
+"un nume."
 
 #. Type: error
 #. Description
@@ -1677,7 +1675,7 @@ msgstr ""
 #: ../lvmcfg-utils.templates:9001 ../partman-auto-lvm.templates:6001
 #: ../partman-lvm.templates:30001
 msgid "Volume group name already in use"
-msgstr "Nume de Grup de volume deja utilizat"
+msgstr "Nume de grup de volume deja utilizat"
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
@@ -1691,8 +1689,8 @@ msgstr "Nume de Grup de volume deja utilizat"
 msgid ""
 "The selected volume group name is already in use. Please choose another name."
 msgstr ""
-"Numele de Grup de volume selectat este deja utilizat. Vă rugăm să alegeți un "
-"alt nume."
+"Numele grupului de volume selectat este deja utilizat. Vă rugăm să alegeți "
+"un alt nume."
 
 #. Type: error
 #. Description
@@ -1724,7 +1722,7 @@ msgstr "Grupul de volume de șters:"
 #. :sl3:
 #: ../lvmcfg-utils.templates:11001 ../partman-lvm.templates:33001
 msgid "Please select the volume group you wish to delete."
-msgstr "Vă rugăm să selectați Grupul de volume pe care doriți să-l ștergeți."
+msgstr "Vă rugăm să selectați grupul de volume pe care doriți să-l ștergeți."
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: error
@@ -1764,7 +1762,7 @@ msgstr "Vă rugăm să selectați Grupul de volume pe care doriți să-l șterge
 #: ../partman-lvm.templates:34001 ../partman-lvm.templates:37001
 #: ../partman-lvm.templates:42001 ../partman-lvm.templates:47001
 msgid "No volume group found"
-msgstr "Nu s-a găsit un grup de volume"
+msgstr "Nu s-a găsit niciun grup de volume"
 
 #. Type: error
 #. Description
@@ -1779,35 +1777,35 @@ msgstr "Nu s-a găsit un grup de volume"
 #: ../lvmcfg-utils.templates:20001 ../partman-lvm.templates:34001
 #: ../partman-lvm.templates:37001 ../partman-lvm.templates:42001
 msgid "No volume group has been found."
-msgstr "Nu a fost găsit nici un grup de volume."
+msgstr "Nu a fost găsit niciun grup de volume."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:12001 ../partman-lvm.templates:34001
 msgid "The volume group may have already been deleted."
-msgstr "Este posibil ca Grupul de volume să fi fost deja șters."
+msgstr "Este posibil ca grupul de volume să fi fost deja șters."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:13001 ../partman-lvm.templates:35001
 msgid "Really delete the volume group?"
-msgstr "Șterg într-adevăr Grupul de volume?"
+msgstr "Doriți într-adevăr să ștergeți grupul de volume?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:13001 ../partman-lvm.templates:35001
 msgid "Please confirm the ${VG} volume group removal."
-msgstr "Vă rugăm să confirmați eliminarea Grupului de volume ${VG}."
+msgstr "Vă rugăm să confirmați eliminarea grupului de volume ${VG}."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:14001 ../partman-lvm.templates:36001
 msgid "Error while deleting volume group"
-msgstr "Eroare în timpul ștergerii Grupului de volume"
+msgstr "Eroare în timpul ștergerii grupului de volume"
 
 #. Type: error
 #. Description
@@ -1825,7 +1823,7 @@ msgstr ""
 #. :sl3:
 #: ../lvmcfg-utils.templates:15001 ../partman-lvm.templates:37001
 msgid "No volume group can be deleted."
-msgstr "Nu se poate șterge nici un grup de volume."
+msgstr "Nu se poate șterge niciun grup de volume."
 
 #. Type: select
 #. Description
@@ -1839,14 +1837,14 @@ msgstr "Grupul de volume de extins:"
 #. :sl3:
 #: ../lvmcfg-utils.templates:16001 ../partman-lvm.templates:38001
 msgid "Please select the volume group you wish to extend."
-msgstr "Vă rugăm să selectați Grupul de volume pe care doriți să-l extindeți."
+msgstr "Vă rugăm să selectați grupul de volume pe care doriți să-l extindeți."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:17001 ../partman-lvm.templates:39001
 msgid "Devices to add to the volume group:"
-msgstr "Dispozitivele de adăugat la Grupul de volume:"
+msgstr "Dispozitivele de adăugat la grupul de volume:"
 
 #. Type: multiselect
 #. Description
@@ -1854,7 +1852,7 @@ msgstr "Dispozitivele de adăugat la Grupul de volume:"
 #: ../lvmcfg-utils.templates:17001 ../partman-lvm.templates:39001
 msgid "Please select the devices you wish to add to the volume group."
 msgstr ""
-"Vă rugăm să selectați dispozitivele pe care doriți să le adăugați la Grupul "
+"Vă rugăm să selectați dispozitivele pe care doriți să le adăugați la grupul "
 "de volume."
 
 #. Type: error
@@ -1882,7 +1880,7 @@ msgid ""
 "The physical volume ${PARTITION} could not be added to the selected volume "
 "group."
 msgstr ""
-"Volumul fizic ${PARTITION} nu a putut fi adăugat la Grupul de volume "
+"Volumul fizic ${PARTITION} nu a putut fi adăugat la grupul de volume "
 "selectat."
 
 #. Type: error
@@ -1890,7 +1888,7 @@ msgstr ""
 #. :sl3:
 #: ../lvmcfg-utils.templates:20001 ../partman-lvm.templates:42001
 msgid "No volume group can be reduced."
-msgstr "Nu se poate reduce nici un grup de volume."
+msgstr "Nu se poate reduce niciun grup de volume."
 
 #. Type: select
 #. Description
@@ -1904,14 +1902,14 @@ msgstr "Grupul de volume de redus:"
 #. :sl3:
 #: ../lvmcfg-utils.templates:21001 ../partman-lvm.templates:43001
 msgid "Please select the volume group you wish to reduce."
-msgstr "Vă rugăm să selectați Grupul de volume pe care doriți să-l reduceți."
+msgstr "Vă rugăm să selectați grupul de volume pe care doriți să-l reduceți."
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:22001
 msgid "Device to remove from volume group:"
-msgstr "Dispozitivele de înlăturat din Grupul de volume:"
+msgstr "Dispozitivul de înlăturat din grupul de volume:"
 
 #. Type: select
 #. Description
@@ -1919,7 +1917,7 @@ msgstr "Dispozitivele de înlăturat din Grupul de volume:"
 #: ../lvmcfg-utils.templates:22001
 msgid "Please select the device you wish to remove from the volume group."
 msgstr ""
-"Vă rugăm să selectați dispozitivul pe care doriți să-l înlăturați din Grupul "
+"Vă rugăm să selectați dispozitivul pe care doriți să-l înlăturați din grupul "
 "de volume."
 
 #. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
@@ -1936,7 +1934,7 @@ msgstr ""
 #: ../lvmcfg-utils.templates:23001 ../lvmcfg-utils.templates:24001
 #: ../partman-lvm.templates:46001
 msgid "Error while reducing volume group"
-msgstr "Eroare în timpul reducerii Grupului de volume"
+msgstr "Eroare în timpul reducerii grupului de volume"
 
 #. Type: error
 #. Description
@@ -1946,8 +1944,8 @@ msgid ""
 "The selected volume group (${VG}) could not be reduced. There is only one "
 "physical volume attached. Please delete the volume group instead."
 msgstr ""
-"Grupul de volume selectat (${VG}) nu a putut fi redus. Există doar un singur "
-"volum fizic atașat. În schimb, vă rugăm să ștergeți Grupul de volume."
+"Grupul de volume selectat (${VG}) nu a putut fi redus. Există un singur "
+"volum fizic atașat. În schimb, vă rugăm să ștergeți grupul de volume."
 
 #. Type: error
 #. Description
@@ -1957,7 +1955,7 @@ msgid ""
 "The physical volume ${PARTITION} could not be removed from the selected "
 "volume group."
 msgstr ""
-"Volumul fizic ${PARTITION} nu a putut fi adăugat la Grupul de volume "
+"Volumul fizic ${PARTITION} nu a putut fi eliminat din grupul de volume "
 "selectat."
 
 #. Type: error
@@ -1980,9 +1978,9 @@ msgid ""
 "create more physical volumes and volume groups, or reduce an existing volume "
 "group."
 msgstr ""
-"Nu s-au găsit grupuri de volume libere pentru a crea un nou volum logic. Vă "
-"rugăm să mai creați volume fizice și grupuri de volume, sau sa reduceți un "
-"grup de volume existent."
+"Nu au fost găsite grupuri de volume libere pentru crearea unui nou volum "
+"logic. Vă rugăm să creați mai multe volume fizice și grupuri de volume sau "
+"să reduceți un grup de volume existent."
 
 #. Type: string
 #. Description
@@ -2024,14 +2022,14 @@ msgid ""
 "Please select the volume group where the new logical volume should be "
 "created."
 msgstr ""
-"Vă rugăm să selectați Grupul de volume unde trebuie creat noul volum logic."
+"Vă rugăm să selectați grupul de volume unde trebuie creat noul volum logic."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../lvmcfg-utils.templates:29001 ../partman-lvm.templates:50001
 msgid "No logical volume name entered"
-msgstr "Nume de volum logic neintrodus"
+msgstr "Nu a fost introdus niciun nume de volum logic"
 
 #. Type: error
 #. Description
@@ -2039,8 +2037,8 @@ msgstr "Nume de volum logic neintrodus"
 #: ../lvmcfg-utils.templates:29001
 msgid "No name for the logical volume has been entered.  Please enter a name."
 msgstr ""
-"Nu s-a introdus nici un nume pentru volumul logic. Vă rugăm să introduceți "
-"un nume."
+"Nu s-a introdus niciun nume pentru volumul logic. Vă rugăm să introduceți un "
+"nume."
 
 #. Type: error
 #. Description
@@ -2082,7 +2080,7 @@ msgid ""
 msgstr ""
 "Vă rugăm să introduceți dimensiunea noului volum logic. Dimensiunea poate fi "
 "introdusă în următoarele formate: 10K (kiloocteți), 10M (megaocteți), 10G "
-"(gigaocteți), 10T (terraocteți). Unitatea de măsură implicită este "
+"(gigaocteți), 10T (teraocteți). Unitatea de măsură implicită este "
 "megaoctetul."
 
 #. Type: error
@@ -2101,7 +2099,7 @@ msgstr ""
 #. :sl3:
 #: ../lvmcfg-utils.templates:33001
 msgid "No volume group has been found for deleting a logical volume."
-msgstr "Nu a fost găsit nici un grup de volume pentru a șterge un volum logic."
+msgstr "Nu a fost găsit niciun grup de volume pentru a șterge un volum logic."
 
 #. Type: select
 #. Description
@@ -2111,7 +2109,7 @@ msgid ""
 "Please select the volume group which contains the logical volume to be "
 "deleted."
 msgstr ""
-"Vă rugăm să selectați Grupul de volume care conține volumul logic care va fi "
+"Vă rugăm să selectați grupul de volume care conține volumul logic care va fi "
 "șters."
 
 #. Type: error
@@ -2119,7 +2117,7 @@ msgstr ""
 #. :sl3:
 #: ../lvmcfg-utils.templates:35001 ../partman-lvm.templates:54001
 msgid "No logical volume found"
-msgstr "Nu s-a găsit un volum logic"
+msgstr "Nu s-a găsit niciun volum logic"
 
 #. Type: error
 #. Description
@@ -2128,7 +2126,7 @@ msgstr "Nu s-a găsit un volum logic"
 msgid ""
 "No logical volume has been found.  Please create a logical volume first."
 msgstr ""
-"Nu a fost găsit nici un volum logic. Vă rugăm, mai întâi, să creați un volum "
+"Nu a fost găsit niciun volum logic. Vă rugăm, mai întâi, să creați un volum "
 "logic."
 
 #. Type: select
@@ -2164,7 +2162,7 @@ msgstr "Volumul logic (${LV}) de pe ${VG} nu a putut fi șters."
 #. :sl3:
 #: ../lvmcfg-utils.templates:38001 ../partman-lvm.templates:58001
 msgid "No usable physical volumes found"
-msgstr "Nu s-a găsit un volum fizic utilizabil"
+msgstr "Nu s-a găsit niciun volum fizic utilizabil"
 
 #. Type: error
 #. Description
@@ -2175,10 +2173,10 @@ msgid ""
 "physical volumes may already be in use. You may also need to load some "
 "required kernel modules or re-partition the hard drives."
 msgstr ""
-"Nu s-a găsit nici un volum fizic (ex.: partiții) pe sistemul dumneavoastră. "
-"S-ar putea ca toate volumele fizice să fie deja utilizate. S-ar putea să "
-"trebuiască să încărcați câteva module de nucleu necesare sau să "
-"repartiționați discurile fixe."
+"Nu au fost găsite volume fizice (adică partiții) în sistemul dumneavoastră. "
+"Este posibil ca toate volumele fizice să fie deja utilizate. De asemenea, "
+"este posibil să fie nevoie să încărcați unele module de nucleu necesare sau "
+"să repartiționați discurile dure."
 
 #. Type: error
 #. Description
@@ -2195,15 +2193,15 @@ msgid ""
 "The current kernel doesn't support the Logical Volume Manager. You may need "
 "to load the lvm-mod module."
 msgstr ""
-"Nucleul curent nu suportă Managerul de volume logice. S-ar putea să "
-"trebuiască să încărcați modulul lvm-mod."
+"Nucleul curent nu oferă suport pentru managerul de volume logice. S-ar putea "
+"să trebuiască să încărcați modulul „lvm-mod”."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:2001
 msgid "Multidisk (MD) not available"
-msgstr "Multidisc (MD) indisponibil"
+msgstr "Multi-disc (MD) indisponibil"
 
 #. Type: error
 #. Description
@@ -2213,8 +2211,8 @@ msgid ""
 "The current kernel doesn't seem to support multidisk devices. This should be "
 "solved by loading the needed modules."
 msgstr ""
-"Nucleul curent nu suportă dispozitive multidisc. Acest lucru ar trebui "
-"rezolvat prin încărcarea modulelor necesare."
+"Nucleul curent nu oferă suport pentru dispozitivele multi-disc. Acest lucru "
+"ar trebui rezolvat prin încărcarea modulelor necesare."
 
 #. Type: select
 #. Choices
@@ -2287,7 +2285,7 @@ msgstr "Finalizează"
 #. :sl3:
 #: ../mdcfg-utils.templates:3002
 msgid "Multidisk configuration actions"
-msgstr "Acțiuni de configurare multidisc"
+msgstr "Acțiuni de configurare multi-disc"
 
 #. Type: select
 #. Description
@@ -2295,7 +2293,7 @@ msgstr "Acțiuni de configurare multidisc"
 #: ../mdcfg-utils.templates:3002
 msgid "This is the Multidisk (MD) and software RAID configuration menu."
 msgstr ""
-"Acesta este meniul de configurare al Multidisc-ului (MD) și al RAID-ului "
+"Acesta este meniul de configurare al multi-discului (MD) și al RAID-ului "
 "software."
 
 #. Type: select
@@ -2306,7 +2304,7 @@ msgid ""
 "Please select one of the proposed actions to configure multidisk devices."
 msgstr ""
 "Vă rugăm să selectați una din acțiunile propuse pentru a configura "
-"dispozitivele multidisc."
+"dispozitivele multi-disc."
 
 #. Type: error
 #. Description
@@ -2324,9 +2322,9 @@ msgid ""
 "Please create such a partition, or delete an already used multidisk device "
 "to free its partitions."
 msgstr ""
-"Nu este disponibilă nici o partiție nefolosită de tipul „Linux RAID "
+"Nu este disponibilă nicio partiție nefolosită de tipul „Linux RAID "
 "Autodetect”. Vă rugăm să creați o astfel de partiție, sau să ștergeți un "
-"dispozitiv multidisc deja folosit pentru a-i elibera partițiile."
+"dispozitiv multi-disc deja folosit pentru a-i elibera partițiile."
 
 #. Type: error
 #. Description
@@ -2337,7 +2335,8 @@ msgid ""
 "therefore not available for use by this configuration utility."
 msgstr ""
 "Dacă aveți asemenea partiții, este posibil să conțină sisteme de fișiere, "
-"deci nu sunt disponibile pentru utilizare în această unealtă de configurare."
+"deci nu sunt disponibile pentru utilizare în această ustensilă de "
+"configurare."
 
 #. Type: error
 #. Description
@@ -2364,21 +2363,21 @@ msgstr ""
 #. :sl3:
 #: ../mdcfg-utils.templates:6002
 msgid "Multidisk device type:"
-msgstr "Tipul dispozitivului multidisc:"
+msgstr "Tipul dispozitivului multi-disc:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:6002
 msgid "Please choose the type of the multidisk device to be created."
-msgstr "Vă rugăm alegeți tipul de dispozitiv multidisc care va fi creat."
+msgstr "Vă rugăm alegeți tipul de dispozitiv multi-disc care va fi creat."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:7001
 msgid "Active devices for the RAID0 multidisk device:"
-msgstr "Dispozitivele active pentru dispozitivul multidisc RAID0:"
+msgstr "Dispozitivele active pentru dispozitivul multi-disc RAID0:"
 
 #. Type: multiselect
 #. Description
@@ -2422,14 +2421,14 @@ msgstr ""
 #: ../mdcfg-utils.templates:8001 ../mdcfg-utils.templates:12001
 #: ../partman-md.templates:9001 ../partman-md.templates:14001
 msgid "NOTE: this setting cannot be changed later."
-msgstr "NOTĂ: această configurație nu poate fi schimbată mai târziu."
+msgstr "NOTĂ: această configurație nu poate fi modificată mai târziu."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:9001
 msgid "Active devices for the RAID${LEVEL} multidisk device:"
-msgstr "Dispozitivele active pentru dispozitivul multidisc RAID${LEVEL}:"
+msgstr "Dispozitivele active pentru dispozitivul multi-disc RAID${LEVEL}:"
 
 #. Type: multiselect
 #. Description
@@ -2455,14 +2454,14 @@ msgstr ""
 #. :sl3:
 #: ../mdcfg-utils.templates:10001 ../partman-md.templates:11001
 msgid "Number of spare devices for the RAID${LEVEL} array:"
-msgstr "Numărul de dispozitive de rezervă pentru matricea RAID${LEVEL}:"
+msgstr "Numărul de dispozitive de rezervă pentru ansamblul RAID${LEVEL}:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:11001
 msgid "Spare devices for the RAID${LEVEL} multidisk device:"
-msgstr "Dispozitive de rezervă pentru dispozitivul multidisc RAID${LEVEL}:"
+msgstr "Dispozitive de rezervă pentru dispozitivul multi-disc RAID${LEVEL}:"
 
 #. Type: multiselect
 #. Description
@@ -2471,7 +2470,7 @@ msgstr "Dispozitive de rezervă pentru dispozitivul multidisc RAID${LEVEL}:"
 msgid ""
 "You have chosen to create a RAID${LEVEL} array with ${COUNT} spare devices."
 msgstr ""
-"Ați ales să creați o matrice RAID${LEVEL} cu ${COUNT} partiții de rezervă."
+"Ați ales să creați un ansamblu RAID${LEVEL} cu ${COUNT} partiții de rezervă."
 
 #. Type: multiselect
 #. Description
@@ -2484,16 +2483,16 @@ msgid ""
 "able to add them later to the array."
 msgstr ""
 "Vă rugăm să alegeți care partiții vor fi folosite ca dispozitive de rezervă. "
-"Puteți alege până la ${COUNT} dispozitive. Dacă alegeți mai puțin de "
-"${COUNT} dispozitive, partițiile rămase vor fi adăugate la matrice ca "
-"„lipsă”. Veți putea să le adăugați mai târziu la matrice."
+"Puteți alege până la ${COUNT} dispozitive. Dacă alegeți mai puțin de ${COUNT}"
+" dispozitive, partițiile rămase vor fi adăugate la ansamblu ca „lipsă”. Veți "
+"putea să le adăugați mai târziu la ansamblu."
 
 #. Type: string
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:12001
 msgid "Layout of the RAID10 multidisk device:"
-msgstr "Aranjamentul dispozitivului multidisc RAID10:"
+msgstr "Aranjamentul dispozitivului multi-disc RAID10:"
 
 #. Type: string
 #. Description
@@ -2504,9 +2503,9 @@ msgid ""
 "number (number of copies of each chunk). The number must be smaller or equal "
 "to the number of active devices."
 msgstr ""
-"Aranjamentul trebuie n, o sau f (aranjament pentru copii) urmat de un număr "
-"(numărul de copii ai fiecărei părți). Numărul trebuie să fie mai mic sau "
-"egal cu numărul de dispozitive active."
+"Aranjamentul trebuie să fie n, o sau f (dispunerea copiilor) urmată de un "
+"număr (numărul de copii ale fiecărei părți). Numărul trebuie să fie mai mic "
+"sau egal cu numărul de dispozitive active."
 
 #. Type: string
 #. Description
@@ -2521,7 +2520,7 @@ msgid ""
 "     stripe, whole stripes are duplicated but are rotated by one\n"
 "     device so duplicate blocks are on different devices."
 msgstr ""
-"Litera reprezintă aranjamentul copiilor:\n"
+"Litera reprezintă dispunerea copiilor:\n"
 " n - copii apropiate: Multiple copii ale unui bloc de date se află\n"
 "     la deplasamente similare în diversele dispozitive.\n"
 " f - copii îndepărtate: Multiple copii au deplasamente foarte\n"
@@ -2536,7 +2535,7 @@ msgstr ""
 #. :sl3:
 #: ../mdcfg-utils.templates:13002
 msgid "Multidisk device to be deleted:"
-msgstr "Dispozitivul multidisc ce va fi șters:"
+msgstr "Dispozitivul multi-disc ce va fi șters:"
 
 #. Type: select
 #. Description
@@ -2546,7 +2545,7 @@ msgid ""
 "Deleting a multidisk device will stop it and clear the superblock of all its "
 "components."
 msgstr ""
-"Ștergerea unui dispozitiv multidisc îl va opri pe acesta și va șterge super-"
+"Ștergerea unui dispozitiv multi-disc îl va opri pe acesta și va șterge super-"
 "blocurile tuturor componentelor sale."
 
 #. Type: select
@@ -2559,8 +2558,8 @@ msgid ""
 "the deletion."
 msgstr ""
 "Această operație nu vă va permite imediat să reutilizați partițiile sau "
-"dispozitivele într-un nou dispozitiv multidisc. Matricea însă va fi "
-"inutilizabilă după ștergere."
+"dispozitivele într-un nou dispozitiv multi-disc. Ansamblul însă va fi "
+"inutilizabil după ștergere."
 
 #. Type: select
 #. Description
@@ -2578,21 +2577,21 @@ msgstr ""
 #. :sl3:
 #: ../mdcfg-utils.templates:14001
 msgid "No multidisk devices available"
-msgstr "Nu există dispozitive multidisc disponibile"
+msgstr "Nu există dispozitive multi-disc disponibile"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:14001
 msgid "No multidisk devices are available for deletion."
-msgstr "Nu există dispozitive multidisc disponibile pentru ștergere."
+msgstr "Nu există dispozitive multi-disc disponibile pentru ștergere."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../mdcfg-utils.templates:15001
 msgid "Really delete this multidisk device?"
-msgstr "Șterg într-adevăr acest dispozitiv multidisc?"
+msgstr "Șterg într-adevăr acest dispozitiv multi-disc?"
 
 #. Type: boolean
 #. Description
@@ -2602,8 +2601,8 @@ msgid ""
 "Please confirm whether you really want to delete the following multidisk "
 "device:"
 msgstr ""
-"Vă rugăm să confirmați dacă doriți într-adevăr să ștergeți următoarele "
-"dispozitive multidisc:"
+"Vă rugăm să confirmați dacă doriți într-adevăr să ștergeți următorul "
+"dispozitiv multi-disc:"
 
 #. Type: boolean
 #. Description
@@ -2623,7 +2622,7 @@ msgstr ""
 #. :sl3:
 #: ../mdcfg-utils.templates:16001
 msgid "Failed to delete the multidisk device"
-msgstr "Eșec la ștergerea dispozitivului multidisc"
+msgstr "Eșec la ștergerea dispozitivului multi-disc"
 
 #. Type: error
 #. Description
@@ -2631,8 +2630,8 @@ msgstr "Eșec la ștergerea dispozitivului multidisc"
 #: ../mdcfg-utils.templates:16001
 msgid "There was an error deleting the multidisk device. It may be in use."
 msgstr ""
-"A apărut o eroare la ștergerea dispozitivului multidisc. Acesta ar putea fi "
-"folosit în momentul de față."
+"A apărut o eroare la ștergerea dispozitivului multi-disc. Acesta ar putea fi "
+"în uz."
 
 #. Type: string
 #. Description
@@ -2657,7 +2656,7 @@ msgstr ""
 #. :sl3:
 #: ../netcfg-common.templates:51001
 msgid "Invalid network link detection waiting time"
-msgstr "Timp de detectare a conexiunii la rețea nevalid"
+msgstr "Timp de așteptare pentru detectarea conexiunii de rețea nevalid"
 
 #. Type: error
 #. Description
@@ -2668,7 +2667,7 @@ msgid ""
 "seconds) for network link detection must be a positive integer."
 msgstr ""
 "Valoarea furnizată nu este validă. Timpul maxim de așteptare (în secunde) "
-"pentru detectare conexiunii la rețea trebui să fie un număr întreg pozitiv."
+"pentru detectarea conexiunii la rețea trebuie să fie un număr întreg pozitiv."
 
 #. Type: error
 #. Description
@@ -2676,7 +2675,7 @@ msgstr ""
 #. :sl3:
 #: ../netcfg-static.templates:7001
 msgid "IPv6 unsupported on point-to-point links"
-msgstr "IPv6 nu este suportat pe conexiuni punct-la-punct"
+msgstr "IPv6 nu este admis pe conexiuni punct-la-punct"
 
 #. Type: error
 #. Description
@@ -2850,7 +2849,8 @@ msgstr ""
 #. :sl3:
 #: ../network-console.templates:8001
 msgid "The fingerprint of this SSH server's host key is: ${fingerprint}"
-msgstr "Amprenta cheii server SSH este: ${fingerprint}"
+msgstr ""
+"Amprenta digitală a cheii de gazdă a acestui server SSH este: ${fingerprint}"
 
 #. Type: note
 #. Description
@@ -2860,15 +2860,15 @@ msgid ""
 "Please check this carefully against the fingerprint reported by your SSH "
 "client."
 msgstr ""
-"Vă rugăm să comparați cu grijă această amprenta cu cea raportată de clientul "
-"dumneavoastră SSH."
+"Vă rugăm să comparați cu grijă această amprentă digitală cu cea raportată de "
+"clientul dumneavoastră SSH."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../network-console.templates:10001
 msgid "Could not fetch SSH authorized keys"
-msgstr "Nu s-au putut aduce chei SSH autorizate"
+msgstr "Nu s-au putut obține cheile autorizate SSH"
 
 #. Type: error
 #. Description
@@ -2877,14 +2877,14 @@ msgstr "Nu s-au putut aduce chei SSH autorizate"
 #: ../network-console.templates:10001
 msgid "An error occurred while fetching SSH authorized keys from ${LOCATION}."
 msgstr ""
-"A apărut o eroare la aducerea cheilor SSH autorizate de la ${LOCATION}."
+"A apărut o eroare la obținerea cheilor autorizate SSH de la ${LOCATION}."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Nu exista încărcător de sistem"
+msgstr "Nu este instalat niciun încărcător de pornire"
 
 #. Type: note
 #. Description
@@ -2894,8 +2894,9 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Nu s-a instalat nici un încărcător de sistem, pentru că așa ați ales sau "
-"pentru că arhitectura dumneavoastră nu suportă încă un încărcător de sistem."
+"Nu a fost instalat niciun încărcător de pornire, fie pentru că ați ales să "
+"nu o faceți, fie pentru că arhitectura dvs. specifică nu acceptă, încă, un "
+"încărcător de pornire."
 
 #. Type: note
 #. Description
@@ -2906,7 +2907,7 @@ msgid ""
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
 "Va trebui să porniți manual cu nucleul ${KERNEL} pe partiția ${BOOT}, iar "
-"${ROOT} trebuie plasat ca argument de nucleu."
+"${ROOT} trebuie pasat ca argument de nucleu."
 
 #. Type: text
 #. Description
@@ -2934,15 +2935,15 @@ msgid ""
 "This happened because the selected recipe does not contain any partition "
 "that can be created on LVM volumes."
 msgstr ""
-"Aceasta s-a întâmplat probabil deoarece rețeta selectată nu conține nici o "
-"partiție care să poată fi creată în volume LVM."
+"Acest lucru s-a întâmplat deoarece rețeta selectată nu conține nicio "
+"partiție care poate fi creată pe volume LVM."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-auto-lvm.templates:5001
 msgid "Continue installation without /boot partition?"
-msgstr "Se continuă instalarea fără o partiție /boot?"
+msgstr "Se continuă instalarea fără o partiție „/boot”?"
 
 #. Type: boolean
 #. Description
@@ -2952,8 +2953,8 @@ msgid ""
 "The recipe you selected does not contain a separate partition for /boot. "
 "This is normally needed to allow you to boot the system when using LVM."
 msgstr ""
-"Rețeta aleasă de dumneavoastră nu conține o partiție separată pentru /boot. "
-"Acest lucru este, în mod normal, necesar pentru a vă permite să porniți "
+"Rețeta aleasă de dumneavoastră nu conține o partiție separată pentru „/boot”"
+". Acest lucru este, în mod normal, necesar pentru a vă permite să porniți "
 "sistemul când se folosește LVM."
 
 #. Type: boolean
@@ -2964,8 +2965,8 @@ msgid ""
 "You can choose to ignore this warning, but that may result in a failure to "
 "reboot the system after the installation is completed."
 msgstr ""
-"Puteți alege să ignorați acest avertisment, dar repornirea sistemului, după "
-"finalizarea instalării, ar putea eșua."
+"Puteți alege să ignorați acest avertisment, dar acest lucru poate duce la "
+"eșecul de a reporni sistemul după finalizarea instalării."
 
 #. Type: error
 #. Description
@@ -2976,9 +2977,9 @@ msgid ""
 "in use. Lowering the priority for configuration questions will allow you to "
 "specify an alternative name."
 msgstr ""
-"Numele de grup de volume utilizat pentru partiționarea automată cu LVM este "
-"deja folosit. Coborârea priorității pentru întrebările de configurarea vă va "
-"permite să precizați un alt nume."
+"Numele grupului de volume utilizat pentru partiționarea automată folosind "
+"LVM este deja utilizat. Reducerea priorității pentru întrebările de "
+"configurare vă va permite să specificați un nume alternativ."
 
 #. Type: error
 #. Description
@@ -3032,15 +3033,15 @@ msgid ""
 "Please check that all devices are properly connected. Alternatively, please "
 "check the automatic partitioning recipe."
 msgstr ""
-"Verificați că toate dispozitivele sunt corect conectate. O altă opțiune ar "
-"fi sa selectați rețeta de partiționare automată."
+"Vă rugăm să verificați dacă toate dispozitivele sunt conectate corect. "
+"Alternativ, vă rugăm să verificați rețeta de partiționare automată."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-auto-lvm.templates:10001
 msgid "No physical volume defined in volume group"
-msgstr "Nici un volum fizic definit în grupul de volume"
+msgstr "Niciun volum fizic definit în grupul de volume"
 
 #. Type: error
 #. Description
@@ -3051,7 +3052,7 @@ msgid ""
 "that does not contain any physical volume."
 msgstr ""
 "Rețeta de partiționare automată conține definiția unui grup de volume care "
-"nu conține nici un volum fizic."
+"nu conține niciun volum fizic."
 
 #. Type: error
 #. Description
@@ -3065,7 +3066,9 @@ msgstr "Verificați rețeta de partiționare automată."
 #. :sl3:
 #: ../partman-auto-lvm.templates:11001
 msgid "Amount of volume group to use for guided partitioning:"
-msgstr "Dimensiunea din grupul de volum folosit pentru partiționarea ghidată:"
+msgstr ""
+"Cantitatea de spațiu a grupului de volume care urmează să fie utilizată "
+"pentru partiționarea ghidată:"
 
 #. Type: string
 #. Description
@@ -3077,11 +3080,12 @@ msgid ""
 "able to grow logical volumes later using the LVM tools, so using a smaller "
 "part of the volume group at installation time may offer more flexibility."
 msgstr ""
-"Puteți folosit întreg grupul de volum pentru partiționarea ghidată, sau doar "
-"o parte din el. În cazul în care folosiți doar o parte, sau dacă ulterior "
-"adăugați mai multe discuri, veți putea să extendeți volumul logic folosind "
-"uneltele LVM. De aceea instalarea folosind o parte mai mică din grupul de "
-"volume oferă o flexibilitate mai mare."
+"Puteți utiliza întregul grup de volume pentru partiționarea ghidată sau o "
+"parte a acestuia. Dacă utilizați doar o parte din acesta sau dacă adăugați "
+"mai multe discuri mai târziu, atunci veți putea crește volumele logice mai "
+"târziu utilizând instrumentele LVM, astfel încât utilizarea unei părți mai "
+"mici a grupului de volume la momentul instalării poate oferi mai multă "
+"flexibilitate."
 
 #. Type: string
 #. Description
@@ -3092,9 +3096,10 @@ msgid ""
 "${PERCENT}); please note that the packages you choose to install may require "
 "more space than this. The maximum available size is ${MAXSIZE}."
 msgstr ""
-"Dimensiunea minimă pentru schema de partiționare aleasă este de ${MINSIZE} "
-"(sau ${PERCENT}); s-ar putea ca pachetele pe care doriți să le instalați să "
-"necesită mai mult. Dimensiunea maximă disponibilă este ${MAXSIZE}."
+"Dimensiunea minimă a rețetei de partiționare selectate este ${MINSIZE} (sau "
+"${PERCENT}); vă rugăm să rețineți că pachetele pe care alegeți să le "
+"instalați pot necesita mai mult spațiu decât acesta. Dimensiunea maximă "
+"disponibilă este ${MAXSIZE}."
 
 #. Type: error
 #. Description
@@ -3126,8 +3131,8 @@ msgid ""
 "You asked for ${SIZE} to be used for guided partitioning, but the available "
 "space is only ${MAXSIZE}."
 msgstr ""
-"Ați cerut să fie folosit ${SIZE} pentru partiționarea ghidată, dar spațiul "
-"disponibil este de doar ${MAXSIZE}."
+"Ați cerut să fie folosit un spațiu de ${SIZE} pentru partiționarea ghidată, "
+"dar spațiul disponibil este de doar ${MAXSIZE}."
 
 #. Type: error
 #. Description
@@ -3144,15 +3149,15 @@ msgid ""
 "You asked for ${SIZE} to be used for guided partitioning, but the selected "
 "partitioning recipe requires at least ${MINSIZE}."
 msgstr ""
-"Ați cerut să fie folosit ${SIZE} pentru partiționarea ghidată, dar "
-"partiționarea aleasă necesită cel puțin ${MINSIZE}."
+"Ați cerut să fie folosit un spațiu de ${SIZE} pentru partiționarea ghidată, "
+"dar rețeta de partiționare selectată necesită cel puțin ${MINSIZE}."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-auto-raid.templates:1001
 msgid "Error while setting up RAID"
-msgstr "Eroare în timpul pregătirii RAID-ului"
+msgstr "Eroare în timpul configurăirii RAID-ului"
 
 #. Type: error
 #. Description
@@ -3161,7 +3166,7 @@ msgstr "Eroare în timpul pregătirii RAID-ului"
 msgid ""
 "An unexpected error occurred while setting up a preseeded RAID configuration."
 msgstr ""
-"A apărut o eroare neașteptată în timpul pregătirii unei configurații RAID "
+"A apărut o eroare neașteptată în timpul aplicării unei configurații RAID "
 "preconfigurate."
 
 #. Type: error
@@ -3180,7 +3185,7 @@ msgid ""
 "configuration. You need at least 3 devices for a RAID5 array."
 msgstr ""
 "Nu există destule partiții RAID specificate pentru configurația "
-"preconfigurată. Aveți nevoie de cel puțin 3 dispozitive pentru o matrice "
+"preconfigurată. Aveți nevoie de cel puțin 3 dispozitive pentru un ansamblu "
 "RAID5."
 
 #. Type: text
@@ -3190,7 +3195,7 @@ msgstr ""
 #: ../partman-base.templates:51001
 #, no-c-format
 msgid "MMC/SD card #%s (%s)"
-msgstr "Card MMC/SD #%s (%s)"
+msgstr "Card MMC/SD nr.%s (%s)"
 
 #. Type: text
 #. Description
@@ -3199,7 +3204,7 @@ msgstr "Card MMC/SD #%s (%s)"
 #: ../partman-base.templates:52001
 #, no-c-format
 msgid "MMC/SD card #%s, partition #%s (%s)"
-msgstr "Card MMC/SD #%s, partiția #%s (%s)"
+msgstr "Card MMC/SD nr.%s, partiția #%s (%s)"
 
 #. Type: text
 #. Description
@@ -3234,7 +3239,7 @@ msgstr "Volum criptat (%s)"
 #: ../partman-base.templates:55001
 #, no-c-format
 msgid "Multipath %s (WWID %s)"
-msgstr "Multicale %s (WWID %s)"
+msgstr "Multipath %s (WWID %s)"
 
 #. Type: text
 #. Description
@@ -3242,7 +3247,7 @@ msgstr "Multicale %s (WWID %s)"
 #: ../partman-base.templates:56001
 #, no-c-format
 msgid "Multipath %s (partition #%s)"
-msgstr "Multicale %s (partiția nr.%s)"
+msgstr "Multipath %s (partiția nr.%s)"
 
 #. Type: text
 #. Description
@@ -3276,7 +3281,7 @@ msgstr "volumul fizic pentru criptare"
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr "cripto"
+msgstr "criptare"
 
 #. Type: text
 #. Description
@@ -3298,6 +3303,8 @@ msgstr "Device-mapper (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Disc auto-criptat asigurat de firmware („Open Power Abstraction Layer”: OPAL "
+"implementat de producător cu LUKS2)"
 
 #. Type: text
 #. Description
@@ -3422,14 +3429,14 @@ msgstr "Tipul de cheie de criptare pentru acestă partiție:"
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Encryption key hash:"
-msgstr "Cheia de căutare pentru criptare:"
+msgstr "Suma de control a cheii de criptare:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Type of encryption key hash for this partition:"
-msgstr "Tipul de cheie de căutare pentru criptare asociat acestei partiții:"
+msgstr "Tipul de sumă de control al cheii de criptare pentru această partiție:"
 
 #. Type: select
 #. Description
@@ -3442,9 +3449,9 @@ msgid ""
 "strength."
 msgstr ""
 "Cheia de criptare este obținută din fraza-parolă prin aplicarea asupra ei a "
-"unei funcții hash unidirecțională. În mod normal, nu este necesară "
-"schimbarea acestei opțiuni față de cea implicită, iar schimbarea ei în mod "
-"greșit poate reduce calitatea criptării."
+"unei funcții hash (de calculare a sumei de control) unidirecționale. În mod "
+"normal, nu este necesară schimbarea acestei opțiuni față de cea implicită, "
+"iar schimbarea ei în mod greșit poate reduce calitatea criptării."
 
 #. Type: text
 #. Description
@@ -3455,7 +3462,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "Autoc-riptare OPAL combinată cu dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3466,6 +3473,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Unele discuri acceptă auto-criptarea. Aceasta este o caracteristică hardware "
+"care, dacă este activată prin această opțiune, va fi utilizată împreună cu "
+"dm-crypt pentru a oferi un nivel dublu de criptare."
 
 #. Type: text
 #. Description
@@ -3489,6 +3499,8 @@ msgstr "Șterge datele de pe acestă partiție"
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
 msgstr ""
+"Restabilirea la valorile din fabrică a întregului disc (TOATE datele vor fi "
+"pierdute)"
 
 #. Type: boolean
 #. Description
@@ -3498,7 +3510,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:26001 ../partman-crypto.templates:30001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr "Sigur se șterg datele de pe ${DEVICE}?"
+msgstr "Doriți într-adevăr să ștergeți datele de pe ${DEVICE}?"
 
 #. Type: boolean
 #. Description
@@ -3641,7 +3653,7 @@ msgid ""
 "are required for partman-crypto to function correctly."
 msgstr ""
 "Această variantă de program de instalare Debian nu include unul sau mai "
-"multe programe care sunt necesare lui partman-crypto pentru a funcționa "
+"multe programe care sunt necesare lui «partman-crypto» pentru a funcționa "
 "corect."
 
 #. Type: error
@@ -3671,7 +3683,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:39001
 msgid "missing"
-msgstr "lipsă"
+msgstr "lipsește"
 
 #. Type: text
 #. Description
@@ -3679,7 +3691,7 @@ msgstr "lipsă"
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:40001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr "Folosită ca volum fizic pentru volumul criptat ${DEV}"
+msgstr "În uz ca volum fizic pentru volumul criptat ${DEV}"
 
 #. Type: error
 #. Description
@@ -3708,16 +3720,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
-"Probabil că vor fi probleme în timpul pornirii când sistemul încearcă să "
-"pregătească partițiile criptate. Probabil veți putea corecta acest lucru mai "
-"târziu, prin instalarea pachetelor necesare."
+"Este posibil să apară probleme la configurarea partițiilor criptate atunci "
+"când sistemul este repornit. Este posibil să corectați această problemă prin "
+"instalarea ulterioară a pachetului (pachetelor) necesar(e)."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:42001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr "Se scriu schimbările pe disc și se configurează volumele criptate?"
+msgstr "Se scriu modificările pe disc și se configurează volumele criptate?"
 
 #. Type: boolean
 #. Description
@@ -3728,7 +3740,7 @@ msgid ""
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
 "Înainte ca volumele criptate să poată fi configurate, schema de partiționare "
-"curentă trebuie scrisă pe disc. Aceste schimbări nu pot fi anulate."
+"curentă trebuie scrisă pe disc. Aceste modificări nu pot fi anulate."
 
 #. Type: boolean
 #. Description
@@ -3744,7 +3756,7 @@ msgid ""
 "disks before continuing."
 msgstr ""
 "După ce volumele criptate vor fi configurate, nu mai sunt permise alte "
-"schimbări pe discurile care conțin volume criptate. Vă rugăm să vă decideți "
+"modificări pe discurile care conțin volume criptate. Vă rugăm să vă decideți "
 "dacă schema de partiționare este cea finală pentru aceste discuri înainte de "
 "a continua."
 
@@ -3830,14 +3842,14 @@ msgstr "Cheie aleatoare"
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Unsafe swap space detected"
-msgstr "S-a detectat spațiu de swap nesigur"
+msgstr "S-a detectat spațiu de interschimb (swap) nesigur"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "An unsafe swap space has been detected."
-msgstr "Un spațiu de swap nesigur a fost detectat."
+msgstr "A fost detectat un spațiu de interschimb (swap) nesigur."
 
 #. Type: error
 #. Description
@@ -3861,9 +3873,9 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
-"Vă rugăm să dezactivați spațiul de swap (prin rularea swapoff) sau să "
-"configurați un spațiu de swap criptat și să rulați din nou programul de "
-"pregătire a volumelor. Acest program se va închide acum."
+"Vă rugăm să dezactivați spațiul de interschimb (prin rularea «swapoff») sau "
+"să configurați un spațiu de interschimb criptat și să rulați din nou "
+"programul de pregătire a volumelor. Acest program se va închide acum."
 
 #. Type: password
 #. Description
@@ -3925,7 +3937,7 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Vă rugăm să reintroduceți aceiași fraza-parolă pentru a verifica faptul că "
+"Vă rugăm să reintroduceți aceiași frază-parolă pentru a verifica faptul că "
 "ați introdus-o corect."
 
 #. Type: error
@@ -3949,7 +3961,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Empty passphrase"
-msgstr "Frază-parolă nulă"
+msgstr "Frază-parolă vidă"
 
 #. Type: error
 #. Description
@@ -3959,8 +3971,8 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
-"Ați introdus o frază-parolă nulă, lucru nepermis. Vă rugăm să alegeți o "
-"frază-parolă nenulă."
+"Ați introdus o frază-parolă vidă, lucru nepermis. Vă rugăm să alegeți o "
+"frază-parolă nevidă."
 
 #. Type: boolean
 #. Description
@@ -3989,7 +4001,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "Parola administratorului OPAL:"
 
 #. Type: password
 #. Description
@@ -3999,6 +4011,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Trebuie să alegeți o parolă de administrator OPAL nouă sau să furnizați "
+"parola existentă pentru ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -4010,37 +4024,35 @@ msgid ""
 "will need to be factory reset to be recovered, losing all data from all "
 "partitions."
 msgstr ""
+"Această parolă va fi utilizată pentru a gestiona întregul dispozitiv - "
+"adăugați partiții OPAL noi, eliminați-le, ștergeți-le. Dacă această parolă "
+"este pierdută, dispozitivul va trebui să fie restabilit la valorile din "
+"fabrică pentru a fi recuperat, pierzând toate datele din toate partițiile."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Reintroduceți parola pentru verificare:"
+msgstr "Reintroduceți parola de administrare OPAL pentru verificare:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same root password again to verify that you have typed "
-#| "it correctly."
 msgid ""
 "Please enter the same password again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Vă rugăm să introduceți din nou aceeași parolă de root pentru a verifica "
-"dacă ați introdus-o corect."
+"Vă rugăm să introduceți din nou aceeași parolă pentru a verifica dacă ați "
+"tastat-o corect."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "PSID OPAL:"
 
 #. Type: password
 #. Description
@@ -4050,71 +4062,59 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Trebuie să furnizați PSID-ul OPAL pentru ${DEVICE}. Acesta se găsește de "
+"obicei pe eticheta unității."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Reintroduceți parola pentru verificare:"
+msgstr "Reintroduceți PSID-ul OPAL pentru verificare:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid ""
-#| "Please enter the same passphrase again to verify that you have typed it "
-#| "correctly."
 msgid ""
 "Please enter the same PSID again to verify that you have typed it correctly."
 msgstr ""
-"Vă rugăm să reintroduceți aceiași fraza-parolă pentru a verifica faptul că "
-"ați introdus-o corect."
+"Vă rugăm să introduceți din nou același PSID pentru a verifica dacă l-ați "
+"tastat corect."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "Password input error"
 msgid "OPAL PSID input error"
-msgstr "Eroare la introducerea parolei"
+msgstr "Eroare la introducerea PSID-ului OPAL"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
-#| msgid "The two passwords you entered were not the same. Please try again."
 msgid "The two OPAL PSIDs you entered were not the same. Please try again."
 msgstr ""
-"Cele două parole introduse de dumneavoastră nu au fost identice. Vă rugăm să "
-"încercați din nou."
+"Cele două PSID-uri OPAL pe care le-ați introdus nu sunt identice. Vă rugăm "
+"să încercați din nou."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "PSID OPAL gol"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:62001
-#, fuzzy
-#| msgid ""
-#| "You entered an empty password, which is not allowed. Please choose a non-"
-#| "empty password."
 msgid ""
 "You entered an empty PSID, which is not allowed. Please provide a non-empty "
 "PSID."
 msgstr ""
-"Ați introdus o parolă vidă, lucru nepermis. Vă rugăm să alegeți o parolă "
-"nevidă."
+"Ați introdus un PSID gol, ceea ce nu este permis. Vă rugăm să furnizați un "
+"PSID nevid."
 
 #. Type: entropy
 #. Description
@@ -4141,29 +4141,25 @@ msgstr "A apărut o eroare în timpul creării fișierului-cheie."
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid "btrfs root file system not supported without separate /boot"
 msgid "Configure encryption without separate /boot?"
-msgstr "Sistemul de fișiere btrfs nu este suportat fără /boot separat"
+msgstr "Configurați criptarea fără o partiție „/boot” separată?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Ați optat să stocați sistemul de fișiere rădăcină pe o partiție criptată. "
-"Această facilitate necesită o partiție /boot distinctă pe care să se "
-"stocheze nucleul și imaginea initrd."
+"Ați selectat ca sistemul de fișiere rădăcină să fie stocat pe o partiție "
+"criptată. Atunci când se utilizează GRUB, de obicei această caracteristică "
+"necesită o partiție „/boot” separată pe care pot fi stocate nucleul și "
+"imaginea „initrd”. Acest lucru nu este necesar atunci când se utilizează "
+"systemd-boot/UKI-uri (Unified Kernel Image), deoarece se utilizează în "
+"schimb ESP."
 
 #. Type: error
 #. Description
@@ -4182,9 +4178,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
-"Ați selectat să stocați sistemul de fișiere /boot pe o partiție criptată. "
-"Acest lucru nu este posibil deoarece încărcătorul de sistem nu ar putea "
-"încărca nucleul și imaginea initrd. Continuarea va duce la o instalare de "
+"Ați selectat să stocați sistemul de fișiere „/boot” pe o partiție criptată. "
+"Acest lucru nu este posibil deoarece încărcătorul de pornire nu ar putea "
+"încărca nucleul și imaginea „initrd”. Continuarea va duce la o instalare de "
 "sistem inutilizabilă."
 
 #. Type: error
@@ -4196,7 +4192,7 @@ msgid ""
 "system."
 msgstr ""
 "Ar trebui să vă întoarceți și să alegeți o partiție necriptată pentru "
-"sistemul de fișiere /boot."
+"sistemul de fișiere „/boot”."
 
 #. Type: boolean
 #. Description
@@ -4213,8 +4209,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
-"Ați ales o cheie de tip aleator pentru ${DEVICE} dar ați cerut programului "
-"de partiționare să creeze un sistem de fișiere acolo."
+"Ați ales o cheie aleatoare pentru ${DEVICE} dar ați cerut programului de "
+"partiționare să creeze un sistem de fișiere acolo."
 
 #. Type: boolean
 #. Description
@@ -4224,9 +4220,9 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
-"Folosirea unui chei de tip aleator înseamnă că datele partiției vor fi "
-"distruse la fiecare repornire. Acest tip ar trebui să fie folosit doar "
-"pentru partiții swap."
+"Folosirea unui chei aleatoare înseamnă că datele partiției vor fi distruse "
+"la fiecare repornire. Acest tip ar trebui să fie folosit doar pentru "
+"partiții „swap”."
 
 #. Type: error
 #. Description
@@ -4241,8 +4237,8 @@ msgstr "Descărcarea componentelor de criptare a eșuat"
 #: ../partman-crypto.templates:69001
 msgid "An error occurred trying to download additional crypto components."
 msgstr ""
-"A apărut o eroare în timpul tentativei de descărcare a componentelor de "
-"criptare suplimentare."
+"A apărut o eroare în încercarea de a descărca componente de criptare "
+"suplimentare."
 
 #. Type: boolean
 #. Description
@@ -4250,8 +4246,8 @@ msgstr ""
 #: ../partman-crypto.templates:70001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
-"Se continuă instalarea componentelor de criptare deși nu este memorie "
-"suficientă?"
+"Se trece la instalarea componentelor criptografice în ciuda memoriei "
+"insuficiente?"
 
 #. Type: boolean
 #. Description
@@ -4309,14 +4305,14 @@ msgstr "Alegeți dispozitivele ce urmează să fie criptate."
 #. :sl3:
 #: ../partman-crypto.templates:73001
 msgid "No devices selected"
-msgstr "Niciun dispozitiv ales"
+msgstr "Niciun dispozitiv nu a fost selectat"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:73001
 msgid "No devices were selected for encryption."
-msgstr "Nu s-a ales niciun dispozitiv pentru criptat."
+msgstr "Nu s-a selectat niciun dispozitiv pentru criptare."
 
 #. Type: text
 #. Description
@@ -4333,7 +4329,7 @@ msgstr "Configurează volumele iSCSI"
 #. :sl3:
 #: ../partman-iscsi.templates:2001
 msgid "Log into iSCSI targets"
-msgstr "Autentificare în destinație iSCSI"
+msgstr "Autentificare în țintele iSCSI"
 
 #. Type: select
 #. Description
@@ -4354,7 +4350,7 @@ msgstr "Acest meniu vă permite să configurați volumele iSCSI."
 #. :sl3:
 #: ../partman-iscsi.templates:3001
 msgid "iSCSI target portal address:"
-msgstr "Adresa portal a targetului iSCSI:"
+msgstr "Adresa portalului țintă iSCSI:"
 
 #. Type: string
 #. Description
@@ -4364,9 +4360,9 @@ msgid ""
 "Enter an IP address to scan for iSCSI targets. To use a port other than the "
 "default of 3260, use \"IP:port\" notation, for example \"1.2.3.4:3261\"."
 msgstr ""
-"Introduceți o adresă IP de scanat pentru targeturi iSCSI. Pentru a folosi un "
-"alt port decât cel implicit 3260 folosiți notația „IP:port”, de exemplu "
-"„1.2.3.4:3261”."
+"Introduceți o adresă IP de scanat pentru ținte iSCSI. Pentru a folosi un alt "
+"port decât cel implicit 3260 folosiți notația „IP:port”, de exemplu „1.2.3."
+"4:3261”."
 
 #. Type: string
 #. Description
@@ -4374,7 +4370,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:4001
 msgid "iSCSI initiator username for ${PORTAL}:"
-msgstr "Numele de utilizator de inițiator iSCSI pentru ${PORTAL}:"
+msgstr "Numele de utilizator al inițiatorului iSCSI pentru ${PORTAL}:"
 
 #. Type: string
 #. Description
@@ -4386,9 +4382,10 @@ msgid ""
 "username and password. If that is the case for this target, enter the "
 "username here. Otherwise, leave this blank."
 msgstr ""
-"Anumite targeturi iSCSI necesită ca inițiatorul (clientul) să se autentifice "
-"folosind un nume de utilizator și o parolă. Dacă este cazul pentru acest "
-"target intruduceți numele de utilizator aici. În caz contrar lăsați gol."
+"Anumite ținte iSCSI necesită ca inițiatorul (clientul) să se autentifice "
+"folosind un nume de utilizator și o parolă. Dacă este cazul pentru această "
+"țintă introduceți numele de utilizator aici. În caz contrar lăsați câmpul "
+"gol."
 
 #. Type: password
 #. Description
@@ -4396,7 +4393,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:5001
 msgid "iSCSI initiator password for ${PORTAL}:"
-msgstr "Parola de inițiator iSCSI pentru ${PORTAL}:"
+msgstr "Parola inițiatorului iSCSI pentru ${PORTAL}:"
 
 #. Type: password
 #. Description
@@ -4406,8 +4403,8 @@ msgstr "Parola de inițiator iSCSI pentru ${PORTAL}:"
 msgid ""
 "Enter the initiator password needed to authenticate to this iSCSI target."
 msgstr ""
-"Introduceți parola de inițiator necesară pentru autentificarea la acest "
-"target iSCSI."
+"Introduceți parola de inițiator necesară pentru autentificarea la această "
+"țintă iSCSI."
 
 #. Type: string
 #. Description
@@ -4415,7 +4412,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:6001
 msgid "iSCSI target username for ${PORTAL}:"
-msgstr "Nume de utilizator target iSCSI pentru ${PORTAL}:"
+msgstr "Numele de utilizator al țintei iSCSI pentru ${PORTAL}:"
 
 #. Type: string
 #. Description
@@ -4428,9 +4425,9 @@ msgid ""
 "the incoming username which the target is expected to supply. Otherwise, "
 "leave this blank."
 msgstr ""
-"În anumite situații targetul iSCSI trebuie să se autentifice față de "
-"inițiator și invers. Dacă este cazul aici introduceți numele de utilizator "
-"pe care targetul trebuie să-l furnizeze. În caz contrar lăsați gol."
+"În anumite situații țintă iSCSI trebuie să se autentifice față de inițiator "
+"și invers. Dacă este cazul aici introduceți numele de utilizator pe care "
+"ținta trebuie să-l furnizeze. În caz contrar lăsați câmpul gol."
 
 #. Type: password
 #. Description
@@ -4438,7 +4435,7 @@ msgstr ""
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:7001
 msgid "iSCSI target password for ${PORTAL}:"
-msgstr "Parola target iSCSI pentru ${PORTAL}:"
+msgstr "Parola țintei iSCSI pentru ${PORTAL}:"
 
 #. Type: password
 #. Description
@@ -4447,7 +4444,7 @@ msgstr "Parola target iSCSI pentru ${PORTAL}:"
 #: ../partman-iscsi.templates:7001
 msgid ""
 "Enter the incoming password which the iSCSI target is expected to supply."
-msgstr "Introduceți parola pe care targetul iSCSI trebuie să o furnizeze."
+msgstr "Introduceți parola pe care ținta iSCSI trebuie să o furnizeze."
 
 #. Type: error
 #. Description
@@ -4462,7 +4459,7 @@ msgstr "Nu sau descoperit targeturi iSCSI"
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:9001
 msgid "No iSCSI targets were discovered on ${PORTAL}."
-msgstr "Nu sau descoperit targeturi iSCSI la ${PORTAL}."
+msgstr "Nu sau descoperit ținte iSCSI la ${PORTAL}."
 
 #. Type: multiselect
 #. Description
@@ -4470,7 +4467,7 @@ msgstr "Nu sau descoperit targeturi iSCSI la ${PORTAL}."
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:11001
 msgid "iSCSI targets on ${PORTAL}:"
-msgstr "Targeturi iSCSI la ${PORTAL}:"
+msgstr "Ținte iSCSI în ${PORTAL}:"
 
 #. Type: multiselect
 #. Description
@@ -4478,7 +4475,7 @@ msgstr "Targeturi iSCSI la ${PORTAL}:"
 #. Translators : do NOT translate the variable name (PORTAL)
 #: ../partman-iscsi.templates:11001
 msgid "Select the iSCSI targets you wish to use."
-msgstr "Vă rugăm să selectați targeturile iSCSI pe care doriți să le folosiți."
+msgstr "Vă rugăm să selectați țintele iSCSI pe care doriți să le folosiți."
 
 #. Type: error
 #. Description
@@ -4493,7 +4490,7 @@ msgstr "Autentificarea iSCSI a eșuat"
 #. Translators : do NOT translate the variable names (PORTAL and TARGET)
 #: ../partman-iscsi.templates:12001
 msgid "Logging into the iSCSI target ${TARGET} on ${PORTAL} failed."
-msgstr "Autentificarea la targetul iSCSI ${TARGET} la ${PORTAL} a eșuat."
+msgstr "Autentificarea la ținta iSCSI ${TARGET} la ${PORTAL} a eșuat."
 
 #. Type: text
 #. Description
@@ -4532,7 +4529,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Physical Volumes:\" ]"
-msgstr "nici unul"
+msgstr "niciunul"
 
 #. Type: text
 #. Description
@@ -4543,7 +4540,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Volume Groups:\" ]"
-msgstr "nici unul"
+msgstr "niciunul"
 
 #. Type: text
 #. Description
@@ -4551,7 +4548,7 @@ msgstr "nici unul"
 #. Translators: use the acronym for "Physical Volume" in your language here
 #: ../partman-lvm.templates:8001
 msgid "PV"
-msgstr "VF"
+msgstr "PV"
 
 #. Type: text
 #. Description
@@ -4559,7 +4556,7 @@ msgstr "VF"
 #. What is "in use" is a partition
 #: ../partman-lvm.templates:9001
 msgid "In use by LVM volume group ${VG}"
-msgstr "Folosită de grupul ${VG} de volume LVM"
+msgstr "Utilizată de grupul de volume LVM ${VG}"
 
 #. Type: text
 #. Description
@@ -4629,7 +4626,7 @@ msgstr "Șterge volume logice"
 #. :sl3:
 #: ../partman-lvm.templates:18001
 msgid "Write the changes to disks and configure LVM?"
-msgstr "Se scriu schimbările pe discuri și configurează LVM?"
+msgstr "Se scriu modificările pe discuri și se configurează LVM?"
 
 #. Type: boolean
 #. Description
@@ -4640,8 +4637,8 @@ msgid ""
 "partitioning scheme has to be written to disk. These changes cannot be "
 "undone."
 msgstr ""
-"Înainte ca Managerul de volume logice (LVM) să poată fi configurat, schema "
-"de partiționare curentă trebuie scrisă pe disc. Aceste schimbări nu pot fi "
+"Înainte ca managerul de volume logice (LVM) să poată fi configurat, schema "
+"de partiționare curentă trebuie scrisă pe disc. Aceste modificări nu pot fi "
 "anulate."
 
 #. Type: boolean
@@ -4654,10 +4651,10 @@ msgid ""
 "the installation. Please decide if you are satisfied with the current "
 "partitioning scheme before continuing."
 msgstr ""
-"După ce Managerul de volume logice este configurat, în timpul instalării, nu "
-"mai sunt permise alte schimbări la schema de partiționare a discurilor care "
-"conțin volume fizice. Vă rugăm să vă decideți dacă schema de partiționare "
-"este cea finală înainte de a continua."
+"După ce managerul de volume logice este configurat, în timpul instalării nu "
+"sunt permise modificări adiționale ale schemei de partiționare a discurilor "
+"care conțin volume fizice. Vă rugăm să decideți dacă sunteți mulțumit de "
+"schema actuală de partiționare înainte de a continua."
 
 #. Type: boolean
 #. Description
@@ -4677,10 +4674,10 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme in these "
 "disks before continuing."
 msgstr ""
-"După ce Managerul de volume logice este configurat, nu mai sunt permise alte "
-"schimbări la partițiile de pe discurile care conțin volume fizice. Vă rugăm "
-"să vă decideți dacă schema de partiționare de pe aceste discuri este cea "
-"finală înainte de a continua."
+"După ce managerul de volume logice este configurat, nu sunt permise "
+"modificări adiționale ale partițiilor din discurile care conțin volume "
+"fizice. Vă rugăm să decideți dacă sunteți mulțumit de schema actuală de "
+"partiționare a acestor discuri înainte de a continua."
 
 #. Type: error
 #. Description
@@ -4694,14 +4691,14 @@ msgstr "Eșec la configurarea LVM"
 #. :sl3:
 #: ../partman-lvm.templates:20001
 msgid "An error occurred while writing the changes to the disks."
-msgstr "A apărut o eroare în timpul scrierii schimbărilor pe discuri."
+msgstr "A apărut o eroare în timpul scrierii modificărilor pe discuri."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:20001
 msgid "Logical Volume Manager configuration has been aborted."
-msgstr "Configurarea Managerului de volume logice a fost abandonată."
+msgstr "Configurarea managerului de volume logice a fost întreruptă."
 
 #. Type: text
 #. Description
@@ -4755,8 +4752,8 @@ msgid ""
 "No physical volumes were selected. The creation of a new volume group has "
 "been aborted."
 msgstr ""
-"Nu s-a selectat nici un volum fizic. Crearea unui nou grup de volume a fost "
-"abandonată."
+"Nu au fost selectate volume fizice. Crearea unui nou grup de volume a fost "
+"întreruptă."
 
 #. Type: error
 #. Description
@@ -4764,7 +4761,7 @@ msgstr ""
 #: ../partman-lvm.templates:29001
 msgid "No name for the volume group has been entered. Please enter a name."
 msgstr ""
-"Nu s-a introdus nici un nume pentru grupul de volume. Vă rugăm să "
+"Nu a fost introdus niciun nume pentru grupul de volume. Vă rugăm să "
 "introduceți un nume."
 
 #. Type: error
@@ -4775,8 +4772,8 @@ msgid ""
 "The selected volume group name is already in use. Please choose a different "
 "name."
 msgstr ""
-"Numele de grup de volume selectat este deja utilizat. Vă rugăm să alegeți un "
-"alt nume."
+"Numele grupului de volume selectat este deja utilizat. Vă rugăm să alegeți "
+"un nume diferit."
 
 #. Type: error
 #. Description
@@ -4811,15 +4808,15 @@ msgid ""
 "No physical volumes were selected. Extension of the volume group has been "
 "aborted."
 msgstr ""
-"Nu s-a selectat nici un volum fizic. Extinderea grupului de volume a fost "
-"abandonată."
+"Nu au fost selectate volume fizice. Extinderea grupului de volume a fost "
+"întreruptă."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:44001
 msgid "Devices to remove from the volume group:"
-msgstr "Dispozitivele de înlăturat din grupul de volume:"
+msgstr "Dispozitivele de eliminat din grupul de volume:"
 
 #. Type: multiselect
 #. Description
@@ -4827,7 +4824,7 @@ msgstr "Dispozitivele de înlăturat din grupul de volume:"
 #: ../partman-lvm.templates:44001
 msgid "Please select the devices you wish to remove from the volume group."
 msgstr ""
-"Vă rugăm să selectați dispozitivele pe care doriți să-l înlăturați din "
+"Vă rugăm să selectați dispozitivele pe care doriți să le eliminați din "
 "grupul de volume."
 
 #. Type: error
@@ -4837,8 +4834,8 @@ msgstr ""
 msgid ""
 "No physical volumes were selected. Reduction of the volume group was aborted."
 msgstr ""
-"Nu s-a selectat nici un volum fizic. Reducerea grupului de volume a fost "
-"abandonată."
+"Nu au fost selectate volume fizice. Reducerea grupului de volume a fost "
+"întreruptă."
 
 #. Type: error
 #. Description
@@ -4846,7 +4843,7 @@ msgstr ""
 #: ../partman-lvm.templates:50001
 msgid "No name for the logical volume has been entered. Please enter a name."
 msgstr ""
-"Nu s-a introdus nici un nume pentru volumul logic. Vă rugăm să introduceți "
+"Nu a fost introdus niciun nume pentru volumul logic. Vă rugăm să introduceți "
 "un nume."
 
 #. Type: string
@@ -4886,7 +4883,7 @@ msgstr "Vă rugăm să selectați volumul logic care va fi șters."
 #. :sl3:
 #: ../partman-lvm.templates:56001
 msgid "in VG ${VG}"
-msgstr "în GV ${VG}"
+msgstr "în VG ${VG}"
 
 #. Type: error
 #. Description
@@ -4956,28 +4953,28 @@ msgid ""
 "volume groups and physical volumes which are about to be removed:"
 msgstr ""
 "Dispozitivul selectat conține deja următoarele volume logice, grupuri de "
-"volume și volume fizice care sunt pe cale de a fi șterse:"
+"volume și volume fizice care sunt pe cale de a fi eliminate:"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:62001
 msgid "Logical volume(s) to be removed: ${LVTARGETS}"
-msgstr "Volumul/volumele de șters: ${LVTARGETS}"
+msgstr "Volumul/volumele de eliminat: ${LVTARGETS}"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:62001
 msgid "Volume group(s) to be removed: ${VGTARGETS}"
-msgstr "Grupul/grupurile de volume de șters: ${VGTARGETS}"
+msgstr "Grupul/grupurile de volume de eliminat: ${VGTARGETS}"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-lvm.templates:62001
 msgid "Physical volume(s) to be removed: ${PVTARGETS}"
-msgstr "Volumul/volumele fizice de șters: ${PVTARGETS}"
+msgstr "Volumul/volumele fizice de eliminat: ${PVTARGETS}"
 
 #. Type: boolean
 #. Description
@@ -4995,7 +4992,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-lvm.templates:63001
 msgid "Unable to automatically remove LVM data"
-msgstr "Nu s-au putut șterge automat datele LVM"
+msgstr "Nu s-au putut elimina automat datele LVM"
 
 #. Type: error
 #. Description
@@ -5009,8 +5006,8 @@ msgid ""
 msgstr ""
 "Deoarece grupul/grupurile de volume de pe dispozitivul selectat cuprinde și "
 "volume fizice aflate pe alte dispozitive, nu se consideră sigur să se "
-"șteargă automat datele LVM ale acestuia. Dacă doriți să folosiți acest "
-"dispozitiv pentru partiționare, ștergeți mai întâi datele LVM."
+"elimine automat datele LVM ale acestuia. Dacă doriți să folosiți acest "
+"dispozitiv pentru partiționare, eliminați mai întâi datele LVM."
 
 #. Type: note
 #. Description
@@ -5073,7 +5070,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-md.templates:1001
 msgid "Software RAID device"
-msgstr "Dispozitiv software RAID"
+msgstr "Dispozitiv RAID software"
 
 #. Type: text
 #. Description
@@ -5105,8 +5102,8 @@ msgid ""
 "The current kernel doesn't seem to support software RAID (MD) devices. This "
 "should be solved by loading the necessary modules."
 msgstr ""
-"Nucleul curent pare că nu suportă dispozitive RAID software (MD). Acest "
-"lucru ar trebui rezolvat prin încărcarea modulelor necesare."
+"Nucleul curent pare că nu oferă suport dispozitivelor RAID software (MD). "
+"Acest lucru ar trebui rezolvat prin încărcarea modulelor necesare."
 
 #. Type: select
 #. Description
@@ -5131,14 +5128,15 @@ msgstr ""
 #: ../partman-md.templates:5002
 msgid "Please select one of the proposed actions to configure software RAID."
 msgstr ""
-"Selectați una din acțiunile propuse pentru configurarea RAID-ului software."
+"Selectați una dintre acțiunile propuse pentru configurarea RAID-ului "
+"software."
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-md.templates:6001
 msgid "Software RAID device type:"
-msgstr "Tipul de dispozitiv software RAID:"
+msgstr "Tipul de dispozitiv RAID software:"
 
 #. Type: select
 #. Description
@@ -5165,7 +5163,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-md.templates:8001
 msgid "Active devices for the RAID0 array:"
-msgstr "Dispozitive active pentru matricea RAID0:"
+msgstr "Dispozitive active pentru ansamblul RAID0:"
 
 #. Type: string
 #. Description
@@ -5177,7 +5175,7 @@ msgid ""
 "one or more of the active devices fail. A minimum of ${MINIMUM} active "
 "devices is required."
 msgstr ""
-"Matricea RAID${LEVEL} va fi compusă atât din dispozitive active cât și din "
+"Ansamblul RAID${LEVEL} va fi compusă atât din dispozitive active cât și din "
 "dispozitive de rezervă. Cele active sunt cele utilizate, în timp ce "
 "dispozitivele de rezervă vor fi folosite doar dacă unul sau mai multe "
 "dispozitive active eșuează. Este necesar un minim de ${MINIMUM} dispozitive "
@@ -5188,14 +5186,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-md.templates:10001
 msgid "Active devices for the RAID${LEVEL} array:"
-msgstr "Dispozitive active pentru matricea RAID${LEVEL}:"
+msgstr "Dispozitive active pentru ansamblul RAID${LEVEL}:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-md.templates:12001
 msgid "Spare devices for the RAID${LEVEL} array:"
-msgstr "Dispozitive de rezervă pentru matricea RAID${LEVEL}:"
+msgstr "Dispozitive de rezervă pentru ansamblul RAID${LEVEL}:"
 
 #. Type: multiselect
 #. Description
@@ -5209,8 +5207,8 @@ msgid ""
 msgstr ""
 "Alegeți care partiții vor fi folosite ca dispozitive de rezervă. Puteți "
 "alege până la ${COUNT} dispozitive. Dacă alegeți mai puțin de ${COUNT} "
-"dispozitive, partițiile rămase vor fi adăugate la matrice ca „lipsă”. Veți "
-"putea să le adăugați mai târziu la matrice."
+"dispozitive, partițiile rămase vor fi adăugate la ansamblu ca „lipsă”. Veți "
+"putea să le adăugați mai târziu la ansamblu."
 
 #. Type: string
 #. Description
@@ -5224,7 +5222,7 @@ msgstr "Aranjamentul dispozitivului RAID10:"
 #. :sl3:
 #: ../partman-md.templates:15001
 msgid "Software RAID device to be deleted:"
-msgstr "Dispozitiv software RAID ce va fi șters:"
+msgstr "Dispozitiv RAID software ce va fi șters:"
 
 #. Type: select
 #. Description
@@ -5234,7 +5232,7 @@ msgid ""
 "Deleting a software RAID device will stop it and clear the superblock of all "
 "its components."
 msgstr ""
-"Ștergerea unui dispozitiv software RAID înseamnă oprirea acestuia și "
+"Ștergerea unui dispozitiv RAID software înseamnă oprirea acestuia și "
 "ștergerea super-blocurilor tuturor componentelor sale."
 
 #. Type: select
@@ -5247,29 +5245,29 @@ msgid ""
 "after the deletion."
 msgstr ""
 "Această operație nu va permite reutilizarea imediată a partițiilor sau a "
-"dispozitivelor într-un nou dispozitiv RAID software. Matricea însă va fi "
-"inutilizabilă după ștergere."
+"dispozitivelor într-un nou dispozitiv RAID software. Ansamblul însă va fi "
+"inutilizabil după ștergere."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-md.templates:16001
 msgid "No software RAID devices available"
-msgstr "Niciun dispozitiv software RAID disponibil"
+msgstr "Niciun dispozitiv RAID software disponibil"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-md.templates:16001
 msgid "No software RAID devices are available for deletion."
-msgstr "Nu există dispozitive software RAID disponibile pentru ștergere."
+msgstr "Nu există dispozitive RAID software disponibile pentru ștergere."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-md.templates:17001
 msgid "Really delete this software RAID device?"
-msgstr "Se șterge într-adevăr acest dispozitiv software RAID?"
+msgstr "Se șterge într-adevăr acest dispozitiv RAID software?"
 
 #. Type: boolean
 #. Description
@@ -5280,14 +5278,14 @@ msgid ""
 "device:"
 msgstr ""
 "Vă rugăm să confirmați dacă doriți într-adevăr să ștergeți următoarele "
-"dispozitive software RAID:"
+"dispozitive RAID software:"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-md.templates:18001
 msgid "Failed to delete the software RAID device"
-msgstr "Eșec la ștergerea dispozitivului software RAID"
+msgstr "Eșec la ștergerea dispozitivului RAID software"
 
 #. Type: error
 #. Description
@@ -5295,7 +5293,7 @@ msgstr "Eșec la ștergerea dispozitivului software RAID"
 #: ../partman-md.templates:18001
 msgid "There was an error deleting the software RAID device. It may be in use."
 msgstr ""
-"A apărut o eroare la ștergerea dispozitivului software RAID. Posibil să fie "
+"A apărut o eroare la ștergerea dispozitivului RAID software. Posibil să fie "
 "în uz."
 
 #. Type: boolean
@@ -5303,7 +5301,8 @@ msgstr ""
 #. :sl3:
 #: ../partman-md.templates:19001
 msgid "Write the changes to the storage devices and configure RAID?"
-msgstr "Se scriu schimbările pe mediile de stocare și se configurează RAID-ul?"
+msgstr ""
+"Se scriu modificările pe dispozitivele de stocare și se configurează RAID-ul?"
 
 #. Type: boolean
 #. Description
@@ -5313,8 +5312,9 @@ msgid ""
 "Before RAID can be configured, the changes have to be written to the storage "
 "devices.  These changes cannot be undone."
 msgstr ""
-"Înainte ca operația de configurare a RAID-ului să aibă loc, schimbările "
-"trebuie scrise pe mediile de stocare. Aceste schimbări nu pot fi anulate."
+"Înainte ca operația de configurare a RAID-ului să aibă loc, modificările "
+"trebuie scrise pe dispozitivele de stocare. Aceste modificări nu pot fi "
+"anulate."
 
 #. Type: boolean
 #. Description
@@ -5328,7 +5328,7 @@ msgid ""
 "disks containing physical volumes are allowed.  Please convince yourself "
 "that you are satisfied with the current partitioning scheme in these disks."
 msgstr ""
-"Când RAID-ul este configurat, nu mai sunt permise schimbări suplimentare pe "
+"Când RAID-ul este configurat, nu mai sunt permise modificări suplimentare pe "
 "partițiile de pe discurile care conțin volume fizice. Vă rugăm să vă "
 "convingeți că sunteți satisfăcut cu modelul de partiționare curent de pe "
 "aceste discuri."
@@ -5353,7 +5353,7 @@ msgstr "Eșec la configurarea RAID"
 #. :sl3:
 #: ../partman-md.templates:21001
 msgid "RAID configuration has been aborted."
-msgstr "Configurarea RAID-ului fost abandonată."
+msgstr "Configurarea RAID-ului fost întreruptă."
 
 #. Type: text
 #. Description
@@ -5374,7 +5374,7 @@ msgstr "raid"
 #. :sl3:
 #: ../partman-md.templates:24001
 msgid "Remove existing software RAID partitions?"
-msgstr "Se șterg partițiile software RAID existente?"
+msgstr "Se elimină partițiile RAID software existente?"
 
 #. Type: boolean
 #. Description
@@ -5384,16 +5384,15 @@ msgid ""
 "The selected device contains partitions used for software RAID devices. The "
 "following devices and partitions are about to be removed:"
 msgstr ""
-"Dispozitivul selectat conține partiții folosite pentru dispozitivele "
-"software RAID. Următoarele dispozitive și partiții sunt pe cale de a fi "
-"șterse:"
+"Dispozitivul selectat conține partiții folosite pentru dispozitivele RAID "
+"software. Următoarele dispozitive și partiții sunt pe cale de a fi eliminate:"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-md.templates:24001
 msgid "Software RAID devices about to be removed: ${REMOVED_DEVICES}"
-msgstr "Dispozitive software RAID pe cale de a fi șterse: ${REMOVED_DEVICES}"
+msgstr "Dispozitive RAID software pe cale de a fi eliminate: ${REMOVED_DEVICES}"
 
 #. Type: boolean
 #. Description
@@ -5411,7 +5410,7 @@ msgid ""
 "software RAID devices."
 msgstr ""
 "A se reține că se vor șterge definitiv orice date existente în prezent pe "
-"dispozitivele software RAID."
+"dispozitivele RAID software."
 
 #. Type: text
 #. Description
@@ -5438,9 +5437,9 @@ msgid ""
 "preconfiguration file (which can in turn pull in other files). To do that, "
 "you need to provide a (perhaps partial) URL."
 msgstr ""
-"Pentru a putea executa o instalare automată trebuie să furnizați un fișier "
-"de preconfigurare (care poate aduce și alte fișiere). Pentru acest lucru "
-"trebuie să indicați un URL (eventual parțial)."
+"Pentru a efectua o instalare automată, trebuie să furnizați un fișier de "
+"preconfigurare (care, la rândul său, poate introduce alte fișiere). Pentru a "
+"face acest lucru, trebuie să furnizați o adresă URL (probabil parțială)."
 
 #. Type: string
 #. Description
@@ -5457,8 +5456,8 @@ msgid ""
 "  file:///hd-media/kiosk/./preseed.cfg"
 msgstr ""
 "Acesta poate fi doar numele sistemului unde se află fișierul de "
-"preconfigurare sau un URL complet. Oricare dintre acestea poate fi făcut să "
-"funcționeze:\n"
+"preconfigurare sau o adresă URL completă. Oricare dintre acestea poate fi "
+"făcut să funcționeze:\n"
 "  intra\t\t[pentru example.com, acestea trei sunt echivalente]\n"
 "  intra.example.com\n"
 "  http://intra.example.com/d-i/./lenny/preseed.cfg\n"
@@ -5474,9 +5473,9 @@ msgid ""
 "For fully automated installs, preseed/url should itself be preseeded (via "
 "kernel command line, DHCP, or syslinux.cfg on customised media)."
 msgstr ""
-"Pentru instalări complet automate, preseed/url ar trebui preconfigurat (prin "
-"intermediul liniei de comandă pentru nucleu, DHCP sau syslinux.cfg pe medii "
-"modificate)."
+"Pentru instalări complet automate, „preseed/url” ar trebui preconfigurat ("
+"prin intermediul liniei de comandă pentru nucleu, DHCP sau syslinux.cfg pe "
+"medii modificate)."
 
 #. Type: string
 #. Description
@@ -5493,7 +5492,7 @@ msgstr ""
 #. :sl3:
 #: ../file-preseed.templates:1001
 msgid "Load debconf preconfiguration file"
-msgstr "Încarcă fișierul de preconfigurare debconf"
+msgstr "Încarcă fișierul de preconfigurare de «debconf»"
 
 #. Type: text
 #. Description
@@ -5513,9 +5512,9 @@ msgid ""
 "be unpartitioned. If you wish, you may investigate this from a shell in the "
 "installer environment."
 msgstr ""
-"Programul de instalare nu a putut găsi nici o partiție, deci nu veți putea "
-"să montați un sistem de fișiere rădăcină. Acest lucru ar putea fi cauzat de "
-"un eșec al nucleului la detecția discului fix, un eșec la citirea tabelei de "
+"Programul de instalare nu a putut găsi nicio partiție, deci nu veți putea să "
+"montați un sistem de fișiere rădăcină. Acest lucru ar putea fi cauzat de un "
+"eșec al nucleului la detecția discului dur, un eșec la citirea tabelei de "
 "partiții sau de faptul că discul ar putea să nu fie partiționat. Dacă "
 "doriți, puteți investiga mai mult dintr-o consolă în mediul programului de "
 "instalare."
@@ -5525,7 +5524,7 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:3001
 msgid "Assemble RAID array"
-msgstr "Asamblează matricea RAID"
+msgstr "Asamblează ansamblul RAID"
 
 #. Type: select
 #. Choices
@@ -5563,7 +5562,7 @@ msgid ""
 "if you need to correct a partitioning problem."
 msgstr ""
 "Dacă alegeți să nu folosiți un sistem de fișiere rădăcină, vi se va oferi un "
-"set restrâns de operațiuni ce pot fi efectuate fără sistemul de fișiere "
+"set restrâns de operații ce pot fi efectuate fără sistemul de fișiere "
 "rădăcină. Acest lucru ar putea fi util dacă trebuie să corectați o problemă "
 "de partiționare."
 
@@ -5572,7 +5571,7 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:4001
 msgid "No such device"
-msgstr "Dispozitiv inexistent"
+msgstr "Nu există un astfel de dispozitiv"
 
 #. Type: error
 #. Description
@@ -5601,14 +5600,14 @@ msgid ""
 "system (${DEVICE}) on /target."
 msgstr ""
 "A apărut o eroare în timpul montării dispozitivului pe care l-ați introdus "
-"ca sistem de fișiere rădăcină (${DEVICE}) pe /target."
+"ca sistem de fișiere rădăcină (${DEVICE}) pe „/target”."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:5001
 msgid "Please check the syslog for more information."
-msgstr "Vă rugăm verificați jurnalul de sistem pentru mai multe informații."
+msgstr "Vă rugăm să verificați jurnalul de sistem pentru mai multe informații."
 
 #. Type: select
 #. Description
@@ -5622,7 +5621,7 @@ msgstr "Operații de recuperare"
 #. :sl3:
 #: ../rescue-mode.templates:7001
 msgid "Rescue operation failed"
-msgstr "Eșec la operația de salvare"
+msgstr "Eșec la operația de recuperare"
 
 #. Type: error
 #. Description
@@ -5630,7 +5629,7 @@ msgstr "Eșec la operația de salvare"
 #: ../rescue-mode.templates:7001
 msgid "The rescue operation '${OPERATION}' failed with exit code ${CODE}."
 msgstr ""
-"Execuția comenzii de salvare '${OPERATION}' a eșuat cu codul de eroare "
+"Execuția comenzii de recuperare „${OPERATION}” a eșuat cu codul de eroare "
 "${CODE}."
 
 #. Type: text
@@ -5638,14 +5637,14 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:8001
 msgid "Execute a shell in ${DEVICE}"
-msgstr "Execută un interpretor de comenzi (shell) în ${DEVICE}"
+msgstr "Execută un shell în ${DEVICE}"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:9001
 msgid "Execute a shell in the installer environment"
-msgstr "Execută un interpretor de comenzi (shell) în mediul de instalare"
+msgstr "Execută un shell în mediul de instalare"
 
 #. Type: text
 #. Description
@@ -5673,7 +5672,7 @@ msgstr "Repornirea sistemului"
 #: ../rescue-mode.templates:12001 ../rescue-mode.templates:16001
 #: ../rescue-mode.templates:17001
 msgid "Executing a shell"
-msgstr "Se execută un interpretor de comenzi (shell)"
+msgstr "Se execută un shell"
 
 #. Type: text
 #. Description
@@ -5684,7 +5683,7 @@ msgid ""
 "\". If you need any other file systems (such as a separate \"/usr\"), you "
 "will have to mount those yourself."
 msgstr ""
-"După acest mesaj, vi se va da o consolă cu ${DEVICE} montat la „/”. Dacă "
+"După acest mesaj, vi se va da un shell cu ${DEVICE} montat la „/”. Dacă "
 "aveți nevoie și de alte sisteme de fișiere (cum ar fi un „/usr” separat), va "
 "trebui să le montați dumneavoastră."
 
@@ -5693,7 +5692,7 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:13001
 msgid "Error running shell in /target"
-msgstr "Eroare la rularea consolei în /target"
+msgstr "Eroare la rularea shell-ului în „/target”"
 
 #. Type: error
 #. Description
@@ -5703,30 +5702,29 @@ msgid ""
 "A shell (${SHELL}) was found on your root file system (${DEVICE}), but an "
 "error occurred while running it."
 msgstr ""
-"O consolă (${SHELL}) a fost găsită pe sistemul dumneavoastră de fișiere "
-"rădăcină (${DEVICE}), dar a apărut o eroare în timpul rulării ei."
+"Un shell (${SHELL}) a fost găsit în sistemul dumneavoastră de fișiere "
+"rădăcină (${DEVICE}), dar a apărut o eroare în timpul rulării acestuia."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:14001
 msgid "No shell found in /target"
-msgstr "Nu a fost găsit nici o consolă în /target"
+msgstr "Nu a fost găsit niciun shell în „/target”"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:14001
 msgid "No usable shell was found on your root file system (${DEVICE})."
-msgstr ""
-"Nu s-a găsit nici o consolă în sistemul de fișiere rădăcină (${DEVICE})."
+msgstr "Nu s-a găsit niciun shell în sistemul de fișiere rădăcină (${DEVICE})."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../rescue-mode.templates:15001
 msgid "Interactive shell on ${DEVICE}"
-msgstr "Consolă interactivă pe ${DEVICE}"
+msgstr "Shell interactiv pe ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -5739,10 +5737,10 @@ msgid ""
 "\"chroot /target\". If you need any other file systems (such as a separate "
 "\"/usr\"), you will have to mount those yourself."
 msgstr ""
-"După acest mesaj, vi se va da o consolă cu ${DEVICE} montat la „/target”. "
-"Veți putea lucra folosind uneltele disponibile în mediul de instalare. Dacă "
-"doriți să folosiți temporar sistemul de fișiere ca sistem de fișiere "
-"rădăcină, rulați „chroot /target”. Dacă aveți nevoie și de alte sisteme de "
+"După acest mesaj, vi se va da un shell cu ${DEVICE} montat la „/target”. "
+"Veți putea lucra folosind instrumentele disponibile în mediul de instalare. "
+"Dacă doriți să folosiți temporar sistemul de fișiere ca sistem de fișiere "
+"rădăcină, rulați «chroot /target». Dacă aveți nevoie și de alte sisteme de "
 "fișiere (cum ar fi un „/usr” separat), va trebui să le montați dumneavoastră."
 
 #. Type: text
@@ -5753,7 +5751,7 @@ msgid ""
 "After this message, you will be given a shell in the installer environment. "
 "No file systems have been mounted."
 msgstr ""
-"După acest mesaj, vi se va da o consolă în mediul de instalare. Nu a fost "
+"După acest mesaj, vi se va da un shell în mediul de instalare. Nu a fost "
 "montat nici un sistem de fișiere."
 
 #. Type: text
@@ -5761,7 +5759,7 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:18001
 msgid "Interactive shell in the installer environment"
-msgstr "Consolă interactivă în mediul de instalare"
+msgstr "Shell interactiv în mediul de instalare"
 
 #. Type: password
 #. Description
@@ -5785,8 +5783,8 @@ msgid ""
 "If you don't enter anything, the volume will not be available during rescue "
 "operations."
 msgstr ""
-"Dacă nu introduceți nimic, volumul nu va fi disponibil în timpul "
-"operațiunilor de recuperare."
+"Dacă nu introduceți nimic, volumul nu va fi disponibil în timpul operațiilor "
+"de recuperare."
 
 #. Type: multiselect
 #. Choices
@@ -5811,9 +5809,9 @@ msgid ""
 "\"Automatic\", then all devices containing RAID physical volumes will be "
 "scanned and assembled."
 msgstr ""
-"Alegeți partițiile de asamblat într-o matrice RAID. Dacă alegeți „Automat”, "
-"atunci toate dispozitivele care conțin volume fizice RAID vor fi scanate și "
-"asamblate."
+"Alegeți partițiile de asamblat într-un ansamblu RAID. Dacă alegeți „Automat”"
+", atunci toate dispozitivele care conțin volume fizice RAID vor fi scanate "
+"și asamblate."
 
 #. Type: multiselect
 #. Description
@@ -5825,7 +5823,7 @@ msgid ""
 "case, you should select the appropriate partitions individually."
 msgstr ""
 "Țineți cont că o partiție RAID la sfârșitul discului poate determina "
-"detectarea greșită a acelui disc ca și conținând un volum RAID fizic. În "
+"detectarea greșită a acelui disc ca având/conținând un volum RAID fizic. În "
 "acest caz ar trebui să selectați partițiile individual."
 
 #. Type: boolean
@@ -5833,7 +5831,7 @@ msgstr ""
 #. :sl3:
 #: ../rescue-mode.templates:21001
 msgid "Mount separate ${FILESYSTEM} partition?"
-msgstr "Să se monteze partiția ${FILESYSTEM} separată?"
+msgstr "Doriți să se monteze partiția ${FILESYSTEM} separată?"
 
 #. Type: boolean
 #. Description
@@ -5851,8 +5849,8 @@ msgid ""
 "reinstalling the boot loader. However, if the file system on ${FILESYSTEM} "
 "is corrupt then you may want to avoid mounting it."
 msgstr ""
-"În mod normal este o idee bună să îl montați, deoarece va permite operațiuni "
-"cum ar fi reinstalarea încărcătorului de sistem. Totuși, dacă sistemul de "
+"În mod normal este o idee bună să îl montați, deoarece va permite operații "
+"cum ar fi reinstalarea încărcătorului de pornire. Totuși, dacă sistemul de "
 "fișiere de pe ${FILESYSTEM} este corupt atunci poate doriți să evitați "
 "montarea acestuia."
 
@@ -5862,10 +5860,8 @@ msgstr ""
 #. Translators: keep below 55 columns
 #. :sl3:
 #: ../systemd-boot-installer.templates:1001
-#, fuzzy
-#| msgid "Installing the aboot boot loader"
 msgid "Install the systemd-boot boot loader"
-msgstr "Se instalează încărcătorul de sistem aboot"
+msgstr "Instalează încărcătorul de pornire systemd-boot"
 
 #. Type: select
 #. Description
@@ -5873,6 +5869,8 @@ msgstr "Se instalează încărcătorul de sistem aboot"
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
 msgstr ""
+"Numărul de încercări pentru fiecare intrare de pornire (0 pentru a "
+"dezactiva):"
 
 #. Type: select
 #. Description
@@ -5884,6 +5882,10 @@ msgid ""
 "number of retries when first added. For more details, see: https://systemd."
 "io/AUTOMATIC_BOOT_ASSESSMENT/"
 msgstr ""
+"Configurează logica de evaluare automată a pornirii, care revine automat la "
+"o intrare de pornire anterioară dacă una nouă eșuează mai mult decât numărul "
+"configurat de încercări la prima adăugare. Pentru mai multe detalii, "
+"consultați: https://systemd.io/AUTOMATIC_BOOT_ASSESSMENT/"
 
 #. Type: select
 #. Description
@@ -5895,7 +5897,7 @@ msgid ""
 "(the country where you live or are located)."
 msgstr ""
 "Dacă fusul orar dorit nu este prezent în listă, atunci întoarceți-vă la "
-"pasul „Alegeți limba / Choose language” și apoi selectați o țară care "
+"pasul «Alegeți limba / Choose language» și apoi selectați o țară care "
 "folosește fusul orar dorit (țara în care locuiți sau în care vă aflați)."
 
 #. Type: text
@@ -5903,7 +5905,7 @@ msgstr ""
 #. :sl3:
 #: ../common.templates.in:2001
 msgid "Coordinated Universal Time (UTC)"
-msgstr "Timpul universal coordonat (UTC)"
+msgstr "Timpul universal coordonat („Coordinated Universal Time”: UTC)"
 
 #. Type: text
 #. Description
@@ -5931,7 +5933,7 @@ msgstr "Selectați un oraș de pe fusul dumneavoastră orar:"
 #. :sl3:
 #: ../common.templates.in:6001
 msgid "Select the state or province to set your time zone:"
-msgstr "Selectați un stat sau o provincie pentru fusul orar:"
+msgstr "Selectați statul sau provincia pentru a vă configura fusul orar:"
 
 #. Type: select
 #. Choices
@@ -6064,7 +6066,7 @@ msgstr "Autostrada Eyre"
 #. :sl3:
 #: ../common.templates.in:9001
 msgid "Yancowinna County"
-msgstr "Yancowinna "
+msgstr "Comitatul Yancowinna"
 
 #. Type: select
 #. Choices
@@ -6274,7 +6276,7 @@ msgstr "Tocantins"
 #. :sl3:
 #: ../common.templates.in:11001
 msgid "Newfoundland"
-msgstr "Newfoundland"
+msgstr "Terra Nova și Labrador"
 
 #. Type: select
 #. Choices
@@ -6637,7 +6639,7 @@ msgstr "Insulele Madeira"
 #. :sl3:
 #: ../common.templates.in:25001
 msgid "Azores"
-msgstr "Azore"
+msgstr "Insulele Azore"
 
 #. Type: select
 #. Choices
@@ -6721,7 +6723,7 @@ msgstr "Moscova+09 - Kamchatka"
 #. :sl3:
 #: ../common.templates.in:27001
 msgid "Johnston Atoll"
-msgstr "Johnston Atoll"
+msgstr "Atolul Johnston"
 
 #. Type: select
 #. Choices

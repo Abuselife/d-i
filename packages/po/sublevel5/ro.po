@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-11 20:02+0000\n"
-"PO-Revision-Date: 2023-06-12 10:00+0000\n"
-"Last-Translator: NicolaeFericitu <cni@disroot.org>\n"
+"PO-Revision-Date: 2024-12-02 09:32+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -30,14 +30,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
 msgid "Use non-free firmware?"
-msgstr "Utilizați un firmware care nu este liber?"
+msgstr "Utilizați firmware care nu este liber?"
 
 #. Type: boolean
 #. Description
@@ -48,6 +48,9 @@ msgid ""
 "hardware components (such as Wi-Fi cards or audio chipsets), which may not "
 "function fully or at all without it."
 msgstr ""
+"Firmware-ul este un tip de software care asigură controlul la nivel scăzut "
+"al anumitor componente electronice (cum ar fi plăcile Wi-Fi sau cipurile "
+"audio), care pot să nu funcționeze complet sau deloc fără el."
 
 #. Type: boolean
 #. Description
@@ -59,6 +62,10 @@ msgid ""
 "freedoms to use, modify, or share the software, and generally does not have "
 "source forms that you may study."
 msgstr ""
+"Deși nu fac deloc parte din Debian, unele firmware-uri non-libere au fost "
+"făcute să funcționeze cu Debian. Acest firmware are diferite licențe care vă "
+"restricționează libertatea de a utiliza, modifica sau partaja software-ul "
+"și, în general, nu are formate sursă pe care le puteți studia."
 
 #. Type: text
 #. Description
@@ -66,7 +73,7 @@ msgstr ""
 #: ../partman-base.templates:58001
 #, no-c-format
 msgid "ZFS pool %s, volume %s"
-msgstr "Pool ZFS %s, volumul %s"
+msgstr "Grupul de volume ZFS %s, volumul %s"
 
 #. Type: text
 #. Description
@@ -95,7 +102,8 @@ msgid ""
 msgstr ""
 "Partiția dumneavoastră de pornire nu a fost configurată cu sistemul de "
 "fișiere ext2. Acest lucru este necesar sistemului dumneavoastră pentru a "
-"putea porni. Vă rugăm folosiți sistemul de fișiere ext2."
+"putea porni.. Vă rugăm să reveniți la pasul anterior și să utilizați "
+"sistemul de fișiere ext2."
 
 #. Type: boolean
 #. Description
@@ -108,8 +116,8 @@ msgid ""
 msgstr ""
 "Partiția dumneavoastră de pornire nu se află pe prima partiție a discului "
 "fix. Acest lucru este necesar pentru ca sistemul dumneavoastră să pornească. "
-"Vă rugăm să vă întoarceți și să utilizați prima partiție ca partiție de "
-"pornire."
+"Vă rugăm să reveniți la pasul anterior și să utilizați prima partiție ca "
+"partiție de pornire."
 
 #. Type: text
 #. Description
@@ -157,7 +165,8 @@ msgstr "qeth: OSA-Express în mod QDIO / HiperSockets"
 #. :sl5:
 #: ../s390-netdevice.templates:1001
 msgid "iucv: Inter-User Communication Vehicle - available for VM guests only"
-msgstr "iucv: Vehicul de comunicare inter-utilizator - pentru oaspeții VM"
+msgstr ""
+"iucv: Vehicul de comunicare între utiliz. - disp. doar pentru oaspeții MV"
 
 #. Type: select
 #. Choices
@@ -174,7 +183,7 @@ msgstr "virtio: KVM VirtIO"
 #. :sl5:
 #: ../s390-netdevice.templates:1002
 msgid "Network device type:"
-msgstr "Tipul plăcii de rețea:"
+msgstr "Tipul dispozitivului de rețea:"
 
 #. Type: select
 #. Description
@@ -187,7 +196,7 @@ msgid ""
 msgstr ""
 "Vă rugăm alegeți tipul interfeței de rețea principale de care veți avea "
 "nevoie pentru a instala sistemul Debian (via NFS sau HTTP). Numai "
-"dispozitivele afișate sunt suportate."
+"dispozitivele afișate sunt acceptate."
 
 #. Type: select
 #. Description
@@ -310,7 +319,7 @@ msgid ""
 "VM please make sure that your card is attached to this guest."
 msgstr ""
 "Nu s-a detectat nici o placă OSA-Express QDIO / HiperSockets. Dacă rulați pe "
-"VM vă rugăm să vă asigurați că aveți placa atașată la acest oaspete (guest)."
+"MV vă rugăm să vă asigurați că aveți placa atașată la acest oaspete."
 
 #. Type: string
 #. Description
@@ -331,7 +340,7 @@ msgstr "Vă rugăm să introduceți un port relativ pentru această conexiune."
 #. :sl5:
 #: ../s390-netdevice.templates:11001
 msgid "Use this device in layer2 mode?"
-msgstr "Acest dispozitiv se folosește în modul „stratul 2”?"
+msgstr "Acest dispozitiv se folosește în modul „layer2”?"
 
 #. Type: boolean
 #. Description
@@ -342,10 +351,9 @@ msgid ""
 "removed from incoming IPv4 packets. Using the card in layer2 mode will make "
 "it keep the MAC addresses of IPv4 packets."
 msgstr ""
-"Implicit, plăcile OSA-Express folosesc modul „stratul 3”. În acel mod "
-"antetele LLC sunt șterse din pachetele IPv4 primite. Dacă se folosește placa "
-"în modul „stratul 2” atunci aceasta va păstra adresele MAC în pachetele IPv4 "
-"primite."
+"Implicit, plăcile OSA-Express folosesc modul „layer3”. În acel mod antetele "
+"LLC sunt șterse din pachetele IPv4 primite. Dacă se folosește placa în modul "
+"„layer2” atunci aceasta va păstra adresele MAC în pachetele IPv4 primite."
 
 #. Type: boolean
 #. Description
@@ -363,7 +371,7 @@ msgstr ""
 #. :sl5:
 #: ../s390-netdevice.templates:13001
 msgid "VM peer:"
-msgstr "Perechea VM:"
+msgstr "Perechea MV:"
 
 #. Type: string
 #. Description
@@ -371,7 +379,7 @@ msgstr "Perechea VM:"
 #: ../s390-netdevice.templates:13001
 msgid "Please enter the name of the VM peer you want to connect to."
 msgstr ""
-"Vă rugăm să introduceți numele perechii VM la care doriți să vă conectați."
+"Vă rugăm să introduceți numele perechii MV la care doriți să vă conectați."
 
 #. Type: string
 #. Description
@@ -381,7 +389,7 @@ msgid ""
 "If you want to connect to multiple peers, separate the names by colons, e."
 "g.  tcpip:linux1."
 msgstr ""
-"Dacă doriți să vă conectați la mai multe perechi, separați-le numele cu doua "
+"Dacă doriți să vă conectați la mai multe perechi, separați-le numele cu două "
 "puncte, ex.: tcpip:linux1."
 
 #. Type: string
@@ -394,7 +402,7 @@ msgid ""
 "must be set up on both ends of the communication."
 msgstr ""
 "Numele standard pentru server TCP/IP pe VM este TCPIP; pe VIF este $TCPIP. "
-"Notă: IUCV trebuie să fie activat în directorul VM al utilizatorului, pentru "
+"Notă: IUCV trebuie să fie activat în directorul MV al utilizatorului, pentru "
 "ca acest modul de nucleu să funcționeze și acesta trebuie să fie pregătit la "
 "ambele capete ale căii de comunicare."
 
@@ -423,14 +431,15 @@ msgid ""
 "select each device you want to use one at a time."
 msgstr ""
 "Sunt disponibile următoarele dispozitive de stocare cu acces direct (DASD). "
-"Vă rugăm să alegeți pe rând fiecare dispozitiv pe care doriți să-l folosiți."
+"Vă rugăm să selectați pe rând fiecare dispozitiv pe care doriți să-l "
+"folosiți."
 
 #. Type: select
 #. Description
 #. :sl5:
 #: ../s390-dasd.templates:1002
 msgid "Select \"Finish\" at the bottom of the list when you are done."
-msgstr "Selectați „Finalizează” din josul listei atunci când terminați."
+msgstr "Selectați «Finalizează» din josul listei atunci când terminați."
 
 #. Type: string
 #. Description
@@ -455,14 +464,14 @@ msgstr ""
 #. :sl5:
 #: ../s390-dasd.templates:3001
 msgid "Invalid device"
-msgstr "Dispozitiv invalid"
+msgstr "Dispozitiv nevalid"
 
 #. Type: error
 #. Description
 #. :sl5:
 #: ../s390-dasd.templates:3001
 msgid "An invalid device number has been chosen."
-msgstr "S-a ales un număr de dispozitiv invalid."
+msgstr "S-a ales un număr de dispozitiv nevalid."
 
 #. Type: boolean
 #. Description
@@ -545,4 +554,4 @@ msgstr "Configurează dispozitivele DASD"
 #. :sl5:
 #: ../zipl-installer.templates:1001
 msgid "Install the ZIPL boot loader on a hard disk"
-msgstr "Instalează încărcătorul de sistem ZIPL pe un disc fix"
+msgstr "Instalează încărcătorul de pornire ZIPL pe un disc fix"

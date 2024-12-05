@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel2_ro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-26 20:02+0000\n"
-"PO-Revision-Date: 2022-10-10 18:00+0000\n"
-"Last-Translator: Florin Voicu <florin.bkk@gmail.com>\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: multiselect
 #. Description
@@ -44,7 +44,7 @@ msgstr ""
 #. :sl2:
 #: ../anna.templates:1001 ../anna.templates:2001
 msgid "Installer components to load:"
-msgstr "Componentele programului de instalare care se încarcă:"
+msgstr "Componente ale programului de instalare de încărcat:"
 
 #. Type: multiselect
 #. Description
@@ -86,12 +86,12 @@ msgid ""
 "kernel modules, so look through the list carefully and select the components "
 "you need."
 msgstr ""
-"Pentru a economisi memorie, doar componentele strict necesare pentru "
-"instalare sunt selectate implicit. Celelalte componentele ale programului de "
-"instalare nu sunt necesare pentru o instalare de bază, dar este posibil să "
-"aveți nevoie de unele dintre ele, în special de anumite module de nucleu, "
-"deci verificați lista cu grijă și selectați componentele de care aveți "
-"nevoie."
+"Pentru a economisi memorie, sunt selectate implicit numai componentele care "
+"sunt absolut necesare pentru o instalare. Celelalte componente ale "
+"instalatorului nu sunt toate necesare pentru o instalare de bază, dar este "
+"posibil să aveți nevoie de unele dintre ele, în special de anumite module de "
+"nucleu, așa că parcurgeți lista cu atenție și selectați componentele de care "
+"aveți nevoie."
 
 #. Type: error
 #. Description
@@ -136,7 +136,7 @@ msgid ""
 "that's the case - try a different mirror, preferably deb.debian.org."
 msgstr ""
 "Asigurați-vă că imaginea de instalare este actualizată, sau, dacă este "
-"cazul, încercați un alt site oglindă, de preferință deb.debian.org."
+"cazul, încercați o altă oglindă Debian, de preferință deb.debian.org."
 
 #. Type: boolean
 #. Description
@@ -145,35 +145,35 @@ msgstr ""
 msgid ""
 "The installation will probably fail to work if you continue without kernel "
 "modules."
-msgstr "Instalarea probabil că va eșua dacă continuați fără module."
+msgstr "Instalarea probabil că va eșua dacă continuați fără modulele de nucleu."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Se examinează arhivele locale..."
+msgstr "Se examinează depozitele locale..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "Se examinează arhiva cu actualizările de securitate..."
+msgstr "Se examinează depozitul cu actualizările de securitate..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Se examinează arhiva cu actualizări a distribuției..."
+msgstr "Se examinează depozitul cu actualizări a distribuției..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Se examinează arhiva cu pachete mai noi portate..."
+msgstr "Se examinează depozitul cu pachete migrate din ramura de dezvoltare..."
 
 #. #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
 #. Type: select
@@ -211,15 +211,15 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Programul de instalare a eșuat să descarce cheia publică pentru semnat "
-"depozitul legal la ${MIRROR}:"
+"Programul de instalare nu a reușit să descarce cheia publică utilizată "
+"pentru semnarea depozitului local în ${MIRROR}:"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:10001
 msgid "Cannot access repository"
-msgstr "Nu se poate accesa arhiva"
+msgstr "Nu se poate accesa depozitul"
 
 #. Type: error
 #. Description
@@ -229,7 +229,7 @@ msgid ""
 "The repository on ${HOST} couldn't be accessed, so its updates will not be "
 "made available to you at this time. You should investigate this later."
 msgstr ""
-"Arhiva de la ${HOST} nu au putut fi accesată, astfel că actualizările "
+"Depozitul de la ${HOST} nu au putut fi accesat, astfel că actualizările "
 "respective nu vor fi disponibile în acest moment. Ar trebui să investigați "
 "acestă problemă mai târziu."
 
@@ -241,8 +241,9 @@ msgid ""
 "Commented out entries for ${HOST} have been added to the /etc/apt/sources."
 "list file."
 msgstr ""
-"Au fost adăugate linii comentate pentru ${HOST} în fișierul /etc/apt/sources."
-"list."
+"Au fost adăugate linii marcate cu simbolul de comentariu „#” pentru ${HOST} "
+"în fișierul „/etc/apt/sources.list” -- pentru a-l activa, eliminați simbolul "
+"„#”."
 
 #. Type: error
 #. Description
@@ -265,7 +266,7 @@ msgstr "Problemă la configurarea apt"
 #. :sl2:
 #: ../apt-mirror-setup.templates:5001 ../net-retriever.templates:1001
 msgid "Change mirror"
-msgstr "Schimbă situl alternativ"
+msgstr "Schimbă oglinda de arhivă"
 
 #. Type: select
 #. Description
@@ -284,24 +285,24 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Programul de instalare a eșuat la accesarea sitului alternativ. Aceasta ar "
-"putea fi o problemă cu rețeaua sau cu situl alternativ. Puteți alege să "
-"reîncercați descărcarea, să selectați un alt sit alternativ, sau să ignorați "
-"problema și să continuați fără toate pachetele de pe acest sit."
+"Programul de instalare a eșuat la accesarea oglinzii. Aceasta ar putea fi o "
+"problemă cu rețeaua sau cu oglinda. Puteți alege să reîncercați descărcarea, "
+"să selectați o altă oglindă, sau să ignorați problema și să continuați fără "
+"toate pachetele din această oglindă."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "Continue without a network mirror?"
-msgstr "Se continuă fără un sit alternativ?"
+msgstr "Se continuă fără o oglindă de arhivă din rețea?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "No network mirror was selected."
-msgstr "Niciun sit alternativ selectat."
+msgstr "Nicio oglindă de arhivă din rețea nu este selectată."
 
 #. Type: boolean
 #. Description
@@ -309,7 +310,7 @@ msgstr "Niciun sit alternativ selectat."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Se folosesc programe din componenta „restricted”?"
+msgstr "Se utilizează software restricționat (din componenta „restricted”)?"
 
 #. Type: boolean
 #. Description
@@ -322,11 +323,11 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"Unele programe non-libere sunt disponibile sub formă de pachete. Deși aceste "
-"programe nu sunt parte din distribuția principală, uneltele standard de "
-"management al pachetelor pot fi folosite pentru a le instala. Aceste "
-"programe au diverse licențe care ar putea să vă împiedice a le utiliza, a le "
-"modifica sau a le împărți cu alții."
+"Unele piese software non-libere sunt disponibile sub formă de pachete. Deși "
+"aceste piese software nu sunt parte din distribuția principală, "
+"instrumentele standard de gestionare a pachetelor pot fi folosite pentru a "
+"le instala. Aceste programe au diverse licențe care ar putea să vă împiedice "
+"a le utiliza, a le modifica sau a le partajai cu alții."
 
 #. Type: boolean
 #. Description
@@ -334,7 +335,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Se folosesc programe din componenta „universe”?"
+msgstr "Se utilizează software din componenta „universe”?"
 
 #. Type: boolean
 #. Description
@@ -346,10 +347,10 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Unele programe adiționale sunt disponibile sub formă de pachete. Aceste "
-"programe sunt libere și, deși nu sunt parte din distribuția principală, "
-"uneltele standard de management al pachetelor pot fi folosite pentru a le "
-"instala."
+"Unele piese software adiționale sunt disponibile sub formă de pachete. "
+"Aceste piese software sunt libere și, deși nu sunt parte din distribuția "
+"principală, instrumentele standard de gestionare a pachetelor pot fi "
+"folosite pentru a le instala."
 
 #. Type: boolean
 #. Description
@@ -357,7 +358,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Se folosesc programe din componenta „multiverse”?"
+msgstr "Se utilizează software din componenta „multiverse”?"
 
 #. Type: boolean
 #. Description
@@ -371,12 +372,12 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"Unele programe non-libere sunt disponibile sub formă de pachete. Deși aceste "
-"programe nu sunt parte din distribuția principală, uneltele standard de "
-"management al pachetelor pot fi folosite pentru a le instala. Aceste "
-"programe au diverse licențe și (în unele cazuri) sunt acoperite de patente "
-"care ar putea să vă împiedice a le utiliza, modifica sau a le împărți cu "
-"alții."
+"Unele piese software non-libere sunt disponibile sub formă de pachete. Deși "
+"aceste piese software nu sunt parte din distribuția principală, "
+"instrumentele standard de gestionare a pachetelor pot fi folosite pentru a "
+"le instala. Aceste piese software au diverse licențe și (în unele cazuri) "
+"sunt protejate de patente care ar putea să vă împiedice a le utiliza, "
+"modifica sau a le partaja cu alții."
 
 #. Type: boolean
 #. Description
@@ -384,7 +385,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "Se folosește software din componenta „partner”?"
+msgstr "Se utilizează software din componenta „partner”?"
 
 #. Type: boolean
 #. Description
@@ -396,9 +397,10 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"Sunt disponibile pachete de aplicații din componenta „partner” de la "
-"Canonical. Aceste aplicații nu fac parte din Ubuntu, dar sunt oferite de "
-"Canonical și de respectivii producători ca un serviciu pentru utilizatori."
+"Unele piese software suplimentare sunt disponibile din depozitul „partener” "
+"al Canonical. Aceste piese software nu fac parte din Ubuntu, dar sunt "
+"oferite de Canonical și de respectivii producători ca un serviciu pentru "
+"utilizatori."
 
 #. Type: boolean
 #. Description
@@ -406,7 +408,8 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Se folosesc programe portate pentru versiunile anterioare?"
+msgstr ""
+"Se utilizează piese software migrate din ramura de dezvoltare („backported”)?"
 
 #. Type: boolean
 #. Description
@@ -419,10 +422,11 @@ msgid ""
 "testing as that contained in the release, it includes newer versions of some "
 "applications which may provide useful features."
 msgstr ""
-"Unele programe au fost portate din ramura de dezvoltare pentru a funcționa "
-"cu această lansare. Deși aceste programe nu au trecut prin teste așa de "
-"complete ca cele din versiunea lansată, ele conțin versiuni mai noi ale unor "
-"aplicații care ar putea oferi capabilități utile."
+"Unele piese software au fost migrate din ramura de dezvoltare și adaptate "
+"pentru a funcționa cu această versiune a distribuției. Deși aceste piese "
+"software nu au trecut prin teste așa de complete ca cele din versiunea "
+"lansată, ele conțin versiuni mai noi ale unor aplicații care ar putea oferi "
+"caracteristici utile."
 
 #. Type: boolean
 #. Description
@@ -459,9 +463,9 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"Înainte de a continua, un sistem de fișiere rădăcină trebuie montat la /"
-"target. Programul de partiționare și de formatare ar fi trebuit să realizeze "
-"deja acest lucru pentru dumneavoastră."
+"Înainte ca instalarea să poată continua, trebuie montat un sistem de fișiere "
+"rădăcină la /target. Programul de partiționare și de formatare ar fi trebuit "
+"să efectueze acest lucru pentru dvs."
 
 #. Type: error
 #. Description
@@ -480,8 +484,8 @@ msgid ""
 "install."
 msgstr ""
 "Instalarea pe sistemul de fișiere țintă a fost anulată. Ar trebui să vă "
-"întoarceți și să ștergeți sau să formatați sistemul de fișiere țintă înainte "
-"de a continua instalarea."
+"întoarceți la pasul anterior și să ștergeți sau să formatați sistemul de "
+"fișiere țintă înainte de a continua instalarea."
 
 #. Type: error
 #. Description
@@ -490,7 +494,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "Instalarea sistemului de bază este imposibilă"
+msgstr "Nu se poate instala sistemul de bază"
 
 #. Type: error
 #. Description
@@ -502,8 +506,9 @@ msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Instalatorul nu poate afla cum să instaleze sistemul de bază. Nu a găsit "
-"nicio imagine instalabilă și nu a fost configurată nicio oglindă validă."
+"Programul de instalare nu poate determina modul de a instala sistemul de "
+"bază. Nu a găsit nicio imagine instalabilă și nu a fost configurată nicio "
+"oglindă validă."
 
 #. Type: error
 #. Description
@@ -540,21 +545,21 @@ msgstr ""
 #: ../bootstrap-base.templates:19001 ../bootstrap-base.templates:20001
 #: ../bootstrap-base.templates:21001 ../bootstrap-base.templates:22001
 msgid "Debootstrap Error"
-msgstr "Eroare debootstrap"
+msgstr "Eroare a «debootstrap»"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:3001
 msgid "Failed to determine the codename for the release."
-msgstr "Detectarea numelui de cod pentru lansare a eșuat."
+msgstr "Detectarea numelui în cod pentru versiunea lansată a eșuat."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "Failed to install the base system"
-msgstr "Eșec la instalarea sistemului de bază"
+msgstr "Instalarea sistemului de bază a eșuat"
 
 #. Type: error
 #. Description
@@ -668,7 +673,7 @@ msgstr "Instalarea sistemului de bază pe /target/ a eșuat."
 #: ../partman-lvm.templates:60001 ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Verificați /var/log/syslog sau consola virtuală numărul 4 pentru detalii."
+"Verificați „/var/log/syslog” sau consola virtuală numărul 4 pentru detalii."
 
 #. Type: error
 #. Description
@@ -687,14 +692,14 @@ msgstr "Eroare la instalarea sistemului de bază"
 msgid ""
 "The debootstrap program exited with an error (return value ${EXITCODE})."
 msgstr ""
-"Programul debootstrap s-a încheiat cu eroare (cod de eroare ${EXITCODE})."
+"Programul «debootstrap» s-a încheiat cu eroare (cod de eroare ${EXITCODE})."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:6001
 msgid "The debootstrap program exited abnormally."
-msgstr "Programul debootstrap s-a încheiat anormal."
+msgstr "Programul «debootstrap» s-a încheiat anormal."
 
 #. Type: error
 #. Description
@@ -708,7 +713,7 @@ msgstr "A apărut următoarea eroare:"
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "Nu s-a putut instala nucleul de sistem selectat"
+msgstr "Nu s-a putut instala nucleul selectat"
 
 #. Type: error
 #. Description
@@ -718,7 +723,7 @@ msgid ""
 "An error was returned while trying to install the kernel into the target "
 "system."
 msgstr ""
-"S-a returnat eroare în timpul tentativei de instalare a nucleului pe "
+"A fost returnată o eroare în timpul încercării de instalare a nucleului în "
 "sistemul țintă."
 
 #. Type: error
@@ -726,7 +731,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "Pachetul de nucleu: '${KERNEL}'."
+msgstr "Pachetul de nucleu: „${KERNEL}”."
 
 #. Type: select
 #. Choices
@@ -736,7 +741,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" means \"no kernel\" ]"
-msgstr "nici unul"
+msgstr "niciunul"
 
 #. Type: select
 #. Description
@@ -754,7 +759,7 @@ msgid ""
 "make the system bootable from the hard drive."
 msgstr ""
 "Această listă conține nucleele disponibile. Vă rugăm să alegeți unul din ele "
-"pentru a putea porni de pe discul fix."
+"pentru a putea porni de pe discul dur."
 
 #. Type: boolean
 #. Description
@@ -779,7 +784,7 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"Puteți încerca să continuați fără nucleu și să instalați manual propriul "
+"Puteți încerca să continuați fără un nucleu și să instalați manual propriul "
 "dumneavoastră nucleu mai târziu. Această abordare este recomandată doar "
 "experților, altfel probabil că veți ajunge să aveți un calculator care nu "
 "pornește."
@@ -789,7 +794,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "Instalarea nucleului este imposibilă"
+msgstr "Nu se poate instala nucleul"
 
 #. Type: error
 #. Description
@@ -826,8 +831,8 @@ msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
 msgstr ""
-"S-a returnat eroare la încercarea de instalare a pachetului ${PACKAGE} pe "
-"sistemul țintă."
+"A fost returnată o eroare în timpul încercării de a instala pachetul "
+"${PACKAGE} în sistemul țintă."
 
 #. Type: error
 #. Description
@@ -835,7 +840,7 @@ msgstr ""
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "Eșec la descărcarea fișierului Release ${SUBST0}."
+msgstr "Obținerea fișierului Release ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -843,7 +848,7 @@ msgstr "Eșec la descărcarea fișierului Release ${SUBST0}."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "Eșec la descărcarea fișierului ${SUBST0} cu semnătura Release."
+msgstr "Obținerea semnăturii fișierului Release ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -859,7 +864,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Fișier Release invalid: fără componente valide."
+msgstr "Fișier Release nevalid: nu există componente valide."
 
 #. Type: error
 #. Description
@@ -867,7 +872,7 @@ msgstr "Fișier Release invalid: fără componente valide."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Fișier Release invalid: nu există înregistrări pentru ${SUBST0}."
+msgstr "Fișier Release nevalid: nicio intrare pentru ${SUBST0}."
 
 #. Type: error
 #. Description
@@ -880,7 +885,8 @@ msgid ""
 "media, depending on your installation method."
 msgstr ""
 "Nu s-a putut prelua ${SUBST0}. Acest lucru poate fi cauzat de o problemă de "
-"rețea sau de un suport necorespunzător, în funcție de metoda de instalare."
+"rețea sau de un mediu de instalare defectuos, în funcție de metoda de "
+"instalare."
 
 #. Type: error
 #. Description
@@ -901,7 +907,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:57001
 msgid "Debootstrap warning"
-msgstr "Avertisment debootstrap"
+msgstr "Avertisment de la «debootstrap»"
 
 #. Type: error
 #. Description
@@ -924,35 +930,35 @@ msgstr "Se reîncearcă descărcarea fișierului ${SUBST0}"
 #. :sl2:
 #: ../cdebconf-udeb.templates:2001
 msgid "critical"
-msgstr "critic"
+msgstr "critică"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../cdebconf-udeb.templates:2001
 msgid "high"
-msgstr "ridicat"
+msgstr "ridicată"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../cdebconf-udeb.templates:2001
 msgid "medium"
-msgstr "mediu"
+msgstr "medie"
 
 #. Type: select
 #. Choices
 #. :sl2:
 #: ../cdebconf-udeb.templates:2001
 msgid "low"
-msgstr "scăzut"
+msgstr "scăzută"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../cdebconf-udeb.templates:2002
 msgid "Ignore questions with a priority less than:"
-msgstr "Ignoră întrebările cu nivelul de prioritate mai mic decât:"
+msgstr "Ignoră întrebările cu prioritatea mai mică decât cea:"
 
 #. Type: select
 #. Description
@@ -963,9 +969,9 @@ msgid ""
 "might ask you. Only questions with a certain priority or higher are actually "
 "shown to you; all less important questions are skipped."
 msgstr ""
-"Pachetele care utilizează debconf pentru configurare asociază priorități la "
-"posibilele întrebări. Numai întrebările cu o anumită prioritate sau mai mare "
-"vă sunt arătate. Toate întrebările mai puțin importante sunt omise."
+"Pachetele care utilizează «debconf» pentru configurare asociază priorități "
+"la posibilele întrebări. Numai întrebările cu o anumită prioritate sau mai "
+"mare vă sunt arătate. Toate întrebările mai puțin importante sunt omise."
 
 #. Type: select
 #. Description
@@ -980,13 +986,13 @@ msgid ""
 " - 'low' is for trivial items that have defaults that will work in\n"
 "   the vast majority of cases."
 msgstr ""
-"Puteți selecta cel mai scăzut nivel de prioritate a întrebărilor pe care "
-"doriți să le vedeți:\n"
-" - 'critic' pentru elemente care probabil vor strica sistemul fără\n"
+"Puteți selecta cea mai mică prioritate a întrebărilor pe care doriți să le "
+"vedeți:\n"
+" - „critică” pentru elemente care probabil vor strica sistemul fără\n"
 "   intervenția utilizatorului.\n"
-" - 'ridicat' pentru elemente care nu au valori implicite rezonabile.\n"
-" - 'mediu' pentru elemente normale care au valori implicite rezonabile.\n"
-" - 'scăzut' pentru elemente triviale cu valori implicite care funcționează\n"
+" - „ridicată” pentru elemente care nu au valori implicite rezonabile.\n"
+" - „medie” pentru elemente normale care au valori implicite rezonabile.\n"
+" - „scăzută” pentru elemente triviale cu valori implicite care funcționează\n"
 "   pentru o vastă majoritate a cazurilor."
 
 #. Type: select
@@ -997,15 +1003,16 @@ msgid ""
 "For example, this question is of medium priority, and if your priority were "
 "already 'high' or 'critical', you wouldn't see this question."
 msgstr ""
-"De exemplu, aceasta este o întrebare de nivel mediu, și dacă nivelul ales ar "
-"fi 'ridicat' sau 'critic', nu ați vedea această întrebare."
+"De exemplu, aceasta este o întrebare de prioritate medie, și dacă "
+"prioritatea aleasă ar fi „ridicată” sau „critică”, nu ați vedea această "
+"întrebare."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../cdebconf-priority.templates:1001
 msgid "Change debconf priority"
-msgstr "Schimbare a priorității debconf"
+msgstr "Schimbare a priorității «debconf»"
 
 #. Type: select
 #. Description
@@ -1024,24 +1031,24 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"Debian are diverse versiuni. „stabil” - foarte bine testată și se schimbă "
-"foarte rar. „instabil” este netestat și se schimbă frecvent. „testare” este "
-"undeva la mijloc; primește multe din noile versiuni din „instabil”, dacă "
-"acestea nu au probleme prea mari."
+"Debian are diverse versiuni. „stabilă” - foarte bine testată și se schimbă "
+"foarte rar. „instabilă” este netestată și se schimbă frecvent. „testare” "
+"este undeva la mijloc; primește multe din noile versiuni din „instabilă”, "
+"dacă acestea nu au probleme prea mari."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:3001
 msgid "Only flavors available on the selected mirror are listed."
-msgstr "Sunt afișate doar variantele disponibile pe situl alternativ selectat."
+msgstr "Sunt afișate doar variantele disponibile pe oglinda selectată."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:7001
 msgid "Go back and try a different mirror?"
-msgstr "Reveniți și alegeți un alt sit alternativ?"
+msgstr "Reveniți la pasul anterior și alegeți o altă oglindă?"
 
 #. Type: boolean
 #. Description
@@ -1053,17 +1060,17 @@ msgid ""
 "release for your installation, but normally you should go back and select a "
 "different mirror that does support the correct version."
 msgstr ""
-"Versiunea Debian specificată (implicită) (${RELEASE}) nu este disponibilă pe "
-"situl alternativ ales. Puteți să continuați și să alegeți o versiune "
-"diferită pentru instalare, dar în mod normal ar trebuie să reveniți și să "
-"selectați un alt sit alternativ care suportă versiunea corectă."
+"Versiunea Debian specificată (implicită) (${RELEASE}) nu este disponibilă de "
+"la oglinda aleasă. Puteți să continuați și să alegeți o versiune diferită "
+"pentru instalare, dar în mod normal ar trebuie să reveniți la pasul anterior "
+"și să selectați o altă oglindă care furnizează versiunea corectă."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Bad archive mirror"
-msgstr "Sit pentru arhivă defect"
+msgstr "Oglindă de arhivă defectuoasă"
 
 #. Type: error
 #. Description
@@ -1073,8 +1080,8 @@ msgid ""
 "An error has been detected while trying to use the specified Debian archive "
 "mirror."
 msgstr ""
-"A fost detectată o eroare în timp ce se încerca folosirea sitului alternativ "
-"Debian specificat."
+"A fost detectată o eroare în timp ce se încerca folosirea oglinzii de arhivă "
+"Debian specificată."
 
 #. Type: error
 #. Description
@@ -1086,10 +1093,10 @@ msgid ""
 "broken (for example because an invalid Release file was found); mirror does "
 "not support the correct Debian version."
 msgstr ""
-"Posibile cauze pentru eroare sunt: situl alternativ specificat este "
-"incorect; situl alternativ nu este disponibil (spre exemplu deoarece s-a "
-"găsit un fișier Release invalid); situl alternativ nu suportă versiunea "
-"Debian corectă."
+"Cauzele posibile ale erorii sunt: oglinda specificată incorect; oglinda nu "
+"este disponibilă (posibil din cauza unei conexiuni de rețea nesigure); "
+"oglinda este deteriorată (de exemplu pentru că a fost găsit un fișier "
+"Release nevalid); oglinda nu furnizează versiunea Debian corectă."
 
 #. Type: error
 #. Description
@@ -1099,29 +1106,29 @@ msgid ""
 "Additional details may be available in /var/log/syslog or on virtual console "
 "4."
 msgstr ""
-"Se pot găsi detalii suplimentare în /var/log/syslog sau în consola virtuală "
-"4."
+"Detalii suplimentare pot fi disponibile în „/var/log/syslog” sau în consola "
+"virtuală 4."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:8001
 msgid "Please check the specified mirror or try a different one."
-msgstr "Verificați situl alternativ specificat sau încercați altul."
+msgstr "Verificați oglinda specificată sau încercați alta."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:10001
 msgid "oldstable"
-msgstr "stabil precedent"
+msgstr "stabilă-veche"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:11001
 msgid "stable"
-msgstr "stabil"
+msgstr "stabilă"
 
 #. Type: text
 #. Description
@@ -1135,7 +1142,7 @@ msgstr "testare"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:13001
 msgid "unstable"
-msgstr "instabil"
+msgstr "instabilă"
 
 #. Type: string
 #. Description
@@ -1143,7 +1150,7 @@ msgstr "instabil"
 #: ../choose-mirror-bin.templates.http-in:5001
 #: ../choose-mirror-bin.templates.ftp.base-in:3001
 msgid "Debian archive mirror directory:"
-msgstr "Directorul pe situl alternativ al arhivei Debian:"
+msgstr "Directorul oglinzii arhivei Debian:"
 
 #. Type: string
 #. Description
@@ -1154,7 +1161,7 @@ msgid ""
 "Please enter the directory in which the mirror of the Debian archive is "
 "located."
 msgstr ""
-"Vă rugăm să introduceți directorul în care se află arhiva Debian pe sit."
+"Vă rugăm să introduceți directorul în care se află oglinda arhivei Debian."
 
 #. Type: string
 #. Description
@@ -1172,7 +1179,7 @@ msgid ""
 "information here. Otherwise, leave this blank."
 msgstr ""
 "Dacă aveți nevoie de un proxy FTP pentru a accesa internetul, introduceți "
-"informațiile despre proxy aici. Altfel, lăsați gol."
+"informațiile despre proxy în acest câmp. Altfel, lăsați-l gol."
 
 #. Type: select
 #. Default
@@ -1218,9 +1225,9 @@ msgid ""
 "Please select the protocol to be used for downloading files. If unsure, "
 "select \"http\"; it is less prone to problems involving firewalls."
 msgstr ""
-"Vă rugăm să selectați protocolul utilizat pentru descărcarea fișierelor. "
-"Dacă știți sigur, selectați „http”; este mai puțin probabil să creeze "
-"probleme legate de firewall-uri."
+"Vă rugăm să selectați protocolul care urmează să fie utilizat pentru "
+"descărcarea fișierelor. Dacă nu sunteți sigur, selectați „http”; acesta este "
+"mai puțin predispus la probleme legate de paravanele de protecție."
 
 #. Type: select
 #. Description
@@ -1234,7 +1241,7 @@ msgstr "Model de tastatură:"
 #. :sl2:
 #: ../keyboard-configuration.templates:4001
 msgid "Please select the model of the keyboard of this machine."
-msgstr "Vă rugăm să alegeți modelul de tastatură al acestui sistem."
+msgstr "Vă rugăm să alegeți modelul de tastatură al acestei mașini."
 
 #. Type: select
 #. Choices
@@ -1260,8 +1267,8 @@ msgstr "Ambele taste Logo"
 #: ../keyboard-configuration.templates:12002
 msgid "Method for temporarily toggling between national and Latin input:"
 msgstr ""
-"Metodă pentru comutarea temporară între introducerea în mod național sau "
-"latin:"
+"Metodă pentru comutarea temporară între aranjamentul de tastatură național "
+"și cel latin:"
 
 #. Type: select
 #. Description
@@ -1274,18 +1281,18 @@ msgid ""
 "That key may also be used to input national letters when the keyboard is in "
 "Latin mode."
 msgstr ""
-"Când tastatura este în mod național și se dorește introducerea a câteva "
-"litere latine ar putea fi mai util să comutați temporar pe modul latin. "
-"Tastatura rămâne în acel mod cât timp tasta aleasă este apăsată. Acea tastă "
-"poate fi folosită și pentru a introduce caractere naționale când tastatura "
-"este în modul latin."
+"Când tastatura este în modul național și doriți să tastați doar câteva "
+"litere latine, ar putea fi mai potrivit să treceți temporar la modul latin. "
+"Tastatura rămâne în acest mod atâta timp cât tasta aleasă este ținută "
+"apăsată. Tasta respectivă poate fi utilizată și pentru introducerea "
+"literelor naționale atunci când tastatura este în modul latin."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../keyboard-configuration.templates:12002
 msgid "You can disable this feature by choosing \"No temporary switch\"."
-msgstr "Puteți dezactiva această funcție alegând „Fără comutator temporar”."
+msgstr "Puteți dezactiva această funcție alegând «Fără comutator temporar»."
 
 #. Type: select
 #. Choices
@@ -1361,7 +1368,7 @@ msgid ""
 "the next few keystrokes as a combination in order to produce a character not "
 "found on the keyboard."
 msgstr ""
-"Tasta de compunere (cunoscută și ca Multi_key) determină computerul să "
+"Tasta de compunere (cunoscută și ca Multi_key) determină calculatorul să "
 "interpreteze următoarele apăsări de taste ca o combinație, pentru a produce "
 "caractere care nu se găsesc pe tastatură."
 
@@ -1374,8 +1381,8 @@ msgid ""
 "Unicode mode, regardless of what you choose here, you can always also use "
 "the Control+period combination as a Compose key."
 msgstr ""
-"Tasta de compunere nu funcționează în consola text în mod unicode. Dacă nu "
-"este în mod unicode, indiferent de alegerea de aici puteți să folosiți "
+"Tasta de compunere nu funcționează în consola text în modul unicode. Dacă nu "
+"este în modul unicode, indiferent de alegerea de aici puteți să folosiți "
 "oricând combinația Control+punct ca și tastă de compunere în consola text."
 
 #. Type: text
@@ -1385,21 +1392,21 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the integrity of installation media"
-msgstr "Verificați integritatea suportului media"
+msgstr "Verificați integritatea mediului de instalare"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:1001
 msgid "Load drivers from removable media?"
-msgstr "Încărcați modulele de nucleu de pe un mediu mobil?"
+msgstr "Încărcați modulele de nucleu de pe un mediu amovibil?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:1001
 msgid "No device for installation media was detected."
-msgstr "Nu a fost detectat niciun dispozitiv pentru suportul de instalare."
+msgstr "Nu a fost detectat niciun dispozitiv pentru mediul de instalare."
 
 #. Type: boolean
 #. Description
@@ -1412,17 +1419,16 @@ msgid ""
 "select some modules."
 msgstr ""
 "S-ar putea să trebuiască să încărcați modulele adiționale de pe un mediu "
-"mobil (ex.: o dischetă sau o memorie USB). Dacă aveți un asemenea mediu la "
-"moment, introduceți-l în calculator, și continuați. Altfel, vi se va oferi "
-"opțiunea de a selecta manual unele modulele."
+"mobil (ex.: o dischetă sau o memorie USB). Dacă le aveți disponibile acum, "
+"introduceți mediul respectiv și continuați. Altfel, vi se va oferi opțiunea "
+"de a selecta manual unele modulele."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:3001
 msgid "Manually select a module and device for installation media?"
-msgstr ""
-"Selectați manual un modul și un dispozitiv pentru suportul de instalare?"
+msgstr "Selectați manual un modul și un dispozitiv pentru mediul de instalare?"
 
 #. Type: boolean
 #. Description
@@ -1430,8 +1436,8 @@ msgstr ""
 #: ../cdrom-detect.templates:3001
 msgid "No device for installation media (like a CD-ROM device) was detected."
 msgstr ""
-"Nu a fost detectat nici un dispozitiv pentru suportul de instalare (ex.: CD-"
-"ROM obișnuit)."
+"Nu a fost detectat niciun dispozitiv pentru mediul de instalare (cum ar fi "
+"un dispozitiv CD-ROM)."
 
 #. Type: boolean
 #. Description
@@ -1443,17 +1449,17 @@ msgid ""
 "don't know which module and device are needed, look for some documentation "
 "or try a network installation."
 msgstr ""
-"Dacă CD-ROM-ul dumneavoastră e un CD-ROM Mitsumi vechi sau unul non-IDE și "
-"non-SCSI, trebuie să alegeți modulul care trebuie încărcat și dispozitivul "
-"care trebuie folosit. Dacă nu știți care modul și dispozitiv este necesar, "
-"căutați ceva documentație sau încercați o instalare prin rețea."
+"Dacă unitatea dvs. de CD-ROM este un Mitsumi vechi sau o altă unitate de CD-"
+"ROM nonIDE, non-SCSI, trebuie să alegeți ce modul să încărcați și ce "
+"dispozitiv să utilizați. Dacă nu știți ce modul și ce dispozitiv sunt "
+"necesare, căutați documentația sau încercați o instalare din rețea."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:4001
 msgid "Retry mounting installation media?"
-msgstr "Încercăm din nou să montăm suportul de instalare?"
+msgstr "Doriți să reîncercați montarea mediului de instalare?"
 
 #. Type: boolean
 #. Description
@@ -1464,16 +1470,16 @@ msgid ""
 "this probably means that the disk was not in the drive. If so you can insert "
 "it and try again."
 msgstr ""
-"Suportul dumneavoastră de instalare nu a putut fi montat. Dacă instalați de "
-"pe CD-ROM, aceasta probabil înseamnă că CD-ul nu a fost introdus în unitate. "
-"În acest caz, puteți să îl introduceți și să încercați din nou."
+"Mediul de instalare nu a putut fi montat. La instalarea de pe CD-ROM, acest "
+"lucru înseamnă probabil că discul nu era în unitate. Dacă este așa, îl "
+"puteți introduce și să încercați din nou."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:5001
 msgid "Module needed for accessing the installation media:"
-msgstr "Modulul necesar pentru accesarea suportului de instalare:"
+msgstr "Modulul necesar pentru accesarea mediului de instalare:"
 
 #. Type: select
 #. Description
@@ -1484,16 +1490,16 @@ msgid ""
 "installing from CD-ROM and you have an unusual CD-ROM drive (that is neither "
 "IDE nor SCSI), you can try to load a specific module."
 msgstr ""
-"Detecția automată nu a găsit o unitate pentru suportul de instalare. Când "
-"instalați de pe CD-ROM și aveți o unitate CD-ROM neobișnuită (care nu este "
-"nici IDE, nici SCSI), puteți încerca să încărcați un modul specific."
+"Detectarea automată nu a găsit o unitate pentru mediul de instalare. Atunci "
+"când instalați de pe CD-ROM și aveți o unitate CD-ROM neobișnuită (care nu "
+"este nici IDE, nici SCSI), puteți încerca să încărcați un modul specific."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:6001
 msgid "Device file for accessing the installation media:"
-msgstr "Fișierul-dispozitiv pentru accesul la suportul de instalare:"
+msgstr "Fișierul-dispozitiv pentru accesarea mediului de instalare:"
 
 #. Type: string
 #. Description
@@ -1504,9 +1510,10 @@ msgid ""
 "the device file that should be used. Non-standard CD-ROM drives use non-"
 "standard device files (such as /dev/mcdx)."
 msgstr ""
-"Pentru a accesa suportul de instalare (cum ar fi CD-ROM-ul), introduceți "
-"fișierul dispozitivului care trebuie utilizat. Unitățile CD-ROM non-standard "
-"utilizează fișiere de dispozitiv non-standard (cum ar fi /dev/mcdx)."
+"Pentru a accesa mediul de instalare (cum ar fi CD-ROM-ul), vă rugăm să "
+"introduceți fișierul de dispozitiv care ar trebui utilizat. Unitățile CD-ROM "
+"non-standard utilizează fișiere de dispozitiv non-standard (cum ar fi „/dev/"
+"mcdx”)."
 
 #. Type: string
 #. Description
@@ -1517,9 +1524,9 @@ msgid ""
 "available devices in /dev with \"ls /dev\". You can return to this screen by "
 "pressing ALT+F1."
 msgstr ""
-"Puteți să treceți la consola de pe al doilea terminal (ALT+F2) pentru a "
-"verifica dispozitivele disponibile în /dev cu „ls /dev”. Vă puteți întoarce "
-"la acest ecran cu combinația ALT+F1."
+"Puteți să treceți la consola de pe al doilea terminal («ALT+F2») pentru a "
+"verifica dispozitivele disponibile în „/dev” cu «ls /dev». Vă puteți "
+"întoarce la acest ecran folosind combinația de taste «ALT+F1»."
 
 #. Type: note
 #. Description
@@ -1536,29 +1543,31 @@ msgid ""
 "Autodetection of the installation media was successful. A drive has been "
 "found that contains '${cdname}'. The installation will now continue."
 msgstr ""
-"Autodetecția suportului de instalare a avut succes. A fost găsită o unitate "
-"care conține '${cdname}'. Instalarea va continua acum."
+"Autodetecția mediului de instalare a avut succes. A fost găsită o unitate "
+"care conține „${cdname}”. Instalarea va continua acum."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:14001
 msgid "Incorrect installation media detected"
-msgstr "A fost detectat un suport de instalare incorect"
+msgstr "A fost detectat un mediu de instalare incorect"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:14001
 msgid "The detected media cannot be used for installation."
-msgstr "Suportul detectat nu poate fi utilizat pentru instalare."
+msgstr "Mediul detectat nu poate fi utilizat pentru instalare."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../cdrom-detect.templates:14001
 msgid "Please provide suitable media to continue with the installation."
-msgstr "Vă rugăm să furnizați un suport adecvat pentru a continua instalarea."
+msgstr ""
+"Vă rugăm să furnizați un mediu de instalare adecvat pentru a continua "
+"instalarea."
 
 #. Type: error
 #. Description
@@ -1577,7 +1586,7 @@ msgid ""
 "The installation media do not seem to contain a valid 'Release' file, or "
 "that file could not be read correctly."
 msgstr ""
-"Mediul de instalare nu pare să conțină un fișier \"Release\" valid sau "
+"Mediul de instalare nu pare să conțină un fișier „Release” valid sau "
 "fișierul respectiv nu a putut fi citit corect."
 
 #. Type: error
@@ -1589,9 +1598,9 @@ msgid ""
 "You may try to repeat the media detection, but even if it does succeed the "
 "second time, you may experience problems later in the installation."
 msgstr ""
-"Puteți încerca să repetați detectarea suportului, dar chiar dacă reușește a "
-"doua oară, este posibil să întâmpinați probleme mai târziu în timpul "
-"instalării."
+"Puteți încerca să repetați detectarea mediului de instalare, dar chiar dacă "
+"reușește a doua oară, este posibil să întâmpinați probleme mai târziu în "
+"timpul instalării."
 
 #. Type: text
 #. Description
@@ -1600,15 +1609,14 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-detect.templates:20001
 msgid "Detect and mount installation media"
-msgstr "Detectare și montare a suporturilor de instalare"
+msgstr "Detectarea și montarea mediului de instalare"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../cdrom-retriever.templates:1001
 msgid "Failed to copy file from installation media. Retry?"
-msgstr ""
-"Nu s-a reușit copierea fișierului de pe suportul de instalare. Reîncercați?"
+msgstr "Copierea fișierului din mediul de instalare a eșuat. Reîncercați?"
 
 #. Type: boolean
 #. Description
@@ -1621,9 +1629,9 @@ msgid ""
 "the main menu for that)."
 msgstr ""
 "A apărut o problemă la citirea datelor. Vă rugăm să vă asigurați că ați "
-"introdus corect suportul de instalare. În cazul în care reîncercarea nu "
-"funcționează, ar trebui să verificați integritatea suportului de instalare "
-"(există o intrare asociată în meniul principal pentru acest lucru)."
+"introdus corect mediul de instalare. În cazul în care reîncercarea nu "
+"funcționează, ar trebui să verificați integritatea mediului de instalare ("
+"există o intrare asociată în meniul principal pentru acest lucru)."
 
 #. Type: boolean
 #. Description
@@ -1640,9 +1648,9 @@ msgid ""
 "The Network Time Protocol (NTP) can be used to set the system's clock. Your "
 "system works best with a correctly set clock."
 msgstr ""
-"Pentru a seta ceasul sistemului se poate utiliza Network Time Protocol "
-"(NTP). Sistemul dumneavoastră funcționează cel mai bine cu un ceas setat "
-"corect."
+"Pentru a configura ceasul sistemului se poate utiliza protocolul de timp din "
+"rețea („Network Time Protocol”: NTP). Sistemul dumneavoastră funcționează "
+"cel mai bine cu un ceas configurat corect."
 
 #. Type: string
 #. Description
@@ -1667,7 +1675,9 @@ msgstr ""
 #. :sl2:
 #: ../clock-setup.templates:9001
 msgid "Wait another 30 seconds for hwclock to set the clock?"
-msgstr "Se așteaptă alte 30 de secunde după hwclock pentru a regla ceasul?"
+msgstr ""
+"Doriți să așteptați încă 30 de secunde pentru ca «hwclock» să configureze "
+"ceasul?"
 
 #. Type: boolean
 #. Description
@@ -1678,9 +1688,9 @@ msgid ""
 "program used to set the clock may have problems talking to the hardware "
 "clock."
 msgstr ""
-"Reglarea ceasului hardware durează mai mult decât era de așteptat. Programul "
-"„hwclock”, folosit pentru reglarea ceasului, ar putea avea probleme la "
-"comunicarea cu ceasul hardware."
+"Configurarea ceasului hardware durează mai mult decât era de așteptat. "
+"Programul «hwclock», folosit pentru configurarea ceasului, ar putea avea "
+"probleme la comunicarea cu ceasul hardware."
 
 #. Type: boolean
 #. Description
@@ -1690,8 +1700,8 @@ msgid ""
 "If you choose to not wait for hwclock to finish setting the clock, this "
 "system's clock may not be set correctly."
 msgstr ""
-"Dacă alegeți să nu așteptați ca hwclock să termine reglarea ceasului, ceasul "
-"acestui sistem ar putea să nu fie reglat corect."
+"Dacă alegeți să nu așteptați ca «hwclock» să termine de configurat ceasul, "
+"este posibil ca ceasul acestui sistem să nu fie configurat corect."
 
 #. Type: note
 #. Description
@@ -1708,7 +1718,7 @@ msgstr "Consolă interactivă"
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "După acest mesaj, veți rula „ash”, o clonă Bourne-shell."
+msgstr "După acest mesaj, veți rula «ash», o clonă shell-ului Bourne."
 
 #. Type: note
 #. Description
@@ -1721,16 +1731,17 @@ msgid ""
 "you, use the \"help\" command."
 msgstr ""
 "Sistemul de fișiere rădăcină este un disc RAM. Sistemele de fișiere de pe "
-"disc(-uri) sunt montate la „/target”. Editorul disponibil este nano. Este "
-"foarte mic și ușor de înțeles. Pentru a vă face o idee despre ce utilitare "
-"Unix vă sunt puse la dispoziție, rulați comanda „help”."
+"discul dur sunt montate pe „/target”. Editorul pe care îl aveți la "
+"dispoziție este «nano». Este foarte mic și ușor de înțeles. Pentru a vă face "
+"o idee despre instrumentele Unix care vă sunt disponibile, utilizați comanda "
+"«help»."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "Folosiți comanda „exit” pentru a vă întoarce la meniul de instalare."
+msgstr "Folosiți comanda «exit» pentru a vă întoarce la meniul de instalare."
 
 #. Type: text
 #. Description
@@ -1765,7 +1776,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils.templates:6001
 msgid "Terminal plugin not available"
-msgstr "Plugin-ul de terminal nu este disponibil"
+msgstr "Modulul de terminal nu este disponibil"
 
 #. Type: error
 #. Description
@@ -1775,9 +1786,9 @@ msgid ""
 "This build of the debian-installer requires the terminal plugin in order to "
 "display a shell. Unfortunately, this plugin is currently unavailable."
 msgstr ""
-"Această versiune a Programului de instalare Debian are nevoie de plugin-ul "
-"de terminal pentru a afișa un terminal. Din păcate, acest plugin nu este "
-"momentan disponibil."
+"Această versiune a programului de instalare Debian are nevoie de modulul de "
+"terminal pentru a afișa un terminal. Din păcate, acest modul plugin nu este "
+"disponibil în prezent."
 
 #. Type: error
 #. Description
@@ -1788,7 +1799,7 @@ msgid ""
 "installation step."
 msgstr ""
 "Ar trebui să fie disponibil după ce se ajunge la pasul de instalare „Se "
-"descarcă componentele adiționale”."
+"încarcă componentele adiționale”."
 
 #. Type: text
 #. Description
@@ -1798,8 +1809,8 @@ msgid ""
 "Alternatively, you can open a shell by pressing Ctrl+Alt+F2. Use Alt+F5 to "
 "get back to the installer."
 msgstr ""
-"Există și posibilitatea să deschideți o consolă apăsând Ctrl+Alt+F2. "
-"Folosiți Alt+F5 pentru a vă întoarce la programul de instalare."
+"Există și posibilitatea să deschideți o consolă apăsând «Ctrl+Alt+F2». "
+"Folosiți «Alt+F5» pentru a vă întoarce la programul de instalare."
 
 #. Type: error
 #. Description
@@ -1819,7 +1830,7 @@ msgstr "Nu s-a putut configura GRUB"
 #. :sl2:
 #: ../grub-installer.templates:5001 ../grub-installer.templates:6002
 msgid "Device for boot loader installation:"
-msgstr "Dispozitivul folosit pentru instalarea încărcătorului de sistem:"
+msgstr "Dispozitivul folosit pentru instalarea încărcătorului de pornire:"
 
 #. Type: string
 #. Description
@@ -1834,11 +1845,11 @@ msgid ""
 "GRUB to your primary drive (UEFI partition/boot record). You may instead "
 "install GRUB to a different drive (or partition), or to removable media."
 msgstr ""
-"Trebuie să faceți ca sistemul nou instalat să fie bootabil, instalând "
-"încărcătorul de boot GRUB pe un dispozitiv bootabil. Modul obișnuit de a "
-"face acest lucru este să instalați GRUB pe unitatea principală (partiția "
-"UEFI/boot record). În schimb, puteți instala GRUB pe o altă unitate (sau "
-"partiție) sau pe un suport amovibil."
+"Trebuie să faceți ca sistemul nou instalat să fie apt de a fi pornit, "
+"instalând încărcătorul de pornire GRUB pe un dispozitiv apt de a fi pornit. "
+"Modul obișnuit de a face acest lucru este să instalați GRUB pe unitatea "
+"principală (partiția UEFI/sectorul de pornire „MBR”). În schimb, puteți "
+"instala GRUB pe o altă unitate (sau partiție) sau pe un suport amovibil."
 
 #. Type: string
 #. Description
@@ -1855,10 +1866,11 @@ msgid ""
 "   be a thumbdrive);\n"
 " - \"/dev/fd0\" will install GRUB to a floppy."
 msgstr ""
-"Dispozitivul ar trebui specificat ca un dispozitiv în /dev. Mai jos câteva "
-"exemple: \n"
+"Dispozitivul trebuie să fie specificat ca un dispozitiv ca un dispozitiv în "
+"„/dev”.\n"
+"Mai jos sunt câteva exemple: \n"
 " - „/dev/sda” va instala GRUB pe partiția dumneavoastră primară (partiția\n"
-"   UEFI/boot record);\n"
+"   UEFI/sectorul de pornire „MBR”);\n"
 " - „/dev/sdb” va instala GRUB pe o partiție secundară (care, spre exemplu,\n"
 "   poate fi o memorie USB);\n"
 " - „/dev/fd0” va instala GRUB pe o dischetă."
@@ -1882,21 +1894,21 @@ msgid ""
 "GRUB command-line interface. By default, any user will still be able to "
 "start any menu entry without entering the password."
 msgstr ""
-"Încărcătorul de sistem GRUB oferă multe facilități interactive puternice, "
-"care ar putea fi folosite să vă compromită sistemul, dacă utilizatori "
-"neautorizați au acces în timpul pornirii sistemului. Pentru a vă apăra "
-"împotriva acestui lucru, puteți alege o parolă care va fi cerută înainte de "
-"editarea intrărilor din meniu sau la intrarea în interfața linie de comandă "
-"a lui GRUB. Implicit, orice utilizator va putea totuși să pornească orice "
-"intrare din meniu fără introducerea parolei."
+"Încărcătorul de pornire GRUB oferă multe caracteristici interactive "
+"avansate, care ar putea fi utilizate pentru a vă compromite sistemul în "
+"cazul în care utilizatori neautorizați au acces la mașină atunci când "
+"aceasta pornește. Pentru a vă apăra împotriva acestei situații, puteți alege "
+"o parolă care va fi solicitată înainte de editarea intrărilor de meniu sau "
+"de intrarea în interfața de linie de comandă GRUB. În mod implicit, orice "
+"utilizator va putea să pornească orice intrare de meniu fără a introduce "
+"parola."
 
 #. Type: password
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:7001
 msgid "If you do not wish to set a GRUB password, leave this field blank."
-msgstr ""
-"Dacă nu doriți să activați o parolă pentru GRUB, lăsați liber acest câmp."
+msgstr "Dacă nu doriți să activați o parolă pentru GRUB, lăsați gol acest câmp."
 
 #. Type: password
 #. Description
@@ -1961,21 +1973,21 @@ msgid ""
 "loader, the installed system will not boot."
 msgstr ""
 "Instalarea pachetului „${GRUB}” în /target/ a eșuat. Fără încărcătorul de "
-"sistem GRUB sistemul instalat nu va putea fi pornit."
+"pornire GRUB sistemul instalat nu va putea fi pornit."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:12001
 msgid "Unable to install GRUB in ${BOOTDEV}"
-msgstr "Nu s-a putut instala GRUB în ${BOOTDEV}"
+msgstr "Nu s-a putut instala GRUB în „${BOOTDEV}”"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../grub-installer.templates:12001
 msgid "Executing 'grub-install ${BOOTDEV}' failed."
-msgstr "A eșuat rularea „grub-install ${BOOTDEV}”."
+msgstr "Executarea comenzii «grub-install ${BOOTDEV}» a eșuat."
 
 #. Type: error
 #. Description
@@ -1992,7 +2004,7 @@ msgstr "Aceasta este o eroare fatală."
 #. :sl2:
 #: ../grub-installer.templates:13001
 msgid "Executing 'update-grub' failed."
-msgstr "A eșuat rularea „update-grub”."
+msgstr "Executarea comenzii «update-grub» a eșuat."
 
 #. Type: text
 #. Description
@@ -2000,7 +2012,7 @@ msgstr "A eșuat rularea „update-grub”."
 #. :sl2:
 #: ../grub-installer.templates:27001
 msgid "Reinstall GRUB boot loader"
-msgstr "Reinstalează încărcătorul de sistem GRUB"
+msgstr "Reinstalează încărcătorul de pornire GRUB"
 
 #. Type: text
 #. Description
@@ -2008,7 +2020,7 @@ msgstr "Reinstalează încărcătorul de sistem GRUB"
 #. :sl2:
 #: ../grub-installer.templates:31001
 msgid "Force GRUB installation to the EFI removable media path"
-msgstr "Forțează instalarea GRUB în calea EFI pentru medii mobile"
+msgstr "Forțează instalarea GRUB în ruta mediului amovibil EFI"
 
 #. Type: select
 #. Choices
@@ -2023,14 +2035,14 @@ msgstr "fără placă Ethernet"
 #. "none of the above" should be understood as "none of the above choices"
 #: ../ethdetect.templates:1001 ../disk-detect.templates:3001
 msgid "none of the above"
-msgstr "nici una de mai sus"
+msgstr "niciuna din cele de mai sus"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../ethdetect.templates:1002
 msgid "Driver needed by your Ethernet card:"
-msgstr "Modul de nucleu necesar plăcii dumneavoastră Ethernet:"
+msgstr "Modulul de nucleu necesar plăcii dumneavoastră Ethernet:"
 
 #. Type: select
 #. Description
@@ -2069,7 +2081,7 @@ msgstr "continuare fără unitate de disc"
 #. :sl2:
 #: ../disk-detect.templates:3002
 msgid "Driver needed for your disk drive:"
-msgstr "Module de nucleu necesar unității de disc:"
+msgstr "Modulul de nucleu necesar unității de disc:"
 
 #. Type: select
 #. Description
@@ -2087,21 +2099,22 @@ msgstr ""
 #. :sl2:
 #: ../disk-detect.templates:4001
 msgid "No partitionable media"
-msgstr "Nu există mediu partiționabil"
+msgstr "Nu există medii care pot fi partiționate"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../disk-detect.templates:4001
 msgid "No partitionable media were found."
-msgstr "Nu s-a găsit nici un mediu partiționabil."
+msgstr "Nu s-a găsit nici un mediu ce poate fi partiționat"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../disk-detect.templates:4001
 msgid "Please check that a hard disk is attached to this machine."
-msgstr "Vă rugăm sa verificați că aveți un disc fix atașat la acest sistem."
+msgstr ""
+"Vă rugăm să verificați dacă vreun disc dur este atașat la această mașină."
 
 #. Type: multiselect
 #. Description
@@ -2120,9 +2133,9 @@ msgid ""
 "load them. If you're unsure, you should leave them all selected."
 msgstr ""
 "Următoarele module de nucleu Linux au fost detectate ca fiind potrivite "
-"pentru componentele dumneavoastră. Dacă știți că unele nu sunt necesare, sau "
-"cauzează probleme, puteți să optați să nu le încărcați. Dacă știți sigur ar "
-"fi bine să le lăsați pe toate selectate."
+"pentru componentele și dispozitivele dumneavoastră. Dacă știți că unele nu "
+"sunt necesare, sau cauzează probleme, puteți să optați să nu le încărcați. "
+"Dacă nu sunteți sigur ar fi bine să le lăsați pe toate selectate."
 
 #. Type: boolean
 #. Description
@@ -2165,32 +2178,32 @@ msgid ""
 "manual or the PCMCIA HOWTO for more information."
 msgstr ""
 "Unele plăci PCMCIA au nevoie de opțiuni speciale de configurare a resurselor "
-"pentru a funcționa și pot cauza blocări ale sistemului, dacă sunt "
-"neconfigurate. De exemplu, unele laptopuri Dell au nevoie ca următoarele "
-"opțiuni „exclude port 0x800-0x8ff” să fie menționate aici. Aceste opțiuni "
-"vor fi adăugate la /etc/pcmcia/config.opts. Consultați manualul de instalare "
-"sau PCMCIA HOWTO pentru mai multe informații."
+"pentru a funcționa și pot cauza blocarea calculatorului în caz contrar. De "
+"exemplu, unele laptopuri Dell au nevoie ca următoarele opțiuni „exclude port "
+"0x800-0x8ff” să fie specificate aici. Aceste opțiuni vor fi adăugate la „/"
+"etc/pcmcia/config.opts”. Consultați manualul de instalare sau PCMCIA HOWTO "
+"pentru mai multe informații."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../hw-detect.templates:7001
 msgid "For most hardware, you do not need to specify anything here."
-msgstr "Pentru majoritatea plăcilor nu trebuie menționat nimic."
+msgstr "Pentru majoritatea plăcilor, nu trebuie să specificați nimic aici."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../hw-detect.templates:9001
 msgid "Error while running '${CMD_LINE_PARAM}'"
-msgstr "Eroare în timpul rulării '${CMD_LINE_PARAM}'"
+msgstr "Eroare în timpul rulării «${CMD_LINE_PARAM}»"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../hw-detect.templates:10001
 msgid "Load missing drivers from removable media?"
-msgstr "Se încarcă modulele care lipsesc de pe un mediu mobil?"
+msgstr "Se încarcă modulele care lipsesc de pe un mediu amovibil?"
 
 #. Type: boolean
 #. Description
@@ -2200,9 +2213,9 @@ msgid ""
 "A driver for your hardware is not available. You may need to load drivers "
 "from removable media, such as a USB stick, or driver floppy."
 msgstr ""
-"Nu este disponibil un modul de nucleu pentru una din componentele "
-"dumneavoastră. S-ar putea să fie necesar să încărcați module de pe mediu "
-"mobil, precum un stick USB sau o dischetă cu module de nucleu."
+"Nu este disponibil un modul de nucleu pentru una din componentele sau "
+"dispozitivele calculatorului dumneavoastră. S-ar putea să fie necesar să "
+"încărcați module de pe un mediu amovibil, precum un stick USB sau o dischetă."
 
 #. Type: boolean
 #. Description
@@ -2213,14 +2226,14 @@ msgstr ""
 #: ../hw-detect.templates:10001 ../hw-detect.templates:11001
 msgid "If you have such media available now, insert it, and continue."
 msgstr ""
-"Dacă aveți acum un asemenea mediu, introduceți-l în calculator și continuați."
+"Dacă aveți un astfel de mediu disponibil acum, introduceți-l și continuați."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../hw-detect.templates:11001
 msgid "Load missing firmware from removable media?"
-msgstr "Se încarcă modulele care lipsesc de pe un mediu mobil?"
+msgstr "Se încarcă firmware-ul care lipsește de pe un mediu amovibil?"
 
 #. Type: boolean
 #. Description
@@ -2230,16 +2243,16 @@ msgid ""
 "Some of your hardware needs non-free firmware files to operate. The firmware "
 "can be loaded from removable media, such as a USB stick or floppy."
 msgstr ""
-"Pentru a funcționa unele din componentele calculatorului au nevoie de "
-"fișiere de firmware non-libere. Acestea pot fi încărcate de pe un mediu "
-"mobil, precum un stick USB sau o dischetă."
+"Pentru a funcționa, unele dintre componentele sau dispozitivele "
+"calculatorului au nevoie de fișiere firmware non-libere. Acestea pot fi "
+"încărcate de pe un mediu amovibil, precum un stick USB sau o dischetă."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../hw-detect.templates:11001
 msgid "The missing firmware files are: ${FILES}"
-msgstr "Fișierele de firmware care lipsesc sunt: ${FILES}"
+msgstr "Fișierele firmware care lipsesc sunt: ${FILES}"
 
 #. Type: select
 #. Choices
@@ -2247,7 +2260,7 @@ msgstr "Fișierele de firmware care lipsesc sunt: ${FILES}"
 #. :sl2:
 #: ../save-logs.templates:2001
 msgid "serve over network"
-msgstr "Servește în rețea"
+msgstr "serviciu prin intermediul rețelei"
 
 #. Type: select
 #. Choices
@@ -2282,10 +2295,10 @@ msgid ""
 "to achieve that), saved to some mounted file system (like the one on a USB "
 "stick), or to a floppy."
 msgstr ""
-"Fișierele jurnal de depanare pentru programul de instalare pot fi accesate "
-"în /var/log/. Pot fi servite în rețea (un mic server web este pornit pe "
-"această mașină pentru a realiza asta), sau salvate într-un sistem de fișiere "
-"montat (precum cel de pe un stick USB) sau pe o discheta."
+"Fișierele jurnalului de depanare pentru programul de instalare pot fi "
+"accesate în „/var/log/”. Pot fi servite în rețea (un mic server web este "
+"pornit pe această mașină pentru a realiza asta), sau salvate într-un sistem "
+"de fișiere montat (precum cel de pe un stick USB) sau pe o dischetă."
 
 #. Type: string
 #. Description
@@ -2310,7 +2323,7 @@ msgstr ""
 #. :sl2:
 #: ../save-logs.templates:4001
 msgid "Cannot save logs"
-msgstr "Salvarea jurnalelor imposibilă"
+msgstr "Nu se pot salva jurnalele"
 
 #. Type: error
 #. Description
@@ -2343,8 +2356,8 @@ msgid ""
 "The information will also be stored in /var/log/installer/ on the installed "
 "system."
 msgstr ""
-"Informațiile vor fi, de asemenea, stocate în /var/log/installer/ pe sistemul "
-"instalat."
+"Informațiile vor fi, de asemenea, stocate în „/var/log/installer/” din "
+"sistemul instalat."
 
 #. Type: text
 #. Description
@@ -2360,21 +2373,23 @@ msgstr "Încarcă componentele programului de instalare de pe o imagine ISO"
 #. :sl2:
 #: ../localechooser.templates-in:4001
 msgid "System locale:"
-msgstr "Localizare sistem:"
+msgstr "Parametrii configurației regionale a sistemului:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../localechooser.templates-in:4001
 msgid "Select the default locale for the installed system."
-msgstr "Alegeți localizarea implicită pentru sistemul instalat."
+msgstr ""
+"Selectați parametrii configurației regionale implicite pentru sistemul "
+"instalat."
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../localechooser.templates-in:32001
 msgid "Additional locales:"
-msgstr "Localizări suplimentare:"
+msgstr "Parametri regionali adiționali:"
 
 #. Type: multiselect
 #. Description
@@ -2384,8 +2399,8 @@ msgid ""
 "Based on your previous choices, the default locale currently selected for "
 "the installed system is '${LOCALE}'."
 msgstr ""
-"Pe baza alegerilor făcute, localizarea implicită aleasă pentru sistemul "
-"instalat este: '${LOCALE}'."
+"Pe baza alegerilor făcute, configurația regională implicită selectată pentru "
+"sistemul instalat este: „${LOCALE}”."
 
 #. Type: multiselect
 #. Description
@@ -2396,16 +2411,17 @@ msgid ""
 "available, you may choose additional locales to be installed. If you are "
 "unsure it is best to just use the selected default."
 msgstr ""
-"Dacă doriți să folosiți o altă configurație implicită sau doriți și alte "
-"localizări disponibile, puteți alege să instalați localizări suplimentare. "
-"Dacă sunteți nesiguri folosiți varianta aleasă implicit."
+"Dacă doriți să folosiți o altă configurație regională implicită sau dacă "
+"doriți să aveți și alți parametri regionali disponibili, puteți alege să "
+"instalați parametri regionali suplimentari. Dacă sunteți nesiguri folosiți "
+"configurația regională selectată implicit."
 
 #. Type: note
 #. Description
 #. :sl2:
 #: ../localechooser.templates-in:34001
 msgid "locale"
-msgstr "localizare"
+msgstr "parametri regionali (locale)"
 
 #. Type: note
 #. Description
@@ -2415,8 +2431,8 @@ msgid ""
 "A locale determines character encoding and contains information on for "
 "example currency, date format and alphabetical sort order."
 msgstr ""
-"Localizările determină codificarea caracterelor și conțin informații despre "
-"moneda țarii, formatul datei și ordinea alfabetică de sortare."
+"Parametrii regionali determină codificarea caracterelor și conțin informații "
+"despre moneda țarii, formatul datei și ordinea alfabetică de sortare."
 
 #. Type: error
 #. Description
@@ -2460,14 +2476,15 @@ msgstr ""
 #. :sl2:
 #: ../media-retriever.templates:1001
 msgid "Scanning removable media"
-msgstr "Se analizează un mediu mobil"
+msgstr "Se examinează un mediu amovibil"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../media-retriever.templates:2001
 msgid "Cannot read removable media, or no drivers found."
-msgstr "Nu se poate citi mediul mobil, sau nu au fost găsite module de nucleu."
+msgstr ""
+"Nu se poate citi mediul amovibil, sau nu au fost găsite module de nucleu."
 
 #. Type: text
 #. Description
@@ -2478,16 +2495,16 @@ msgid ""
 "that the right media is present. If you continue to have trouble, your "
 "removable media might be bad."
 msgstr ""
-"A existat o problemă la citirea datelor de pe mediul mobil. Asigurați-vă că "
-"mediul corect este conectat și/sau prezent. Dacă continuați să întâmpinați "
-"probleme, s-ar putea să aveți un mediu mobil de stocare stricat."
+"A apărut o problemă la citirea datelor de pe mediul amovibil. Vă rugăm să vă "
+"asigurați că ați introdus mediul corect. Dacă continuați să aveți probleme, "
+"este posibil ca mediul dvs. amovibil să fie defect."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../load-media.templates:1001
 msgid "Load drivers from removable media now?"
-msgstr "Se încarcă modulele de nucleu de pe un mediu mobil?"
+msgstr "Încărcați acum modulele de nucleu din mediul amovibil?"
 
 #. Type: boolean
 #. Description
@@ -2498,9 +2515,9 @@ msgid ""
 "with the installation. If you know that the install will work without extra "
 "drivers, you can skip this step."
 msgstr ""
-"Probabil că va trebui să încărcați module de pe un mediu mobil înainte de a "
-"continua instalarea. Dacă știți că instalarea va funcționa fără alte module "
-"de nucleu, puteți să săriți peste acest pas."
+"Probabil că va trebui să încărcați module dintr-un mediu amovibil înainte de "
+"a continua instalarea. Dacă știți că instalarea va funcționa fără alte "
+"module de nucleu, puteți să săriți peste acest pas."
 
 #. Type: boolean
 #. Description
@@ -2510,8 +2527,9 @@ msgid ""
 "If you do need to load drivers, insert the appropriate removable media, such "
 "as a driver floppy or USB stick before continuing."
 msgstr ""
-"Dacă trebuie să încărcați modulele, introduceți mediul mobil potrivit "
-"înainte de a continua."
+"Dacă trebuie să încărcați module de nucleu, introduceți mediul amovibil "
+"corespunzător, cum ar fi o dischetă sau un stick USB ce conține modulele "
+"necesare, înainte de a continua."
 
 #. Type: text
 #. Description
@@ -2520,14 +2538,14 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:2001
 msgid "Load drivers from removable media"
-msgstr "Se încarcă modulele de nucleu de pe un mediu mobil"
+msgstr "Se încarcă modulele de nucleu dintr-un mediu amovibil"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../load-media.templates:3001
 msgid "Unknown removable media. Try to load anyway?"
-msgstr "Mediu mobil necunoscut. Se încearcă totuși încărcarea?"
+msgstr "Mediu amovibil necunoscut. Se încearcă totuși încărcarea?"
 
 #. Type: boolean
 #. Description
@@ -2538,9 +2556,9 @@ msgid ""
 "that the correct media is inserted. You can still continue if you have an "
 "unofficial removable media you want to use."
 msgstr ""
-"Mediul de stocare cu module de nucleu detectat este necunoscut. Asigurați-vă "
-"că mediul mobil corect este conectat. Puteți totuși continua dacă aveți un "
-"mediu de stocare neoficial pe care doriți să îl folosiți."
+"Mediul amovibil detectat nu este un mediu cu module de nucleu cunoscut. "
+"Asigurați-vă că este introdus mediul corect. Puteți continua dacă aveți un "
+"mediu amovibil neoficial pe care doriți să îl utilizați."
 
 #. Type: text
 #. Description
@@ -2565,7 +2583,7 @@ msgstr ""
 #. :sl2:
 #: ../load-media.templates:5001
 msgid "Load drivers from another removable media?"
-msgstr "Se încarcă module de nucleu de pe un alt mediu mobil?"
+msgstr "Se încarcă module de nucleu de pe un alt mediu amovibil?"
 
 #. Type: boolean
 #. Description
@@ -2576,9 +2594,9 @@ msgid ""
 "appropriate removable media, such as a driver floppy or USB stick before "
 "continuing."
 msgstr ""
-"Pentru a încărca module de nucleu adiționale de pe un alt mediu mobil, "
-"introduceți mediul de stocare potrivit, de exemplu, o dischetă cu module sau "
-"un stick USB, înainte de a continua."
+"Pentru a încărca module de nucleu adiționale de pe un alt mediu amovibil, "
+"introduceți mediul amovibil potrivit, de exemplu, o dischetă sau un stick "
+"USB cu module înainte de a continua."
 
 #. Type: string
 #. Description
@@ -2623,14 +2641,15 @@ msgid ""
 "if the network is protected with WPA/WPA2 PSK (Pre-Shared Key)."
 msgstr ""
 "Alegeți WEP/Open dacă rețeaua este deschisă sau securizată cu WEP. Alegeți "
-"WPA/WPA2 dacă rețeaua este protejată cu WPA/WPA2 PSK (Pre-Shared Key)."
+"WPA/WPA2 dacă rețeaua este protejată cu WPA/WPA2 PSK („Pre-Shared Key” o "
+"cheie pre-partajată)."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:9001
 msgid "WEP key for wireless device ${iface}:"
-msgstr "Cheia WEP pentru dispozitivul radio ${iface}:"
+msgstr "Cheia WEP pentru dispozitivul fără fir ${iface}:"
 
 #. Type: string
 #. Description
@@ -2641,7 +2660,7 @@ msgid ""
 "${iface}. There are two ways to do this:"
 msgstr ""
 "Dacă e cazul, vă rugăm să introduceți cheia de securitate WEP pentru "
-"dispozitivul ${iface}. Sunt două moduri de a face acest lucru:"
+"dispozitivul fără fir ${iface}. Sunt două moduri de a face acest lucru:"
 
 #. Type: string
 #. Description
@@ -2651,9 +2670,9 @@ msgid ""
 "If your WEP key is in the format 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:nn:nn:nn', "
 "or 'nnnnnnnn', where n is a number, just enter it as it is into this field."
 msgstr ""
-"Dacă cheia dumneavoastră WEP este de forma 'nnnn-nnnn-nn', 'nn:nn:nn:nn:nn:"
-"nn:nn:nn' sau 'nnnnnnnn', unde n este un număr, introduceți-o așa cum este "
-"în acest câmp."
+"Dacă cheia dumneavoastră WEP este de forma „nnnn-nnnn-nn”, "
+"„nn:nn:nn:nn:nn:nn:nn:nn” sau „nnnnnnnn”, unde n este un număr, introduceți-"
+"o așa cum este în acest câmp."
 
 #. Type: string
 #. Description
@@ -2675,14 +2694,14 @@ msgid ""
 "field blank."
 msgstr ""
 "Desigur, dacă nu există cheie WEP pentru rețeaua dumneavoastră fără fir, "
-"lăsați acest câmp liber."
+"lăsați acest câmp gol."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:10001
 msgid "Invalid WEP key"
-msgstr "Cheie WEP invalidă"
+msgstr "Cheie WEP nevalidă"
 
 #. Type: error
 #. Description
@@ -2692,7 +2711,7 @@ msgid ""
 "The WEP key '${wepkey}' is invalid. Please refer to the instructions on the "
 "next screen carefully on how to enter your WEP key correctly, and try again."
 msgstr ""
-"Cheia WEP '${wepkey}' este invalidă. Vă rugăm citiți cu atenție "
+"Cheia WEP „${wepkey}” nu este validă. Vă rugăm citiți cu atenție "
 "instrucțiunile din următoarea pagină, referitoare la modul de introducere "
 "corect al cheii WEP, și încercați din nou."
 
@@ -2738,7 +2757,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:13001
 msgid "Invalid ESSID"
-msgstr "ESSID invalid"
+msgstr "ESSID nevalid"
 
 #. Type: error
 #. Description
@@ -2748,7 +2767,7 @@ msgid ""
 "The ESSID \"${essid}\" is invalid. ESSIDs may only be up to ${max_essid_len} "
 "characters, but may contain all kinds of characters."
 msgstr ""
-"ESSID-ul „${essid}” este invalid. ESSID-urile pot avea până la "
+"ESSID-ul „${essid}” nu este valid. ESSID-urile pot avea până la "
 "${max_essid_len} caractere, dar pot conține toate tipurile de caractere."
 
 #. Type: text
@@ -2781,21 +2800,21 @@ msgid ""
 "check the WPA/WPA2 parameters you provided."
 msgstr ""
 "Schimbul de chei și asocierea cu punctul de acces a eșuat. Verificați "
-"parametrii WPA/WPA2 pe care i-ați indicat."
+"parametrii WPA/WPA2 pe care i-ați specificat."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "Invalid hostname"
-msgstr "Nume de calculator invalid"
+msgstr "Nume de gazdă nevalid"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:20001
 msgid "The name \"${hostname}\" is invalid."
-msgstr "Numele „${hostname}” este invalid."
+msgstr "Numele „${hostname}” nu este valid."
 
 #. Type: error
 #. Description
@@ -2807,9 +2826,10 @@ msgid ""
 "${maxhostnamelen} characters long, and may not begin or end with a minus "
 "sign."
 msgstr ""
-"Un nume de calculator valid poate conține doar cifrele 0-9, literele mici de "
-"la „a” la „z” și caracterul minus. Trebuie să aibă maxim ${maxhostnamelen} "
-"de caractere, și nu poate să înceapă sau să se termine cu un semn minus."
+"Un nume de gazdă valid poate conține numai numerele 0-9, litere majuscule și "
+"minuscule (A-Z și a-z) și semnul minus. Acesta trebuie să aibă cel mult "
+"${maxhostnamelen} caractere și nu poate începe sau se poate termina cu "
+"semnul minus."
 
 #. Type: error
 #. Description
@@ -2834,7 +2854,7 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-common.templates:22001
 msgid "No network interfaces detected"
-msgstr "Nu s-a detectat nici o interfață de rețea"
+msgstr "Nu s-a detectat nicio interfață de rețea"
 
 #. Type: error
 #. Description
@@ -2844,8 +2864,8 @@ msgid ""
 "No network interfaces were found. The installation system was unable to find "
 "a network device."
 msgstr ""
-"Nu s-a găsit nici o interfață de rețea. Sistemul de instalare nu a putut "
-"găsi nici dispozitiv de rețea."
+"Nu s-a găsit nicio interfață de rețea. Sistemul de instalare nu a putut găsi "
+"niciun dispozitiv de rețea."
 
 #. Type: error
 #. Description
@@ -2893,7 +2913,7 @@ msgstr ""
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Infrastructure (Managed) network"
-msgstr "Rețea cu infrastructură (cu management)"
+msgstr "Rețea de infrastructură (gestionată)"
 
 #. Type: select
 #. Choices
@@ -2905,7 +2925,7 @@ msgstr "Rețea cu infrastructură (cu management)"
 #. You MUST NOT use commas inside choices
 #: ../netcfg-common.templates:24001
 msgid "Ad-hoc network (Peer to peer)"
-msgstr "Rețea ad-hoc (Peer to peer)"
+msgstr "Rețea ad-hoc (de la egal la egal, „peer to peer”)"
 
 #. Type: select
 #. Description
@@ -2923,16 +2943,16 @@ msgid ""
 "point of some sort, your network is Managed. If another computer is your "
 "'access point', then your network may be Ad-hoc."
 msgstr ""
-"Rețelele fără fir sunt fie cu management, fie ad-hoc. Dacă folosiți un punct "
-"de acces real, rețeaua este cu management. Dacă un alt calculator este "
-"punctul de acces, atunci rețeaua ar putea fi de tip ad-hoc."
+"Rețelele fără fir sunt fie gestionate, fie ad-hoc. Dacă folosiți un punct de "
+"acces real, rețeaua este gestionată. Dacă un alt calculator este punctul de "
+"acces, atunci rețeaua ar putea fi de tip ad-hoc."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../netcfg-common.templates:25001
 msgid "Wireless network configuration"
-msgstr "Configurație de rețea fără fir"
+msgstr "Configurarea rețelei fără fir"
 
 #. Type: text
 #. Description
@@ -2953,7 +2973,7 @@ msgstr "Se detectează conexiunea pe ${interface}, vă rugăm să așteptați...
 #. :sl2:
 #: ../netcfg-common.templates:30001
 msgid "<none>"
-msgstr "<nici una>"
+msgstr "<niciuna>"
 
 #. Type: text
 #. Description
@@ -2967,7 +2987,7 @@ msgstr "Ethernet fără fir (802.11x)"
 #. :sl2:
 #: ../netcfg-common.templates:32001
 msgid "wireless"
-msgstr "fără fir (radio)"
+msgstr "fără fir"
 
 #. Type: text
 #. Description
@@ -3044,7 +3064,7 @@ msgstr "Canal-la-canal real"
 #. :sl2:
 #: ../netcfg-common.templates:45001
 msgid "Inter-user communication vehicle"
-msgstr "Vehicul de comunicare inter-utilizator"
+msgstr "Vehicul de comunicare între utilizatori"
 
 #. Type: text
 #. Description
@@ -3096,11 +3116,11 @@ msgid ""
 "have the first image from a set of installation media, a 'Netinst' image, or "
 "packages available on the local network."
 msgstr ""
-"Autoconfigurarea rețelei a avut succes. Cu toate acestea, nu a fost setată "
-"nicio rută implicită: sistemul nu știe cum să comunice cu host-urile de pe "
-"Internet. Acest lucru va face imposibilă continuarea instalării, cu excepția "
-"cazului în care aveți prima imagine dintr-un set de medii de instalare, o "
-"imagine \"Netinst\" sau pachete disponibile în rețeaua locală."
+"Autoconfigurarea rețelei a avut succes. Cu toate acestea, nu a fost "
+"configurată nicio rută implicită: sistemul nu știe cum să comunice cu "
+"gazdele din Internet. Acest lucru va face imposibilă continuarea instalării, "
+"cu excepția cazului în care aveți prima imagine dintr-un set de medii de "
+"instalare, o imagine „netinst” sau pachete disponibile în rețeaua locală."
 
 #. Type: boolean
 #. Description
@@ -3131,7 +3151,7 @@ msgstr "Se încearcă autoconfigurarea IPv6..."
 #. :sl2:
 #: ../netcfg-dhcp.templates:13001
 msgid "Waiting for link-local address..."
-msgstr "Se așteaptă după o adresă link-local..."
+msgstr "Se așteaptă adresa locală de legătură.(„link-local”)..."
 
 #. Type: text
 #. Description
@@ -3177,8 +3197,8 @@ msgid ""
 "know the value.  The point-to-point address should be entered as four "
 "numbers separated by periods."
 msgstr ""
-"Adresa IP este unică pentru calculatorul dumneavoastră și constă din patru "
-"numere separate prin puncte. Consultați administratorul de rețea dacă nu "
+"Adresa punct-la-punct este utilizată pentru a determina celălalt capăt al "
+"rețelei punct-la-punct. Consultați administratorul de rețea dacă nu "
 "cunoașteți valoarea acesteia. Adresa punct-la-punct ar trebui să fie "
 "introdusă ca patru numere separate prin puncte."
 
@@ -3187,14 +3207,14 @@ msgstr ""
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "Unreachable gateway"
-msgstr "Gateway inaccesibil"
+msgstr "Poartă de acces (pasarelă) inaccesibilă"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../netcfg-static.templates:6001
 msgid "The gateway address you entered is unreachable."
-msgstr "Adresa de gateway introdusă este inaccesibilă."
+msgstr "Adresa de poartă de acces introdusă este inaccesibilă."
 
 #. Type: error
 #. Description
@@ -3204,7 +3224,7 @@ msgid ""
 "You may have made an error entering your IP address, netmask and/or gateway."
 msgstr ""
 "Este posibil să fi comis o eroare când ați introdus adresa dumneavoastră de "
-"IP, masca de rețea și/sau gateway-ul."
+"IP, masca de rețea și/sau poarta de acces."
 
 #. Type: text
 #. Description
@@ -3225,10 +3245,10 @@ msgid ""
 "download, select a different mirror, or cancel and choose another "
 "installation method."
 msgstr ""
-"Programul de instalare a eșuat la descărcarea unui fișier de pe situl "
-"alternativ. Aceasta ar putea fi o problemă cu rețeaua dumneavoastră, sau cu "
-"situl alternativ. Puteți alege să reîncercați descărcarea, selecta un alt "
-"sit, sau să renunțați și să alegeți o altă metodă de instalare."
+"Programul de instalare a eșuat la descărcarea unui fișier din oglinda "
+"arhivei. Aceasta ar putea fi o problemă cu rețeaua dumneavoastră, sau cu "
+"oglinda arhivei. Puteți alege să reîncercați descărcarea, selecta o altă "
+"oglindă, sau să renunțați și să alegeți o altă metodă de instalare."
 
 #. #-#-#-#-#  templates.pot (network-console)  #-#-#-#-#
 #. Type: error
@@ -3290,7 +3310,7 @@ msgstr ""
 #: ../partman-auto.templates:4001 ../partman-auto.templates:5001
 #: ../partman-auto-lvm.templates:4001
 msgid "Failed to partition the selected disk"
-msgstr "Eșec la partiționarea discului selectat"
+msgstr "Partiționarea discului selectat a eșuat"
 
 #. Type: error
 #. Description
@@ -3329,7 +3349,7 @@ msgid ""
 "Partitioning failed because the chosen free space may not be used. There are "
 "probably too many (primary) partitions in the partition table."
 msgstr ""
-"Partiționare a eșuat deoarece spațiul liber ales nu poate fi utilizat. "
+"Partiționarea a eșuat deoarece spațiul liber ales nu poate fi utilizat. "
 "Probabil că sunt prea multe partiții (primare) în tabela de partiții."
 
 #. Type: text
@@ -3338,7 +3358,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:24001
 msgid "Small-disk (< 10GB) partitioning scheme"
-msgstr "Schema de partiționare pentru discuri mici (< 10GO)"
+msgstr "Schema de partiționare pentru discuri mici (< 10Go)"
 
 #. #-#-#-#-#  templates.pot (partman-auto-lvm)  #-#-#-#-#
 #. Type: string
@@ -3353,27 +3373,25 @@ msgstr "Schema de partiționare pentru discuri mici (< 10GO)"
 #. :sl2:
 #: ../partman-auto-lvm.templates:11001 ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
-#, fuzzy, no-c-format
-#| msgid ""
-#| "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
-#| "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
-#| "size."
+#, no-c-format
 msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum "
 "size. You can specify partition sizes in decimal units (like MB or GB) as "
 "well as in binary units (like GiB or TiB)."
 msgstr ""
-"Pont: „max” poate fi folosit ca o metodă simplă de a preciza dimensiunea "
-"maximă sau introduceți un procentaj (ex.: „20%”) pentru a folosi acel "
-"procent din dimensiunea maximă."
+"Pont: „max” poate fi utilizat ca o scurtătură pentru a specifica dimensiunea "
+"maximă sau introduceți un procent (de exemplu, „20%”) pentru a utiliza acel "
+"procent din dimensiunea maximă. Puteți specifica dimensiunile partițiilor în "
+"unități zecimale (precum Mo sau Go), precum și în unități binare (precum Gio "
+"sau Tio)."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-base.templates:5001
 msgid "Device in use"
-msgstr "Dispozitiv folosit"
+msgstr "Dispozitiv în uz"
 
 #. Type: error
 #. Description
@@ -3383,14 +3401,15 @@ msgid ""
 "No modifications can be made to the device ${DEVICE} for the following "
 "reasons:"
 msgstr ""
-"Nu se pot face modificări dispozitivului ${DEVICE} din următoarele motive:"
+"Nu pot fi efectuate modificări la dispozitivul ${DEVICE} din următoarele "
+"motive:"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-base.templates:6001
 msgid "Partition in use"
-msgstr "Partiție folosită"
+msgstr "Partiție în uz"
 
 #. Type: error
 #. Description
@@ -3420,7 +3439,7 @@ msgstr "Se continuă instalarea?"
 msgid ""
 "No partition table changes and no creation of file systems have been planned."
 msgstr ""
-"Nu s-a planificat nici o schimbare a tabelei de partiții și nici vreo creare "
+"Nu s-a planificat nicio modificare a tabelei de partiții și nici vreo creare "
 "de sistem de fișiere."
 
 #. Type: boolean
@@ -3581,8 +3600,8 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a file system to "
 "this partition, it won't be used at all."
 msgstr ""
-"Dacă nu vă întoarceți la meniul de partiționare să asociați un sistem de "
-"fișiere acestei partiții, ea nu va fi folosită deloc."
+"Dacă nu vă întoarceți la meniul de partiționare și nu atribuiți un sistem de "
+"fișiere acestei partiții, aceasta nu va fi utilizată deloc."
 
 #. Type: text
 #. Description
@@ -3679,8 +3698,8 @@ msgid ""
 "The test of the swap space in partition #${PARTITION} of ${DEVICE} found "
 "uncorrected errors."
 msgstr ""
-"Verificarea spațiului swap de pe partiția nr.${PARTITION} a ${DEVICE} a "
-"găsit erori necorectate."
+"Verificarea spațiului de interschimb (swap) de pe partiția nr.${PARTITION} a "
+"${DEVICE} a găsit erori necorectate."
 
 #. #-#-#-#-#  templates.pot (partman-basicfilesystems)  #-#-#-#-#
 #. Type: boolean
@@ -3714,11 +3733,11 @@ msgid ""
 "scarce. You may experience installation problems if you do not have enough "
 "physical memory."
 msgstr ""
-"Nu ați selectat nici o partiție pentru a fi utilizată ca spațiu de swap. "
-"Activarea spațiului de swap este recomandată pentru ca sistemul să poată "
-"utiliza mai bine memoria fizică existentă și se va comporta mai bine când "
-"memoria fizică este puțină. Ați putea avea probleme la instalare dacă nu "
-"aveți destulă memorie."
+"Nu ați selectat nici o partiție pentru a fi utilizată ca spațiu de "
+"interschimb (swap). Activarea spațiului de interschimb este recomandată "
+"pentru ca sistemul să poată utiliza mai bine memoria fizică existentă și se "
+"va comporta mai bine când memoria fizică este puțină. Ați putea avea "
+"probleme la instalare dacă nu aveți destulă memorie."
 
 #. Type: boolean
 #. Description
@@ -3728,8 +3747,8 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a swap partition, "
 "the installation will continue without swap space."
 msgstr ""
-"Dacă nu vă întoarceți la meniul de partiționare să desemnați o partiție de "
-"swap, instalarea va continua fără spațiu de swap."
+"Dacă nu vă întoarceți la meniul de partiționare să atribuiți o partiție de "
+"swap, instalarea va continua fără spațiu de interschimb."
 
 #. Type: error
 #. Description
@@ -3754,7 +3773,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-basicfilesystems.templates:10001
 msgid "Failed to create a swap space"
-msgstr "Eșec la crearea unui spațiu swap"
+msgstr "Eșec la crearea unui spațiu de interschimb"
 
 #. Type: error
 #. Description
@@ -3763,7 +3782,8 @@ msgstr "Eșec la crearea unui spațiu swap"
 msgid ""
 "The creation of swap space in partition #${PARTITION} of ${DEVICE} failed."
 msgstr ""
-"Crearea spațiului swap de pe partiția nr.${PARTITION} a ${DEVICE} a eșuat."
+"Crearea spațiului de interschimb pe partiția nr.${PARTITION} a ${DEVICE} a "
+"eșuat."
 
 #. Type: boolean
 #. Description
@@ -3773,7 +3793,7 @@ msgid ""
 "No mount point is assigned for the ${FILESYSTEM} file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"Nu este desemnat nici un punct de montare pentru sistemul de fișiere "
+"Nu este atribuit nici un punct de montare pentru sistemul de fișiere "
 "${FILESYSTEM} pe partiția nr.${PARTITION} a ${DEVICE}."
 
 #. Type: boolean
@@ -3784,15 +3804,15 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
 msgstr ""
-"Dacă nu vă întoarceți la meniul de partiționare să asociați un punct de "
-"montare de acolo, partiția nu va fi folosită deloc."
+"Dacă nu vă întoarceți la meniul de partiționare și nu atribuiți un punct de "
+"montare de acolo, această partiție nu va fi utilizată deloc."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:12001
 msgid "Invalid file system for this mount point"
-msgstr "Sistemul de fișiere invalid pentru acest punct de montare"
+msgstr "Sistem de fișiere nevalid pentru acest punct de montare"
 
 #. Type: error
 #. Description
@@ -3825,7 +3845,7 @@ msgstr "/ - sistemul de fișiere rădăcină"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/boot - static files of the boot loader"
-msgstr "/boot - fișiere statice ale încărcătorului de sistem"
+msgstr "/boot - fișiere statice ale încărcătorului de pornire"
 
 #. Type: select
 #. Choices
@@ -3844,10 +3864,8 @@ msgstr "/home - directoarele „acasă” ale utilizatorilor"
 #. in single-byte languages) including the initial path
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
-#, fuzzy
-#| msgid "/tmp - temporary files"
 msgid "/tmp - temporary files (default: tmpfs)"
-msgstr "/tmp - fișiere temporare"
+msgstr "/tmp - fișiere temporare (implicit: tmpfs)"
 
 #. Type: select
 #. Choices
@@ -3959,14 +3977,14 @@ msgstr "/windows"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "Invalid mount point"
-msgstr "Punct de montare invalid"
+msgstr "Punct de montare nevalid"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:16001
 msgid "The mount point you entered is invalid."
-msgstr "Punctul de montare introdus este invalid."
+msgstr "Punctul de montare introdus nu este valid."
 
 #. Type: error
 #. Description
@@ -3974,14 +3992,14 @@ msgstr "Punctul de montare introdus este invalid."
 #: ../partman-basicfilesystems.templates:16001
 msgid "Mount points must start with \"/\". They cannot contain spaces."
 msgstr ""
-"Punctele de montare trebuie să înceapă cu „/”. Ele nu pot conține spații."
+"Punctele de montare trebuie să înceapă cu „/”. Acestea nu pot conține spații."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:17001
 msgid "Label for the file system in this partition:"
-msgstr "Eticheta pentru sistemul de fișiere în această partiție:"
+msgstr "Eticheta pentru sistemul de fișiere din această partiție:"
 
 #. Type: text
 #. Description
@@ -4035,7 +4053,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Label:\" ]"
-msgstr "nici una"
+msgstr "niciuna"
 
 #. Type: text
 #. Description
@@ -4051,7 +4069,7 @@ msgstr "Blocuri rezervate:"
 #: ../partman-basicfilesystems.templates:24001
 msgid "Percentage of the file system blocks reserved for the super-user:"
 msgstr ""
-"Procentajul blocurilor de fișiere de sistem rezervate pentru super-"
+"Procentul de blocuri din sistemul de fișiere rezervat pentru super-"
 "utilizator:"
 
 #. Type: text
@@ -4091,8 +4109,9 @@ msgid ""
 "Please specify how the file system is going to be used, so that optimal file "
 "system parameters can be chosen for that use."
 msgstr ""
-"Vă rugăm să specificați cum va fi utilizat sistemul de fișiere, astfel ca "
-"parametrii optimi pot fi aleși pentru utilizare."
+"Vă rugăm să specificați modul în care va fi utilizat sistemul de fișiere, "
+"astfel încât parametrii optimi ai sistemului de fișiere să poată fi aleși "
+"pentru utilizarea respectivă."
 
 #. Type: select
 #. Description
@@ -4105,8 +4124,8 @@ msgid ""
 "standard = standard parameters, news = one inode per 4KB block, largefile = "
 "one inode per megabyte, largefile4 = one inode per 4 megabytes."
 msgstr ""
-"standard = parametri standard, news = un inod la 4KO bloc, largefile = un "
-"inod la un megaoctet, largefile4 = un inod la 4 megaocteți."
+"standard = parametri standard, news = un nod-i pentru fiecare bloc de 4Ko , "
+"largefile = un nod-i la un megaoctet, largefile4 = un nod-i la 4 megaocteți."
 
 #. Type: text
 #. Description
@@ -4125,14 +4144,14 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" relates to \"Mount point:\" ]"
-msgstr "nici unul"
+msgstr "niciunul"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-basicfilesystems.templates:30001
 msgid "Ext2 file system"
-msgstr "Sistem de fișiere ext2"
+msgstr "sistem de fișiere ext2"
 
 #. Type: text
 #. Description
@@ -4163,7 +4182,7 @@ msgstr "sistem de fișiere NTFS cu jurnalizare"
 #: ../partman-basicfilesystems.templates:38001
 #: ../partman-basicfilesystems.templates:40001
 msgid "swap area"
-msgstr "zonă de swap"
+msgstr "zonă de interschimb (swap)"
 
 #. Type: text
 #. Description
@@ -4189,7 +4208,7 @@ msgstr "Opțiunile de montare pot regla comportamentul sistemului de fișiere."
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:44001
 msgid "noatime - do not update inode access times at each access"
-msgstr "noatime - nu actualiza timpii de acces (în inod) la fiecare acces"
+msgstr "noatime - nu actual. timpii de acces la noduri-i la fiecare acces"
 
 #. Type: text
 #. Description
@@ -4198,7 +4217,7 @@ msgstr "noatime - nu actualiza timpii de acces (în inod) la fiecare acces"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:45001
 msgid "nodiratime - do not update directory inode access times"
-msgstr "nodiratime - nu actualiza timpii de acces ai directorului"
+msgstr "nodiratime - nu actual. timpii de acces la nodurile-i ale dir."
 
 #. Type: text
 #. Description
@@ -4207,7 +4226,7 @@ msgstr "nodiratime - nu actualiza timpii de acces ai directorului"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:46001
 msgid "relatime - update inode access times relative to modify time"
-msgstr "relatime - reține timpii de acces relativ la timpul de modificare"
+msgstr "relatime - actual. timpii de acces la noduri-i rel. la cel de modific"
 
 #. Type: text
 #. Description
@@ -4216,7 +4235,7 @@ msgstr "relatime - reține timpii de acces relativ la timpul de modificare"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:47001
 msgid "nodev - do not support character or block special devices"
-msgstr "nodev - nu suporta dispozitive caracter sau bloc speciale"
+msgstr "nodev - nu acceptă dispozitive speciale de caractere sau blocuri"
 
 #. Type: text
 #. Description
@@ -4225,7 +4244,7 @@ msgstr "nodev - nu suporta dispozitive caracter sau bloc speciale"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:48001
 msgid "nosuid - ignore set-user-identifier or set-group-identifier bits"
-msgstr "nosuid - ignoră biții „set user ID” sau „set group ID”"
+msgstr "nosuid - ignoră biții „set-user-id” sau „set-group-id”"
 
 #. Type: text
 #. Description
@@ -4234,7 +4253,7 @@ msgstr "nosuid - ignoră biții „set user ID” sau „set group ID”"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:49001
 msgid "noexec - do not allow execution of any binaries"
-msgstr "noexec - nu permite execuția unui fișier binar"
+msgstr "noexec - nu permite execuția niciunui binar"
 
 #. Type: text
 #. Description
@@ -4243,7 +4262,7 @@ msgstr "noexec - nu permite execuția unui fișier binar"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:50001
 msgid "ro - mount the file system read-only"
-msgstr "ro - montează sistemul de fișiere în mod „doar citire”"
+msgstr "ro - montează sistemul de fișiere în modul „numai-citire”"
 
 #. Type: text
 #. Description
@@ -4252,7 +4271,7 @@ msgstr "ro - montează sistemul de fișiere în mod „doar citire”"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:51001
 msgid "sync - all input/output activities occur synchronously"
-msgstr "sync - toate activitățile de intrare/ieșire de desfășoară sincron"
+msgstr "sync - toate activitățile de intrare/ieșire se desfășoară sincron"
 
 #. Type: text
 #. Description
@@ -4261,7 +4280,7 @@ msgstr "sync - toate activitățile de intrare/ieșire de desfășoară sincron"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:52001
 msgid "usrquota - user disk quota accounting enabled"
-msgstr "usrquota - activează cota de disc per utilizator"
+msgstr "usrquota - activează contabilizarea cotelor de disc ale utiliz."
 
 #. Type: text
 #. Description
@@ -4270,7 +4289,7 @@ msgstr "usrquota - activează cota de disc per utilizator"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:53001
 msgid "grpquota - group disk quota accounting enabled"
-msgstr "grpquota - activează cota de disc per grup"
+msgstr "grpquota - activează contab. cotelor de disc ale grupurilor"
 
 #. Type: text
 #. Description
@@ -4298,7 +4317,7 @@ msgstr "quiet - fără erori la schimbarea proprietarului și a drepturilor"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:56001
 msgid "notail - disable packing of files into the file system tree"
-msgstr "notail - fără împachetarea fișierelor în sistemul de fișiere"
+msgstr "notail - fără regruparea fișierelor în arborele sistem. de fișiere"
 
 #. Type: text
 #. Description
@@ -4307,7 +4326,7 @@ msgstr "notail - fără împachetarea fișierelor în sistemul de fișiere"
 #. a 65 columns limit (which means 65 characters in single-byte languages)
 #: ../partman-basicfilesystems.templates:57001
 msgid "discard - trim freed blocks from underlying block device"
-msgstr "discard - curăță blocurile libere de pe dispozitiv"
+msgstr "discard - elimină blocurile libere din dispozitivul de blocuri"
 
 #. #-#-#-#-#  templates.pot (partman-basicfilesystems)  #-#-#-#-#
 #. Type: boolean
@@ -4361,7 +4380,7 @@ msgid ""
 msgstr ""
 "Dacă nu vă întoarceți la meniul de partiționare să corectați aceste erori, "
 "partiția va fi folosită așa cum este. În acest caz este posibil să nu puteți "
-"porni de pe discul fix."
+"porni de pe discul dur."
 
 #. Type: text
 #. Description
@@ -4369,14 +4388,15 @@ msgstr ""
 #. File system name
 #: ../partman-btrfs.templates:2001
 msgid "btrfs journaling file system"
-msgstr "Sistem de fișiere btrfs cu jurnalizare"
+msgstr "sistem de fișiere btrfs cu jurnalizare"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-btrfs.templates:4001
 msgid "btrfs root file system not supported without separate /boot"
-msgstr "Sistemul de fișiere btrfs nu este suportat fără /boot separat"
+msgstr ""
+"Sistemul de fișiere btrfs nu este acceptat fără o partiție „/boot” separată"
 
 #. Type: error
 #. Description
@@ -4387,7 +4407,7 @@ msgid ""
 "boot loader used by default by this installer."
 msgstr ""
 "Sistemul dumneavoastră de fișiere rădăcina este de tip btrfs. Această "
-"configurație nu este suportată de încărcătorul de sistem utilizat implicit "
+"configurație nu este acceptată de încărcătorul de pornire utilizat implicit "
 "de acest program de instalare."
 
 #. Type: error
@@ -4398,7 +4418,7 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext4."
 msgstr ""
-"Ar trebui să utilizați o mică partiție /boot cu un alt sistem de fișiere, "
+"Ar trebui să utilizați o mică partiție „/boot” cu un alt sistem de fișiere, "
 "cum ar fi ext4."
 
 #. Type: error
@@ -4406,7 +4426,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-btrfs.templates:5001
 msgid "btrfs file system not supported for /boot"
-msgstr "Sistemul de fișiere btrfs nu este suportat pentru /boot"
+msgstr "Sistemul de fișiere btrfs nu este acceptat pentru o partiție „/boot”"
 
 #. Type: error
 #. Description
@@ -4416,9 +4436,9 @@ msgid ""
 "You have mounted a btrfs file system as /boot. This is not supported by the "
 "boot loader used by default by this installer."
 msgstr ""
-"Ați montat un sistem de fișiere de tip btrfs ca /boot. Această configurație "
-"nu este suportată de încărcătorul de sistem utilizat implicit de acest "
-"program de instalare."
+"Ați montat un sistem de fișiere de tip btrfs ca „/boot”. Această "
+"configurație nu este acceptată de încărcătorul de pornire utilizat implicit "
+"de acest program de instalare."
 
 #. Type: error
 #. Description
@@ -4427,8 +4447,8 @@ msgstr ""
 msgid ""
 "You should use another file system, such as ext4, for the /boot partition."
 msgstr ""
-"Ar trebui să utilizați un alt sistem de fișiere, ca ext4, pentru partiția /"
-"boot."
+"Ar trebui să utilizați un alt sistem de fișiere, ca ext4, pentru partiția "
+"„/boot”."
 
 #. #-#-#-#-#  templates.pot (partman-cros)  #-#-#-#-#
 #. Type: boolean
@@ -4466,7 +4486,7 @@ msgid ""
 "less than 35 MB. Please make the EFI System Partition larger."
 msgstr ""
 "Partiții de sistem EFI pe această arhitectură nu pot fi create cu o "
-"dimensiune mai mică de 35 MB. Vă rugăm să configurați o partiție de sistem "
+"dimensiune mai mică de 35 Mo. Vă rugăm să configurați o partiție de sistem "
 "EFI mai mare."
 
 #. Type: boolean
@@ -4487,10 +4507,10 @@ msgid ""
 "might be difficult to reboot the machine into any BIOS-mode operating "
 "systems later."
 msgstr ""
-"Acest sistem a pornit programul de instalare în mod UEFI, dar se pare că "
-"există deja sisteme de operare instalate folosind „BIOS compatibility mode”. "
-"Dacă continuați cu instalarea Debian în modul UEFI ar putea fi dificil să "
-"porniți sistemele de operare care utilizează modul BIOS."
+"Firmaware-ul acestei mașini a pornit programul de instalare în modul UEFI, "
+"dar se pare că există deja sisteme de operare instalate folosind „modul de "
+"compatibilitate BIOS”. Dacă continuați cu instalarea Debian în modul UEFI ar "
+"putea fi dificil să porniți sistemele de operare care utilizează modul BIOS."
 
 #. Type: boolean
 #. Description
@@ -4502,10 +4522,11 @@ msgid ""
 "If you wish to keep the option to boot an existing operating system, you "
 "should choose NOT to force UEFI installation here."
 msgstr ""
-"Dacă doriți să instalați în mod UEFI și păstrarea posibilității de pornire a "
-"unuia dintre celelalte sisteme nu este necesară puteți forța acest lucru "
-"aici. Dacă doriți să păstrați posibilitatea de a porni un sistem de operare "
-"existent va trebui să optați pentru a NU forța o instalare UEFI."
+"Dacă doriți să instalați în modul UEFI și nu doriți să păstrați "
+"posibilitatea de a porni unul dintre sistemele existente, aveți opțiunea de "
+"a forța acest lucru aici. Dacă doriți să păstrați opțiunea de a porni un "
+"sistem de operare existent, trebuie să optați pentru a NU forța o instalare "
+"UEFI.."
 
 #. Type: text
 #. Description
@@ -4513,7 +4534,7 @@ msgstr ""
 #. File system name
 #: ../partman-ext3.templates:2001
 msgid "Ext3 journaling file system"
-msgstr "Sistem de fișiere ext3 cu jurnalizare"
+msgstr "sistem de fișiere ext3 cu jurnalizare"
 
 #. Type: text
 #. Description
@@ -4521,7 +4542,7 @@ msgstr "Sistem de fișiere ext3 cu jurnalizare"
 #. File system name
 #: ../partman-ext3.templates:5001
 msgid "Ext4 journaling file system"
-msgstr "Sistem de fișiere ext4 cu jurnalizare"
+msgstr "sistem de fișiere ext4 cu jurnalizare"
 
 #. Type: boolean
 #. Description
@@ -4556,7 +4577,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-ext3.templates:9001
 msgid "Return to the menu to set the bootable flag?"
-msgstr "Reveniți la meniu pentru a defini indicatorul de pornire?"
+msgstr "Reveniți la meniu pentru a defini fanionul de pornire?"
 
 #. Type: boolean
 #. Description
@@ -4567,9 +4588,9 @@ msgid ""
 "this is required by your machine in order to boot. You should go back and "
 "set the bootable flag for the boot partition."
 msgstr ""
-"Partiția de pornire nu a fost marcată ca o partiție de inițializare, deși "
-"acest lucru este necesar pentru ca sistemul să poată porni. Ar trebui să "
-"reveniți și să definiți indicatorul de pornire pentru partiția de pornire."
+"Partiția de pornire nu a fost marcată ca o partiție aptă de a fi pornită, "
+"deși acest lucru este necesar pentru ca sistemul să poată porni. Ar trebui "
+"să reveniți și să activați fanionul de pornire pentru partiția de pornire."
 
 #. Type: boolean
 #. Description
@@ -4579,8 +4600,8 @@ msgid ""
 "If you don't correct this, the partition will be used as is and it is likely "
 "that the machine cannot boot from its hard disk."
 msgstr ""
-"Dacă nu veți corecta acest lucru, partiția va fi folosită așa cum este și "
-"este probabil ca sistemul să nu poată porni de pe discul fix."
+"Dacă nu corectați acest lucru, partiția va fi utilizată așa cum este și este "
+"posibil ca mașina să nu poată porni de pe discul dur."
 
 #. Type: boolean
 #. Description
@@ -4591,8 +4612,8 @@ msgid ""
 "${OFFSET} bytes from the minimum alignment for this disk, which may lead to "
 "very poor performance."
 msgstr ""
-"Partiția ${PARTITION} alocată punctului de montare ${MOUNTPOINT} începe cu o "
-"deplasare de ${OFFSET} octeți de la alinierea minimă pentru acest disc. "
+"Partiția ${PARTITION} alocată punctului de montare ${MOUNTPOINT} începe cu "
+"un decalaj de ${OFFSET} octeți de la alinierea minimă pentru acest disc. "
 "Acest lucru ar putea duce la performanță scăzută."
 
 #. Type: boolean
@@ -4610,8 +4631,8 @@ msgstr ""
 "această problemă acum, prin re-alinierea partiției, deoarece va fi dificil "
 "de corectat ulterior. Pentru aceasta trebuie să mergeți înapoi la meniul de "
 "partiționare, să ștergeți partiția și să o recreați în aceiași poziție cu "
-"aceleași setări. În acest fel partiția va începe în punctul cel mai potrivit "
-"pentru acest disc."
+"aceiași parametri. În acest fel partiția va începe în punctul cel mai "
+"potrivit pentru acest disc."
 
 #. Type: text
 #. Description
@@ -4619,7 +4640,7 @@ msgstr ""
 #. File system name
 #: ../partman-hfs.templates:2001
 msgid "Hierarchical File System"
-msgstr "Sistem Ierarhic de Fișiere"
+msgstr "Sistem de fișiere ierarhic (Hierarchical File System)"
 
 #. Type: text
 #. Description
@@ -4627,7 +4648,7 @@ msgstr "Sistem Ierarhic de Fișiere"
 #. File system name
 #: ../partman-hfs.templates:5001
 msgid "Hierarchical File System Plus"
-msgstr "Sistem Ierarhic de Fișiere Plus"
+msgstr "Sistem de fișiere ierarhic Plus (Hierarchical File System Plus)"
 
 #. Type: boolean
 #. Description
@@ -4638,10 +4659,10 @@ msgid ""
 "is needed by your machine in order to be able to boot. Please go back and "
 "create an HFS partition that is mounted to /boot/grub."
 msgstr ""
-"Nu ați configurat o partiție HFS care să fie montată în /boot/grub. Acest "
+"Nu ați configurat o partiție HFS care să fie montată în „/boot/grub”. Acest "
 "lucru este necesar pentru ca sistemul dumneavoastră să pornească. Vă rugăm "
-"să vă întoarceți și să creați o partiție HFS care să fie montată în /boot/"
-"grub."
+"să vă întoarceți și să creați o partiție HFS care să fie montată în „/boot/"
+"grub”."
 
 #. Type: text
 #. Description
@@ -4677,7 +4698,7 @@ msgstr "Se redimensionează partiția..."
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Operația de redimensionare este imposibilă"
+msgstr "Operația de redimensionare este imposibil de efectuat"
 
 #. Type: error
 #. Description
@@ -4686,14 +4707,14 @@ msgstr "Operația de redimensionare este imposibilă"
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr ""
 "Din motive necunoscute operația de redimensionare a acestei partiții este "
-"imposibilă."
+"imposibil de efvectuat."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Se scriu schimbările anterioare pe discuri și se continuă?"
+msgstr "Se scriu modificările anterioare pe discuri și se continuă?"
 
 #. Type: boolean
 #. Description
@@ -4703,7 +4724,7 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Înainte ca operația de redimensionare să aibă loc, toate schimbările "
+"Înainte ca operația de redimensionare să aibă loc, toate modificările "
 "anterioare trebuie scrise pe disc."
 
 #. Type: boolean
@@ -4719,8 +4740,7 @@ msgstr "Nu puteți revoca acestă operație."
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
-"Notă: este posibil ca operația de redimensionare să necesite un timp "
-"îndelungat."
+"Vă rugăm să rețineți că operația de redimensionare poate dura mult timp."
 
 #. Type: string
 #. Description
@@ -4749,7 +4769,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Dimensiunea introdusă este invalidă"
+msgstr "Dimensiunea introdusă nu este validă"
 
 #. Type: error
 #. Description
@@ -4760,9 +4780,9 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Dimensiunea introdusă a fost invalidă. Introduceți o valoare întreagă "
-"pozitivă urmată opțional de unitatea de măsură (exemplu: „200 GO”). Unitatea "
-"implicită de măsură este megaoctetul."
+"Dimensiunea introdusă nu era validă. Introduceți o valoare întreagă pozitivă "
+"urmată opțional de unitatea de măsură (în notația din engleză); de exemplu: „"
+"200 GB”. Unitatea implicită de măsură este megaoctetul (MB)."
 
 #. Type: error
 #. Description
@@ -4826,7 +4846,7 @@ msgstr "Dimensiunea maximă pentru această partiție este ${MAXSIZE}."
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Dimensiune invalidă"
+msgstr "Dimensiune nevalidă"
 
 #. Type: multiselect
 #. Description
@@ -4874,8 +4894,8 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Dacă tipul tabelei de partiții este nesuportat de libparted, atunci acest "
-"program de partiționare nu va funcționa cum trebuie."
+"Vă rugăm să rețineți că dacă tipul tabelei de partiții nu este acceptat de "
+"libparted, atunci acest program de partiționare nu va funcționa corect."
 
 #. Type: boolean
 #. Description
@@ -4970,7 +4990,7 @@ msgid ""
 "the disk will be irreversibly removed."
 msgstr ""
 "NU veți putea să revocați această operație mai târziu și toate datele "
-"existente pe disc vor fi șterse în mod ireversibil."
+"existente pe disc vor fi eliminae în mod ireversibil."
 
 #. Type: boolean
 #. Description
@@ -5001,7 +5021,7 @@ msgid ""
 "fail to boot if there is no bootable primary partition."
 msgstr ""
 "Ați încercat să activați fanionul de pornire pentru o partiție logică. Acest "
-"fanion este util doar pentru partițiile primare, deci activarea lui pentru "
+"fanion este util doar pentru partițiile primare, deci activarea lui pentru o "
 "partiție logică este, desigur, descurajată. Unele versiuni de BIOS nu mai "
 "pot porni sistemul dacă nu există nici o partiție primară cu acest fanion "
 "activat."
@@ -5016,8 +5036,9 @@ msgid ""
 "partitions, then setting this flag may make sense."
 msgstr ""
 "Totuși, dacă BIOS-ul dumneavoastră nu are asemenea probleme sau dacă "
-"folosiți un manager de pornire special care ia în considerare partițiile "
-"logice cu fanionul de pornire activ, atunci acest fanion ar putea fi valid."
+"folosiți un administrator de pornire special care ia în considerare "
+"partițiile logice cu fanionul de pornire activ, atunci acest fanion ar putea "
+"fi valid."
 
 #. Type: text
 #. Description
@@ -5107,7 +5128,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-target.templates:4001
 msgid "Please correct this by changing labels."
-msgstr "Vă rugăm corectați acest lucru prin schimbarea etichetelor."
+msgstr "Vă rugăm să corectați acest lucru prin schimbarea etichetelor."
 
 #. Type: error
 #. Description
@@ -5132,21 +5153,21 @@ msgstr ""
 #. :sl2:
 #: ../partman-target.templates:5001
 msgid "Please correct this by changing mount points."
-msgstr "Vă rugăm corectați acest lucru prin schimbarea punctelor de montare."
+msgstr "Vă rugăm să corectați acest lucru prin schimbarea punctelor de montare."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-target.templates:6001
 msgid "No root file system"
-msgstr "Nu există sistem de fișiere rădăcină"
+msgstr "Nu există un sistem de fișiere rădăcină"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-target.templates:6001
 msgid "No root file system is defined."
-msgstr "Nu este definit nici un sistem de fișiere ca rădăcină."
+msgstr "Nu este definit niciun sistem de fișiere ca rădăcină."
 
 #. Type: error
 #. Description
@@ -5253,7 +5274,8 @@ msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
 msgstr ""
-"Actualizarea frecventă este o componentă importantă a unui sistem sigur."
+"Aplicarea frecventă a actualizărilor este o parte importantă a menținerii "
+"securității sistemului."
 
 #. Type: select
 #. Description
@@ -5265,8 +5287,8 @@ msgid ""
 "using standard package management tools."
 msgstr ""
 "În mod implicit, actualizările nu sunt instalate automat deoarece alertele "
-"de securitate are trebui verificate înainte de instalarea manuală a "
-"actualizărilor cu uneltele obișnuite de gestionare a pachetelor."
+"de securitate ar trebui verificate înainte de instalarea manuală a "
+"actualizărilor cu instrumentele obișnuite de gestionare a pachetelor."
 
 #. Type: select
 #. Description
@@ -5280,7 +5302,7 @@ msgid ""
 "fully backward-compatible, or where the security advisory requires the "
 "administrator to perform some other manual operation."
 msgstr ""
-"Alternative se poate instala pachetul unattended-upgrades (actualizări "
+"Alternativ se poate instala pachetul „unattended-upgrades” (actualizări "
 "nesupravegheate), care va instala actualizările de securitate automat. "
 "Țineți cont că instalarea automată a actualizărilor poate rezulta în "
 "indisponibilitate neașteptată a serviciilor oferite de acest sistem în "
@@ -5308,8 +5330,8 @@ msgid ""
 "match the expected value of \"${CHECKSUM}\".  The file may be corrupt, or "
 "the provided checksums may be out of date."
 msgstr ""
-"Suma de control (checksum) ${ALGORITHM} a fișierului obținut de la <"
-"${LOCATION}> nu se potrivește cu valoarea specificată de \"${CHECKSUM}\".  "
+"Suma de control (checksum) ${ALGORITHM} a fișierului obținut de la "
+"<${LOCATION}> nu se potrivește cu valoarea specificată de \"${CHECKSUM}\". "
 "Fișierul ar putea fi corupt sau suma de control ar putea fi învechită."
 
 #. Type: error
@@ -5335,7 +5357,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:3001
 msgid "Failed to process the preconfiguration file"
-msgstr "Eșec la procesarea fișierului de preconfigurare"
+msgstr "Procesarea fișierului de preconfigurare a eșuat"
 
 #. Type: error
 #. Description
@@ -5353,7 +5375,7 @@ msgstr ""
 #. :sl2:
 #: ../preseed-common.templates:12001
 msgid "Failed to run preseeded command"
-msgstr "Eșec la rularea comenzii preconfigurate"
+msgstr "Rularea comenzii preconfigurate a eșuat"
 
 #. Type: error
 #. Description
@@ -5399,18 +5421,13 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../user-setup-udeb.templates:8001
-#, fuzzy
-#| msgid ""
-#| "Note that you may create it later (as well as any additional account) by "
-#| "typing 'adduser <username>' as root, where <username> is an username, "
-#| "like 'imurdock' or 'rms'."
 msgid ""
 "Note that you may create it later (as well as any additional account) by "
 "typing 'adduser <username>' as root, where <username> is a username, like "
 "'imurdock' or 'rms'."
 msgstr ""
 "A se observa că puteți crea contul mai târziu (ca de altfel și alte conturi) "
-"tastând 'adduser <numeutilizator>' ca root, unde <numeutilizator> este un "
+"tastând «adduser <numeutilizator>» ca root, unde <numeutilizator> este un "
 "nume de utilizator ca „imurdock” sau „rms”."
 
 #. Type: error
@@ -5418,7 +5435,7 @@ msgstr ""
 #. :sl2:
 #: ../user-setup-udeb.templates:11001
 msgid "Invalid username"
-msgstr "Nume de utilizator invalid"
+msgstr "Nume de utilizator nevalid"
 
 #. Type: error
 #. Description
@@ -5429,7 +5446,7 @@ msgid ""
 "lower-case letter, which can be followed by any combination of numbers and "
 "more lower-case letters, and must be no more than 32 characters long."
 msgstr ""
-"Numele de utilizator introdus de dumneavoastră este invalid. Numele de "
+"Numele de utilizator introdus de dumneavoastră nu este valid. Numele de "
 "utilizator trebuie să înceapă cu literă mică urmată de orice combinație de "
 "cifre și alte litere mici, și nu poate fi mai lung de 32 de caractere."
 
