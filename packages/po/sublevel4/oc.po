@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-14 20:02+0000\n"
-"PO-Revision-Date: 2020-11-15 18:28+0000\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: text
 #. Description
@@ -248,17 +248,15 @@ msgstr ""
 #. :sl4:
 #: ../templates:6001
 msgid "Building a boot image"
-msgstr ""
+msgstr "Creacion d’un imatge d’aviada"
 
 #. Type: note
 #. Description
 #. Progress bar step.
 #. :sl4:
 #: ../templates:7001
-#, fuzzy
-#| msgid "Generating boot image on disk..."
 msgid "Writing the boot image to disk"
-msgstr "Generacion de l’imatge d’aviada sul disc..."
+msgstr "Escritura de l’imatge d’aviada sul disc..."
 
 #. Type: error
 #. Description
@@ -287,7 +285,7 @@ msgstr ""
 #. :sl4:
 #: ../templates:10001
 msgid "Cannot build a boot image"
-msgstr ""
+msgstr "Generacion impossibla d’un imatge d’aviada"
 
 #. Type: error
 #. Description
@@ -306,10 +304,8 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../templates:11001
-#, fuzzy
-#| msgid "Generating boot image on disk..."
 msgid "Cannot write boot image to disk"
-msgstr "Generacion de l’imatge d’aviada sul disc..."
+msgstr "Escritura impossibla de l’imatge d’aviada sul disc"
 
 #. Type: error
 #. Description
@@ -434,10 +430,8 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../grub-installer.templates:30001
-#, fuzzy
-#| msgid "Failed to mount CD-ROM"
 msgid "Failed to mount ${PATH}"
-msgstr "Impossible de montar lo CD-ROM"
+msgstr "Impossible de montar ${PATH}"
 
 #. Type: error
 #. Description
@@ -605,7 +599,7 @@ msgstr "Crear una particion novèla"
 #. :sl4:
 #: ../partman-cros.templates:2001
 msgid "CrOS"
-msgstr ""
+msgstr "CrOS"
 
 #. Type: boolean
 #. Description

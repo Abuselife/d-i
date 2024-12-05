@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-04-03 16:15+0000\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #. Type: boolean
 #. Description
@@ -3983,10 +3983,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL admin password to verify:"
-msgstr "Tornatz picar lo senhal per verificar :"
+msgstr "Tornatz picar lo senhal POAL admin per verificar :"
 
 #. Type: password
 #. Description
@@ -4023,10 +4021,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
-#| msgid "Re-enter password to verify:"
 msgid "Re-enter OPAL PSID to verify:"
-msgstr "Tornatz picar lo senhal per verificar :"
+msgstr "Tornatz picar lo senhal OPAL PSID per verificar :"
 
 #. Type: password
 #. Description
