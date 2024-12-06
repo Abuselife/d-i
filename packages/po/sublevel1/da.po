@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2023-05-10 00:52+0000\n"
 "Last-Translator: Tino Didriksen <mail@tinodidriksen.com>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
@@ -171,7 +171,7 @@ msgstr "Sætter apt op"
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001 ../base-installer.templates:6001
-#: ../finish-install.templates:3001 ../pkgsel.templates:9001
+#: ../finish-install.templates:3001 ../pkgsel.templates:10001
 msgid "Running ${SCRIPT}..."
 msgstr "Udfører ${SCRIPT} ..."
 
@@ -4489,11 +4489,23 @@ msgstr "Kører tasksel ..."
 
 #. Type: text
 #. Description
+#. This appears in a progress bar when running pkgsel.
+#. The text is used when running blendsel to allow selecting blends to install.
+#. Blendsel will then display its own screens.
+#. :sl1:
+#: ../pkgsel.templates:7001
+#, fuzzy
+#| msgid "Running tasksel..."
+msgid "Running blendsel..."
+msgstr "Kører tasksel ..."
+
+#. Type: text
+#. Description
 #. This appears in a progress bar when running pkgsel
 #. The text is used at the end of the installation phase while
 #. cleaning up pkgsel's stuff
 #. :sl1:
-#: ../pkgsel.templates:7001
+#: ../pkgsel.templates:8001
 msgid "Cleaning up..."
 msgstr "Rydder op ..."
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fa sublevel2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2024-11-04 17:34+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
@@ -5120,28 +5120,28 @@ msgstr "فایل‌سیستم ... XFS"
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "No automatic updates"
 msgstr "بدون بروز‌رسانی‌های خودکار"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "Install security updates automatically"
 msgstr "نصب خودکار بروز‌رسانی‌های امینیتی"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid "Updates management on this system:"
 msgstr "بروز‌رسانی‌های مدیریتی این سیستم:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -5151,7 +5151,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -5163,7 +5163,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "

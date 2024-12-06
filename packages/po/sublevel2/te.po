@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2012-03-08 22:24+0530\n"
 "Last-Translator: Arjuna Rao Chavala <arjunaraoc@googlemail.com>\n"
 "Language-Team: d-i <kde-i18n-doc@kde.org>\n"
@@ -5137,28 +5137,28 @@ msgstr "XFS జర్నలింగ్ ఫైల్ సిస్టం"
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "No automatic updates"
 msgstr "స్వయంచాలక నవీకరణలు వద్దు"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "Install security updates automatically"
 msgstr "భద్రతా నవీకరణలను స్వయంచాలకంగా స్థాపించు"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid "Updates management on this system:"
 msgstr "ఈ వ్యవస్థలో నవీకరణల నిర్వహణ:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -5167,7 +5167,7 @@ msgstr "వ్యవస్థను భద్రంగా ఉంచుకోవ�
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -5177,7 +5177,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "

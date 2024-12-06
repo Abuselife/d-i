@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel2_hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2024-02-29 13:01+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: \n"
@@ -5077,28 +5077,28 @@ msgstr "एक्सएफएस जर्नलिंग फ़ाइल सि
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "No automatic updates"
 msgstr "अपने आप नवीनीकरण ना करॆं"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "Install security updates automatically"
 msgstr "अपने आप सुरक्षा नवीनीकरण करॆं"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid "Updates management on this system:"
 msgstr "इस प्रणाली पर अद्यतन प्रबंधन:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -5107,7 +5107,7 @@ msgstr "नियमित नवीनीकरण कंप्यूटर स
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -5120,7 +5120,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "

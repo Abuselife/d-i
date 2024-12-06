@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2024-05-01 02:07+0000\n"
 "Last-Translator: Der Marschall <meinkontobasic@outlook.com>\n"
 "Language-Team: \n"
@@ -5062,28 +5062,28 @@ msgstr "نظام الملفّات السجلّي XFS"
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "No automatic updates"
 msgstr "لا توجد تحديثات تلقائية"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "Install security updates automatically"
 msgstr "تثبيت تحديثات الأمان تلقائياً"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid "Updates management on this system:"
 msgstr "إدارة التحديثات على هذا النظام:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -5092,7 +5092,7 @@ msgstr "تطبيق التحديثات على بشكل دوري أمر مهم ل�
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -5104,7 +5104,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "

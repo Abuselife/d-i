@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2024-11-04 08:22+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -5168,28 +5168,28 @@ msgstr "XFS dagbókarstutt skráakerfi"
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "No automatic updates"
 msgstr "Engar sjálfvirkar uppfærslur"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:10001
+#: ../pkgsel.templates:11001
 msgid "Install security updates automatically"
 msgstr "Setja öryggisuppfærslur sjálfkrafa inn"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid "Updates management on this system:"
 msgstr "Uppfærslustýring á þessu kerfi:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -5198,7 +5198,7 @@ msgstr "Það að uppfæra kerfið reglulega er grundvöllur fyrir öruggu kerfi
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -5211,7 +5211,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:10002
+#: ../pkgsel.templates:11002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "

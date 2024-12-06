@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2017-10-13 09:42+0100\n"
 "Last-Translator: Vanja Cvelbar <cvelbar@gmail.com>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
@@ -166,7 +166,7 @@ msgstr "Nastavitev apt"
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001 ../base-installer.templates:6001
-#: ../finish-install.templates:3001 ../pkgsel.templates:9001
+#: ../finish-install.templates:3001 ../pkgsel.templates:10001
 msgid "Running ${SCRIPT}..."
 msgstr "Poganjanje ${SCRIPT} ..."
 
@@ -4527,11 +4527,23 @@ msgstr "Zaganjanje tasksel ..."
 
 #. Type: text
 #. Description
+#. This appears in a progress bar when running pkgsel.
+#. The text is used when running blendsel to allow selecting blends to install.
+#. Blendsel will then display its own screens.
+#. :sl1:
+#: ../pkgsel.templates:7001
+#, fuzzy
+#| msgid "Running tasksel..."
+msgid "Running blendsel..."
+msgstr "Zaganjanje tasksel ..."
+
+#. Type: text
+#. Description
 #. This appears in a progress bar when running pkgsel
 #. The text is used at the end of the installation phase while
 #. cleaning up pkgsel's stuff
 #. :sl1:
-#: ../pkgsel.templates:7001
+#: ../pkgsel.templates:8001
 msgid "Cleaning up..."
 msgstr "Čiščenje ..."
 

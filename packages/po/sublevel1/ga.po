@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2023-04-24 19:41-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -147,7 +147,7 @@ msgstr "apt á chumrú"
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001 ../base-installer.templates:6001
-#: ../finish-install.templates:3001 ../pkgsel.templates:9001
+#: ../finish-install.templates:3001 ../pkgsel.templates:10001
 msgid "Running ${SCRIPT}..."
 msgstr "${SCRIPT} á rith..."
 
@@ -4494,11 +4494,23 @@ msgstr "tasksel á rith..."
 
 #. Type: text
 #. Description
+#. This appears in a progress bar when running pkgsel.
+#. The text is used when running blendsel to allow selecting blends to install.
+#. Blendsel will then display its own screens.
+#. :sl1:
+#: ../pkgsel.templates:7001
+#, fuzzy
+#| msgid "Running tasksel..."
+msgid "Running blendsel..."
+msgstr "tasksel á rith..."
+
+#. Type: text
+#. Description
 #. This appears in a progress bar when running pkgsel
 #. The text is used at the end of the installation phase while
 #. cleaning up pkgsel's stuff
 #. :sl1:
-#: ../pkgsel.templates:7001
+#: ../pkgsel.templates:8001
 msgid "Cleaning up..."
 msgstr "Á Ghlanadh..."
 

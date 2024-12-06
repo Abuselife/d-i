@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"POT-Creation-Date: 2024-12-06 20:02+0000\n"
 "PO-Revision-Date: 2024-11-19 09:29+0000\n"
 "Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -158,7 +158,7 @@ msgstr "apt ਸੰਰਚਨਾ ਜਾਰੀ"
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001 ../base-installer.templates:6001
-#: ../finish-install.templates:3001 ../pkgsel.templates:9001
+#: ../finish-install.templates:3001 ../pkgsel.templates:10001
 msgid "Running ${SCRIPT}..."
 msgstr "${SCRIPT} ਚੱਲ ਰਹੀ ਹੈ..."
 
@@ -4359,11 +4359,23 @@ msgstr "tasksel ਚੱਲ ਰਿਹਾ ਹੈ..."
 
 #. Type: text
 #. Description
+#. This appears in a progress bar when running pkgsel.
+#. The text is used when running blendsel to allow selecting blends to install.
+#. Blendsel will then display its own screens.
+#. :sl1:
+#: ../pkgsel.templates:7001
+#, fuzzy
+#| msgid "Running tasksel..."
+msgid "Running blendsel..."
+msgstr "tasksel ਚੱਲ ਰਿਹਾ ਹੈ..."
+
+#. Type: text
+#. Description
 #. This appears in a progress bar when running pkgsel
 #. The text is used at the end of the installation phase while
 #. cleaning up pkgsel's stuff
 #. :sl1:
-#: ../pkgsel.templates:7001
+#: ../pkgsel.templates:8001
 msgid "Cleaning up..."
 msgstr "ਸਾਫ਼ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
