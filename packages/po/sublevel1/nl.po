@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 20:02+0000\n"
-"PO-Revision-Date: 2024-10-15 21:12+0200\n"
+"PO-Revision-Date: 2024-12-07 16:33+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -142,19 +142,15 @@ msgstr "Pakketbeheer configureren"
 msgid "Configuring apt"
 msgstr "Bezig met het configureren van apt"
 
-#. #-#-#-#-#  templates.pot (apt-setup)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl2:
-#. #-#-#-#-#  templates.pot (base-installer)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
-#. #-#-#-#-#  templates.pot (finish-install)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
-#. #-#-#-#-#  templates.pot (pkgsel)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl2:
@@ -1010,19 +1006,16 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nee"
 
-#. #-#-#-#-#  templates.pot (cdebconf)  #-#-#-#-#
 #. Type: text
 #. Description
 #. Translators, this text will appear on a button, so KEEP IT SHORT
 #. :sl1:
-#. #-#-#-#-#  templates.pot (mdcfg)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. :sl3:
 #. Type: select
 #. Choices
 #. :sl3:
-#. #-#-#-#-#  templates.pot (net-retriever)  #-#-#-#-#
 #. Type: select
 #. Choices
 #. These are choices of actions so this is, at least in English,
@@ -2432,15 +2425,12 @@ msgstr ""
 "kunt u GRUB later altijd zelf manueel zo instellen dat ook dit systeem "
 "opnieuw opgestart kan worden."
 
-#. #-#-#-#-#  templates.pot (grub-installer)  #-#-#-#-#
 #. Type: password
 #. Description
 #. :sl2:
-#. #-#-#-#-#  templates.pot (network-console)  #-#-#-#-#
 #. Type: password
 #. Description
 #. :sl3:
-#. #-#-#-#-#  templates.pot (user-setup)  #-#-#-#-#
 #. Type: password
 #. Description
 #. :sl1:
@@ -3074,13 +3064,11 @@ msgstr ""
 "taal. U kunt hieruit nu de door u geprefereerde lokalisatie kiezen. De "
 "tweede kolom toont de te gebruiken lokalisaties."
 
-#. #-#-#-#-#  templates.pot (lvmcfg)  #-#-#-#-#
 #. Type: text
 #. Description
 #. Main menu item
 #. Translators: keep below 55 columns
 #. :sl1:
-#. #-#-#-#-#  templates.pot (partman-lvm)  #-#-#-#-#
 #. Type: text
 #. Description
 #. Type: text
@@ -3594,11 +3582,9 @@ msgstr "Netwerk instellen met statische adressen"
 msgid "Continue without boot loader"
 msgstr "Verdergaan zonder bootloader"
 
-#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: note
 #. Description
 #. :sl1:
-#. #-#-#-#-#  templates.pot (partman-target)  #-#-#-#-#
 #. Type: note
 #. Description
 #. :sl1:
@@ -3688,11 +3674,9 @@ msgstr ""
 "formatteren, krijgt in het schijfindelingshoofdmenu een '${DESTROY}'. Anders "
 "wordt ze aangeduid met '${FORMAT}'."
 
-#. #-#-#-#-#  templates.pot (partman-auto)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
-#. #-#-#-#-#  templates.pot (partman-base)  #-#-#-#-#
 #. Type: text
 #. Description
 #. :sl1:
@@ -4488,10 +4472,8 @@ msgstr "Bezig met uitvoeren van tasksel..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Bezig met uitvoeren van tasksel..."
+msgstr "Bezig met uitvoeren van blendsel..."
 
 #. Type: text
 #. Description
