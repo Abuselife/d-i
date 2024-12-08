@@ -4451,10 +4451,8 @@ msgstr "Execucion de « tasksel » (aisina d'installacion)..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Execucion de « tasksel » (aisina d'installacion)..."
+msgstr "Execucion de « blendsel » (aisina d'installacion)..."
 
 #. Type: text
 #. Description

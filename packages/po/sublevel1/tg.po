@@ -4555,10 +4555,8 @@ msgstr "Барномаи «tasksel» иҷро шуда истодааст..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Барномаи «tasksel» иҷро шуда истодааст..."
+msgstr "Барномаи «blendsel» иҷро шуда истодааст..."
 
 #. Type: text
 #. Description

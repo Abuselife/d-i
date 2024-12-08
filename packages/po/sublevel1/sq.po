@@ -4513,10 +4513,8 @@ msgstr "Duke ekzekutuar tasksel..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Duke ekzekutuar tasksel..."
+msgstr "Duke ekzekutuar blendsel..."
 
 #. Type: text
 #. Description

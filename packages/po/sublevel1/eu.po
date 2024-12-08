@@ -4429,10 +4429,8 @@ msgstr "Tasksel abiarazten..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Tasksel abiarazten..."
+msgstr "Blendsel abiarazten..."
 
 #. Type: text
 #. Description

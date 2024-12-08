@@ -4400,10 +4400,8 @@ msgstr "tasksel 실행하는 중입니다..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "tasksel 실행하는 중입니다..."
+msgstr "blendsel 실행하는 중입니다..."
 
 #. Type: text
 #. Description

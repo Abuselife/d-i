@@ -4508,10 +4508,8 @@ msgstr "Εκτέλεση του tasksel..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Εκτέλεση του tasksel..."
+msgstr "Εκτέλεση του blendsel..."
 
 #. Type: text
 #. Description

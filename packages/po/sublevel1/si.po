@@ -4421,10 +4421,8 @@ msgstr "tasksel ක්‍රියාත්මක කරමින්..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "tasksel ක්‍රියාත්මක කරමින්..."
+msgstr "blendsel ක්‍රියාත්මක කරමින්..."
 
 #. Type: text
 #. Description

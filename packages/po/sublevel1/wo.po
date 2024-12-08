@@ -4566,10 +4566,8 @@ msgstr "Mi ngi doxal tasksel ..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Mi ngi doxal tasksel ..."
+msgstr "Mi ngi doxal blendsel ..."
 
 #. Type: text
 #. Description

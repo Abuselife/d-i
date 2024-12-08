@@ -4499,10 +4499,8 @@ msgstr "tasksel á rith..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "tasksel á rith..."
+msgstr "blendsel á rith..."
 
 #. Type: text
 #. Description

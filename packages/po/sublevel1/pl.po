@@ -4455,10 +4455,8 @@ msgstr "Uruchamianie tasksela..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Uruchamianie tasksela..."
+msgstr "Uruchamianie blendsela..."
 
 #. Type: text
 #. Description

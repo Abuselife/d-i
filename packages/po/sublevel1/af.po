@@ -4321,10 +4321,8 @@ msgstr "Laat tasksel loop..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Laat tasksel loop..."
+msgstr "Laat blendsel loop..."
 
 #. Type: text
 #. Description
