@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-06 20:02+0000\n"
-"PO-Revision-Date: 2024-11-24 22:01+0000\n"
+"POT-Creation-Date: 2024-11-26 20:02+0000\n"
+"PO-Revision-Date: 2024-12-08 18:41+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1249,8 +1249,8 @@ msgstr ""
 " - A „magas” szintű kérdéseknek nincsenek ésszerű alapértelmezett értékei.\n"
 " - A „közepes” szint a normál kérdésekhez tartozik, amelyeknek ésszerű\n"
 "   alapértelmezett értékei vannak.\n"
-" - Az „alacsony” szint a triviális kérdésekhez tartozik, amelyeknek az\n"
-"   alapértelmezett értékei az esetek túlnyomó többségében működnek."
+" - Az „alacsony” szint a triviális kérdésekhez tartozik, amelyeknek\n"
+"   az alapértelmezett értékei az esetek túlnyomó többségében működnek."
 
 # Type: select
 # Description
@@ -1794,7 +1794,7 @@ msgid ""
 "select some modules."
 msgstr ""
 "Szükséged lehet további illesztőprogramok betöltésére cserélhető "
-"adathordozóról, például hajlékonylemezről vagy USB-meghajtóról. Ha van ilyen "
+"adathordozóról, például hajlékonylemezről vagy USB meghajtóról. Ha van ilyen "
 "adathordozód, tedd be a folytatás előtt. Ellenkező esetben lehetőséged lesz "
 "az egyes modulok kézi kiválasztására."
 
@@ -1806,8 +1806,7 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-detect.templates:3001
 msgid "Manually select a module and device for installation media?"
-msgstr ""
-"Kézzel választod ki a modult és az eszközt a telepítési adathordozóhoz?"
+msgstr "Kézzel választod ki a telepítési adathordozóhoz a modult és az eszközt?"
 
 # Type: boolean
 # Description
@@ -1821,7 +1820,7 @@ msgstr ""
 #: ../cdrom-detect.templates:3001
 msgid "No device for installation media (like a CD-ROM device) was detected."
 msgstr ""
-"A rendszer nem észlelt telepítési adathordozót (például CD-ROM-eszközt)."
+"A rendszer nem észlelt telepítési adathordozót (például CD-ROM eszközt)."
 
 # Type: boolean
 # Description
@@ -1912,9 +1911,9 @@ msgid ""
 "the device file that should be used. Non-standard CD-ROM drives use non-"
 "standard device files (such as /dev/mcdx)."
 msgstr ""
-"Kérlek add meg a telepítési adathordozó (például CD-ROM) eléréséhez "
+"Kérlek, add meg a telepítési adathordozó (például CD-ROM) eléréséhez "
 "használandó eszközfájlt. A nem szabványos CD-ROM meghajtók nem szabványos "
-"eszközfájlokat használnak (pl. /dev/mcdx)."
+"eszközfájlokat (pl. /dev/mcdx) használnak."
 
 # Type: string
 # Description
@@ -1964,7 +1963,7 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-detect.templates:14001
 msgid "Incorrect installation media detected"
-msgstr "Nem megfelelő telepítési adathordozót észleltem"
+msgstr "Az észlelt telepítési adathordozó nem megfelelő"
 
 # Type: error
 # Description
@@ -1985,7 +1984,7 @@ msgstr "Az észlelt telepítési adathordozó nem használható telepítésre."
 #: ../cdrom-detect.templates:14001
 msgid "Please provide suitable media to continue with the installation."
 msgstr ""
-"Kérem, biztosítson megfelelő telepítési adathordozót a telepítés "
+"Kérlek, biztosíts megfelelő telepítési adathordozót a telepítés "
 "folytatásához."
 
 # Type: error
@@ -1998,7 +1997,7 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-detect.templates:15001
 msgid "Error reading Release file"
-msgstr "Hiba a Release fájl olvasásakor"
+msgstr "Hiba a „Release” fájl olvasásakor"
 
 # Type: error
 # Description
@@ -2025,16 +2024,12 @@ msgstr ""
 #. Translators: DO NOT TRANSLATE "Release". This is the name of a file.
 #. :sl2:
 #: ../cdrom-detect.templates:15001
-#, fuzzy
-#| msgid ""
-#| "You may try to repeat CD-ROM detection but, even if it does succeed the "
-#| "second time, you may experience problems later in the installation."
 msgid ""
 "You may try to repeat the media detection, but even if it does succeed the "
 "second time, you may experience problems later in the installation."
 msgstr ""
-"Újra megkísérelhető a CD-ROM felismerése, de még ha sikerül is, a telepítés "
-"során később hibákat tapasztalhat."
+"Megpróbálhatod megismételni az adathordozó észlelését, de még ha másodszorra "
+"sikerül is, a telepítés során később hibákat tapasztalhatsz."
 
 # Type: note
 # Description
@@ -2045,10 +2040,8 @@ msgstr ""
 #. Translators: keep below 55 columns.
 #. :sl2:
 #: ../cdrom-detect.templates:20001
-#, fuzzy
-#| msgid "Use the \"exit\" command to return to the installation menu."
 msgid "Detect and mount installation media"
-msgstr "A telepítő menüjébe az \"exit\" paranccsal lehet visszatérni."
+msgstr "A telepítési adathordozó észlelése és csatlakoztatása"
 
 # Type: boolean
 # Description
@@ -2057,10 +2050,9 @@ msgstr "A telepítő menüjébe az \"exit\" paranccsal lehet visszatérni."
 #. Description
 #. :sl2:
 #: ../cdrom-retriever.templates:1001
-#, fuzzy
-#| msgid "Failed to copy file from CD-ROM. Retry?"
 msgid "Failed to copy file from installation media. Retry?"
-msgstr "Sikertelen fájlmásolás a CD-ROM-ról. Újrapróbálja?"
+msgstr ""
+"Nem sikerült a fájl másolása a telepítési adathordozóról. Megpróbálod újra?"
 
 # Type: boolean
 # Description
@@ -2069,19 +2061,16 @@ msgstr "Sikertelen fájlmásolás a CD-ROM-ról. Újrapróbálja?"
 #. Description
 #. :sl2:
 #: ../cdrom-retriever.templates:1001
-#, fuzzy
-#| msgid ""
-#| "There was a problem reading data from the CD-ROM. Please make sure it is "
-#| "in the drive. If retrying does not work, you should check the integrity "
-#| "of your CD-ROM."
 msgid ""
 "There was a problem reading data. Please make sure you have inserted the "
 "installation media correctly. If retrying does not work, you should check "
 "the integrity of your installation media (there is an associated entry in "
 "the main menu for that)."
 msgstr ""
-"Hiba történt a CD-ROM olvasásakor. Ha a lemez a meghajtóban van, és "
-"újrapróbálva sem sikerül, a CD-ROM valószínűleg sérült."
+"Hiba történt az adatok olvasása közben. Győződj meg arról, hogy megfelelően "
+"helyezted-e be a telepítési adathordozót. Ha az újrapróbálkozás nem működik, "
+"ellenőrizd a telepítési adathordozó sértetlenségét (a főmenüben van egy erre "
+"alkalmas menüpont)."
 
 # Type: boolean
 # Description
@@ -2091,7 +2080,7 @@ msgstr ""
 #. :sl2:
 #: ../clock-setup.templates:5001
 msgid "Set the clock using NTP?"
-msgstr "Beállítja az órát NTP alapján?"
+msgstr "Beállítod az órát NTP-vel?"
 
 # Type: boolean
 # Description
@@ -2100,16 +2089,12 @@ msgstr "Beállítja az órát NTP alapján?"
 #. Description
 #. :sl2:
 #: ../clock-setup.templates:5001
-#, fuzzy
-#| msgid ""
-#| "The Network Time Protocol (NTP) can be used to set the system's clock. "
-#| "The installation process works best with a correctly set clock."
 msgid ""
 "The Network Time Protocol (NTP) can be used to set the system's clock. Your "
 "system works best with a correctly set clock."
 msgstr ""
-"A Network Time Protocol (NTP) segítségével beállítható a rendszer órája. "
-"Telepítéskor fontos a helyesen beállított idő."
+"A Network Time Protocol (NTP) használatával beállíthatod a rendszered "
+"óráját. Rendszered helyesen beállított óra mellett működik a legjobban."
 
 # Type: string
 # Description
@@ -2132,7 +2117,8 @@ msgid ""
 "The default NTP server is almost always a good choice, but if you prefer to "
 "use another NTP server, you can enter it here."
 msgstr ""
-"Az alap NTP kiszolgáló szinte mindig megfelelő, de másikat is megadhat itt."
+"Az alapértelmezett NTP kiszolgáló szinte mindig jó választás, de ha másik "
+"NTP kiszolgálót szeretnél használni, itt megadhatod."
 
 # Type: boolean
 # Description
@@ -2142,7 +2128,7 @@ msgstr ""
 #. :sl2:
 #: ../clock-setup.templates:9001
 msgid "Wait another 30 seconds for hwclock to set the clock?"
-msgstr "Várjunk még 30 másodpercet, hogy a hwclock beállítsa az órát?"
+msgstr "Vársz még 30 másodpercet, amíg a „hwclock” beállítja az órát?"
 
 # Type: boolean
 # Description
@@ -2156,8 +2142,8 @@ msgid ""
 "program used to set the clock may have problems talking to the hardware "
 "clock."
 msgstr ""
-"A hardver óra beállítása a vártnál tovább tart. Az óra beállítására használt "
-"'hwclock' programnak gondja lehet a hardver óra elérésével."
+"A hardveres óra beállítása a vártnál tovább tart. Az óra beállítására "
+"használt „hwclock” programnak gondja lehet a hardveres óra elérésével."
 
 # Type: boolean
 # Description
@@ -2170,7 +2156,8 @@ msgid ""
 "If you choose to not wait for hwclock to finish setting the clock, this "
 "system's clock may not be set correctly."
 msgstr ""
-"Ha nem várja meg a hwclock eredményét, a rendszer órája pontatlan maradhat."
+"Ha nem várod meg amíg a „hwclock” befejezi az óra beállítását, a rendszer "
+"órája pontatlan maradhat."
 
 # Type: note
 # Description
@@ -2186,7 +2173,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001 ../di-utils.templates:5001
 msgid "Interactive shell"
-msgstr "Interaktív héj"
+msgstr "Interaktív rendszerhéj (shell)"
 
 # Type: note
 # Description
@@ -2196,7 +2183,7 @@ msgstr "Interaktív héj"
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "After this message, you will be running \"ash\", a Bourne-shell clone."
-msgstr "Ezen üzenet után az \"ash\", egy Bourne-héj másolat indul."
+msgstr "Az üzenet után az „ash”, a Bourne rendszerhéj klónja fog futni."
 
 # Type: note
 # Description
@@ -2211,10 +2198,11 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"A gyökér fájlrendszer egy RAM lemez. A merevlemez fájlrendszerek a \"/target"
-"\"-ben vannak. Az elérhető szerkesztő a nano. Ez igen kicsi és könnyen "
-"használható. Az elérhető Unix eszközök megismerését a \"help\" parancs "
-"segíti."
+"A gyökér (root) fájlrendszer egy RAM lemez. A merevlemez fájlrendszerei a "
+"„/target” célfájlrendszerre vannak felcsatlakoztatva. Az elérhető szerkesztő "
+"a nano. Ez egy igen kicsi és könnyen használható szerkesztő. Ha tudni "
+"szeretnéd, hogy milyen Unix segédprogramok állnak a rendelkezésedre, "
+"használd a „help” parancsot."
 
 # Type: note
 # Description
@@ -2224,7 +2212,7 @@ msgstr ""
 #. :sl2:
 #: ../di-utils-shell.templates:1001
 msgid "Use the \"exit\" command to return to the installation menu."
-msgstr "A telepítő menüjébe az \"exit\" paranccsal lehet visszatérni."
+msgstr "A telepítő menüjébe az „exit” paranccsal tudsz visszatérni."
 
 # Type: text
 # Description
@@ -5032,7 +5020,7 @@ msgstr "/opt - külső alkalmazásszoftver-csomagok"
 #. :sl2:
 #: ../partman-basicfilesystems.templates:13001
 msgid "/usr/local - local hierarchy"
-msgstr "/usr/local - saját  hierarchia"
+msgstr "/usr/local - saját hierarchia"
 
 #. Type: select
 #. Choices
@@ -6768,28 +6756,28 @@ msgstr "XFS naplózó fájlrendszer"
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:11001
+#: ../pkgsel.templates:10001
 msgid "No automatic updates"
 msgstr "Nincs automatikus frissítés"
 
 #. Type: select
 #. Choices
 #. :sl2:
-#: ../pkgsel.templates:11001
+#: ../pkgsel.templates:10001
 msgid "Install security updates automatically"
 msgstr "Biztonsági frissítések automatikus telepítése"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:11002
+#: ../pkgsel.templates:10002
 msgid "Updates management on this system:"
 msgstr "Frissítések kezelése ezen a rendszeren:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:11002
+#: ../pkgsel.templates:10002
 msgid ""
 "Applying updates on a frequent basis is an important part of keeping the "
 "system secure."
@@ -6799,7 +6787,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:11002
+#: ../pkgsel.templates:10002
 msgid ""
 "By default, security updates are not automatically installed, as security "
 "advisories should be reviewed before manual installation of the updates "
@@ -6812,7 +6800,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../pkgsel.templates:11002
+#: ../pkgsel.templates:10002
 msgid ""
 "Alternatively the unattended-upgrades package can be installed, which will "
 "install security updates automatically. Note however that automatic "
