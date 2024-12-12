@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 20:02+0000\n"
-"PO-Revision-Date: 2024-11-16 15:11+0000\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
@@ -38,7 +38,7 @@ msgstr ""
 #. Description
 #: ../apt-setup-udeb.templates:8002
 msgid "Downloading local repository key failed:"
-msgstr "دریافت کلید مخازن محلی شکست خورد:"
+msgstr "بار گرفتن کلید مخزن محلی شکست خورد:"
 
 #. Type: select
 #. Description
@@ -105,7 +105,7 @@ msgstr "آمریکای جنوبی"
 #. :sl1:
 #: ../anna.templates:3001
 msgid "Loading additional components"
-msgstr "بارگیری مؤلفه‌های اضافی"
+msgstr "بار کردن مؤلفه‌های اضافی"
 
 #. Type: text
 #. Description
@@ -162,7 +162,7 @@ msgstr "پیکربندی apt"
 #: ../apt-setup-udeb.templates:3001 ../base-installer.templates:6001
 #: ../finish-install.templates:3001 ../pkgsel.templates:10001
 msgid "Running ${SCRIPT}..."
-msgstr "در حال اجرای ${SCRIPT}..."
+msgstr "اجرا کردن ‪${SCRIPT}‬…"
 
 #. Type: multiselect
 #. Choices
@@ -262,7 +262,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the installation media..."
-msgstr "در حال پویش رسانه نصب..."
+msgstr "پوییدن رسانهٔ نصب…"
 
 #. Type: error
 #. Description
@@ -3630,14 +3630,14 @@ msgstr ""
 #: ../partman-auto.templates:2001 ../partman-base.templates:2001
 #: ../partman-base.templates:25001
 msgid "Please wait..."
-msgstr "لطفاً صبر کنید ..."
+msgstr "لطفاً شکیبا باشید…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:3001
 msgid "Computing the new partitions..."
-msgstr "در حال محاسبهٔ پارتیشن جدید..."
+msgstr "محاسبهٔ افرازهای جدید…"
 
 #. Type: select
 #. Description
@@ -3647,7 +3647,7 @@ msgstr "در حال محاسبهٔ پارتیشن جدید..."
 #. :sl1:
 #: ../partman-auto.templates:6001 ../partman-auto.templates:10001
 msgid "Partitioning method:"
-msgstr "روش پارتیشن‌بندی:"
+msgstr "روش افرازش:"
 
 #. Type: select
 #. Description
@@ -3659,10 +3659,9 @@ msgid ""
 "partitioning you will still have a chance later to review and customise the "
 "results."
 msgstr ""
-"این نصاب می‌تواند پارتیشن بندی را به صورت هدایت شده و خودکار برای شما انجام "
-"دهد (با استفاده از یک ساختار استاندارد)، یا در صورتی تمایل می‌توانید به صورت "
-"دستی مراحل را پیش ببرید. در پارتیشن بندی هدایت شده شما همچنان اجازه این را "
-"خواهید داشت تا نتیجه کار را درآخر بازبینی و شخصی سازی کنید."
+"این نصب کننده می‌تواند در فرایند افرازش دیسک (استفاده کردن از طرحواره‌های "
+"استاندارد مختلف)هدایتتان کرده یا در صورت ترجیح می‌توانید دستی انجامش دهید. در "
+"افرازش هدایت شده باز هم فرصت بازبینی و سفارشی سازی نتیجه‌ها را خواهید داشت."
 
 #. Type: select
 #. Description
@@ -3675,15 +3674,15 @@ msgid ""
 "If you choose guided partitioning for an entire disk, you will next be asked "
 "which disk should be used."
 msgstr ""
-"در صورتی که پارتیشن بندی هدایت شده (guided partitioning) را انتخاب کنید، در "
-"ادامه اینکه کدام دیسک استفاده شود از شما پرسیده می‌شود."
+"در صورت گزینش افرازش هدایت شده برای کل دیسک، پرسیده خواهد شد که کدام دیسک "
+"استفاده شود."
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:11001
 msgid "Partitioning scheme:"
-msgstr "شمای پارتیشن‌بندی:"
+msgstr "طرحوارهٔ افرازش:"
 
 #. Type: select
 #. Description
@@ -3696,7 +3695,7 @@ msgstr "شمای پارتیشن‌بندی:"
 #. at the end of the sentence. Please keep it.
 #: ../partman-auto.templates:11001
 msgid "Selected for partitioning:"
-msgstr "برای پارتیشن بندی انتخاب کنید:"
+msgstr "گزیده برای افرازش:"
 
 #. Type: select
 #. Description
@@ -3706,8 +3705,8 @@ msgid ""
 "The disk can be partitioned using one of several different schemes. If you "
 "are unsure, choose the first one."
 msgstr ""
-"این دیسک میتواند با استفاده از چند شمای مختلف پارتیشن‌بندی گردد. اگر در این "
-"مورد اطلاعاتی ندارید گزینهٔ اول را انتخاب کنید."
+"دیسک می‌تواند با طرحواره‌های مختلفی افرازش شود. گزینش نخستین مورد در صورت عدم "
+"اطمینان."
 
 #. Type: text
 #. Description
@@ -3715,7 +3714,7 @@ msgstr ""
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:15001
 msgid "Guided partitioning"
-msgstr "پارتیشن‌بندی راهبری شده"
+msgstr "افرازش هدایت شده"
 
 #. Type: text
 #. Description
@@ -3723,7 +3722,7 @@ msgstr "پارتیشن‌بندی راهبری شده"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:16001
 msgid "Guided - use the largest continuous free space"
-msgstr "هدایت شده - از بزرگ ترین فضای خالی یکپارچه استفاده کن"
+msgstr "هدایت شده - استفاده از بزرگ ترین فضای خالی ادامه دار"
 
 #. Type: text
 #. Description
@@ -3731,14 +3730,14 @@ msgstr "هدایت شده - از بزرگ ترین فضای خالی یکپار�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:17001
 msgid "Guided - use entire disk"
-msgstr "هدایت شده - از همه دیسک استفاده کن"
+msgstr "هدایت شده - استفاده از کل دیسک"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-auto.templates:18001
 msgid "Select disk to partition:"
-msgstr "دیسک را برای پارتیشن بندی انتخاب کنید:"
+msgstr "گزینش دیسک برای افرازش:"
 
 #. Type: select
 #. Description
@@ -3748,8 +3747,8 @@ msgid ""
 "Note that all data on the disk you select will be erased, but not before you "
 "have confirmed that you really want to make the changes."
 msgstr ""
-"توجه داشته باشید که تمامی اطلاعات شما بر روی دیسک انتخابی پاک خواهد شد، "
-"بنابراین تا زمانی از انجام تغییرات مطمئن نیستید آن را تایید نکنید."
+"همهٔ داده‌های دیسک گزیده پاک خواهد شد؛ ولی پیش از آن باید اعمال تغییرات را "
+"تأیید کنید."
 
 #. Type: text
 #. Description
@@ -3766,7 +3765,7 @@ msgstr "دستی"
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:20001
 msgid "Automatically partition the free space"
-msgstr "فضای آزاد را به صورت اتوماتیک پارتیشن بندی کن"
+msgstr "افرازش خودکار فضای خالی"
 
 #. Type: text
 #. Description
@@ -3774,7 +3773,7 @@ msgstr "فضای آزاد را به صورت اتوماتیک پارتیشن ب�
 #. TRANSLATORS: This is a menu entry. Keep in under 55 columns/characters
 #: ../partman-auto.templates:21001
 msgid "All files in one partition (recommended for new users)"
-msgstr "تمام فایل‌ها در یک پارتیشن (این گزینه برای تازه ماران پیشنهاد می‌شود)"
+msgstr "همهٔ پرونده‌ها در یک افراز (توصیه شده برای کاربران جدید)"
 
 #. Type: text
 #. Description
@@ -3839,9 +3838,9 @@ msgid ""
 "etc.), a free space to create partitions, or a device to initialize its "
 "partition table."
 msgstr ""
-"این شمایی از پارتیشن‌های موجود شما و محل‌های بارگزاری آنهاست. برای تغییر دادن "
-"مشخصات یک پارتیشن آن را انتخاب کنید، برای ایجاد پارتیشن جدید فضای خالی را "
-"انتخاب کنید. برای تغییر جدول پارتیشن یک دیسک، آن را انتخاب کنید."
+"این نمایی کلی از نقاط اتّصال و افرازهای پیکربندی شدهٔ کنونیست. گزینش افرازی "
+"برای تغییر تنظیماتش (سامانهٔ پرونده، نقطهٔ اتّصال و…)، فضایی خالی برای ایجاد "
+"افرازها یا افزاره‌ای برای مقداردهی نخستین جدول افرازش."
 
 #. Type: boolean
 #. Description
@@ -3851,7 +3850,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-base.templates:11001 ../partman-base.templates:12001
 msgid "Write the changes to disks?"
-msgstr "آیا تغییرات بر روی دیسک نوشته شود؟"
+msgstr "نوشتن تغییرات روی دیسک‌ها؟"
 
 #. Type: boolean
 #. Description
@@ -3864,8 +3863,8 @@ msgid ""
 "If you continue, the changes listed below will be written to the disks. "
 "Otherwise, you will be able to make further changes manually."
 msgstr ""
-"در صورت ادامه، تغییرات که در زیر ذکر شده بر روی دیسک نوشته می‌شود. علاوه بر "
-"این‌ها شما می‌توانید تغییرات بیشتری به صورت دستی وارد کنید."
+"در صورت ادامه، تغییرات سیاهه شده در زیر روی دیسک‌ها نوشته خواهد شد. در غیر "
+"این صورت قادر به تغییرات دستی خواهید بود."
 
 #. Type: boolean
 #. Description
@@ -3875,15 +3874,15 @@ msgid ""
 "WARNING: This will destroy all data on any partitions you have removed as "
 "well as on the partitions that are going to be formatted."
 msgstr ""
-"هشدار: این همه داده‌های روی هر پارتنیشنی که شما پاک کردید و همچنین "
-"پارتنیشن‌هایی که فرمت خواهند شد را نابود خواهد کرد."
+"هشدار:‌این کار همهٔ داده‌ها روی هر افرازی که برداشته‌اید یا قرار است قالب‌بندی "
+"شوند را نابود خواهد کرد."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:26001
 msgid "Partitions formatting"
-msgstr "فرمت کردن پارتیشن‌ها"
+msgstr "افرازهای قالب‌بندی شونده"
 
 #. Type: text
 #. Description
@@ -3897,14 +3896,14 @@ msgstr "پردازش کردن…"
 #. :sl1:
 #: ../partman-base.templates:31001
 msgid "Finish partitioning and write changes to disk"
-msgstr "اتمام پارتیشن‌بندی و نوشتن تغییرات بر روی دیسک"
+msgstr "پایان افرازش و نوشتن تغییرات روی دیسک"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:32001
 msgid "Undo changes to partitions"
-msgstr "لغو تغییرات انجام شده بر روی پارتیشن‌ها"
+msgstr "بازگردانی تغییرات روی افرازها"
 
 #. Type: text
 #. Description
@@ -3984,7 +3983,7 @@ msgstr "ATA%s, پارتیشن #%s (%s)"
 #: ../partman-base.templates:43001
 #, no-c-format
 msgid "IDE%s master (%s)"
-msgstr "آي‌دی‌ای%s اصلی (%s)"
+msgstr "آی‌دی‌ای%s اصلی (%s)"
 
 #. Type: text
 #. Description
@@ -4002,7 +4001,7 @@ msgstr "آی‌دی‌ای%s فرعی (%s)"
 #: ../partman-base.templates:45001
 #, no-c-format
 msgid "IDE%s master, partition #%s (%s)"
-msgstr "IDE%s master, پارتیشن #%s (%s)"
+msgstr "آی‌دی‌ای%s اصلی, افراز #%s (%s)"
 
 #. Type: text
 #. Description
@@ -4011,7 +4010,7 @@ msgstr "IDE%s master, پارتیشن #%s (%s)"
 #: ../partman-base.templates:46001
 #, no-c-format
 msgid "IDE%s slave, partition #%s (%s)"
-msgstr "IDE%s slave, پارتیشن #%s (%s)"
+msgstr "آی‌دی‌ای%s فرعی, افراز #%s (%s)"
 
 #. Type: text
 #. Description
@@ -4043,14 +4042,14 @@ msgstr "اسکاسی%s (%s)"
 #: ../partman-base.templates:50001
 #, no-c-format
 msgid "SCSI%s, partition #%s (%s)"
-msgstr "SCSI%s, پارتیشن #%s (%s)"
+msgstr "اسکاسی%s, افراز #%s (%s)"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-base.templates:64001
 msgid "Cancel this menu"
-msgstr "کنسل کردن این منو"
+msgstr "لغو این فهرست"
 
 #. Type: text
 #. Description
@@ -4059,7 +4058,7 @@ msgstr "کنسل کردن این منو"
 #. :sl1:
 #: ../partman-base.templates:65001
 msgid "Partition disks"
-msgstr "پارتیشن بندی دیسک‌ها"
+msgstr "افرازش دیسک‌ها"
 
 #. Type: text
 #. Description
@@ -4067,7 +4066,7 @@ msgstr "پارتیشن بندی دیسک‌ها"
 #. :sl1:
 #: ../partman-basicmethods.templates:7001
 msgid "unused"
-msgstr "مصرف نشده"
+msgstr "استفاده نشده"
 
 #. Type: text
 #. Description
@@ -4083,7 +4082,7 @@ msgstr "قالب‌بندی"
 #. :sl1:
 #: ../partman-basicmethods.templates:11001
 msgid "keep"
-msgstr "حفاظت"
+msgstr "نگه داری"
 
 #. Type: text
 #. Description
@@ -4092,22 +4091,21 @@ msgstr "حفاظت"
 msgid ""
 "Checking the ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
 msgstr ""
-"در حال آزمون فایل سیستم ${TYPE} در پارتیشن #${PARTITION} از دیسک ${DEVICE}..."
+"بررسی کردن سامانهٔ پروندهٔ ${TYPE} در افراز ‪#${PARTITION}‬ از ${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:2001
 msgid "Checking the swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr "در حال آزمون فضای swap در پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "بررسی کردن فضای مبادله در افراز ‪#${PARTITION}‬ از ${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:3001
 msgid "Creating ${TYPE} file system in partition #${PARTITION} of ${DEVICE}..."
-msgstr ""
-"در حال ایجاد فایل سیستم ${TYPE} در پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "ساختن سامانهٔ پروندهٔ ${TYPE} در افراز ‪#${PARTITION}‬ از ${DEVICE}..."
 
 #. Type: text
 #. Description
@@ -4117,16 +4115,15 @@ msgid ""
 "Creating ${TYPE} file system for ${MOUNT_POINT} in partition #${PARTITION} "
 "of ${DEVICE}..."
 msgstr ""
-"در حال ایجاد فایل سیستم ${TYPE} برای ${MOUNT_POINT} بر روی پارتیشن #"
-"${PARTITION} از ${DEVICE}..."
+"ساختن سامانهٔ پروندهٔ ${TYPE} برای ${MOUNT_POINT} در افراز ‪#${PARTITION}‬ از "
+"${DEVICE}..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-basicfilesystems.templates:5001
 msgid "Formatting swap space in partition #${PARTITION} of ${DEVICE}..."
-msgstr ""
-"در حال قالب‌بندی فضای swap  بر روی پارتیشن #${PARTITION} از ${DEVICE}..."
+msgstr "قالب‌بندی کردن فضای مبادله در افراز ‪#${PARTITION}‬ از ${DEVICE}..."
 
 #. Type: text
 #. Description
@@ -4134,7 +4131,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:31001
 msgid "ext2"
-msgstr "ای‌اکس‌تی۲"
+msgstr "ext2"
 
 #. Type: text
 #. Description
@@ -4142,7 +4139,7 @@ msgstr "ای‌اکس‌تی۲"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:33001
 msgid "fat16"
-msgstr "فت۱۶"
+msgstr "fat16"
 
 #. Type: text
 #. Description
@@ -4150,7 +4147,7 @@ msgstr "فت۱۶"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:35001
 msgid "fat32"
-msgstr "فت۳۲"
+msgstr "fat32"
 
 #. Type: text
 #. Description
@@ -4158,7 +4155,7 @@ msgstr "فت۳۲"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-basicfilesystems.templates:37001
 msgid "ntfs"
-msgstr "ان‌تی‌اف‌اس"
+msgstr "ntfs"
 
 #. Type: text
 #. Description
@@ -4183,7 +4180,7 @@ msgstr "swap"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-btrfs.templates:1001 ../partman-btrfs.templates:3001
 msgid "btrfs"
-msgstr "بی‌تی‌آر‌اف‌اس"
+msgstr "btrfs"
 
 #. Type: text
 #. Description
@@ -4193,7 +4190,7 @@ msgstr "بی‌تی‌آر‌اف‌اس"
 #. :sl1:
 #: ../partman-efi.templates:1001 ../partman-efi.templates:3001
 msgid "EFI System Partition"
-msgstr "پارتیشن سیستم EFI"
+msgstr "افراز سامانهٔ EFI"
 
 #. Type: text
 #. Description
@@ -4202,7 +4199,7 @@ msgstr "پارتیشن سیستم EFI"
 #. Up to 10 character positions
 #: ../partman-efi.templates:4001
 msgid "ESP"
-msgstr "رابط توسعه پذیر سفت افزاری (ESP)"
+msgstr "ESP"
 
 #. Type: text
 #. Description
@@ -4221,7 +4218,7 @@ msgstr "EFI-fat16"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-ext3.templates:1001 ../partman-ext3.templates:3001
 msgid "ext3"
-msgstr "اکس‌تی۳"
+msgstr "ext3"
 
 #. Type: text
 #. Description
@@ -4233,7 +4230,7 @@ msgstr "اکس‌تی۳"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-ext3.templates:4001 ../partman-ext3.templates:6001
 msgid "ext4"
-msgstr "اکس‌تی۴"
+msgstr "ext4"
 
 #. Type: text
 #. Description
@@ -4269,14 +4266,14 @@ msgstr "HFS+"
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr "جی‌اف‌اس"
+msgstr "jfs"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "در حال محاسبهٔ حالت جدید جدول پارتیشن..."
+msgstr "محاسبه کردن وضعیت جدید جدول افراز…"
 
 #. Type: select
 #. Choices
@@ -4297,7 +4294,7 @@ msgstr "پایان"
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "جایگاه پارتیشن جدید:"
+msgstr "مکان افراز جدید:"
 
 #. Type: select
 #. Description
@@ -4306,16 +4303,14 @@ msgstr "جایگاه پارتیشن جدید:"
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
-msgstr ""
-"لطفا مشخص کنید که آیا می‌خواهید پارتیشن جدید در شروع فضای آزاد قرار گیرد یا "
-"در انتهای آن."
+msgstr "گزینش بین ایجاد شدن افراز جدید در آغاز یا پایان فضای موجود."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "ابتدایی (Primary)"
+msgstr "نخستین"
 
 #. Type: select
 #. Choices
@@ -4329,7 +4324,7 @@ msgstr "منطقی"
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "نوع پارتیشن جدید:"
+msgstr "گونهٔ افراز جدید:"
 
 #. Type: text
 #. Description
@@ -4342,11 +4337,11 @@ msgid ""
 "the bootable flag for it. Such a partition will be marked with "
 "\"${BOOTABLE}\" in the main partitioning menu."
 msgstr ""
-"برای راه‌اندازی سیستم جدیدتان یک برنامه به نام راه‌انداز (boot loader) لازم "
-"دارید. این برنامه می‌تواند در رکورد راه‌انداز اصلی (Master Boot Record) دیسک "
-"اول و یا در یک پارتیشن نصب گردد. وقتی که راه‌انداز در یک پارتیشن نصب گردد، "
-"شما باید آن را به عنون bootable مشخص کنید. این پارتیشن با علامت "
-"«${BOOTABLE}» در منوی اصلی نشان داده میشود."
+"برای آغاز سامانهٔ جدیدتان چیزی به نام بارکنندهٔ راه‌اندازی استفاده می‌شود.  این "
+"برنامه می‌تواند در رکورد راه‌اندازی اصلی نخستین دیسک سخت یا در یک افراز نصب "
+"شود.  هنگام نصب بارکنندهٔ راه‌اندازی در یک افراز باید پرچم قابل راه‌اندازی "
+"برایش تنظیم شود. چنین افرازی در فهرست افزارش اصلی با «${BOOTABLE}» مشخّص "
+"خواهد شد."
 
 #. Type: text
 #. Description
@@ -4358,7 +4353,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-xfs.templates:1001 ../partman-xfs.templates:3001
 msgid "xfs"
-msgstr "اکس‌اف‌اس"
+msgstr "xfs"
 
 #. Type: text
 #. Description
@@ -4370,7 +4365,7 @@ msgstr "اکس‌اف‌اس"
 #. :sl1:
 #: ../pkgsel.templates:1001
 msgid "Select and install software"
-msgstr "انتخاب و نصب نرم‌افزار"
+msgstr "گزینش و نصب نرم‌افزارها"
 
 #. Type: text
 #. Description
@@ -4379,7 +4374,7 @@ msgstr "انتخاب و نصب نرم‌افزار"
 #. :sl1:
 #: ../pkgsel.templates:2001
 msgid "Setting up..."
-msgstr "در حال پیکربندی ..."
+msgstr "برپا سازی…"
 
 #. Type: text
 #. Description
@@ -4388,7 +4383,7 @@ msgstr "در حال پیکربندی ..."
 #. :sl1:
 #: ../pkgsel.templates:5001
 msgid "Upgrading software..."
-msgstr "به روز رسانی نرم افزار ..."
+msgstr "ارتقای نرم‌افزارها…"
 
 #. Type: text
 #. Description
@@ -4398,7 +4393,7 @@ msgstr "به روز رسانی نرم افزار ..."
 #. :sl1:
 #: ../pkgsel.templates:6001
 msgid "Running tasksel..."
-msgstr "اجرای Tasksel ..."
+msgstr "اجرا کردن tasksel…"
 
 #. Type: text
 #. Description
@@ -4408,7 +4403,7 @@ msgstr "اجرای Tasksel ..."
 #. :sl1:
 #: ../pkgsel.templates:7001
 msgid "Running blendsel..."
-msgstr "اجرای Blendsel ..."
+msgstr "اجرا کردن blendsel…"
 
 #. Type: text
 #. Description
@@ -4418,7 +4413,7 @@ msgstr "اجرای Blendsel ..."
 #. :sl1:
 #: ../pkgsel.templates:8001
 msgid "Cleaning up..."
-msgstr "پاکسازی..."
+msgstr "پاک سازی…"
 
 #. Type: text
 #. Description
@@ -4433,14 +4428,14 @@ msgstr "ورود به حالت نجات"
 #. :sl1:
 #: ../tzsetup-udeb.templates:1001
 msgid "Saving the time zone..."
-msgstr "ذخیره منطقه زمانی ..."
+msgstr "ذخیره کردن ناحیهٔ زمانی…"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:5001
 msgid "Allow login as root?"
-msgstr "اجازه ورود به صورت کاربر ریشه داده شود؟"
+msgstr "اجازهٔ ورود با root؟"
 
 #. Type: boolean
 #. Description
@@ -4450,15 +4445,15 @@ msgid ""
 "If you choose not to allow root to log in, then a user account will be "
 "created and given the power to become root using the 'sudo' command."
 msgstr ""
-"در صورتی که احازه ورود به صورت کاربر ریشه داده نشود، مجوزهای کاربر ریشه، "
-"برای کاربرانی که ساخته می‌شوند توسط دستور sudo داده می‌شود."
+"در صورتی اجازه نداد به ورود با root حساب کاربری‌ای ساخته و قدرت root شدن با "
+"استفاده از فرمان sudo به او داده خواهد شد."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:6001
 msgid "Root password:"
-msgstr "گذرواژه ریشه:"
+msgstr "گذرواژهٔ root:"
 
 #. Type: password
 #. Description
@@ -4513,15 +4508,14 @@ msgstr ""
 msgid ""
 "Please enter the same root password again to verify that you have typed it "
 "correctly."
-msgstr ""
-"لطفاً کلمه عبور ریشه را مجددا وارد کنید تا از ورود درست آن اطمینان حاصل شود."
+msgstr "ورود دوبارهٔ همان گذرواژه برای تأیید درست نوشتنش."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:9001
 msgid "Full name for the new user:"
-msgstr "نام کامل کاربر جدید را وارد کنید:"
+msgstr "نام کامل کاربر جدید:"
 
 #. Type: string
 #. Description
@@ -4531,8 +4525,8 @@ msgid ""
 "A user account will be created for you to use instead of the root account "
 "for non-administrative activities."
 msgstr ""
-"به منظور آنکه کارهای غیر مدیریتی را به جای کاربر ریشه از طریق کاربر دیگری "
-"انجام دهید، یک حساب کاربری برای شما ساخته خواهد شد."
+"حساب کاربری‌ای برای استفاده به جای حساب root برای فعّالیت‌های غیرمدیریتی ساخته "
+"خواهد شد."
 
 #. Type: string
 #. Description
@@ -4544,16 +4538,16 @@ msgid ""
 "program which displays or uses the user's real name. Your full name is a "
 "reasonable choice."
 msgstr ""
-"لطفا نام واقعی این کاربر را وارد نمایید. این اطلاعات برای مثال برای نرم "
-"افزارهایی که نام واقعی کاربر را نمایش می‌دهند مورد استفاده قرار خواهد گرفت. "
-"وارد کردن کامل، نام واقعی یک انتخاب مناسب و معقولانه است."
+"ورود نام واقعی این کاربری. این اطّلاعات برای نمونه به عنوان خاستگاه رایانامه‌"
+"های فرستاده به دست این کاربر یا برنامه‌هایی که نام واقعی کاربر را نشان می‌دهند "
+"استفاده می‌شود. نام کاملتان گزینه‌ای معقول است."
 
 #. Type: string
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:10001
 msgid "Username for your account:"
-msgstr "نام کاربری حساب شما:"
+msgstr "نام کاربری حسابتان:"
 
 #. Type: string
 #. Description
@@ -4564,23 +4558,23 @@ msgid ""
 "choice. The username should start with a lower-case letter, which can be "
 "followed by any combination of numbers and more lower-case letters."
 msgstr ""
-"یک نام کاربری برای حساب جدید انتخاب کنید. اسم کوچک شما می‌تواند یک انتخاب "
-"مناسب باشد. نام کاربری باید با یک حرف کوچک آغاز شود و می‌تواند در ادامه هر "
-"ترکیبی از اعداد و حروف کوچک دیگر باشد."
+"گزینش نام کاربری برای حساب جدید. نام کوچکتان گزینه‌ای معقول است. نام کاربری "
+"باید با حروف کوچک آغاز شده و می‌تواند در ادامه هر ترکیبی از رقم‌ها و حروف‌ کوچک "
+"را داشته باشد."
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Choose a password for the new user:"
-msgstr "یک گذرواژه برای کاربر نو برگزینید:"
+msgstr "گزینش گذرواژه‌ای برای کاربر جدید:"
 
 #. Type: password
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:13001
 msgid "Make sure to select a strong password that cannot be guessed."
-msgstr "مطمئن شوید که گذرواژه‌ای قوی که قابل حدس نباشد برگزینید."
+msgstr "اطمینان از گزینش گذرواژه‌ای قوی که قابل جدس نباشد."
 
 #. Type: password
 #. Description
@@ -4589,15 +4583,14 @@ msgstr "مطمئن شوید که گذرواژه‌ای قوی که قابل حد
 msgid ""
 "Please enter the same user password again to verify you have typed it "
 "correctly."
-msgstr ""
-"لطفا کلمه عبور کاربر را مجدداً وارد کنید تا از ورود درست آن اطمینان حاصل شود."
+msgstr "ورود دوبارهٔ گذرواژهٔ کاربر برای تأیید درست نوشتنش."
 
 #. Type: title
 #. Description
 #. :sl1:
 #: ../user-setup-udeb.templates:17001
 msgid "Set up users and passwords"
-msgstr "ساماندهی کاربران و گذرواژه"
+msgstr "برپایی کاربران و گذرواژه‌ها"
 
 #. Type: text
 #. Description
@@ -4605,7 +4598,7 @@ msgstr "ساماندهی کاربران و گذرواژه"
 #. :sl1:
 #: ../user-setup-udeb.templates:18001
 msgid "Setting users and passwords..."
-msgstr "ساماندهی کاربران و گذرواژه..."
+msgstr "تنظیم کردن کاربران و گذرواژه‌ها…"
 
 #, fuzzy
 #~| msgid ""
