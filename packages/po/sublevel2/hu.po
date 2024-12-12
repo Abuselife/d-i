@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 20:02+0000\n"
-"PO-Revision-Date: 2024-12-08 18:41+0000\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
-"org>\n"
+"Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian.org>"
+"\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -518,7 +518,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "Nem tiszta (letörletlen) helyre folytatod a telepítést?"
+msgstr "Nem tiszta (letörletlen) célrendszerre folytatod a telepítést?"
 
 # Type: boolean
 # Description
@@ -532,9 +532,9 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"A célfájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
-"gondot okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi "
-"fájl felülíródhat."
+"A célrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek gondot "
+"okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi fájl "
+"felülíródhat."
 
 # Type: error
 # Description
@@ -544,7 +544,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs fájlrendszer csatolva a /célrendszerhez"
+msgstr "Nincs fájlrendszer csatlakoztatvava a „/target” célrendszerhez"
 
 # Type: error
 # Description
@@ -569,7 +569,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Kitisztítatlan célfájlrendszerre nem telepítek"
+msgstr "Kitisztítatlan célrendszerre nem telepítek"
 
 # Type: error
 # Description
@@ -583,8 +583,8 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"A célfájlrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy "
-"formázd a célfájlrendszert, mielőtt folytatod a telepítést."
+"A célrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy formázd a "
+"célrendszert, mielőtt folytatod a telepítést."
 
 # Type: error
 # Description
@@ -713,7 +713,7 @@ msgstr "Az alaprendszer telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "Az alaprendszer telepítése a célfájlrendszerbe (/target/) meghiúsult."
+msgstr "Az alaprendszer telepítése a célrendszerbe (/target/) meghiúsult."
 
 #. #-#-#-#-#  templates.pot (base-installer)  #-#-#-#-#
 #. Type: error
@@ -1299,10 +1299,10 @@ msgid ""
 "that receives many of the new versions from unstable if they are not too "
 "buggy."
 msgstr ""
-"A Debian többféle változatban létezik. A stabil nagyon szigorúan tesztelt "
-"(kipróbált) és ritkán változik. Az instabil még csak alap próbákon esett át "
-"és gyakran változik. A teszt (próba) változat egy középút, mely az "
-"instabilból számos új szoftverváltozatot átvesz, ha azok nem túl hibásak."
+"A Debian többféle változatban létezik. A stabil nagyon szigorúan tesztelt, "
+"és csak ritkán változik. Az instabil még csak az alap teszteken esett át és "
+"gyakran változik. A teszt változat egy középút, mely az instabilból számos "
+"új szoftverváltozatot átvesz, ha azok nem túl hibásak."
 
 # Type: select
 # Description
@@ -1436,7 +1436,7 @@ msgstr "stabil"
 #. :sl2:
 #: ../choose-mirror-bin.templates-in:12001
 msgid "testing"
-msgstr "teszt (próba)"
+msgstr "teszt"
 
 # Type: text
 # Description
@@ -2199,8 +2199,8 @@ msgid ""
 "easy to figure out. To get an idea of what Unix utilities are available to "
 "you, use the \"help\" command."
 msgstr ""
-"A gyökér (root) fájlrendszer egy RAM lemez. A merevlemez fájlrendszerei a „/"
-"target” célfájlrendszerre vannak felcsatlakoztatva. Az elérhető szerkesztő a "
+"A gyökér (root) fájlrendszer egy RAM lemez. A merevlemez fájlrendszerei a "
+"„/target” célrendszerhez vannak csatlakoztatva. Az elérhető szerkesztő a "
 "nano. Ez egy igen kicsi és könnyen használható szerkesztő. Ha tudni "
 "szeretnéd, hogy milyen Unix segédprogramok állnak a rendelkezésedre, "
 "használd a „help” parancsot."
@@ -2957,7 +2957,7 @@ msgid ""
 "before you continue."
 msgstr ""
 "A továbblépés előtt kérem győződjön meg róla, hogy a hibanaplók kívánt "
-"mentési könyvtára csatolva van."
+"mentési könyvtára csatlakoztatva van."
 
 # Type: error
 # Description
@@ -5049,7 +5049,7 @@ msgstr "Kézi megadás"
 #: ../partman-basicfilesystems.templates:13001
 #: ../partman-basicfilesystems.templates:14001
 msgid "Do not mount it"
-msgstr "Ne legyen felcsatolva"
+msgstr "Ne csatlakoztassa"
 
 #. Type: select
 #. Description
