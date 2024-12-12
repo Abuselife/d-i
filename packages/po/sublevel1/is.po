@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-12-06 20:02+0000\n"
-"PO-Revision-Date: 2024-11-04 08:22+0000\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9-dev\n"
 "X-Launchpad-Export-Date: 2008-07-14 12:32+0000\n"
 
 #. Type: select
@@ -361,7 +361,7 @@ msgstr "Gáðu hvort gagnamiðillinn hafi verið settur rétt í."
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Skipti á miðli"
+msgstr "Skipti á gagnamiðli"
 
 #. Type: text
 #. Description
@@ -4426,10 +4426,8 @@ msgstr "Keyri valin verk..."
 #. Blendsel will then display its own screens.
 #. :sl1:
 #: ../pkgsel.templates:7001
-#, fuzzy
-#| msgid "Running tasksel..."
 msgid "Running blendsel..."
-msgstr "Keyri valin verk..."
+msgstr "Keyri blendsel..."
 
 #. Type: text
 #. Description
@@ -4490,6 +4488,9 @@ msgid ""
 "privileges. The password for that account should be something that cannot be "
 "guessed."
 msgstr ""
+"Einhver aðgangur þarf að vera tiltækur með kerfisstjórnunaraðgangi "
+"ofurnotanda. Lykilorðið fyrir þann aðgang má ekki vera eitthvað sem auðvelt "
+"er að giska á."
 
 #. Type: password
 #. Description
@@ -4499,6 +4500,8 @@ msgid ""
 "To allow direct password-based access via the 'root' account, you can set "
 "the password for that account here."
 msgstr ""
+"Til að leyfa aðgang beint með lykilorði í gegnum 'root'-aðganginn, geturðu "
+"sett hér lykilorðið fyrir þennan aðgang."
 
 #. Type: password
 #. Description
@@ -4510,6 +4513,11 @@ msgid ""
 "be set up in the next step) to gain administrative privileges. This will be "
 "enabled for you by adding that initial user to the 'sudo' group."
 msgstr ""
+"Annars geturðu einnig læst lykilorði rótaraðgangsins með því að skilja "
+"þennan reit eftir auðan, og notað frekar upphafs-notandaaðgang kerfisins ("
+"sem verður settur upp í næsta skrefi) til að fá kerfisstjórnunarheimildir. "
+"Þetta verður virkjað fyrir þig með því að bæta þessum upphafsnotanda í "
+"'sudo'-hópinn."
 
 #. Type: password
 #. Description

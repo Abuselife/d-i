@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 20:02+0000\n"
-"PO-Revision-Date: 2024-11-04 08:22+0000\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.9-dev\n"
 "X-Launchpad-Export-Date: 2008-07-14 12:32+0000\n"
 
 #. Type: boolean
@@ -3219,6 +3219,8 @@ msgstr "Device-mapper (dm-crypt)"
 msgid ""
 "Firmware-backed self-encrypting disk (vendor-implemented OPAL with LUKS2)"
 msgstr ""
+"Diskur sjálf-dulritaður í gegnum grunnhugbúnað (framleiðanda-uppsett OPAL "
+"með LUKS2)"
 
 #. Type: text
 #. Description
@@ -3375,7 +3377,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001 ../partman-crypto.templates:20001
 msgid "OPAL self-encryption nested with dm-crypt:"
-msgstr ""
+msgstr "OPAL sjálf-dulritun felld inn í dm-crypt:"
 
 #. Type: select
 #. Description
@@ -3386,6 +3388,9 @@ msgid ""
 "enabled via this option, will be used together with dm-crypt to provide a "
 "double layer of encryption."
 msgstr ""
+"Sumir diskar styðja sjálf-dulritun. Það er eiginleiki í vélbúnaði sem, ef "
+"hann er virkjaður með þessum valkosti, mun verða notaður ásamt dm-crypt til "
+"að gefa tvöfalt lag af dulritun."
 
 #. Type: text
 #. Description
@@ -3408,7 +3413,7 @@ msgstr "Eyða gögnum á þessari sneið"
 #. :sl3:
 #: ../partman-crypto.templates:25001
 msgid "Factory reset this entire disk (ALL data will be lost)"
-msgstr ""
+msgstr "Endurstilla allan diskinn á verksmiðjustillingar (ÖLL gögn munu tapast)"
 
 #. Type: boolean
 #. Description
@@ -3900,7 +3905,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:55001
 msgid "OPAL admin password:"
-msgstr ""
+msgstr "OPAL-kerfisstjóralykilorð:"
 
 #. Type: password
 #. Description
@@ -3910,6 +3915,8 @@ msgid ""
 "You need to choose a new, or provide the existing, OPAL admin password for "
 "${DEVICE}."
 msgstr ""
+"Þú þarft að velja nýtt lykilorð, eða gefa upp fyrirliggjandi lykilorð OPAL-"
+"kerfisstjórnunar fyrir ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -3945,7 +3952,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "OPAL PSID:"
-msgstr ""
+msgstr "OPAL PSID:"
 
 #. Type: password
 #. Description
@@ -3955,6 +3962,8 @@ msgid ""
 "You need to provide the OPAL PSID for ${DEVICE}. This is typically found on "
 "the drive's label."
 msgstr ""
+"Þú þarft að gefa upp OPAL PSID fyrir ${DEVICE}. Það má venjulega finna á "
+"merkimiða drifsins."
 
 #. Type: password
 #. Description
@@ -3991,7 +4000,7 @@ msgstr "OPAL PSID auðkennin sem þú slóst inn voru ekki eins. Reyndu aftur."
 #. :sl3:
 #: ../partman-crypto.templates:62001
 msgid "Empty OPAL PSID"
-msgstr ""
+msgstr "Tómt OPAL PSID"
 
 #. Type: error
 #. Description
@@ -4035,20 +4044,16 @@ msgstr "Stilla dulritun án sérstakrar /boot disksneiðar?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:66001
-#, fuzzy
-#| msgid ""
-#| "You have selected the root file system to be stored on an encrypted "
-#| "partition. This feature requires a separate /boot partition on which the "
-#| "kernel and initrd can be stored."
 msgid ""
 "You have selected the root file system to be stored on an encrypted "
 "partition. When using GRUB, usually this feature requires a separate /boot "
 "partition on which the kernel and initrd can be stored. This is not required "
 "when using systemd-boot/UKIs, as the ESP is used instead."
 msgstr ""
-"Þú hefur valið að setja grunnskráakerfið (/) á dulritaða disksneið. Þetta "
-"sérkenni krefst sérstakrar /boot disksneiðar þar sem stýrikerfiskjarninn og "
-"initrd verða geymd."
+"Þú hefur valið að setja grunnskráakerfið (/) á dulritaða disksneið. Þegar "
+"GRUB er notað, krefst þetta sérkenni sérstakrar /boot disksneiðar þar sem "
+"stýrikerfiskjarninn og initrd verða geymd. Þetta er ekki nauðsynlegt þegar "
+"notuð eru systemd-boot/UKI, þar sem ESP er þá notað í staðinn."
 
 #. Type: error
 #. Description
@@ -5729,7 +5734,7 @@ msgstr "Setja upp systemd-boot ræsistjórann"
 #. :sl3:
 #: ../systemd-boot-installer.templates:3001
 msgid "Number of retries per boot entry (0 to disable):"
-msgstr ""
+msgstr "Fjöldi tilrauna á hverja ræsifærslu (0 til að gera óvirkt):"
 
 #. Type: select
 #. Description
